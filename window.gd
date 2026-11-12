@@ -17,7 +17,7 @@ func _process(delta: float) -> void:
 	scale = float($Scale.text)
 	#scale
 	#all 3 of these correlates to the nodes beneath it bc i was using it before for bug tesitng
-	position = Vector2(200,50)
+	position = Vector2(100,50)
 	#position
 	#Creates an iframe as a javascript
 	var js = """
