@@ -1,0 +1,32 @@
+{
+	"id": "1338447818",
+    "name": "Robotic Factory",
+    "author": "Semimidgdplayer",
+    "creators": ["Semimidgdplayer", "C257H383N65O77S6"],
+    "verifier": "Semimidgdplayer",
+    "verification": "https://drive.google.com/file/d/1soWM9C12daDXQg9D3Ja4jVVtL1iLwkr8/view?usp=sharing",
+    "percentToQualify": "67",
+	"demonDifficulty": "Medium Demon",
+    "engine": "GDR",
+	"tags": ["Short", "Timings", "High cps", "Frame perfect"],
+	"description": "buffed version of the collab me and insulin did only by a little bit<br>kinda hard",
+	"hz": 60,
+	"enj": 80,
+	"rating": 3,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=P1i--hpsH8A",
+			"percent": 100,
+			"hz": 120,
+			"enj": 40
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/uUZAvMHu_L4",
+			"percent": 100,
+			"hz": 120,
+			"enj": 20
+		}
+    ]
+}

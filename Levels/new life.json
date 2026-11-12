@@ -1,0 +1,46 @@
+{
+    "itchLink": "https://wallyboom2010.itch.io/new-life",
+    "name": "new life",
+    "author": "Wallyboom2010",
+    "creators": ["Wallyboom2010"],
+    "verifier": "Captinfireball",
+    "percentToQualify": 67,
+    "verification": "youtu.be/8tda3dSsSyQ",
+	"demonDifficulty": "Insane Demon",
+    "description": "This is a much more experimental level. There's a bunch of random stuff I did here that doesn't make much sense because I was kinda just having fun here. I randomly switched gamemode and style for like 5 seconds in the middle of the drop for no reason but honestly who cares. I'm still proud of this, I think it looks cool.",
+    "hz": 120,
+    "engine": "GDR",
+    "tags": ["Wave", "Ship", "Timings"],
+	"rating": 3,
+	"enj": 90,
+    "records": [
+		{
+            "user": "thomaslyu",
+            "link": "https://youtu.be/xAqO6J7P5M4",
+            "percent": 100,
+            "hz": 120,
+			"enj": 90
+        },
+		{
+            "user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/1DmtgrjxNbc9Z18mWB2aBg9Fl3WWaQXxS/view?usp=drive_link",
+            "percent": 100,
+            "hz": 120,
+			"enj": 85.0
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=O-_BhU-lp88",
+			"percent": 100,
+			"hz": 120,
+			"enj": 100
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/133zRC-QGW3oZA_Ze5Nry20BGf9O6CvOb/view?usp=sharing",
+			"percent": 100,
+			"hz": 120,
+			"enj": 70
+		}
+    ]
+}

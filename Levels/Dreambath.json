@@ -1,0 +1,148 @@
+{
+	"itchLink": "https://gooomboo.itch.io/dreambath",
+    "name": "Dreambath",
+    "author": "gooomboo",
+    "creators": ["_NewUniverseGD_"],
+    "verifier": "gooomboo",
+    "verification": "https://www.youtube.com/watch?v=QbBYHUIDt_4",
+    "percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+    "description": "this version is the og one, not changed at all",
+    "engine": "GDR",
+	"tags": ["Long", "Cube", "Ship", "Ball", "Wave", "Robot", "Spider", "Swing", "Endurance", "Nerve Control"],
+	"rating": 2,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=SYXqIwgxIE4",
+			"percent": 100,
+			"hz": 60,
+			"enj": 41.67
+		},
+		{
+			"user": "TheGrassyGuys",
+			"link": "https://www.youtube.com/watch?v=uCJFS4Rv8EY",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://screenapp.io/app/v/dDQw5rVEsq",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Previous_crop89",
+			"link": "https://streamable.com/fza7v3",
+			"percent": 100,
+			"hz": 60,
+			"enj": 40
+		},		
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=N42zisDENvo",
+            "percent": 100,
+            "hz": 60,
+			"enj": 0
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/DRjWguhABN8",
+			"percent": 100,
+			"hz": 60,
+			"enj": 100
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=0x_RvTWLzEs",
+			"percent": 100,
+			"hz": 120,
+			"enj": 60
+		},
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=_CzybpeBa44",
+			"percent": 100,
+			"hz": 30,
+			"enj": 90
+		},
+		{
+			"user": "Peneren",
+			"link": "https://youtu.be/2Mvv8E9JFTs",
+			"percent": 100,
+			"hz": 115,
+			"enj": 88
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/WcVTZnQaJFE",
+			"percent": 100,
+			"hz": 30,
+			"enj": 90
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 70
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1PjUsb0tSpLW_46fP3fvqWmvMSRrJA8oB/view",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "That-Panda-Guy",
+			"link": "https://www.youtube.com/watch?v=XYL_yynkVAA",
+			"percent": 100,
+			"hz": 60,
+			"enj": 30
+		},
+		{
+			"user": "thelevelremaker",
+			"link": "https://www.mediafire.com/file/xt8naqdclmoxait/VID_20260714_141641544.mp4/file",
+			"percent": 100,
+			"hz": 60,
+			"enj": 0
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 60,
+			"enj": 50
+		},
+		{
+            "user": "definitelyzoink",
+            "link": "https://www.youtube.com/watch?v=5g-h-PzBo1I",
+            "enj": 45,
+            "hz": 60,
+            "percent": 100
+        },
+        {
+          "user": "C257H383N65O77S6", 
+          "link": "https://www.mediafire.com/file/s7ln0fctyybsf8t/Dreambath_100%2525.mp4/file", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 50,
+          "date": "2026-09-25T02:32:38.195Z"
+        },
+		{
+			"user": "anisri14",
+			"link": "https://streamable.com/ozgpx5",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75.5,
+			"date": "2026-10-03"
+		}
+    ]
+}

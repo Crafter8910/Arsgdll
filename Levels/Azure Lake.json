@@ -1,0 +1,16 @@
+{
+    "id": "1367544752",
+    "name": "Azure Lake",
+    "author": "Squeeg",
+    "creators": ["Lake"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/1tT467jD4eHHtcZhfpWs8JI-xGb7jxWwv/view?usp=drive_link",
+    "percentToQualify": "67",
+	"demonDifficulty": "Insane Demon",
+    "description": "my new gdr hardest",
+    "engine": "GDR",
+	"enj": 1,
+	"rating": 0,
+    "records": [
+    ] 
+}

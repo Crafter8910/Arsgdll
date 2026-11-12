@@ -1,0 +1,25 @@
+{
+    "codetorchLink": "https://codetorch.net/projects/36440",
+    "name": "distant midnight",
+    "author": "a.s.k.kj",
+    "creators": ["a.s.k.kj"],
+    "verifier": "ballgoballing",
+    "verification": "https://www.youtube.com/watch?v=FtPJMLrLjyY",
+    "percentToQualify": 67,
+    "demonDifficulty": "Easy Demon",
+    "description": "this is a geometry dash recreation made entirely in scratch and its very cool wow you should play it now ",
+    "engine": "Trigonometry Sprint",
+    "enj": 75,
+    "hz": 30,
+    "rating": 1,
+    "records": [
+        {
+          "user": "meow_wet", 
+          "link": "https://youtu.be/xSOIASv6eNY", 
+          "percent": 100, 
+          "hz": 30, 
+          "enj": 70,
+          "date": "2026-11-05T05:23:01.604Z"
+        }
+    ] 
+}

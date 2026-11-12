@@ -1,0 +1,45 @@
+{
+    "id": "1366888251",
+    "name": "Nova",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://www.youtube.com/watch?v=h740mDx8Tu4",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "truly the editor of all time",
+    "engine": "Custom",
+	"enj": 82.5,
+	"hz": 30,
+	"rating": 1,
+	"records": [
+        {
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/dYFO6gZWaAc",
+            "percent": 100,
+            "hz": 30,
+			"enj": 100
+        },
+        {
+			"user": "ENZOTHEKINGCODER",
+			"link": "https://youtu.be/uFvyxquuUfc",
+			"percent": 100,
+			"hz": 30,
+			"enj": 84
+		},
+		{
+			"user": "Themasterd2010",
+			"link": "https://youtu.be/36c0ArK-uns",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 30,
+			"enj": 70
+		}
+    ]
+}

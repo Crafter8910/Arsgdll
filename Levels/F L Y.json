@@ -1,0 +1,40 @@
+{
+	  "itchLink": "https://cnfsn.itch.io/fly-awards-ver",
+    "name": "F L Y",
+    "author": "Takayukihiro",
+    "creators": ["Takayukihiro"],
+    "verifier": "Takayukihiro",
+    "verification": "https://youtu.be/eSak-qfPf_k?si=GV86ZV25vftzQUX-",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "best level i redible",
+    "engine": "GDR",
+	  "enj": "90",
+	  "hz": "60",
+	  "tags": ["cool", "Cube", "UFO", "Short"],
+	  "rating": "3",
+    "records": [
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://www.youtube.com/shorts/XCLXYQy_h-c",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		}
+		,{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/shorts/XCLXYQy_h-c",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+        {
+          "user": "C257H383N65O77S6", 
+          "link": "https://www.mediafire.com/file/6xjomi2uedxvu92/F_L_Y_100%2525.mp4/file", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 70,
+          "date": "2026-10-04T21:33:09.116Z"
+        }
+    ]
+}

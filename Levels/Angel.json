@@ -1,0 +1,31 @@
+{
+	"itchLink": "https://wallyboom2010.itch.io/angel-but-better",
+    "name": "Angel",
+    "author": "gooomboo",
+    "creators": ["gooomboo"],
+    "verifier": "Wallyboom2010",
+    "verification": "https://www.youtube.com/watch?v=AN2cqQ8gkac",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard Demon",
+    "description": "Ts demon so tuff boiiiiii wallyboom best player (fireball is a larper and a hacker)(i am telling the truth)",
+    "engine": "GDR",
+	"tags": ["Wave", "Overall", "Timings", "Medium"],
+	"enj": 67.41,
+    "rating": 3,
+    "records": [
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/uUZAvMHu_L4",
+			"percent": 100,
+			"hz": 116.5289,
+			"enj": 30
+		},
+        {
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1Wu6quWY7skb6gsyEY3MzwQkpZWZYv26-/view?usp=sharing",
+			"percent": 100,
+			"hz": 120,
+			"enj": 45
+		}
+	] 
+}

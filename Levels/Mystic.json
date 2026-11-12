@@ -1,0 +1,18 @@
+{
+    "id": "1264417671",
+    "name": "Mystic",
+    "author": "mexle",
+    "creators": ["mexle"],
+    "verifier": "definitelyzoink",
+    "verification": "https://www.youtube.com/watch?v=WTwePkxCM5M",
+    "percentToQualify": "67",
+    "demonDifficulty": "Insane",
+    "description": "Difficulty: Easy Demon",
+    "engine": "GDR",
+	  "enj": "95",
+	  "hz": "60",
+	  "tags": ["easy"],
+	  "rating": "1",
+    "records": [
+    ]
+}

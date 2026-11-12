@@ -1,0 +1,31 @@
+{
+    "id": "1112029992",
+    "name": "Waterworld",
+    "author": "sandbread",
+    "creators": ["sandbread"],
+	"verifier": "C0DERS0110",
+    "percentToQualify": "67",
+    "verification": "https://www.youtube.com/watch?v=pf0yuKQ86-E",
+	"demonDifficulty": "Medium Demon",
+    "description": "i have no idea what this is but it just is",
+    "engine": "GDR",
+	"hz": 120,
+	"enj": 100,
+	"rating": 1,
+    "records": [
+		{
+            "user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/1CRQqjDXhMLEDJAsot_WoIS4fInHzYCis/view?usp=drive_link",
+            "percent": 100,
+            "hz": 60,
+            "enj": 45
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/6R03jEepRNc",
+			"percent": 100,
+			"hz": 60,
+			"enj": 57.5
+		}
+    ]
+}

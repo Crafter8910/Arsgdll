@@ -1,0 +1,45 @@
+{
+    "id": "1362263333",
+    "name": "The Empty Space",
+    "author": "aMagentaTurtle",
+    "creators": ["aMagentaTurtle"],
+    "verifier": "C257H383N65O77S6",
+    "verification": "https://youtu.be/s5hLHtT4pb0",
+    "percentToQualify": "67",
+	"demonDifficulty": "Medium Demon",
+    "description": "I worked on this for about 26 hours<br>12k objs",
+    "engine": "GDR",
+	"tags": ["Cube", "Ship", "Wave", "Long", "Timings", "Endurance", "Click Sync", "Robot", "Ball"],
+	"hz": 60,
+    "rating": 4,
+    "records": [
+        {
+            "user": "aMagentaTurtle",
+            "link": "https://www.youtube.com/shorts/u9y9zaSBAHU",
+            "percent": 100,
+            "hz": 60,
+			"enj": 70
+        },
+		{
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/H5Iq6CaLQik",
+            "percent": 100,
+            "hz": 60,
+			"enj": 85
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 60,
+			"enj": 100
+		},        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 58
+        }
+    ] 
+}

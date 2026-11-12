@@ -1,0 +1,17 @@
+{
+    "id": "930455723",
+    "name": "Blood Trials",
+    "author": "Premiere907",
+    "creators": ["Premiere907"],
+    "verification": "https://youtu.be/ytagO9V9Yco",
+    "percentToQualify": "80",
+    "demonDifficulty": "Easy Demon",
+    "description": "I updated iphones editor to have more spikes and blocks!<br>i also add the empty sprite for optimization.",
+    "engine": "GDR",
+    "tags": ["Cube", "Ball", "Ship", "Ufo", "Wave", "Timings", "Medium"],
+	"hz": 60,
+    "rating": 2,
+    "records": [
+        
+    ]
+}

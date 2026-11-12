@@ -1,0 +1,52 @@
+{
+	"id": "1035225820",
+    "name": "Neptune",
+    "author": "erty709999",
+    "creators": ["erty709999"],
+    "verifier": "thomaslyu",
+    "verification": "https://www.youtube.com/watch?v=2TITfXHVydg",
+    "percentToQualify": 67,
+	"demonDifficulty": "Medium Demon",
+    "description": "it's a planet",
+	"tags": ["UFO", "High CPS", "Memory"],
+    "engine": "GDR",
+	"enj": 60,
+    "rating": 1,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=GYF0aiBp4B8",
+            "percent": 100,
+            "hz": 60,
+			"enj": 40
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/SpRJrEkWcuU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 62
+		},
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/6XsUQmmll4w?t=2577",
+            "percent": 100,
+            "hz": 60,
+            "enj": 30
+        },
+		{
+			"user": "KING_MAST3R2O1O",
+			"link": "https://youtu.be/7WmZXcI73Z0",
+			"percent": 100,
+			"hz": 30,
+			"enj": 66.9
+		},        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 2
+        }
+    ]
+}

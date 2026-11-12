@@ -1,0 +1,52 @@
+{
+    "id": "1331451902",
+    "name": "oopsied impossible level 1",
+    "author": "oopsied",
+    "creators": ["oopsied"],
+    "verifier": "oopsied",
+    "verification": "https://www.youtube.com/watch?v=n9pJqBHQ11k",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "One Time, \"Big Oopers\" Wanted to Make a Series of Impossible Levels, Inspired off of Joe's \"Joe Hard Map\" Series. So He Worked And Worked Until He Stabbed Himself on a Spike. \"Lil oopers\" (lowercase to represent that He Will Never Make Something So Big And Grand As Big Oopers) was forced to finish it himself, even if he Didnt Know How To Make Levels, So he Was Forced to use Copy+Paste to make the same few Elements appear Over and Over. People Criticised Him So Much, that he was eaten by a Clubstep Monster. So, oopsied, The Son Of Lil oopers, was forced to finish it. However, with him being a Very Selfish Man, he decided to name the series after him, despite generations of work. It was named \"oopsied impossible level 1\".<br><br>I Say We Cancel oopsied. Wow. No credit to Big Oopers or Lil oopers? What thje helly.<br><br>oopsied Will Return",
+    "engine": "Spooky Dash",
+    "tags": ["Cube", "Ship", "Timings", "Medium", "Nerve Control", "Memory", "Oil"],
+    "enj": "70",
+	"rating": 1,
+	"hz": "30",
+    "records": [
+      	{
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=_yB9lytwjTc",
+            "percent": 100,
+            "hz": 30,
+			"enj": 90
+        },
+        {
+            "user": "-paltafovr-",
+            "link": "https://youtu.be/SHLOLez0_Nw",
+            "percent": 100,
+            "hz": 30,
+            "enj": 25
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/wppdW8ohtqM?t=100",
+			"percent": 100,
+			"hz": 30,
+			"enj": 65
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1PjUsb0tSpLW_46fP3fvqWmvMSRrJA8oB/view",
+			"percent": 100,
+			"hz": 30,
+			"enj": 60
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 30
+		}
+    ]
+}

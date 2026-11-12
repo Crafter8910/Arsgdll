@@ -1,0 +1,17 @@
+{
+	"id": "1005303497",
+    "name": "The Beginning",
+    "author": "CaptainFlufBall",
+    "creators": ["CaptainFlufBall"],
+    "verifier": "meow_wet",
+    "verification": "https://www.youtube.com/watch?v=I667r7-Fbqs",
+    "percentToQualify": "62",
+	"demonDifficulty": "Easy",
+    "description": "CaptainFlufBall)",
+    "engine": "CFB",
+	"tags": ["level"],
+	"hz": 30,
+    "rating": 1,
+    "records": [
+    ]
+}

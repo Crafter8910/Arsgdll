@@ -1,0 +1,26 @@
+{
+	"itchLink": "https://compy3.itch.io/rot-for-clout",
+    "name": "Rot for Clout",
+    "author": "compsognathus3",
+    "creators": ["compsognathus3", "cross1508"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/1znLKVxoNK8iApkExvSFi7euV0S3IqmEZ/view?usp=sharing",
+    "percentToQualify": "67",
+    "demonDifficulty": "Insane Demon",
+    "description": "for",
+    "engine": "GDR",
+	"enj": "30",
+	"hz": "240",
+	"tags": ["Clicksync", "Timings", "Chokepoints", "contains swear words"],
+	"rating": "1",
+    "records": [
+        {
+          "user": "RandomAmerican7", 
+          "link": "https://youtu.be/vovGTE8AeF4", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 50,
+          "date": "2026-10-31T18:01:18.884Z"
+        }
+    ]
+}

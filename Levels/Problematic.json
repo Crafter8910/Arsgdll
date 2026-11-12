@@ -1,0 +1,91 @@
+{
+    "id": "1105476251",
+    "name": "Problematic",
+    "author": "Acc0unt_GD",
+    "creators": ["Acc0unt_GD"],
+    "verifier": "Acc0unt_GD",
+    "verification": "https://www.youtube.com/watch?v=y-8DHHpLhvY",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "Problematic but in GDR",
+    "engine": "GDR",
+	"tags": ["Cube", "Ship", "Wave", "Timings", "Medium-Long", "Memory"],
+	"hz": "60",
+	"rating": 0,
+    "records": [
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/BnazitYKI2A",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75
+		},
+		{
+			"user": "geometrydash-creator",
+			"link": "https://youtu.be/9djVdEhfCrA",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://drive.google.com/file/d/1GBMt4onvXs2GUy2C-eLdkhvYapv8A61v/view?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 67
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1GBMt4onvXs2GUy2C-eLdkhvYapv8A61v/view?usp=sharing",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=bU8C1NqHJPE",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/5gUtQznUfdE",
+			"percent": 100,
+			"hz": 60,
+			"enj": 50
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		},
+		{
+			"user": "C257H383N65O77S6",
+			"link": "https://www.mediafire.com/file/e8dm8t93108vo0s/Nullify_100%2525.mp4/file",
+			"percent": 100,
+			"hz": 60,
+			"enj": 55
+		},
+		{
+			"user": "C0DERS0110",
+			"link": "https://www.youtube.com/watch?v=2AJnktLDSSw",
+			"percent": 100,
+			"hz": 120
+		}
+    ]
+}

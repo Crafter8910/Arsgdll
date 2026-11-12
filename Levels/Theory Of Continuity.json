@@ -1,0 +1,31 @@
+{
+	"id": "1005303497",
+    "name": "Theory Of Continuity",
+    "author": "BLJ_BrokenGD",
+    "creators": ["Apx-Wildcat","GWATeam"],
+    "verifier": "Captinfireball",
+    "verification": "https://www.youtube.com/watch?v=YduNXjgiUeI",
+    "percentToQualify": "62",
+	"demonDifficulty": "Insane Demon",
+    "description": "its longest level ive made (with my boys)",
+    "engine": "iPhone",
+	"tags": ["XXL", "Ship", "Nerve Control", "hard"],
+	"hz": 30,
+	"enj": 100,
+    "rating": 1,
+    "ullmarker": true,
+    "records": [
+        {
+            "user": "BLJ_BrokenGD",
+            "link": "https://youtu.be/8k202yaUxNY?t=2098",
+            "percent": 98,
+            "hz": 30
+        },
+		{
+            "user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/1ABeZvFgE1-NPwjqXXsuR_AdVpBTbO1qU/view?usp=sharing",
+            "percent": 99,
+            "hz": 30
+        }
+    ]
+}

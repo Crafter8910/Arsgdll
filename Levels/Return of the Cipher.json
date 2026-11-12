@@ -1,0 +1,46 @@
+{
+	"id": "1363546933",
+    "name": "Return of the Cipher",
+    "description": "had to extend this cos the original was only 19 seconds long",
+    "author": "CreativeStegosaur",
+    "creators": ["CreativeStegosaur"],
+    "verifier": "CreativeStegosaur",
+    "verification": "https://youtu.be/LlwTSf_Tkmg",
+    "percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+    "engine": "Pig Dash",
+	"tags": ["Ship", "Straight Fly", "Timings", "Short", "Cube"],
+	"enj": 50,
+	"hz": 60,
+    "rating": 0,
+    "records": [
+        {
+			"user": "coolathagoras",
+			"link": "https://www.youtube.com/watch?v=ejP8G5JVOYo",
+			"percent": 100,
+			"hz": 60,
+			"enj": 43
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/o3dv_gvMcpY?t=223",
+			"percent": 100,
+			"hz": 60,
+			"enj": 67
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/TMfS5YGYhb4",
+			"percent": 100,
+			"hz": 60,
+			"enj": 40
+		},
+		{
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=cINBrglLpNU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 52
+		}
+    ]
+}

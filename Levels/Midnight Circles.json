@@ -1,0 +1,126 @@
+{
+    "id": "1089920588",
+    "name": "Midnight Circles",
+    "author": "GD_Noob",
+    "creators": ["wesnothplayer", "GD_Noob"],
+    "verifier": "GD_Noob",
+    "verification": "https://www.youtube.com/watch?v=NVkKJ92S5b0",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "By Wesnothplayer, Changed by me<br>Verified by Me also New Hardest",
+    "engine": "CFB",
+	"tags": ["Cube", "Ship", "Ball", "Wave", "Long", "Spam"],
+	"hz": 30,
+	"rating": -297,
+    "records": [
+	    {
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/HRzSWjJl4IQ",
+            "percent": 100,
+            "hz": 30,
+			"enj": 72
+        },
+		{
+            "user": "cross1508",
+            "link": "https://youtu.be/a2EcAi-r77A?t=45",
+            "percent": 100,
+            "hz": 30,
+			"enj": 60
+        },
+		{
+			"user": "antawng2",
+            "link": "https://youtu.be/PaHPb97mITU",
+            "percent": 100,
+            "hz": 30,
+			"enj": 25
+		},
+		{
+            "user": "Peneren",
+            "link": "https://youtu.be/p7dP9oFsW6Q?t=98",
+            "percent": 100,
+            "hz": 30
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=_uyhtzaTXDM",
+			"percent": 100,
+			"hz": 30,
+			"enj": 0
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/6XsUQmmll4w?t=144",
+			"percent": 100,
+			"hz": 30,
+			"enj": 40
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://www.image2url.com/r2/default/videos/1777513126128-317af787-d3dd-4bdd-83ea-783fe8eb5728.mov",
+			"percent": 100,
+			"hz": 30,
+			"enj": 50
+		},
+		{
+			"user": "TheGrassyGuys",
+			"link": "https://www.youtube.com/watch?v=-tFHGuAS5tg",
+			"percent": 100,
+			"hz": 30,
+			"enj": 25
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1mwqEAe4_FrocW7FSzuuJ3bTGlr9CaX-K",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=eQ7bVDeX4CI",
+			"percent": 100,
+			"hz": 30,
+			"enj": 0
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1PjUsb0tSpLW_46fP3fvqWmvMSRrJA8oB/view",
+			"percent": 100,
+			"hz": 30,
+			"enj": 55
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/hQG_cXII9sg",
+			"percent": 100,
+			"hz": 30,
+			"enj": 60
+		},
+		{
+			"user": "BLJ_BrokenGD",
+			"link": "https://www.youtube.com/watch?v=I5VW3wxqnOI",
+			"percent": 100,
+			"hz": 30
+		},
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/87WIDmyt2J0",
+			"percent": 100,
+			"hz": 30,
+			"enj": -100
+		},
+		{
+			"user": "Themasterd2010",
+			"link": "https://youtu.be/33m6EBPYlHw",
+			"percent": 100,
+			"hz": 30
+		},
+        {
+          "user": "Vernalstick", 
+          "link": "https://www.youtube.com/watch?v=fLmS02WwG0U", 
+          "percent": 100, 
+          "hz": 30, 
+          "date": "2026-09-21T16:20:42.519Z"
+        }
+    ]
+}

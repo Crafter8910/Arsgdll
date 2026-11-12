@@ -1,0 +1,32 @@
+{
+	"itchLink": "https://ballz17.itch.io/iraqophobia-gdr",
+    "name": "Iraqophobia",
+    "author": "ballgoballing",
+    "creators": ["ballgoballing", "cross1508"],
+    "verifier": "Captinfireball",
+    "verification": "https://youtu.be/6XsUQmmll4w?t=4085",
+    "percentToQualify": "67",
+    "demonDifficulty": "Iraq Demon",
+    "description": "fun level",
+    "engine": "GDR",
+    "tags": ["High CPS", "Multilap", "Memory", "Spider", "Consistency", "Timings", "Short"],
+	"hz": 120,
+    "rating": 3,
+	"records": [
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1CZMsr83jAWBR8Xsm5MsglADOIZRViVcf/view?usp=sharing",
+			"percent": 70,
+			"hz": 120,
+			"date": "2026-09-03T14:07:44.000Z"
+		},
+        {
+          "user": "RandomAmerican7", 
+          "link": "https://youtu.be/b0sKxVH0QHU", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 21,
+          "date": "2026-11-05T00:12:11.807Z"
+        }
+    ]
+}

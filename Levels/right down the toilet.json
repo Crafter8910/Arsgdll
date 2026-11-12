@@ -1,0 +1,25 @@
+{
+    "codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "right down the toilet",
+    "author": "dragonblackX2",
+    "creators": ["dragonblackX2"],
+    "verifier": "dragonblackX2",
+    "verification": "https://youtu.be/1l7JcBG6E38",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "made ina day",
+    "engine": "GDH",
+    "enj": 100,
+  	"hz": 240,
+	"tags": ["Dual", "Ship", "Wave", "Toilet"],
+	"rating": 2,
+    "records": [
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 65
+        }
+    ]
+}

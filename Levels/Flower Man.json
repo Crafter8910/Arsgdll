@@ -1,0 +1,32 @@
+{
+    "codetorchLink": "https://codetorch.net/projects/74821",
+    "name": "Flower Man",
+    "author": "meow_wet",
+    "creators": ["meow_wet", "CaptainFlufBall"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/8VBpxgmUQBE",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard Demon",
+    "description": "my magnum opus for now, have fun. also make sure to play this on hashbrown 1.92b which you can get on gamejolt",
+    "engine": "GDH",
+    "enj": "100",
+    "hz": "165",
+    "tags": ["XL", "Dual", "Swingcopter", "hi guys im on mobile adding this"],
+    "rating": 4,
+    "date": "2026-11-02T22:00:08.285Z",
+    "records": [
+       {
+			"user": "dragonblackX2",
+			"link": "https://www.youtube.com/watch?v=pz4kcMWRj7I",
+			"percent": 100,
+			"hz": 90,
+			"enj": 98
+		},
+        {
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/19SkkLHvmqJP9d3doBCdaDorMo4VlbnXw/view?usp=sharing",
+			"percent": 100,
+			"hz": 90
+		}
+    ]
+}

@@ -1,0 +1,59 @@
+{
+	"id": "930052714",
+    "name": "During Depression",
+    "author": "Captinfireball",
+    "creators": ["Captinfireball"],
+    "verifier": "antawng2",
+    "verification": "https://www.youtube.com/watch?v=VrH4v9jIE44",
+    "percentToQualify": "67",
+    "engine": "GDR",
+	"demonDifficulty": "Medium Demon",
+	"description": "Thanks to @CaptainFlufBall for the name idea. Definently my biggest GD project. The level time is 1:53!! Hopefully one of the hardest levels...",
+	"hz": 60,
+	"tags": ["Overall", "Spam", "Timings", "Medium"],
+	"enj": 2,
+    "rating": 0,
+    "records": [
+        {
+            "user": "thomaslyu",
+            "link": "https://www.youtube.com/watch?v=cf5li05A7vo",
+            "percent": 100,
+            "hz": 60,
+			"enj": 60
+        },
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=eM-iWQP36Os",
+            "percent": 100,
+            "hz": 120,
+			"enj": 50
+        },
+        {
+            "user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/1BOErb-VdLx1VAFwI00JxF8EVyK2z4_8t/view",
+            "percent": 100,
+            "hz": 240,
+			"enj": 37.29
+        },
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=B4nF3BLIrGs",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=TNsH0cg0Eis",
+			"percent": 100,
+			"hz": 60,
+			"enj": 40
+		},
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 60
+        }
+	]	
+}

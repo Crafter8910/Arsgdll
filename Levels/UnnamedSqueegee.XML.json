@@ -1,0 +1,80 @@
+{
+	"codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "UnnamedSqueegee.XML",
+    "author": "TheFjord",
+    "creators": ["TheFjord"],
+    "verifier": "TheFjord",
+    "verification": "https://youtu.be/sEnho041Wjs",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "Made by me!",
+    "engine": "GDH",
+	"hz": 240,
+	"tags": ["Short", "Cube", "Laggy", "my ears burn"],
+	"enj": 87.5,
+	"rating": 1,
+    "records": [
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=YT8w1VHzSMQ",
+            "percent": 100,
+            "hz": 240,
+			"enj": 80
+		},
+		{
+			"user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=NLojyKaH-Jo",
+            "percent": 100,
+            "hz": 240,
+			"enj": 90
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/F9Se1s2EUe4?t=314",
+			"percent": 100,
+			"hz": 120,
+			"enj": 85
+		},
+		{
+			"user": "sh3lt0n",
+			"link": "https://www.youtube.com/watch?v=h-WC2QIFjpg",
+			"percent": 100,
+			"hz": 60,
+			"enj": 99
+		},
+		{
+			"user": "DragonBlackx2",
+			"link": "https://youtu.be/PLD_Az3Pe6g",
+			"percent": 100,
+			"hz": 60,
+			"enj": 92
+		},
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=uYgMSFyEjno",
+			"percent": 100,
+			"hz": 165,
+			"enj": 55
+		},
+		{
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 60,
+			"enj": 100
+        },
+		{
+            "user": "NOC_Eclipsed",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 120,
+			"enj": 90
+        }
+    ]
+}

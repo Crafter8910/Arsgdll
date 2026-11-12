@@ -1,0 +1,29 @@
+{
+    "id": "1268250531",
+    "name": "E-Labyrinth",
+    "author": "_NewUniverseGD_",
+    "creators": ["_NewUniverseGD_"],
+    "verification": "https://www.youtube.com/watch?v=NaTM_HQ1Mfc",
+    "verifier": "Kevmaster04",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "i really said ts was \"almost\" a demon :broken_heart:",
+    "engine": "GDR",
+    "rating": 1,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://youtu.be/o3dv_gvMcpY?t=42",
+            "percent": 100,
+            "hz": 120,
+            "enj": 50
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/uUZAvMHu_L4",
+            "percent": 100,
+            "hz": 60,
+            "enj": 50
+        }
+    ] 
+}

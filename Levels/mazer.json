@@ -1,0 +1,23 @@
+{
+    "id": "1368395188",
+    "name": "mazer",
+    "author": "theomellor",
+    "creators": ["theomellor"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/1g0A-uphO3McmaF8mxJ24Ija2iD6uLTLz/view?usp=drive_link",
+    "percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+    "description": "an extreme demon up for verification<br>this memory demon was created by me<br>top 10?<br>(bro really thought this was hard)",
+    "engine": "GDR",
+	"tags": ["Cube","Ball","Memory"],
+    "rating": 1,
+    "records": [
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/ojt261g1oEU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75
+		}
+	] 
+}

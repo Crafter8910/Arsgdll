@@ -1,0 +1,52 @@
+{
+	"codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "deco in MY gdh?",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/cyAcxh-zzdU",
+    "percentToQualify": "67",
+	"demonDifficulty": "Medium Demon",
+    "engine": "GDH",
+	"tags": ["Long", "Bossfight", "Swingcopter", "Chokepoints", "Full Solo"],
+	"description": "best and hardest gdh map lowk",
+	"hz": 240,
+	"enj": 88,
+	"rating": 3,
+    "records": [
+		{
+			"user": "CaptainFlufBall",
+			"link": "https://www.youtube.com/watch?v=jVeXgaDoUjY",
+			"percent": 100,
+			"hz": 120,
+			"enj": 98
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=fg85V3eMiJQ",
+			"percent": 100,
+			"hz": 120,
+			"enj": 90
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=az4Tj9uZXMo",
+			"percent": 100,
+			"hz": 60,
+			"enj": 50
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 240,
+			"enj": 70
+		}
+    ]
+}

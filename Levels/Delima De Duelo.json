@@ -1,0 +1,83 @@
+{
+	"id": "980848576",
+    "name": "Delima De Duelo",
+    "author": "Takayukihiro",
+    "creators": ["Takayukihiro"],
+    "verifier": "thomaslyu",
+    "verification": "https://www.youtube.com/watch?v=Dy3safgtiiY",
+    "percentToQualify": 67,
+	"demonDifficulty": "Medium Demon",
+    "engine": "GDR",
+    "description": "Two Player Demon",
+	"tags": ["2P", "Short"],
+    "twoplayer": true,
+	"hz": 60,
+	"enj": 80,
+	"rating": 1,
+    "records": [
+        {
+            "user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=RZuVMucdKLI",
+            "percent": 100,
+            "hz": 120,
+			"enj": 60
+        },
+		{
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/EFngul25UkU",
+            "percent": 100,
+            "hz": 60,
+			"enj": 76
+        },
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/6XsUQmmll4w?t=2187",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=LioFbl8JXcg",
+			"percent": 100,
+			"hz": 60,
+			"enj": 67.41
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1yYP61xRdz_wbo4Y78f2lmPCOlZipct8K/view?usp=sharing",
+			"percent": 100,
+			"hz": 240,
+			"enj": 45
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=d2gacdLeWSs",
+			"percent": 100,
+			"hz": 120,
+			"enj": 100
+		},
+		{
+			"user": "Themasterd2010",
+			"link": "https://youtu.be/AglCS3ZkJL4",
+			"percent": 100,
+			"hz": 60,
+			"enj": 120
+		},
+        {
+          "user": "what_a_name1", 
+          "link": "https://drive.google.com/file/d/1A314LCIVoBJlBteHkuCIQLr2kUXPJ5be/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 92,
+          "date": "2026-10-27T14:54:50.532Z"
+        },        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 90
+        }
+    ]
+}

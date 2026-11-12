@@ -1,0 +1,60 @@
+{
+    "itchLink": "https://cnfsn.itch.io/gdr-uwu",
+    "name": "m e n t a l t o r t u r e",
+    "author": "Takayukihiro",
+    "creators": ["Takayukihiro"],
+    "verifier": "thomaslyu",
+    "verification": "https://www.youtube.com/watch?v=PbhFmPxb8wg",
+    "percentToQualify": 100,
+	"demonDifficulty": "Hard Demon",
+    "description": "i cant wait to die again and again and again and again and again and again and again and again and again and again and again  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  a n d   a g a i n  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N  A N D  A G A I N",
+    "engine": "GDR",
+	"tags": ["Clicksync", "Chokepoints", "Timings", "Wave", "Medium"],
+	"enj": 70,
+    "rating": 3,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=YOdKqxY0PLY",
+            "percent": 100,
+            "hz": 60,
+			"enj": 100
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/6XsUQmmll4w?t=2836",
+            "percent": 100,
+            "hz": 60,
+            "enj": 50
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/WkzJvC35_XI",
+			"percent": 100,
+			"hz": 60,
+			"enj": 78
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=k9OgxGNHJZI",
+			"percent": 100,
+			"enj": 100,
+			"hz": 120
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1ydb7W8bc1WpfjH6CAUrnj15t-d2dunFJ/view?usp=sharing",
+			"percent": 100,
+			"enj": 85,
+			"hz": 60
+		}
+        ,
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1b-30rc0Ed-q3rJGEwqYdPwREFvORRDWN/view?usp=sharing",
+			"percent": 100,
+			"enj": 85,
+			"hz": 60
+		}
+    ]
+}

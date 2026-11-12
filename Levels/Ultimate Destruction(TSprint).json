@@ -1,0 +1,26 @@
+{
+	"codetorchLink": "https://codetorch.net/projects/36440",
+	"name": "Ultimate Destruction (meow_wet)",
+	"author": "meow_wet",
+	"creators": ["meow_wet"],
+	"verifier": "semimidgdplayer",
+	"verification": "https://drive.google.com/file/d/1-PVnWoASkCkaHAFfXI1K21HFwa15fUgP/view?usp=sharing",
+	"percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+	"description": "Easy",
+	"engine": "Trigonometry Sprint",
+	"tags": ["Cube", "Ship", "Timings"],
+	"enj": "70",
+	"hz": "240",
+	"rating": 1,
+	"records": [
+		{
+		  "user": "meow_wet", 
+		  "link": "https://youtu.be/QO7rph41a4E", 
+		  "percent": 100, 
+		  "hz": 30, 
+		  "enj": 95,
+		  "date": "2026-11-02T03:12:37.013Z"
+		}
+	]
+}

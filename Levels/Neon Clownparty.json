@@ -1,0 +1,30 @@
+{
+    "id": "889981700",
+    "name": "Neon Clownparty",
+    "author": "-RandomAnimator-",
+    "creators": ["-RandomAnimator-"],
+    "verifier": "Semimidgdplayer",
+    "verification": "https://drive.google.com/file/d/1oe7PqS_JqOaijrUj8BvcuJjnqGAQ2xGH/view?usp=sharing",
+    "percentToQualify": 67,
+    "demonDifficulty": "Hard",
+    "description": "IT'S DONE! After a very long time, I finally created another level.<br> SONG: Clownparty Remix, by Waterflame.<br>I tried reducing lag throughout the level, that's why some parts of the level look empty and undecorated.<br> Have fun!",
+    "engine": "GDR",
+    "tags": ["Cube", "Ship","Fun","Buggy"],
+	"rating": 2,
+    "records": [
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=qrBmfu8SHdk",
+			"percent": 100,
+			"hz": 30,
+			"enj": 75
+		},
+        {
+            "user": "CreativeStegosaur",
+            "link": "https://www.youtube.com/watch?v=boqRRTR8alE",
+            "percent": 100,
+            "hz": 30,
+            "enj": 100
+        }
+    ]
+}

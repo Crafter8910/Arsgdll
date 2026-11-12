@@ -1,0 +1,40 @@
+{
+	  "codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "Trigger Wizard",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://www.youtube.com/watch?v=kOqWiICHBeA",
+    "percentToQualify": "67",
+    "demonDifficulty": "King Von Demon",
+    "description": "This was going to be longer but since 1.7b is out, it's not really that impressive anymore so i'll release as it was at 1.7bs release",
+    "engine": "GDH",
+	  "enj": "87",
+	  "hz": "240",
+	  "tags": ["Medium", "That weird gravity change things where you hug the roof", "Chokepoints"],
+	  "rating": "2",
+    "records": [
+        {
+            "user": "dragonblackX2",
+            "link": "https://youtu.be/Sz65x9zbbAU",
+            "percent": 100,
+            "hz": 241,
+			"enj": 85
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 120,
+			"enj": 80
+		},
+        {
+          "user": "Themasterd2010", 
+          "link": "https://youtu.be/U10KD-CJuyw", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 80,
+          "date": "2026-10-07T14:07:08.386Z"
+        }
+    ]
+}

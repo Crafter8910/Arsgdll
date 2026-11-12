@@ -1,0 +1,91 @@
+{
+	"id": "1186792605",
+    "name": "GIVEUP!AKITANERU!",
+    "author": "compsognathus3",
+    "creators": ["compsognathus3"],
+    "verifier": "compsognathus3",
+    "verification": "https://www.youtube.com/watch?v=ryF4ggvLnBM",
+    "percentToQualify": "67",
+	"demonDifficulty": "Insane Demon",
+    "description": "my best work",
+	"tags": ["Cube", "Chokepoints", "Timings", "Short", "Corridor"],
+    "engine": "GDR",
+	"enj": 80.25,
+    "rating": 2,
+    "records": [
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=ImhPAo25kIA",
+            "percent": 100,
+            "hz": 120,
+			"enj": 90
+        },
+        {
+            "user": "thomaslyu",
+            "link": "https://www.youtube.com/watch?v=ezgYQaPp1yU",
+            "percent": 100,
+            "hz": 120,
+			"enj": 70
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://www.youtube.com/watch?v=iR_bWVw7Wgo",
+			"percent": 100,
+			"hz": 60,
+			"enj": 72.30
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=6XsUQmmll4w&t=3608s",
+			"percent": 100,
+			"hz": 120,
+			"enj": 30
+		},
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=N42zisDENvo",
+            "percent": 100,
+            "hz": 120,
+			"enj": -100
+		},
+		{
+			"user": "ballgoballing",
+            "link": "https://youtu.be/dSeR0JHznlE",
+            "percent": 100,
+            "hz": 120,
+			"enj": 50,
+			"controller": true
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/O-_BhU-lp88?t=225",
+			"percent": 100,
+			"hz": 120,
+			"enj": 50
+		},
+        {
+          "user": "Semimidgdplayer", 
+          "link": "https://drive.google.com/file/d/1eTsU5AX_QgLtFaRQnUfh7ZcFdWkr-FGH/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 115, 
+          "enj": 60,
+          "date": "2026-09-16T02:01:19.655Z"
+        },
+        {
+            "user": "c257h383n65o77s6",
+            "link": "https://www.mediafire.com/file/jtlvbu3yo1mg1gt/guan_84.mp4/file",
+            "percent": 87, 
+            "hz": 120, 
+            "enj": 0,
+            "date": "2026-09-24T07:22:19.655Z"
+        },
+        {
+          "user": "RandomAmerican7", 
+          "link": "https://youtu.be/Ca5-vypDdqI", 
+          "percent": 100, 
+          "hz": 120, 
+          "enj": 40,
+          "date": "2026-10-03T20:33:41.145Z"
+        }
+    ]
+}

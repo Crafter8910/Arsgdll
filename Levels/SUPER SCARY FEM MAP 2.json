@@ -1,0 +1,33 @@
+{
+    "id": "1382821647",
+    "name": "SUPER SCARY FEM MAP 2",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://www.youtube.com/watch?v=cSA4SnMqBnY",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "first serious level in this editor? possibly?",
+    "engine": "Custom",
+    "enj": "95",
+    "hz": "30",
+    "tags": ["Wave", "medium", "Dual"],
+    "rating": "2",
+    "date": "2026-09-19T10:24:27.156Z",
+    "records": [
+     		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/_-xY1hojik8",
+			"percent": 100,
+			"hz": 30,
+			"enj": 101
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 30,
+			"enj": 25
+		}
+    ]
+}

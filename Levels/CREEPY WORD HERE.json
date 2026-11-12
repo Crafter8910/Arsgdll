@@ -1,0 +1,100 @@
+{
+	"id": "1040776993",
+    "name": "[CREEPY WORD HERE]",
+    "author": "justformemes2021",
+    "creators": ["justformemes2021"],
+    "verifier": "justformemes2021",
+    "verification": "https://www.youtube.com/watch?v=nYUEh8IaZ1c",
+    "percentToQualify": "100",
+	"demonDifficulty": "Easy Demon",
+    "engine": "GDR",
+	"description": "thank you squeeg for telling me the guy who made this also verified it idk how genuinely nobody knew this",
+	"tags": ["Short", "Timings", "Ship"],
+	"hz": 30,
+	"rating": 1,
+    "records": [
+		{
+			"user": "Acc0unt_GD",
+			"link": "https://www.youtube.com/watch?v=PiNjQ7rQQMg",
+			"percent": 100,
+			"hz": 60
+		},
+        {
+            "user": "Peneren",
+            "link": "https://youtu.be/2Mvv8E9JFTs?t=353",
+            "percent": 100,
+            "hz": 240,
+            "enj": 90
+        },
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/LqNRPHFENoI",
+			"percent": 100,
+			"hz": 30,
+			"enj": 75
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/KRVWn_8bFvg?t=99",
+			"percent": 100,
+			"hz": 60,
+			"enj": 70
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=J8bs-fYxy0s",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Previous_crop89",
+			"link": "https://streamable.com/gma2me",
+			"percent": 100,
+			"hz": 120,
+			"enj": 80
+		},
+		{
+			"user": "antawng2",
+			"link": "https://youtu.be/ZzACqZ0H_BY",
+			"percent": 100,
+			"hz": 120,
+			"enj": 85
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://m.youtube.com/watch?v=Z4JOgYW7Fhw",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 116.5289,
+			"enj": 50
+		},
+		{
+			"user": "Themasterd2010",
+			"link": "https://youtu.be/ebo86xC_5Wg",
+			"percent": 100,
+			"hz":  30,
+			"enj": 100
+		},
+        {
+          "user": "definitelyzoink", 
+          "link": "https://www.youtube.com/watch?v=8X8QvcZW_vE", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 87,
+          "date": "2026-10-29T19:58:18.736Z"
+        }
+    ]
+}

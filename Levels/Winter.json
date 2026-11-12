@@ -1,0 +1,55 @@
+{
+  	"itchLink": "https://compy3.itch.io/winter",
+    "name": "Winter",
+    "author": "sh3lt0n",
+    "creators": ["sh3lt0n"],
+    "verifier": "compsognathus3",
+    "verification": "https://www.youtube.com/watch?v=wX_kfQUExHs",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard Demon",
+    "description": "<img src='https://upload.wikimedia.org/wikipedia/commons/1/12/Twemoji12_1f976.svg' height='60' style='justify-self: center;'>",
+    "engine": "GDR",
+    "tags": ["Wave", "Spam", "Timings", "Medium", "Chokepoints", "Ship"],
+    "enj": 35,
+    "hz": 240,
+    "rating": 1,
+    "records": [
+      	{
+            "user": "Kevmaster04",
+            "link": "https://www.youtube.com/watch?v=qzOVavDkLXs",
+            "percent": 100,
+            "hz": 240,
+            "enj": 75
+        },
+        {
+            "user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=r9zjx8Fotqs",
+            "percent": 100,
+            "hz": 120,
+            "enj": 0
+        },
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=l7KKyoNY5-8",
+            "percent": 100,
+            "hz": 120,
+            "enj": 30
+        }
+        ,
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/file/d/1GhXFqt-smZ6DgZ19UDLhUVrM_FsjTWWT/view?usp=sharing",
+            "percent": 100,
+            "hz": 110,
+            "enj": 60
+        },
+        {
+          "user": "C257H383N65O77S6", 
+          "link": "https://www.mediafire.com/file/kgv4tceixq9kj3z/winter_71.mp4/file", 
+          "percent": 71, 
+          "hz": 60, 
+          "enj": 40,
+          "date": "2026-09-16T01:26:52.958Z"
+        }
+    ]
+}

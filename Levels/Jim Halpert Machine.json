@@ -1,0 +1,31 @@
+{
+    "id": "1366875820",
+    "name": "Jim Halpert Machine",
+    "author": "STASISteam",
+    "creators": ["JimHalpert"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/1pWbh4yTb6IPcAtbMpaRpttwQOYwHd433/view?usp=sharing",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "vverified",
+    "engine": "GDI",
+	"enj": 46,
+	"hz": 240,
+	"tags": ["Ship","Chokepoints"],
+	"rating": 0,
+    "records": [
+		{
+			"user": "Kevmaster04",
+			"link": "https://www.youtube.com/watch?v=_W5MWAXIKWI",
+			"percent": 100,
+			"hz": 120
+		},
+		{
+			"user": "meow_wet",
+			"link": "https://youtu.be/m0FNyX1nUII",
+			"percent": 100,
+			"hz": 240,
+			"enj": 89
+		}
+    ]
+}

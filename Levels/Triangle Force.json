@@ -1,0 +1,93 @@
+{
+    "id": "1268252535",
+    "name": "Triangle Force",
+    "author": "_NewUniverseGD_",
+    "creators": ["_NewUniverseGD_"],
+    "verifier": "Wallyboom2010",
+    "verification": "https://www.youtube.com/watch?v=6Yhkblio6yY",
+    "percentToQualify": 72,
+	"demonDifficulty": "Medium Demon",
+    "description": "this level has good deco but its beyond unbalanced",
+    "engine": "GDR",
+	"tags": ["Overall", "Long","Wave"],
+	"enj": 60,
+	"hz": 60,
+	"rating": 2,
+    "records": [
+		{
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/YFRgf3cN1Kk",
+            "percent": 100,
+            "hz": 60,
+			"enj": 89
+        },
+		{
+			"user": "Nullshift",
+			"link": "https://image2url.com/r2/default/videos/1775182227293-8f7c86c7-1ce9-4b88-b178-4e55bb32e043.mp4",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/6XsUQmmll4w?t=2097",
+			"percent": 100,
+			"hz": 60,
+			"enj": 30
+		},
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=VRQBQZAqdjg",
+			"percent": 100,
+			"hz": 60,
+			"enj": 99	
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=Kfqpwo2xQPQ",
+			"percent": 100,
+			"hz": 120,
+			"enj": 80
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 70
+		},
+		{
+			"user": "C0DERS0110",
+			"link": "https://www.youtube.com/watch?v=kB3Vt6mMoLQ",
+			"percent": 100,
+			"hz": 60,
+			"enj": 100
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 60,
+			"enj": 100
+        },
+		{
+			"user": "definitelyzoink",
+			"link": "https://www.youtube.com/watch?v=qKqiXh8ZsLM",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75
+		},        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 50
+        }
+    ]
+}

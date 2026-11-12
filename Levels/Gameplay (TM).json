@@ -1,0 +1,37 @@
+{
+    "id": "1398233249",
+    "name": "Gameplay (TM)",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/WjO4buzMIUA",
+    "percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+    "description": "top 145 getting moved to legacy tommorow",
+    "engine": "GDI",
+	"rating": 0,
+    "records": [
+        {   
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 70
+		},
+        {
+          "user": "antawng2", 
+          "link": "https://www.youtube.com/watch?v=VeyQ9nb8-aM", 
+          "percent": 100, 
+          "hz": 240, 
+          "enj": 65
+        },
+        {
+          "user": "dragonblackX2", 
+          "link": "https://youtu.be/Y5HVfBEDsQs?si=qTYIqWMV3Zd416et", 
+          "percent": 100, 
+          "hz": 240, 
+          "enj": 75
+        }
+        
+    ] 
+}

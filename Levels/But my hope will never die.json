@@ -1,0 +1,87 @@
+{
+    "id": "605826308",
+    "name": "But my hope will never die",
+    "author": "LegoScratchTanksuber",
+    "creators": ["LegoScratchTanksuber"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/4B7CVvVJa04",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "antawng2 was here",
+    "engine": "iPhone",
+	"tags": ["Overall", "Medium", "Chokepoints", "ultra nlw"],
+	"enj": 70,
+	"hz": 30,
+	"rating": 0,
+    "records": [
+		{
+			"user": "Nullshift",
+			"link": "https://videotourl.com/videos/1779664165094-95ded1fe-34bb-4a7a-8a0d-6e7f993002fc.mov",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "antawng2",
+			"link": "https://www.youtube.com/watch?v=6ClDUg36w20",
+			"percent": 100,
+			"hz": 30,
+			"enj": 50
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=w_T2SFmZjjk",
+			"percent": 100,
+			"hz": 30,
+			"enj": 20
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=Cw3Q4FX_MIE",
+			"percent": 100,
+			"hz": 30,
+			"enj": 20
+		},
+		{
+			"user": "Peneren",
+			"link": "https://youtu.be/zoOJI0kQauE",
+			"percent": 100,
+			"hz": 30,
+			"enj": 70
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://www.youtube.com/watch?v=Yjew1dAsrjc",
+			"percent": 100,
+			"hz": 30,
+			"enj": 100
+		},
+		{
+			"user": "viqivi",
+			"link": "https://www.youtube.com/watch?v=2BUa-f9_HjU",
+			"percent": 100,
+			"hz": 30,
+			"enj": 20
+		},
+		{
+			"user": "Techphaetus173",
+			"link": "https://www.mediafire.com/file/8umn682wkcou9xz/GD+My+hope+will+never+die+Completion.mp4/file",
+			"percent": 100,
+			"hz": 30,
+			"enj": "nice"
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 30
+		},
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/cUIr7oGipBY",
+			"percent": 100,
+			"hz": 30,
+			"enj": 62
+		}
+    ]
+}

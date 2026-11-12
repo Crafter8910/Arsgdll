@@ -1,0 +1,136 @@
+{
+    "id": "1276885895",
+    "name": "Gates of Heaven",
+    "author": "Previous_crop89",
+    "creators": ["Previous_crop89"],
+    "verifier": "Previous_crop89",
+    "verification": "https://streamable.com/bzhfr8",
+    "percentToQualify": 70,
+    "demonDifficulty": "Easy Demon",
+    "description": "A challenge made for a contest",
+    "engine": "GDR",
+	"hz": 60,
+	"rating": 1,
+	"tags": ["Ship", "UFO"],
+    "records": [
+		{   
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/19gtrLM_qqc",
+            "percent": 100,
+            "hz": 60,
+            "enj": 65
+		},
+		{   
+            "user": "geometrydash-creator",
+            "link": "https://youtu.be/9djVdEhfCrA",
+            "percent": 100,
+            "hz": 60,
+            "enj": 70
+		},
+		{
+            "user": "SGDAnshT",
+            "link": "https://streamable.com/86vvu8",
+            "percent": 100,
+            "hz": 60,
+            "enj": 60
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=cca4uVBXVo4",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://www.image2url.com/r2/default/videos/1779198274366-bb1a04b8-9d36-4753-b932-2049d44739c8.mov",
+			"percent": 100,
+			"mobile": "true",
+			"hz": 60,
+			"enj": 100
+		},
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=N42zisDENvo",
+            "percent": 100,
+            "hz": 120,
+			"enj": 70
+		},
+		{
+			"user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=q-c47WcM77Y",
+            "percent": 100,
+            "hz": 120,
+			"enj": 80
+		},
+        {
+			"user": "Peneren",
+			"link": "https://youtu.be/zoOJI0kQauE",
+			"percent": 100,
+			"hz": 60,
+			"enj": 0
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1Ye5gV-f7zMVmZC8QprZHpjtyDt6vc-Nf/view?t=2.304",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/mobile/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 50
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/1dNgB-TO5og",
+			"percent": 100,
+			"hz": 60,
+			"enj": 100
+		},
+		{
+			"user": "DinoDisasterPark",
+			"link": "https://youtu.be/CAPJw4vqZYM",
+			"percent": 100,
+			"hz": 60,
+			"enj": 6
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=jpdekzNARJ0",
+			"percent": 100,
+			"hz": 60,
+			"enj": 50
+		},
+		{
+			"user": "C0DERS0110",
+			"link": "https://www.youtube.com/watch?v=UJxhB7NURyg",
+			"percent": 100,
+			"hz": 60,
+			"enj": 100
+		},
+		{
+			"user": "ENZOTHEKINGCODER",
+			"link": "https://youtu.be/FQ_c5bosKaQ",
+			"percent": 100,
+			"hz": 60,
+			"enj": 40.6
+		},
+        {
+          "user": "Themasterd2010", 
+          "link": "https://youtu.be/LyIsrX7MM2A", 
+          "percent": 100, 
+          "hz": 120, 
+          "date": "2026-10-07T14:02:05.130Z"
+        }
+    ]
+}

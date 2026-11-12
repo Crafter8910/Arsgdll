@@ -1,0 +1,88 @@
+{
+    "id": "520789118",
+    "name": "Bye Bye",
+    "author": "LegoScratchTanksuber",
+    "creators": ["LegoScratchTanksuber"],
+    "verifier": "meow_wet",
+    "verification": "https://www.youtube.com/watch?v=FkKjPgf3X6U",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "homer spills his soda (d'oh)",
+    "engine": "iPhone",
+	"tags": ["Long", "Chokepoints", "ultra nlw"],
+	"enj": 75,
+	"hz": 30,
+	"rating": 0,
+    "records": [
+		{
+			"user": "SGDAnshT",
+            "link": "https://streamable.com/4k8a03",
+            "percent": 100,
+            "hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=9u-twwbw0dU",
+			"percent": 100,
+			"hz": 30,
+			"enj": 67
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://www.image2url.com/r2/default/videos/1779159706455-8c3c9a9a-4703-4145-94fc-592e64b132dd.mov",
+			"percent": 100,
+			"mobile": "true",
+			"hz": 30,
+			"enj": 100
+		},
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=N42zisDENvo",
+            "percent": 100,
+            "hz": 30,
+			"enj": 70
+		},
+		{
+			"user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=XfDLoAlFouw",
+            "percent": 100,
+            "hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "Peneren",
+			"link": "https://youtu.be/zoOJI0kQauE",
+			"percent": 100,
+			"hz": 30,
+			"enj": 55
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/-37ccNfWkZo",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "viqivi",
+			"link": "https://youtu.be/BHfqadK4jso",
+			"percent": 100,
+			"hz": 30
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/ly_UTZWfoyI",
+			"mobile": "true",
+			"percent": 100,
+			"hz": 30,
+			"enj": 75
+		}
+    ]
+}

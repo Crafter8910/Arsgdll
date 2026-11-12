@@ -1,0 +1,94 @@
+{
+	"id": "1329854113",
+    "name": "Red Essence",
+    "author": "That-Panda-Guy",
+    "creators": ["That-Panda-Guy"],
+    "verifier": "That-Panda-Guy",
+    "verification": "https://www.youtube.com/watch?v=Aymq7d5e6kk",
+    "percentToQualify": "66",
+	"demonDifficulty": "Medium Demon",
+    "engine": "GDR",
+	"description": "Fun Nine Circles Level",
+	"tags": ["Wave", "Timings", "Short"],
+    "enj": 88,
+	"hz": 60,
+    "rating": 2,
+    "records": [
+        {
+            "user": "Peneren",
+            "link": "https://youtu.be/0IZl7nim4gk",
+            "percent": 100,
+            "hz": 115,
+            "enj": 60
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/KRVWn_8bFvg?t=58",
+			"percent": 100,
+			"hz": 60,
+			"enj": 66.7
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1QuO5DcAf1ocly6HP1MrnvbFNg8iKAou7/view?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 40
+		},
+		{
+			"user": "geometrydash-creator",
+			"link": "https://youtu.be/9djVdEhfCrA",
+			"percent": 100,
+			"hz": 60,
+			"enj": 68.316
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=0HIP81Up1H8",
+			"percent": 100,
+			"hz": 120,
+			"enj": 30
+		},
+		{
+			"user": "KING_MAST3R2O1O",
+			"link": "https://youtu.be/eIXpPH8Ju5M",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/lOTZOvcNVrs",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://m.youtube.com/watch?v=Y-xYqnix4os",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 116.5289,
+			"enj": 60
+		},
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/Q5GHhuCarqU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 30
+		}
+    ]
+}

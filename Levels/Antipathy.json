@@ -1,0 +1,36 @@
+{
+    "id": "1352787448",
+    "name": "Antipathy",
+    "author": "Kevmaster04",
+    "creators": ["_NewUniverseGD_"],
+    "verification": "https://youtu.be/uIOJdSC3_-Y",
+    "verifier": "Kevmaster04",
+    "percentToQualify": "72",
+    "demonDifficulty": "Insane Demon",
+    "description": "really hard",
+    "engine": "GDR",
+    "rating": 1,
+    "records": [
+        {
+            "user": "definitelyzoink",
+            "link": "https://www.youtube.com/watch?v=ALm7arpTpn0",
+            "percent": 84,
+            "hz": 60,
+            "enj": -2
+        },
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/file/d/1ICe-K6wezMSEB_nEzwPFfhYL15dcRg9l/view?usp=sharing",
+            "percent": 100,
+            "hz": 100,
+            "enj": 90
+        },
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=07e0pL_BVFU",
+            "percent": 100,
+            "hz": 110,
+            "enj": 60
+        }
+    ] 
+}

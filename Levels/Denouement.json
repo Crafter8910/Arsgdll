@@ -1,0 +1,42 @@
+{
+    "id": "1280201350",
+    "name": "Denouement",
+    "author": "ClocksSteve",
+    "creators": ["ClocksSteve"],
+    "verifier": "C257H383N65O77S6",
+    "verification": "https://www.mediafire.com/file/qaisc0fywi4ydr2/Denouement_100%2525.mp4/file",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "Updates<br>(2/25/26) Half of the deco complete<br>(4/9/26) fixed mobile bug<br>(8/14/26) a few bugfixes + cant slide on last wave<br>(8/28/26) added the verifier in the desc (tysm @thomaslyu for verifying)",
+    "engine": "GDR",
+    "enj": "60",
+    "hz": "60",
+    "tags": ["example:", "Wave", "medium", "Dual", "check notes mayb"],
+    "rating": "2",
+    "date": "2026-09-16T01:07:14.949Z",
+    "records": [
+        {
+          "user": "Semimidgdplayer", 
+          "link": "https://drive.google.com/file/d/1rP2atIEyI-KQRA7jXCSJs9G4u6Gzr9lu/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 120,
+          "enj": 70,
+          "date": "2026-09-16T01:06:53.218Z"
+        },
+        {
+            "user": "Kevmaster04",
+            "link": "https://www.youtube.com/watch?v=QocTsPqjBX4",
+            "percent": 100,
+            "enj": 60,
+            "hz": 60,
+            "date": "2026-09-16"
+        },
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+            "percent": 100,
+            "hz": 60,
+            "enj": 70
+        }
+    ]
+}

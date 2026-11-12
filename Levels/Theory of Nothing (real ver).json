@@ -1,0 +1,25 @@
+{
+	"id": "772918264",
+    "name": "Theory of Nothing (cwkollie12137)",
+    "author": "cwkollie12137",
+    "creators": ["cwkollie12137"],
+    "verification": "https://youtu.be/d5RVTmXf8i0",
+    "verifier": "meow_wet",
+    "percentToQualify": 100,
+	"demonDifficulty": "Easy Demon",
+    "engine": "iPhone",
+	"description": "Press [up] [w] [space] or click to jump and to jump on yellow rings",
+	"tags": ["Cube", "Ship", "Robot", "Spam"],
+	"hz": 30,
+    "enjoyment": 57,
+    "rating": -1,
+    "records": [
+       {
+            "user": "semimidgdplayer",
+            "link": "https://drive.google.com/file/d/1d8VoytVJ7EZtWtECORhVSNP-oBB8dkus/view?usp=sharing",
+            "percent": 100,
+            "hz": 30,
+            "enj": 2
+        }
+    ]
+}

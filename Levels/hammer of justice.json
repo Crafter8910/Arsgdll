@@ -1,0 +1,51 @@
+{
+    "id": "1239507430/",
+    "name": "hammer of justice",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "cross1508",
+    "verification": "https://www.youtube.com/watch?v=TyJP7rOzLok",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "i've spent the last month or two cooking up the greatest joke level known to man, hopefully this is still ok for the sgd awards, sorry i'm a day late, the ending was taking a while to get working and i had to do some lag fixes!",
+    "engine": "iPhone",
+    "tags": ["XL", "Joke", "Altered Level", "Gimmicky", "Chokepoints"],
+    "hz": 30,
+    "enj": 95,
+    "rating": 2,
+    "records": [
+        {
+            "user": "meow_wet",
+            "link": "https://www.youtube.com/watch?v=UJ1JRibTuMk",
+            "percent": 100,
+            "hz": 30,
+            "enj": 90
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/6XsUQmmll4w?t=1230",
+            "percent": 100,
+            "hz": 30,
+            "enj": 0
+        },
+        {
+            "user": "Nullshift",
+            "link": "https://screenapp.io/app/v/Hd05guJn9m",
+            "percent": 100,
+            "hz": 30
+        },
+        {
+            "user": "Wallyboom2010",
+            "link": "https://youtu.be/KRVWn_8bFvg?t=137",
+            "percent": 100,
+            "hz": 30,
+            "enj": 35
+        },
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		}
+    ]
+}

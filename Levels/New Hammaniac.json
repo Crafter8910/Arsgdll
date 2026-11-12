@@ -1,0 +1,31 @@
+{
+    "id": "1236559654",
+    "name": "New Hammaniac",
+    "author": "unruffled",
+    "creators": ["ILYA125467"],
+    "verifier": "coolathagoras",
+    "verification": "https://www.youtube.com/watch?v=Ebk9IF5HNqE",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "I hate lil darkie im only calling it a lil darkie demon was cuz of the mashup. Actually not that bad of a level. I heard a while ago this level was pretty good. Of course my standards are pretty low for pig dash but this level was relatively fun. Only complaint was that some timings felt kinda unfair but thats probably because I had to take the coin routes. Also it looks pretty good too ILYAs building style is very clean & I like that",
+    "engine": "Pig Dash",
+    "hz": 60,
+    "enj": 70,
+    "rating": 2, 
+    "records": [
+        {
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/awvmPcje6Fs",
+            "percent": 100,
+            "hz": 60,
+            "enj": 65
+        },
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+            "percent": 100,
+            "hz": 60,
+            "enj": 75
+        }
+    ] 
+}

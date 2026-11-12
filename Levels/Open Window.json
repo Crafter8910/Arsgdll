@@ -1,0 +1,35 @@
+
+{
+    "id": "1268781187",
+    "name": "Open Window",
+    "author": "_NewUniverseGD_",
+    "creators": ["_NewUniverseGD_"],
+    "verifier": "C257H383N65O77S6",
+    "verification": "https://www.mediafire.com/file/1env3tjt0cu3eyj/Open_Window_NewUniverse_Ver_100%2525.mp4/file",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "my version of the current top 1 of the impossible level list, now way more possible",
+    "engine": "GDR",
+    "enj": "70",
+    "hz": "60",
+    "tags": ["Remake", "Cube", "Ship", "UFO", "Ship", "Wave", "Swing"],
+    "rating": "1",
+    "date": "2026-11-06T00:36:49.400Z",
+    "records": [
+        {
+          "user": "Semidecentgdplayer", 
+          "link": "https://drive.google.com/file/d/1lMB4h0fsVZJ7hCcJinnE0D6fkddeqze8/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 80,
+          "date": "2026-11-08T23:41:25.053Z"
+        },{
+          "user": "Semimidgdplayer", 
+          "link": "https://drive.google.com/file/d/1Dl8FZnKCCB6yJhOD64VEk--Ko-hTHKq6/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 69,
+          "date": "2026-11-09T05:41:25.053Z"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "901825246",
+    "name": "Bite back",
+    "author": "SpyplayzGD",
+    "creators": ["SpyplayzGD"],
+    "verifier": "Semimidgdplayer",
+    "verification":  "https://drive.google.com/file/d/1XpEm0HqacZ3U5-iN6O1VEc-bFAnpppwp/view?usp=sharing",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "DONE!!!",
+    "engine": "GDR",
+	"tags": ["Wave", "Cube", "Robot", "Swing", "Ship", "Ball"],
+  	"enj": 67,
+	"hz": 30,
+    "rating": 1,
+    "records": [
+        {
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/4q4vdfYA090",
+			"percent": 100,
+			"hz": 60,
+			"enj": 75.12625
+		}
+    ]
+}

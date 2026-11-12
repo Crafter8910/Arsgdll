@@ -1,0 +1,18 @@
+{
+	"id": "1376000172",
+    "name": "absolute criticality point",
+    "author": "hypersonic_time_2",
+    "creators": ["hypersonic_time"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/1mtI_rr5zKkD-fQbA_gNZKf4wYVk2tcyR/view?usp=sharing",
+    "percentToQualify": "100",
+	"demonDifficulty": "Medium Demon",
+    "engine": "iPhone",
+	"description": "first level i have actually worked on in forever, wanted to make it worth the wait",
+	"tags": ["Cube", "Ship", "UFO", "XL", "Chokepoints"],
+	"hz": 30,
+	"enj": 91,
+	"rating": 2,
+    "records": [
+    ] 
+}

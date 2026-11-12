@@ -1,0 +1,18 @@
+{
+	"id": "1351986410",
+	"name": "Sakupen Resurgence",
+	"author": "Semimidgdplayer",
+	"creators": ["Semimidgdplayer", "geometrydash-creator"],
+	"verifier": "Semimidgdplayer",
+	"verification": "https://drive.google.com/file/d/1cH2RAPS2Ob2-RLuXadWOwOvrf5hE57co/view?usp=sharing",
+	"percentToQualify": "80",
+	"demonDifficulty": "Hard Demon",
+	"description": "SKC but longer and easier",
+	"engine": "GDR",
+	"tags": ["Cube", "Wave", "Ball", "Ship", "Timings", "Short"],
+	"hz": 60,
+	"rating": 2,
+	"records": [
+		
+	]
+}

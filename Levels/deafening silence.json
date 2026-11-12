@@ -1,0 +1,34 @@
+{
+    "id": "1388430153",
+    "name": "deafening silence",
+    "author": "dragonblackX2",
+    "creators": ["dragonblackX2"],
+    "verifier": "dragonblackX2",
+    "verification": "https://www.youtube.com/watch?v=s7sxpIF3eMQ",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "Doesn't the silence seem so loud? Yet at the same time comforting.",
+    "engine": "GDI",
+    "enj": "87",
+    "hz": "240",
+    "tags": ["Ship", "Cube", "Ufo", "Wave"],
+    "rating": 2,
+    "date": "2026-10-08T03:18:50.705Z",
+    "records": [   
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 75
+        },
+        {
+          "user": "antawng2", 
+          "link": "https://youtu.be/VeyQ9nb8-aM", 
+          "percent": 100, 
+          "hz": 240, 
+          "enj": 35,
+          "date": "2026-11-06T05:16:40.869Z"
+        }
+    ]
+}

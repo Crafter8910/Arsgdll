@@ -1,0 +1,18 @@
+{
+    "id": "1263909348",
+    "name": "Firefly Valley",
+    "author": "busydragon",
+    "creators": ["busydragon"],
+    "verifier": "busydragon",
+    "verification": "https://www.youtube.com/watch?v=l1uQFfrhrtk",
+    "percentToQualify": "64",
+    "demonDifficulty": "Harder",
+    "description": "A long journey awaits to the valley. You want to traverse the desert with me?",
+    "engine": "iPhone",
+	"tags": ["XL"],
+	"hz": 30,
+	"enj": 99.481,
+	"rating": 2,
+    "records": [
+	]
+}

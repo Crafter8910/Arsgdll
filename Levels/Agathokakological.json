@@ -1,0 +1,26 @@
+{
+    "id": "1351750217",
+    "name": "Agathokakological",
+	"itchLink": "https://crafter8910.itch.io/gdr-agatha",
+    "author": "Semimidgdplayer",
+    "creators": ["Semimidgdplayer"],
+    "verifier": "Semimidgdplayer",
+    "verification": "https://drive.google.com/file/d/1Avq2wTFpO6XIwdU50FS3GJ0ujnC8Df6A/view?usp=sharing",
+    "percentToQualify": "71",
+    "demonDifficulty": "Hard Demon",
+    "description": "uhhh clubsteppers reborn but buffed and better in all ways took me 4 hours to beat lol",
+    "engine": "GDR",
+	"enj": 65,
+	"hz": 60,
+	"tags": ["Cube", "Ship", "Ball", "Wave", "Timings", "Medium", "Chokepoints", "Nerve Control"],
+	"rating": 4,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/O-_BhU-lp88?t=146",
+			"percent": 100,
+			"hz": 120,
+			"enj": 50
+		}
+    ]
+}

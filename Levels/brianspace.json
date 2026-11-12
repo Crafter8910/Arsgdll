@@ -1,0 +1,26 @@
+{
+	"id": "1364531749",
+    "name": "Brianspace",
+    "author": "dragonblackX2",
+    "creators": ["dragonblackX2"],
+    "verifier": "dragonblackX2",
+    "verification": "https://youtu.be/rBAKesdh9iE",
+    "percentToQualify": 67,
+	"demonDifficulty": "Hard Demon",
+    "engine": "Pig Dash",
+	"description": "she said a lot dragonblack stop talking so much soooo I havent beaten any top levels but despite this level being a joke level it kicks your ass still. Id say from rgd difficulty its between a very hard demon and an insane demon. And this is with me already knowing the path it still took be over 2K attempts. So counting memory its probably even harder. As stated previously I havent played any top levels enough to give an exact position but know its pretty shittin hard.",
+	"tags": ["Cube", "Memory", "Long", "Timings", "New Hitboxes", "pigpig+ UDP Fix", "CaptainFlufBall"],
+    "legacy": false,
+	"hz": 60,
+	"enj": 100,
+	"rating": 1,
+    "records": [
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1Mh_DeNV9EzSb3b8vxLH9w2gA4A3xTHsH/view?usp=drive_link",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		}
+    ] 
+}

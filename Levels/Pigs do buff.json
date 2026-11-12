@@ -1,0 +1,67 @@
+{
+    "id": "1236559654",
+    "name": "Pigs do buff",
+    "author": "unruffled",
+    "creators": ["chipm0nk", "wintermelonboss"],
+    "verifier": "ballgoballing",
+    "verification": "https://www.youtube.com/watch?v=R7v46PtELuc",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "Buffed version of Pigs Do Fly",
+    "tags": ["Cube", "Ship", "XL", "Legacy Hitboxes", "not fun"],
+    "engine": "Pig Dash",
+    "hz": 42,
+    "enj": 12,
+    "rating": 1,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=axjgq6tFMIQ",
+            "percent": 100,
+            "hz": 120,
+            "enj": 35
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/6XsUQmmll4w?t=855",
+            "percent": 100,
+            "hz": 42,
+            "enj": 25
+        },
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=suNecb1ODi0",
+            "percent": 100,
+            "hz": 120,
+            "enj": 0
+        },
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60,
+			"enj": 61
+		},
+        {
+            "user": "coolathagoras",
+            "link": "https://www.youtube.com/watch?v=4BWi5W02O5Y",
+            "percent": 100,
+            "hz": 240,
+            "enj": 0
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/ct6_BoPVo2g",
+			"percent": 100,
+			"hz": 120,
+			"enj": 70
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 42,
+			"enj": 28
+		}
+    ]
+}

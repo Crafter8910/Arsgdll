@@ -1,0 +1,51 @@
+{
+    "id": "399370897",
+    "name": "Nuclear Reactor",
+    "author": "DON0308",
+    "creators": ["Awakened_Horus"],
+    "verifier": "noobcoder0",
+    "verification": "https://www.youtube.com/watch?v=s6okpsJxmx4",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "Finally, it's over, I have finished this level. Also to those who play geometry dash levels on scratch, I have spent a good amount of time playing this level to make sure it is possible and has no bugs, I like to make my levels look nice too, you can also enjoy the show while you play, thanks a lot if you even read this if you didn't read this... blin.",
+    "engine": "iPhone",
+    "tags": ["XL","Cube","Ship","Ball","Nerve Control","Endurance","That weird gravity change things where you hug the roof", "Legendary Unc Status"],
+	"hz": "30",
+	"rating": 1,
+    "records": [
+        {
+            "user": "meow_wet",
+            "link": "https://youtu.be/ynRxgiWfwVI",
+            "percent": 100,
+            "hz": 30,
+            "enj": 90
+        },
+		{
+            "user": "antawng2",
+            "link": "https://youtu.be/ZzACqZ0H_BY",
+            "percent": 100,
+            "hz": 30,
+            "enj": 50
+        },
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1PjUsb0tSpLW_46fP3fvqWmvMSRrJA8oB/view",
+			"percent": 100,
+			"hz": 30,
+			"enj": 70
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 30
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/F9Se1s2EUe4?t=207",
+			"percent": 100,
+			"hz": 30,
+			"enj": 60
+		}
+    ]
+}

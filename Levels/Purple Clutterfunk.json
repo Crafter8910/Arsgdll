@@ -1,0 +1,26 @@
+{
+    "id": "1375517029",
+    "name": "Purple Clutterfunk",
+    "author": "aMagentaTurtle",
+    "creators": ["Epickaxe"],
+    "verifier": "aMagentaTurtle",
+    "verification": "https://www.youtube.com/watch?v=MM1NRaPFRN8",
+    "percentToQualify": "67",
+	"demonDifficulty": "Hard Demon",
+    "description": "Pro Tip: Don't go boom<br>-Epickaxe",
+    "engine": "GDR",
+	"tags": ["Cube","Ship"],
+    "rating": 2,
+  	"enj": 60,
+  	"hz":75,
+    "records": [
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/aLm0ts81ih0",
+			"percent": 100,
+			"hz": 60,
+			"enj": 55
+		}
+      
+	] 
+}

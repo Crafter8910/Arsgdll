@@ -1,0 +1,53 @@
+{
+    "id": "1286632263",
+    "name": "Jackalope",
+    "author": "webreserch",
+    "creators": ["webreserch"],
+    "verifier": "coolathagoras",
+    "verification": "https://www.youtube.com/watch?v=RXETUY7foe4",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "This levels eh. Its short & pretty easy but it the gameplay im not a fan of. Im only beating for list points cuz ik its longer than 10 seconds. I beat it in like 20 minutes or so it took me that long cuz I took the coin route & i had to do the unnerfed quad that web put in the level for some reason",
+    "engine": "Pig Dash",
+	"enj": 30,
+  	"hz": 60,
+	"tags": ["Legacy Hitboxes", "Cube", "Ship", "Medium"],
+	"rating": 1,
+    "records": [
+        {
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 30,
+			"enj": 80
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/9b9ASIp-cII",
+			"percent": 100,
+			"hz": 60,
+			"enj": 85
+		},
+        {
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=cINBrglLpNU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 54
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},		
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=sKd1OOFKbBU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		}
+    ]
+}

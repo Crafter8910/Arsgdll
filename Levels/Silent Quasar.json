@@ -1,0 +1,38 @@
+{
+	"id": "1289057294",
+    "name": "Silent Quasar",
+    "author": "STASISteam",
+    "creators": ["daliscreator", "CreativeStegosaur"],
+    "verifier": "Andrey7331",
+    "verification": "https://www.youtube.com/watch?v=I_w1mhHbrKU",
+    "percentToQualify": 65,
+    "demonDifficulty": "Easy Demon",
+    "description": "The first ever Spooky Dash collab, made by Daliscreator and CreativeStegosaur. Once top 1 ILL, now top 1 SDDL.<br><br>'we made a new top 1! maybe someone is going to verify it... later...' - Daliscreator, 2023.</br>",
+    "engine": "Spooky Dash",
+	"tags": ["Ship", "Chokepoints"],
+    "rating": 0,
+    "enj": 20,
+    "records": [
+        {
+			"user": "oopsied",
+            "link": "https://www.youtube.com/watch?v=M-U4Pqega58",
+            "percent": 100,
+            "hz": 30,
+			"enj": 20
+		},
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=Xr1o6NdzMhs",
+            "percent": 100,
+            "hz": 30,
+			"enj": 60
+		},
+        {
+			"user": "ballgoballing",
+            "link": "https://www.youtube.com/watch?v=nfC5tFODLlk",
+            "percent": 100,
+            "hz": 30,
+			"enj": 80
+		}
+    ]
+}

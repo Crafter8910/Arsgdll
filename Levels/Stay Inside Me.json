@@ -1,0 +1,26 @@
+{
+    "codetorchLink": "https://codetorch.net/projects/36440",
+    "name": "Stay Inside Me",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/nlcLYJKRFwI",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "This is the hardest main level yet, be sure to prepare before attempting... ",
+    "engine": "Trigonometry Sprint",
+    "enj": "90",
+    "hz": "30",
+    "tags": ["Cube", "Ship", "Buggy"],
+    "rating": "1",
+    "date": "2026-11-02T03:09:37.089Z",
+    "records": [
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/file/d/1e1QQmAJB47SLoqjfAaGSFDaq3qYso7rz/view?usp=sharing",
+            "percent": 100,
+            "hz": 30,
+            "enj": 50
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+	"id": "992301074",
+	"name": "Crucio X",
+	"author": "geometrydash-creator",
+	"creators": ["geometrydash-creator"],
+	"verifier": "geometrydash-creator",
+	"verification": "https://www.youtube.com/watch?v=aS6Cb9pRVWU",
+	"percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+	"description": "Dolor but twice!?",
+	"engine": "GDR",
+	"tags": ["Cube", "Wave", "Ball", "Medium", "Timings"],
+	"hz": 250,
+	"rating": 1,
+	"records": [
+		{
+			"user": "Previous_crop89",
+			"link": "https://streamable.com/21ucyi",
+			"percent": 100,
+			"hz": 120
+		},
+		{
+			"user": "Themasterd2010",
+			"link": "https://youtu.be/ifk1y75zvW0",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Diage_77",
+			"link": "https://www.youtube.com/watch?v=muB9Er2Q0P8",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "CoolohioGD",
+			"link": "https://www.youtube.com/watch?v=-l04P7p6nmA",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/KWusUpTbD0Y",
+			"percent": 100,
+			"hz": 60,
+			"enj": 78
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://www.image2url.com/r2/default/videos/1776299343360-25b809cc-b838-49aa-80e4-80635fb05867.mov",
+			"percent": 100,
+			"hz": 30,
+			"enj": 100
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=HGViqfFjadU",
+			"percent": 100,
+			"hz": 60,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=-uv3pYn7KCw",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1Fz53IDVlTaXnmyMTCTdeQ0cbY5aEGR6l/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=C0dquIHsuus",
+			"percent": 100,
+			"hz": 120,
+			"enj": 50
+		},
+		{
+            "user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=r9zjx8Fotqs",
+            "percent": 100,
+            "hz": 120,
+            "enj": 80
+        },
+		{
+			"user": "Peneren",
+			"link": "https://youtu.be/2Mvv8E9JFTs?t=128",
+			"percent": 100,
+			"hz": 115,
+			"enj": 90
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/13jPCykYqle9JNQ3ItAf_M06OmHDMztUW?usp=sharing",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 60,
+			"enj": 90
+        },
+		{
+            "user": "C257H383N65O77S6",
+            "link": "https://www.mediafire.com/file/y1rd0tclkkea78a/Crucio_X.mp4/file",
+            "percent": 100,
+            "hz": 60,
+			"enj": 70
+        }
+
+	]
+}

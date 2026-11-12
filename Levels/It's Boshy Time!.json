@@ -1,0 +1,27 @@
+{
+    "itchLink": "https://c0ders0110.itch.io/its-boshy-time",
+    "name": "It's Boshy Time!",
+    "author": "C0DERS0110",
+    "creators": ["C0DERS0110"],
+    "verifier": "C0DERS0110",
+    "verification": "https://www.youtube.com/watch?v=cwAwSYHtRvs",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "hit the button",
+    "engine": "GDR",
+    "enj": "-1.797e+308",
+    "hz": "120",
+    "tags": ["Cube", "Ship", "Ball", "Boshy"],
+    "rating": "2",
+    "date": "2026-11-02T03:03:12.253Z",
+    "records": [
+        {
+          "user": "Semimidgdplayer", 
+          "link": "https://drive.google.com/file/d/1QgGzxrjNywjO0wKcmCmKyWsIG2uDwXO3/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 120, 
+          "enj": 60,
+          "date": "2026-11-02T00:00:00.007Z"
+        }
+    ]
+}

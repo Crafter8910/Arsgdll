@@ -1,0 +1,25 @@
+{
+    "codetorchLink": "https://codetorch.net/projects/36440",
+    "name": "mayo maze",
+    "author": "antawng2",
+    "creators": ["antawng2"],
+    "verifier": "antawng2",
+    "verification": "https://www.youtube.com/watch?v=5aH24x4Wpe0",
+    "percentToQualify": 67,
+    "demonDifficulty": "Easy Demon",
+    "description": "this is a geometry dash recreation made entirely in scratch and its very cool wow you should play it now ",
+    "engine": "Trigonometry Sprint",
+    "enj": 75,
+    "hz": 30,
+    "rating": 1,
+    "records": [
+        {
+          "user": "meow_wet", 
+          "link": "https://youtu.be/TMLxD_S_k4o", 
+          "percent": 100, 
+          "hz": 30, 
+          "enj": 25,
+          "date": "2026-11-05T05:50:58.659Z"
+        }
+    ] 
+}

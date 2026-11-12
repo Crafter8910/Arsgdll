@@ -1,0 +1,32 @@
+{
+    "id": "472035225",
+    "name": "Demons",
+    "author": "VinnieK2008",
+    "creators": ["VinnieK2008"],
+    "verifier": "VinnieK2008",
+    "verification": "https://www.youtube.com/watch?v=hiBA5W4pJKU",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard",
+    "description": "This Is A Level I Made In Scratch! Thus It Has No Level ID In The Real Game.",
+    "engine": "iPhone",
+	"tags": ["Firefox FPS Simulator 2021", "Legendary Unc Status"],
+	"enj": "75",
+	"hz": "25",
+	"rating": 1,
+    "records": [
+		{
+			"user": "meow_wet",
+			"link": "https://www.youtube.com/watch?v=ykJQx_ABOlM",
+			"percent": 100,
+			"hz": 25,
+			"enj": 89.67
+		},
+        {
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/qrY-l2nHLGg",
+			"percent": 100,
+			"hz": 30,
+			"enj": 100
+		}
+    ]
+}

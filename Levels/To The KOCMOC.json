@@ -1,0 +1,53 @@
+{
+	"id": "1362925020",
+    "name": "To The KOCMOC",
+    "author": "That-Panda-Guy",
+    "creators": ["That-Panda-Guy"],
+    "verifier": "That-Panda-Guy",
+    "verification": "https://youtu.be/c7Uk68e7jag?si=dj9-f-ilOprS4kcs",
+    "percentToQualify": 69,
+	"demonDifficulty": "Medium Demon",
+    "engine": "GDR",
+	"description": "VERIFIED: https://www.youtube.com/watch?v=c7Uk68e7jag I used Sweet Escape as a template for this level because idk why",
+	"tags": ["Memory", "Wave", "Cube", "Ship", "Ball", "Spam"],
+	"hz": 60,
+    "rating": 2,
+	"enj": 75,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/O-_BhU-lp88?t=266",
+			"percent": 100,
+			"hz": 60,
+			"enj": 70
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 116.5289,
+			"enj": 60
+		},
+		{
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/vjHIFNsrPRw",
+            "percent": 100,
+            "hz": 60,
+			"enj": 70
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/s1yLKjwFHr8",
+			"percent": 100,
+			"hz": 60
+		},
+        {
+          "user": "definitelyzoink", 
+          "link": "https://www.youtube.com/watch?v=8lqKfGoRqC4", 
+          "percent": 100, 
+          "hz": 60, 
+          "enj": 70,
+          "date": "2026-11-01T22:48:24.789Z"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": "1351944700",
+    "name": "wave thing",
+    "author": "ymc2",
+    "creators": ["ymc2"],
+    "verifier": "ymc2",
+    "verification": "https://www.youtube.com/watch?v=MdamCQPoEEo",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "tap to go up<br>stop tap to go down<br><br>If you want higher fps https://turbowarp.org/1351944700?fps=120",
+    "engine": "Custom",
+	"enj": "100",
+	"hz": "240",
+	"rating": "",
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/az4Tj9uZXMo?t=84",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/A_Uc6N2jq50",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=L6xw5EY-2yk",
+			"percent": 100,
+			"hz": 240,
+			"enj": 70
+		}
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "The Fields of Pink and Gold",
+    "author": "CaptainFlufBall",
+    "creators": ["CaptainFlufBall"],
+    "verifier": "CaptainFlufBall",
+    "verification": "https://www.youtube.com/watch?v=MIIW0G0bMus",
+    "percentToQualify": "56",
+    "demonDifficulty": "Insane Demon",
+    "description": "Remember, if you don't like the level, stop playing, and play a different level.",
+    "engine": "GDH",
+    "tags": ["Spider", "2P", "Robot", "Cube", "Ball", "Ship", "Timings", "Medium"],
+	"hz": 120,
+	"enj": 90,
+    "rating": 3,
+    "2player": true,
+    "records": [
+		{
+			"user": "Captinfireball",
+            "link": "https://drive.google.com/file/d/1KhJHE619evcR28VahDoPESisK0VMk5U3/view?usp=sharing",
+            "percent": 100,
+            "hz": 120,
+			"enj": -91
+        },
+        {
+			"user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/1iQVjngb_hiqOYY8VtwH2p-NAD0hxuQ2I/view",
+            "percent": 100,
+            "hz": 120,
+			"enj": -90
+        },
+		{
+			"user": "thomaslyu",
+            "link": "https://www.youtube.com/watch?v=_B_NAeTC9AM",
+            "percent": 100,
+            "hz": 120,
+			"enj": 91
+        }  
+    ]
+}

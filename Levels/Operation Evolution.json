@@ -1,0 +1,66 @@
+{
+    "id": "1296855662",
+    "name": "Operation: Evolution",
+    "author": "_NewUniverseGD_",
+    "creators": ["_NewUniverseGD_"],
+    "verifier": "thomaslyu",
+    "verification": "https://www.youtube.com/watch?v=KNuVGEevup0",
+    "percentToQualify": "67",
+	"demonDifficulty": "Medium Demon",
+    "description": "camera triggers are awesome :D",
+	"tags": ["Overall", "Chokepoints", "Long"],
+    "engine": "GDR",
+	"hz": 60,
+	"enj": 70,
+    "rating": 1,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=kKORhzdhgSQ",
+            "percent": 100,
+            "hz": 60,
+			"enj": 80
+        },
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=N8vt2918Ijk",
+            "percent": 100,
+            "hz": 60,
+			"enj": 20
+        },
+        {
+            "user": "Kevmaster04",
+            "link": "https://youtu.be/gAAXGtXA1-c",
+            "percent": 100,
+            "hz": 60,
+			"enj": 90
+        },
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=6XsUQmmll4w&t=3159s",
+			"percent": 100,
+			"hz": 120,
+			"enj": 70
+		},
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 79
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+			"percent": 100,
+			"hz": 60
+		},        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 49
+        }
+    ]
+}

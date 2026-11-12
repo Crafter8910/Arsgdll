@@ -1,0 +1,18 @@
+{
+    "id": 533120401,
+    "name": "Second Try",
+    "author": "CaptainFlufBall",
+    "creators": ["CaptainFlufBall"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/MPFBtA9yr1E",
+    "percentToQualify": "67",
+    "demonDifficulty": "Insane",
+    "description": "Now that 2.0 is out, allow me to test this editor again.",
+    "engine": "CFB",
+    "tags": ["XL", "Overall"],
+    "hz": 30,
+    "enj": 60,
+    "rating": 1,
+    "records": [
+    ]
+}

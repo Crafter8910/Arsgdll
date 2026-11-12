@@ -1,0 +1,46 @@
+{
+    "id": "1236559654",
+    "name": "fuck florida man",
+    "author": "coolathagoras",
+    "creators": ["coolathagoras"],
+    "verifier": "coolathagoras",
+    "verification": "https://www.youtube.com/watch?v=dL5wr4d7ePk",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard Demon",
+    "description": "[REDACTED]",
+    "engine": "Pig Dash",
+    "tags": ["Legacy Hitboxes", "Ship", "Memory", "pigpig+ UDP Fix"],
+	"enj": 55,
+	"hz": 240,
+	"rating": 2,
+    "records": [
+		{
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=dXJ5gONUtjw",
+            "percent": 100,
+            "hz": 240,
+			"enj": 80
+        },
+        {
+            "user": "ballgoballing",
+            "link": "https://youtu.be/VVLLXgtp1G4",
+            "percent": 100,
+            "hz": 121,
+			"enj": 40
+        },
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/F9Se1s2EUe4?t=350",
+			"percent": 100,
+			"hz": 120,
+			"enj": 67
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/uUZAvMHu_L4",
+			"percent": 100,
+			"hz": 240,
+			"enj": 60
+		}
+	]
+}

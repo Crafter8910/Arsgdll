@@ -1,0 +1,61 @@
+{
+    "id": "216248368",
+    "name": "Geometry Dash Bloodbath",
+    "author": "Draconyx9898",
+    "creators": ["Draconyx9898"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/akbWk9UKI7Y",
+    "percentToQualify": "67",
+    "demonDifficulty": "Easy Demon",
+    "description": "(please keep the title on the list EXACTLY as i wrote it in the name box) - florida man<br>NO - Ball.",
+    "engine": "iPhone",
+	"tags": ["Long", "Chokepoints", "Legendary Unc Status"],
+    "enj": 75,
+	"hz": 30,
+	"rating": 1,
+    "records": [
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/B5rUunMR0eQ",
+			"mobile": "true",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/P1i--hpsH8A?t=35",
+			"percent": 100,
+			"hz": 30,
+			"enj": 60
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=jpdekzNARJ0",
+			"percent": 100,
+			"hz": 30,
+			"enj": 50
+		},
+		{
+            "user": "CreativeStegosaur",
+            "link": "https://youtu.be/xVH67SI847c",
+            "percent": 100,
+            "hz": 30,
+			"enj": 0
+        },
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/lplizb6uXxE",
+			"percent": 100,
+			"hz": 30
+		},
+        {
+          "user": "Themasterd2010", 
+          "link": "https://youtu.be/c9Bh874c4BA", 
+          "percent": 100, 
+          "hz": 30, 
+          "enj": 10,
+          "date": "2026-09-17T14:01:52.301Z"
+        }
+  	]
+}

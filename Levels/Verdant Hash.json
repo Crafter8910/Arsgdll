@@ -1,0 +1,74 @@
+{
+	"codetorchLink": "https://codetorch.net/en/projects/74821",
+    "name": "Verdant Hash",
+    "author": "meow_wet",
+    "creators": ["meow_wet"],
+    "verifier": "meow_wet",
+    "verification": "https://youtu.be/SiNaKDXbWyM",
+    "percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+    "engine": "GDH",
+	"tags": ["Long", "Gimmicky", "Full Solo"],
+	"description": "newest map idea :)",
+	"hz": 240,
+	"enj": 80,
+	"rating": 2,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=Oa74nJiPA0M",
+			"percent": 100,
+			"hz": 240,
+			"enj": 80
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://www.youtube.com/watch?v=4AkBYmUuaJw",
+			"percent": 100,
+			"hz": 240,
+			"enj": 95
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1FaE9SPCv_OTVPvdt1XLKjfEUAPWsXam9/view?usp=drive_link",
+			"percent": 100,
+			"hz": 240,
+			"enj": 75
+		},
+		{
+			"user": "Peneren",
+			"link": "https://www.youtube.com/watch?v=PaGk1niLULY",
+			"percent": 100,
+			"hz": 120,
+			"enj": 78
+		},
+		{
+			"user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=qVT8677UVAI",
+            "percent": 100,
+            "hz": 120,
+			"enj": 75
+		},
+		{
+			"user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=TF9wzdbpnj4",
+            "percent": 100,
+            "hz": 240,
+			"enj": 90
+		},
+		{
+			"user": "dragonblackX2",
+            "link": "https://youtu.be/lHONlsYhmho",
+            "percent": 100,
+            "hz": 240,
+			"enj": 89
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 240,
+			"enj": 70
+		}
+	]
+}

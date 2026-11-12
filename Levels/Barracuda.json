@@ -1,0 +1,39 @@
+{
+	"itchLink": "https://compy3.itch.io/barracuda",
+    "name": "Barracuda",
+    "author": "compsognathus3",
+    "creators": ["thelevelremaker","compsognathus3"],
+    "verifier": "compsognathus3",
+    "verification": "https://drive.google.com/file/d/19u_n8XlEc3kzqdQZhFKxe7BlBkjkH5hf/view?usp=sharing",
+    "percentToQualify": "67",
+    "description": "<img src='../assets/levels/fish demon.png'>",
+	"demonDifficulty": "Insane Demon",
+	"tags": ["Wave", "Chokepoints", "Nerve Control"],
+    "engine": "GDR",
+	"enj": 75,
+	"rating": 1,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://youtu.be/o3dv_gvMcpY?t=248",
+			"percent": 100,
+			"hz": 120,
+			"enj": 85
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/MIaKkIyd7Ms",
+			"percent": 100,
+			"hz": 110,
+			"enj": 80
+		},
+        {
+          "user": "RandomAmerican7", 
+          "link": "https://youtu.be/hAUnrSVH-3U?si=NUa-kFDXMNJ5iFl8", 
+          "percent": 100, 
+          "hz": 240, 
+          "enj": 0,
+          "date": "2026-10-03T20:38:05.265Z"
+        }
+    ]
+}

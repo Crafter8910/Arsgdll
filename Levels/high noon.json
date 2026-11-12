@@ -1,0 +1,39 @@
+{
+	"itchLink": "https://wallyboom2010.itch.io/high-noon",
+    "name": "high noon",
+    "author": "Wallyboom2010",
+    "creators": ["PlayerEpic86", "Wallyboom2010"],
+    "verifier": "Wallyboom2010",
+    "description": "this took longer than i wanted it to",
+    "verification": "https://www.youtube.com/watch?v=EeXttSvzvzU",
+    "percentToQualify": "67",
+	"demonDifficulty": "Hard Demon",
+	"tags": ["Wave", "Consistency"],
+    "engine": "GDR",
+	"hz": 60,
+	"enj": 50,
+    "rating": 1,
+    "records": [
+		{
+            "user": "Captinfireball",
+            "link": "https://youtu.be/6XsUQmmll4w?t=3034",
+            "percent": 100,
+            "hz": 120,
+            "enj": 50
+        },
+		{
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=636olMlKwTk",
+            "percent": 100,
+            "hz": 120,
+            "enj": -1.843456775e10
+        },        
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+            "percent": 100,
+            "hz": 60,
+            "enj": 40
+        }
+    ]
+}

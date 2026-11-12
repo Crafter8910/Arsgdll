@@ -1,0 +1,29 @@
+{
+    "id": "1268251192",
+    "name": "Angelic Jelly",
+    "author": "_NewUniverseGD_",
+    "creators": ["_NewUniverseGD_"],
+    "verification": "https://www.youtube.com/watch?v=wPGneMlDhtw",
+    "verifier": "Kevmaster04",
+    "percentToQualify": "67",
+    "demonDifficulty": "Medium Demon",
+    "description": "my happiest level?",
+    "engine": "GDR",
+    "rating": 1,
+    "records": [
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+            "percent": 100,
+            "hz": 60,
+            "enj": 70
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://youtu.be/uUZAvMHu_L4",
+            "percent": 100,
+            "hz": 60,
+            "enj": 60
+        }
+    ] 
+}

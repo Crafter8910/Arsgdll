@@ -1,0 +1,142 @@
+{
+    "itchLink": "https://tuxat.itch.io/scratch-tidal-wave",
+    "itchLink2": "https://tuxat.itch.io/scratch-tidal-wave-ldm",
+    "name": "Scratch Tidal Wave",
+    "author": "thomaslyu",
+    "description": "After half a year of work... My 3rd scratch geometry dash level!",
+    "creators": ["thomaslyu"],
+    "verifier": "thomaslyu",
+    "verification": "https://www.youtube.com/watch?v=ihPDCXM68K8",
+    "percentToQualify": "67",
+	"demonDifficulty": "Hard Demon",
+    "engine": "GDR",
+	"tags": ["Wave", "Ship", "Clicksync", "Endurance", "Altered Level", "fun"],
+	"enj": 100,
+	"hz": 60,
+    "rating": 3,
+    "records": [
+        {
+            "user": "RubenChuGD",
+            "link": "https://www.youtube.com/watch?v=gle2mtVTKTg",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "zes2384",
+            "link": "https://www.youtube.com/watch?v=ivyLyZWxOWk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "DerpIsOk",
+            "link": "https://www.youtube.com/watch?v=fANNiWw8yaI",
+            "percent": 100,
+            "mobile": true,
+            "hz": 60
+        },
+        {
+            "user": "Captinfireball",
+            "link": "https://www.youtube.com/watch?v=VtoRbOkUiXw",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "antawng2",
+            "link": "https://www.youtube.com/watch?v=Sw5NxsMg6XY",
+            "percent": 100,
+            "hz": 60,
+			"enj": 85
+        },
+        {
+            "user": "TempestWinds",
+            "link": "https://www.youtube.com/watch?v=ivyLyZWxOWk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Kevmaster04",
+            "link": "https://m.youtube.com/watch?v=Ls2BqH0aN5c&ra=m",
+            "percent": 100,
+            "hz": 60,
+			"enj": 75
+        },
+        {
+            "user": "Wallyboom2010",
+            "link": "https://www.youtube.com/watch?v=yB_DQxxzYkE",
+            "percent": 100,
+            "hz": 60,
+			"enj": 90
+        },
+        {
+            "user": "cross1508",
+            "link": "https://www.youtube.com/watch?v=a9tdXeBuOwE",
+            "percent": 100,
+            "hz": 120,
+			"enj": 95
+        },
+        {
+            "user": "compsognathus3",
+            "link": "https://drive.google.com/file/d/14OvYOodSmiOk6wXEImaSpsGGKgd9OuCQ/view",
+            "percent": 100,
+            "hz": 240,
+			"enj": 86.70
+        },
+		{
+            "user": "gooomboo",
+            "link": "https://www.youtube.com/watch?v=8X0z4CrgbiA",
+            "percent": 100,
+            "hz": 60
+        },
+		{
+            "user": "That-Panda-Guy",
+            "link": "https://www.youtube.com/watch?v=HvTX7nh6DqA",
+            "percent": 72,
+            "hz": 60
+        },
+		{
+			"user": "Semidecentgdplayer",
+			"link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+		{
+			"user": "C0DERS0110",
+			"link": "https://www.youtube.com/watch?v=2FvCQmHU6vE",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://canva.link/lg8iv3i1btq3t05",
+			"percent": 100,
+			"hz": 60,
+			"enj": "∞"
+		},
+        {
+            "user": "aMagentaTurtle",
+            "link": "https://www.youtube.com/shorts/iG1dZlpfq18",
+            "percent": 100,
+			"hz": 60,
+			"enj": 90
+
+        },
+        {
+            "user": "Semimidgdplayer",
+            "link": "https://drive.google.com/file/d/1NqAlvhg2_awO4J9U_ET_UF9iEPRH9bbd/view?usp=sharing",
+            "percent": 100,
+			"hz": 60,
+			"enj": 95
+
+        },
+        {
+            "user": "C257H383N65O77S6",
+            "link": "https://www.mediafire.com/file/f6snd2kgob8npf4/Scratch_Tidal_Wave_100%2525.mp4/file",
+            "percent": 100,
+			"hz": 60,
+			"enj": 50
+        }
+
+    ]
+}

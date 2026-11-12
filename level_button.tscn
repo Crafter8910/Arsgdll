@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://dk0cgmcub0slf"]
+
+[ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://level_button.gd" id="1_k6cd2"]
+[ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://thumbnail.gd" id="2_j8bpn"]
+[ext_resource type="Texture2D" uid="uid://cm0sw41a8uk40" path="res://Thumbnails/Ball's Top 1.png" id="2_shs6u"]
+
+[node name="LevelButton" type="Button" unique_id=957402781]
+offset_top = -2.9999995
+offset_right = 299.59998
+offset_bottom = 55.799995
+scale = Vector2(50, 50)
+text = "            "
+alignment = 0
+script = ExtResource("1_k6cd2")
+
+[node name="Nameofthelevel" type="Label" parent="." unique_id=667693780]
+layout_mode = 0
+offset_left = 35.400032
+offset_top = 11.399999
+offset_right = 232.40002
+offset_bottom = 34.399998
+text = "Theory of continuity"
+
+[node name="Position" type="Label" parent="." unique_id=447612275]
+layout_mode = 0
+offset_top = 1.2
+offset_right = 20.0
+offset_bottom = 59.6
+theme_override_font_sizes/font_size = 14
+text = "#1"
+vertical_alignment = 1
+
+[node name="Author" type="Label" parent="." unique_id=161009795]
+layout_mode = 0
+offset_left = 37.400005
+offset_top = 34.199993
+offset_right = 118.40001
+offset_bottom = 57.199993
+theme_override_font_sizes/font_size = 15
+text = "GWATeam"
+
+[node name="Rating" type="Label" parent="." unique_id=98808866]
+layout_mode = 0
+offset_left = 230.40004
+offset_top = 21.799997
+offset_right = 297.2
+offset_bottom = 35.75833
+theme_override_font_sizes/font_size = 10
+text = "feature"
+horizontal_alignment = 2
+
+[node name="Thumbnail" type="Sprite2D" parent="." unique_id=1387221007]
+z_index = -1
+position = Vector2(149.2, 31.2)
+scale = Vector2(0.27278212, 0.27110732)
+texture = ExtResource("2_shs6u")
+region_enabled = true
+region_rect = Rect2(0, 0, 1099.979, 210.672)
+script = ExtResource("2_j8bpn")
+Region = Rect2(0, 0, 1100, 210)
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

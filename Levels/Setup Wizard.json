@@ -1,0 +1,25 @@
+{
+    "id": "1367422445",
+    "name": "Setup Wizard",
+    "author": "CreativeStegosaur",
+    "creators": ["CreativeStegosaur"],
+    "verifier": "ballgoballing",
+    "verification": "https://youtu.be/hAIAOMVm5O8",
+    "percentToQualify": "69",
+    "demonDifficulty": "Easy Demon",
+    "description": "Hopefully my last SGD level...",
+    "engine": "Spooky Dash",
+	"tags": ["Ship", "Cube", "Dreamcore", "Timings"],
+	"hz": 30,
+    "enj": 80,
+    "rating": 2,
+    "records": [
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+			"percent": 100,
+			"hz": 30,
+			"enj": 70
+		}
+    ]
+}

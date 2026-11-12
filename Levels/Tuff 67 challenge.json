@@ -1,0 +1,17 @@
+{
+    "id": "1241149250",
+    "name": "Tuff 67 challenge",
+    "author": "zillin",
+    "creators": ["_NewUniverseGD_"],
+    "verifier": "Kevmaster04",
+    "verification": "https://youtu.be/TQPfWigTSXw",
+    "percentToQualify": "67",
+    "demonDifficulty": "67 Demon",
+    "description": "67",
+    "engine": "GDR",
+	  "hz": "60",
+	  "tags": ["example:", "Wave", "medium", "Dual", "boring"],
+	  "rating": "1",
+    "records": [
+    ]
+}

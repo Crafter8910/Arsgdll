@@ -1,0 +1,67 @@
+{
+	"id": "1227956464",
+	"name": "love.",
+	"author": "ruasogetSevitaerC",
+	"creators": ["CreativeStegosaur"],
+	"verifier": "thomaslyu",
+	"verification": "https://www.youtube.com/watch?v=a54fPLsz5Ag",
+	"percentToQualify": "100",
+	"demonDifficulty": "love Demon",
+	"description": "love.",
+	"engine": "Spooky Dash",
+	"tags": ["Cube", "Ship", "Consistency", "Timings", "pink", "Multilap", "Corridor"],
+	"enj": 70,
+	"hz": 30,
+	"rating": 2,
+	"records": [
+		{
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=-lTyJFe5M40",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},
+		{
+			"user": "Nullshift",
+			"link": "https://www.image2url.com/r2/default/videos/1776269033496-38fccdbb-d63e-4e19-bac8-1e2cf510b7ee.mp4",
+			"percent": 100,
+			"hz": 30,
+			"enj": 30
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://youtu.be/6XsUQmmll4w?t=2740",
+			"percent": 100,
+			"hz": 30,
+			"enj": 50
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1iiGtUDWppfal3Ub1LDnJ06YIdYltEFyS",
+			"percent": 100,
+			"hz": 30,
+			"enj": 40
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=nizl3UH_ISs",
+			"percent": 100,
+			"hz": 30,
+			"enj": 67.41
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=K8wwEJi9w7g",
+			"percent": 100,
+			"hz": 30,
+			"enj": 80
+		},        
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 60,
+			"enj": 70
+		}
+	]
+}
