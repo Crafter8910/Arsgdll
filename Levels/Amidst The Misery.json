@@ -1,36 +1,36 @@
 {
-    "id": "957121214",
-    "name": "Amidst The Misery",
-    "author": "Takayukihiro",
-    "creators": ["Takayukihiro"],
-    "verifier": "Captinfireball",
-    "verification": "https://www.youtube.com/watch?v=pszSZpmnhpQ",
-    "percentToQualify": "67",
+	"id": "957121214",
+	"name": "Amidst The Misery",
+	"author": "Takayukihiro",
+	"creators": ["Takayukihiro"],
+	"verifier": "Captinfireball",
+	"verification": "https://www.youtube.com/watch?v=pszSZpmnhpQ",
+	"percentToQualify": "67",
 	"demonDifficulty": "Medium Demon",
-    "description": "You know what? I think I made this too easy... Despite the troubles, will you find light? Or will you lose in despair amidst this misery?",
-    "engine": "GDR",
+	"description": "You know what? I think I made this too easy... Despite the troubles, will you find light? Or will you lose in despair amidst this misery?",
+	"engine": "GDR",
 	"tags": ["Overall", "Wave", "Timings", "Medium", "Chokepoints", "Altered Level"],
-    "rating": 2,
-    "records": [
-        {
-            "user": "thomaslyu",
-            "link": "https://www.youtube.com/watch?v=BWnnDv69qiw",
-            "percent": 100,
-            "hz": 60,
+	"rating": 2,
+	"records": [
+		{
+			"user": "thomaslyu",
+			"link": "https://www.youtube.com/watch?v=BWnnDv69qiw",
+			"percent": 100,
+			"hz": 60,
 			"enj": 70
-        },
-        {
-            "user": "compsognathus3",
-            "link": "https://drive.google.com/file/d/1VGKQbFlPwkyXFRJ7n9HwIBXByaefnjNY/view",
-            "percent": 100,
-            "hz": 240,
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1VGKQbFlPwkyXFRJ7n9HwIBXByaefnjNY/view",
+			"percent": 100,
+			"hz": 240,
 			"enj": 70
-        },
+		},
 		{
 			"user": "antawng2",
-            "link": "https://www.youtube.com/watch?v=_f_z6OZ3oKw",
-            "percent": 100,
-            "hz": 120,
+			"link": "https://www.youtube.com/watch?v=_f_z6OZ3oKw",
+			"percent": 100,
+			"hz": 120,
 			"enj": 1.49999999
 		},
 		{
@@ -40,12 +40,12 @@
 			"hz": 60,
 			"enj": 67
 		},        
-        {
-            "user": "Semimidgdplayer",
-            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
-            "percent": 100,
-            "hz": 60,
-            "enj": 55
-        }
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 60,
+			"enj": 55
+		}
 	] 
 }

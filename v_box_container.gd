@@ -12,9 +12,11 @@ func _ready() -> void:
 	#loadleveldata("Shattered Cityscape")
 	var data = getdata("List.json")
 	for i in data.size():
+		#For every level in the list data, creating a button for it and load all the stuff
 		var level = levelbutton.instantiate()
 		var leveldata = getdata("res://Levels/" + str(data[i]) + ".json")
 		var creatorstring : String
+		
 		for creator in leveldata["creators"]:
 			if creatorstring != '':
 				creatorstring += ", "
@@ -33,6 +35,7 @@ func _ready() -> void:
 		add_child(level)
 	add_child(preload("res://the_empty_space.tscn").instantiate())
 func getdata(filename : String):
+	#Gets the data based on the file name
 	if filename.contains("love"):
 		print(filename)
 	filename.replace("love_", "love.")
@@ -43,7 +46,15 @@ func getdata(filename : String):
 	return json.data #the json.data part was 'ai' after searching up how to retrieve json data
 func loadleveldata(Levelname: String):
 	#if levelbeingloaded != Levelname:
-	
+			
+			
+			#Gets all the data,
+			#and sets the LevelDescription node's nodes (leveldesc is the var for it)
+			#to have all the properties that correspond
+			
+			
+			
+			
 			window.popup()
 			var leveldata = getdata("res://Levels/" + Levelname + ".json")
 			var list : Array = getdata("res://List.json")
@@ -62,6 +73,30 @@ func loadleveldata(Levelname: String):
 			window.title = Levelname
 			window.updateiframe(leveldata["verification"])
 			leveldesc.get_node("Levelname").text = Levelname
+			if leveldata.has("id"):
+				leveldesc.get_node("Scratch").show()
+				leveldesc.get_node("Turbowarp").show()
+				leveldesc.ScratchLink = "https://scratch.mit.edu/projects/" + leveldata["id"]
+				leveldesc.TurbowarpLink = "https://turbowarp.org/" + leveldata["id"]
+			else:
+				leveldesc.get_node("Turbowarp").hide()
+				leveldesc.get_node("Scratch").hide()
+			if leveldata.has("itchLink"):
+				leveldesc.get_node("Itch").show()
+				leveldesc.ItchLink = leveldata["itchLink"]
+			else:
+				leveldesc.get_node("Itch").hide()
+			if leveldata.has("codetorchLink"):
+				leveldesc.get_node("Codetorch").show()
+				leveldesc.CodetorchLink = leveldata["codetorchLink"]
+			else:
+				leveldesc.get_node("Codetorch").hide()
+			if leveldata.has("itchLink2"):
+				leveldesc.get_node("LDM").show()
+				leveldesc.LDMLink = leveldata["itchLink2"]
+			else:
+				leveldesc.get_node("LDM").hide()
+				
 			if leveldata.has("enj"):
 				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " +str(int(leveldata["enj"]))
 			else:

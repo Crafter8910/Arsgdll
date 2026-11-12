@@ -5,18 +5,21 @@ var scale
 var y
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	hide() # Replace with function body.
-		#if (rect.width / rect.height > aspectratio) {
-		#		height = rect.height * 0.26;
-		#		width = height * aspectratio;
-		#	} else {
+	hide()
+	#it hides
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	x = int($X.text)
+	#x 
 	y = int($Y.text)
+	#y
 	scale = float($Scale.text)
+	#scale
+	#all 3 of these correlates to the nodes beneath it bc i was using it before for bug tesitng
 	position = Vector2(200,50)
+	#position
+	#Creates an iframe as a javascript
 	var js = """
 		var element = document.getElementById('video');
 		var canvas = document.getElementById('canvas');
@@ -42,9 +45,11 @@ func _process(delta: float) -> void:
 		""" % [scale, scale, x, y]
 		#function that updates iframe
 	JavaScriptBridge.eval(js, true)
+	#This just runs javascript
 
 func _on_close_requested() -> void:
 	print("close iframe")
+	#Deletes the iframe
 	if OS.has_feature("web"):
 		JavaScriptBridge.eval("""
 		var element = document.getElementById('video');
@@ -66,5 +71,6 @@ func updateiframe(url):
 		element.src = '%s';
 		element.style.position = 'absolute';
 		""" % [url]
+	#Updates the actual source/url but not any properties, badly named oopsied
 		#function that updates iframe
 	JavaScriptBridge.eval(js, true)

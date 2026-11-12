@@ -1,39 +1,39 @@
 {
-    "id": "1246571403",
-    "name": "B R A I N S P A C E",
-    "author": "ballgoballing",
-    "creators": ["dragonblackX2"],
-    "verifier": "awu3248",
-    "verification": "https://www.youtube.com/watch?v=r0SmEqrwv6w",
-    "percentToQualify": "67",
-    "demonDifficulty": "Easy Demon",
-    "description": "Sorry it took so long but here it is B R A I N S P A C E verified, kinda short but I like it!",
+	"id": "1246571403",
+	"name": "B R A I N S P A C E",
+	"author": "ballgoballing",
+	"creators": ["dragonblackX2"],
+	"verifier": "awu3248",
+	"verification": "https://www.youtube.com/watch?v=r0SmEqrwv6w",
+	"percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+	"description": "Sorry it took so long but here it is B R A I N S P A C E verified, kinda short but I like it!",
 	"tags": ["Memory", "yea", "Legacy Hitboxes"],
-    "engine": "Pig Dash",
+	"engine": "Pig Dash",
 	"hz": 120,
 	"rating": 2,
-    "records": [
-        {
-            "user": "coolathagoras",
-            "link": "https://www.youtube.com/watch?v=q4qni3a6CoA&t=155s",
-            "percent": 100,
-            "hz": 30,
+	"records": [
+		{
+			"user": "coolathagoras",
+			"link": "https://www.youtube.com/watch?v=q4qni3a6CoA&t=155s",
+			"percent": 100,
+			"hz": 30,
 			"enj": 72
-        },
-        {
-            "user": "ballgoballing",
-            "link": "https://www.youtube.com/watch?v=lzxdycwBYzc",
-            "percent": 100,
-            "hz": 250,
+		},
+		{
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=lzxdycwBYzc",
+			"percent": 100,
+			"hz": 250,
 			"enj": 80
-        },
-        {
-            "user": "cross1508",
-            "link": "https://www.youtube.com/watch?v=05zYUDPLSrs",
-            "percent": 100,
-            "hz": 60,
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=05zYUDPLSrs",
+			"percent": 100,
+			"hz": 60,
 			"enj": 80
-        },
+		},
 		{
 			"user": "sh3lt0n",
 			"link": "https://www.youtube.com/watch?v=sDu_w8_rKSs",
@@ -81,14 +81,14 @@
 			"percent": 100,
 			"hz": 60
 		},
-        {
-          "user": "what_a_name1", 
-          "link": "https://drive.google.com/file/d/18EsYCz5STnKeO9giehryQiDDdxma_u7M/view?usp=sharing", 
-          "percent": 100, 
-          "hz": 60, 
-          "enj": 90,
-          "date": "2026-10-19T15:23:28.838Z"
-        },
+		{
+		  "user": "what_a_name1", 
+		  "link": "https://drive.google.com/file/d/18EsYCz5STnKeO9giehryQiDDdxma_u7M/view?usp=sharing", 
+		  "percent": 100, 
+		  "hz": 60, 
+		  "enj": 90,
+		  "date": "2026-10-19T15:23:28.838Z"
+		},
 		{
 			"user": "Semimidgdplayer",
 			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
@@ -96,5 +96,5 @@
 			"hz": 60,
 			"enj": 70
 		}
-    ] 
+	] 
 }

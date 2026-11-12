@@ -1,31 +1,31 @@
 {
 	"id": "1040776993",
-    "name": "[CREEPY WORD HERE]",
-    "author": "justformemes2021",
-    "creators": ["justformemes2021"],
-    "verifier": "justformemes2021",
-    "verification": "https://www.youtube.com/watch?v=nYUEh8IaZ1c",
-    "percentToQualify": "100",
+	"name": "[CREEPY WORD HERE]",
+	"author": "justformemes2021",
+	"creators": ["justformemes2021"],
+	"verifier": "justformemes2021",
+	"verification": "https://www.youtube.com/watch?v=nYUEh8IaZ1c",
+	"percentToQualify": "100",
 	"demonDifficulty": "Easy Demon",
-    "engine": "GDR",
+	"engine": "GDR",
 	"description": "thank you squeeg for telling me the guy who made this also verified it idk how genuinely nobody knew this",
 	"tags": ["Short", "Timings", "Ship"],
 	"hz": 30,
 	"rating": 1,
-    "records": [
+	"records": [
 		{
 			"user": "Acc0unt_GD",
 			"link": "https://www.youtube.com/watch?v=PiNjQ7rQQMg",
 			"percent": 100,
 			"hz": 60
 		},
-        {
-            "user": "Peneren",
-            "link": "https://youtu.be/2Mvv8E9JFTs?t=353",
-            "percent": 100,
-            "hz": 240,
-            "enj": 90
-        },
+		{
+			"user": "Peneren",
+			"link": "https://youtu.be/2Mvv8E9JFTs?t=353",
+			"percent": 100,
+			"hz": 240,
+			"enj": 90
+		},
 		{
 			"user": "CreativeStegosaur",
 			"link": "https://youtu.be/LqNRPHFENoI",
@@ -88,13 +88,13 @@
 			"hz":  30,
 			"enj": 100
 		},
-        {
-          "user": "definitelyzoink", 
-          "link": "https://www.youtube.com/watch?v=8X8QvcZW_vE", 
-          "percent": 100, 
-          "hz": 60, 
-          "enj": 87,
-          "date": "2026-10-29T19:58:18.736Z"
-        }
-    ]
+		{
+		  "user": "definitelyzoink", 
+		  "link": "https://www.youtube.com/watch?v=8X8QvcZW_vE", 
+		  "percent": 100, 
+		  "hz": 60, 
+		  "enj": 87,
+		  "date": "2026-10-29T19:58:18.736Z"
+		}
+	]
 }

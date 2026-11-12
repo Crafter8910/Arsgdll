@@ -1,50 +1,50 @@
 {
 	"itchLink": "https://wallyboom2010.itch.io/cobwebss",
 	"itchLink2": "https://wallyboom2010.itch.io/uldm",
-    "name": "Cobwebs",
-    "author": "Wallyboom2010",
-    "creators": ["Wallyboom2010"],
-    "verifier": "thomaslyu",
-    "description": "<img src='../assets/levels/web demon.png'>",
-    "verification": "https://www.youtube.com/watch?v=7j_AEqG3rlk",
-    "percentToQualify": "67",
+	"name": "Cobwebs",
+	"author": "Wallyboom2010",
+	"creators": ["Wallyboom2010"],
+	"verifier": "thomaslyu",
+	"description": "<img src='../assets/levels/web demon.png'>",
+	"verification": "https://www.youtube.com/watch?v=7j_AEqG3rlk",
+	"percentToQualify": "67",
 	"demonDifficulty": "Insane Demon",
-    "tags": ["Wave", "Chokepoints", "Timings", "Nerve Control", "Short"],
-    "engine": "GDR",
+	"tags": ["Wave", "Chokepoints", "Timings", "Nerve Control", "Short"],
+	"engine": "GDR",
 	"enj": 100,
 	"hz": 120,
-    "rating": 3,
-    "records": [
+	"rating": 3,
+	"records": [
 		{
-            "user": "Wallyboom2010",
-            "link": "https://www.youtube.com/watch?v=pM0mgXSF73I",
-            "percent": 100,
-            "hz": 120,
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=pM0mgXSF73I",
+			"percent": 100,
+			"hz": 120,
 			"enj": 70,
 			"date": "2026-03-16T00:00:00.000Z"
-        },
-	    {
-            "user": "unruffled",
-            "link": "https://www.youtube.com/watch?v=7rSs33B-HGE",
-            "percent": 100,
-            "hz": 120,
-			"date": "2026-03-21T00:00:00.000Z"
-        },
+		},
 		{
-            "user": "antawng2",
-            "link": "https://www.youtube.com/watch?v=tzITuHFCdas",
-            "percent": 100,
-            "hz": 120,
+			"user": "unruffled",
+			"link": "https://www.youtube.com/watch?v=7rSs33B-HGE",
+			"percent": 100,
+			"hz": 120,
+			"date": "2026-03-21T00:00:00.000Z"
+		},
+		{
+			"user": "antawng2",
+			"link": "https://www.youtube.com/watch?v=tzITuHFCdas",
+			"percent": 100,
+			"hz": 120,
 			"enj": 90,
 			"date": "2026-03-21T01:00:00.000Z"
-        },
-        {
-            "user": "cross1508",
-            "link": "https://www.youtube.com/watch?v=FAMC5pzcCq4",
-            "percent": 92,
-            "hz": 120,
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=FAMC5pzcCq4",
+			"percent": 92,
+			"hz": 120,
 			"date": "2025-12-01T00:00:00.000Z"
-        },
+		},
 		{
 			"user": "Captinfireball",
 			"link": "https://www.youtube.com/watch?v=6XsUQmmll4w&t=4147s",
@@ -52,13 +52,13 @@
 			"hz": 120,
 			"enj": 70
 		},
-        {
-            "user": "compsognathus3",
+		{
+			"user": "compsognathus3",
 			"link": "https://drive.google.com/file/d/1asbGDuIYKy3n99YslKdLDamQx7dqTe5z/view?usp=sharing",
 			"percent": 84,
 			"hz": 60
-            
-        },
+			
+		},
 		{
 			"user": "Kevmaster04",
 			"link": "https://youtu.be/Lj27dHXurgg",
@@ -66,27 +66,27 @@
 			"hz": 60,
 			"enj": 75
 		},
-        {
-            "user": "Semimidgdplayer",
-            "link": "https://drive.google.com/file/d/1VXKjoB0R900rywSFV9GAF0TEGYMx8aPk/view?usp=sharing",
-            "percent": 100,
-            "hz": 110
-        },
-        {
-          "user": "RandomAmerican7", 
-          "link": "https://youtu.be/ejJNwZ9h7WU", 
-          "percent": 100, 
-          "hz": 120, 
-          "enj": 80,
-          "date": "2026-10-03T20:35:57.804Z"
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/file/d/1VXKjoB0R900rywSFV9GAF0TEGYMx8aPk/view?usp=sharing",
+			"percent": 100,
+			"hz": 110
 		},
-        {
-          "user": "C257H383N65O77S6", 
-          "link": "https://www.mediafire.com/file/o8ihzryhrjn6nyo/Cobwebs_100%2525.mp4/file", 
-          "percent": 100, 
-          "hz": 120, 
-          "enj": 45,
-          "date": "2026-10-30T03:51:57.680Z"
-        }
-    ]
+		{
+		  "user": "RandomAmerican7", 
+		  "link": "https://youtu.be/ejJNwZ9h7WU", 
+		  "percent": 100, 
+		  "hz": 120, 
+		  "enj": 80,
+		  "date": "2026-10-03T20:35:57.804Z"
+		},
+		{
+		  "user": "C257H383N65O77S6", 
+		  "link": "https://www.mediafire.com/file/o8ihzryhrjn6nyo/Cobwebs_100%2525.mp4/file", 
+		  "percent": 100, 
+		  "hz": 120, 
+		  "enj": 45,
+		  "date": "2026-10-30T03:51:57.680Z"
+		}
+	]
 }

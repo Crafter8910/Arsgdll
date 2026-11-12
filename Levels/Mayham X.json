@@ -1,38 +1,38 @@
 {
-    "id": "1246571403",
-    "name": "Mayham X",
-    "author": "ballgoballing",
-    "creators": ["chipm0nk", "wintermelonboss","oopsied"],
-    "verifier": "coolathagoras",
-    "verification": "https://www.youtube.com/watch?v=c-aqOZAq0b8",
-    "percentToQualify": "67",
-    "demonDifficulty": "Easy Demon",
-    "description": "Buffed version of Mayham",
-    "legacy": true,
-    "engine": "Pig Dash",
+	"id": "1246571403",
+	"name": "Mayham X",
+	"author": "ballgoballing",
+	"creators": ["chipm0nk", "wintermelonboss","oopsied"],
+	"verifier": "coolathagoras",
+	"verification": "https://www.youtube.com/watch?v=c-aqOZAq0b8",
+	"percentToQualify": "67",
+	"demonDifficulty": "Easy Demon",
+	"description": "Buffed version of Mayham",
+	"legacy": true,
+	"engine": "Pig Dash",
 	"tags": ["Cube", "Ship", "Legacy Hitboxes"],
 	"hz": 30,
-    "rating": 1,
-    "records": [
-        {
-            "user": "awu3248",
-            "link": "https://www.youtube.com/watch?v=OLpAUu-SI5E",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "cross1508",
-            "link": "https://www.youtube.com/watch?v=nICbuwihcJU",
-            "percent": 100,
-            "hz": 60,
+	"rating": 1,
+	"records": [
+		{
+			"user": "awu3248",
+			"link": "https://www.youtube.com/watch?v=OLpAUu-SI5E",
+			"percent": 100,
+			"hz": 60
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=nICbuwihcJU",
+			"percent": 100,
+			"hz": 60,
 			"enj": 80
-        },
-        {
-            "user": "ballgoballing",
-            "link": "https://www.youtube.com/watch?v=-1jrGZvL9tg",
-            "percent": 100,
-            "hz": 60
-        },
+		},
+		{
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=-1jrGZvL9tg",
+			"percent": 100,
+			"hz": 60
+		},
 		{
 			"user": "Wallyboom2010",
 			"link": "https://www.youtube.com/watch?v=GLS3Sv7_tfQ",
@@ -53,13 +53,13 @@
 			"percent": 100,
 			"hz": 60
 		},
-    	{
-     	    "user": "Captinfireball",
-            "link": "https://youtu.be/6XsUQmmll4w?t=757",
-            "percent": 100,
-            "hz": 60,
+		{
+	 		"user": "Captinfireball",
+			"link": "https://youtu.be/6XsUQmmll4w?t=757",
+			"percent": 100,
+			"hz": 60,
 			"enj": 50
-        },
+		},
 		{
 			"user": "Kevmaster04",
 			"link": "https://youtu.be/S6fvHUiqdwU",
@@ -88,12 +88,12 @@
 			"hz": 60
 		},
 		{
-            "user": "CreativeStegosaur",
-            "link": "https://youtu.be/vjHIFNsrPRw",
-            "percent": 100,
-            "hz": 60,
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/vjHIFNsrPRw",
+			"percent": 100,
+			"hz": 60,
 			"enj": 50
-        },
+		},
 		{
 			"user": "Vernalstick",
 			"link": "https://www.youtube.com/watch?v=nKq3lcEOQ7M",
@@ -102,5 +102,5 @@
 			"date": "2026-09-21T16:52:34.876Z"
 		}
 
-    ]
+	]
 }

@@ -1,18 +1,18 @@
 {
-    "itchLink": "https://crafter8910.itch.io/nasa-super-computer",
+	"itchLink": "https://crafter8910.itch.io/nasa-super-computer",
 	"itchLink2": "https://crafter8910.itch.io/nsc-ldm",
-    "name": "NASA SUPER COMPUTER",
-    "author": "Semimidgdplayer",
-    "creators": ["Semimidgdplayer"],
-    "verifier": "Semimidgdplayer",
-    "verification": "https://drive.google.com/file/d/1bvT20n4UqIT4P9kh0Mfm4iYt7qzZWFe0/view?usp=sharing",
-    "percentToQualify": "67",
+	"name": "NASA SUPER COMPUTER",
+	"author": "Semimidgdplayer",
+	"creators": ["Semimidgdplayer"],
+	"verifier": "Semimidgdplayer",
+	"verification": "https://drive.google.com/file/d/1bvT20n4UqIT4P9kh0Mfm4iYt7qzZWFe0/view?usp=sharing",
+	"percentToQualify": "67",
 	"demonDifficulty": "Medium Demon",
-    "description": "Rip computer",
-    "engine": "GDR",
+	"description": "Rip computer",
+	"engine": "GDR",
 	"tags": ["Cube", "Ship", "Wave", "Short", "Timings", "Endurance", "Nerve Control", "Laggy", "What the fuck"],
-    "rating": 2,
-    "records": [
+	"rating": 2,
+	"records": [
 		{
 			"user": "Wallyboom2010",
 			"link": "https://youtu.be/P1i--hpsH8A?t=137",
@@ -27,5 +27,5 @@
 			"hz": 120,
 			"enj": 0
 		}
-    ] 
+	] 
 }

@@ -1,60 +1,60 @@
 {
-    "id": "1000401283",
-    "name": "CORRUPT3D_N3BULA",
-    "author": "Takayukihiro",
-    "creators": ["Takayukihiro"],
-    "verifier": "Captinfireball",
-    "verification": "https://www.youtube.com/watch?v=LjXWSQkP9Cs",
-    "percentToQualify": "67",
+	"id": "1000401283",
+	"name": "CORRUPT3D_N3BULA",
+	"author": "Takayukihiro",
+	"creators": ["Takayukihiro"],
+	"verifier": "Captinfireball",
+	"verification": "https://www.youtube.com/watch?v=LjXWSQkP9Cs",
+	"percentToQualify": "67",
 	"demonDifficulty": "Medium Demon",
-    "description": "made 4 captinfireball",
+	"description": "made 4 captinfireball",
 	"tags": ["UFO", "Ship", "Chokepoints", "Medium"],
-    "engine": "GDR",
+	"engine": "GDR",
 	"hz": 60,
-    "rating": 2,
-    "records": [
-        {
-            "user": "thomaslyu",
-            "link": "https://www.youtube.com/watch?v=PE8DCLnjY1U",
-            "percent": 100,
-            "hz": 60,
-			"enj": 90
-        },
-        {
-            "user": "DerpIsOk",
-            "link": "https://www.youtube.com/watch?v=k18biyysxo0",
-            "percent": 100,
-            "mobile": "true",
-            "hz": 60
-        },
-        {
-            "user": "cross1508",
-            "link": "https://www.youtube.com/watch?v=64i1qthvFds",
-            "percent": 100,
-            "hz": 120,
-			"enj": 60
-        },
-        {
-            "user": "Wallyboom2010",
-            "link": "https://www.youtube.com/watch?v=Cs7DHPIi2kE",
-            "percent": 100,
-            "hz": 120,
-			"enj": 70
-        },
-        {
-            "user": "compsognathus3",
-            "link": "https://drive.google.com/file/d/1LmhR7G9ZaQ8pzxcnDe_b46JfCvkVY1Dn/view",
-            "percent": 100,
-            "hz": 240,
-			"enj": 73.56
-        },
+	"rating": 2,
+	"records": [
 		{
-            "user": "antawng2",
-            "link": "https://www.youtube.com/watch?v=7keNviJvlIk",
-            "percent": 100,
-            "hz": 120,
+			"user": "thomaslyu",
+			"link": "https://www.youtube.com/watch?v=PE8DCLnjY1U",
+			"percent": 100,
+			"hz": 60,
+			"enj": 90
+		},
+		{
+			"user": "DerpIsOk",
+			"link": "https://www.youtube.com/watch?v=k18biyysxo0",
+			"percent": 100,
+			"mobile": "true",
+			"hz": 60
+		},
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=64i1qthvFds",
+			"percent": 100,
+			"hz": 120,
+			"enj": 60
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=Cs7DHPIi2kE",
+			"percent": 100,
+			"hz": 120,
+			"enj": 70
+		},
+		{
+			"user": "compsognathus3",
+			"link": "https://drive.google.com/file/d/1LmhR7G9ZaQ8pzxcnDe_b46JfCvkVY1Dn/view",
+			"percent": 100,
+			"hz": 240,
+			"enj": 73.56
+		},
+		{
+			"user": "antawng2",
+			"link": "https://www.youtube.com/watch?v=7keNviJvlIk",
+			"percent": 100,
+			"hz": 120,
 			"enj": 30
-        },
+		},
 		{
 			"user": "Kevmaster04",
 			"link": "https://youtu.be/doAbA11pJZA",
@@ -76,12 +76,12 @@
 			"hz": 60,
 			"enj": 70
 		},        
-        {
-            "user": "Semimidgdplayer",
-            "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
-            "percent": 100,
-            "hz": 60,
-            "enj": 60
-        }
-    ]
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100,
+			"hz": 60,
+			"enj": 60
+		}
+	]
 }

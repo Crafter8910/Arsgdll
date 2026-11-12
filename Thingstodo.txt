@@ -1,0 +1,705 @@
+1. Add demon difficulties to the diff/rate folder
+2. Add all the rating bgs
+3. Add all these levels
+digits 1/2 = last two digits of year
+digit 3 = month (1-9, then a/b/c for the last three)
+digit 4 = engine (list below)
+digit 5 = quality rating (also list below)
+
+
+Engines :
+
+0 = Griffpatch
+1 = iPhone Editor
+2 = TongHong
+3 = Compacted Editor
+4 = CaptainFlufBall (CFB)
+5 = Egg Dash
+6 = Spooky Dash
+7 = Pig Dash
+8 = Geometry Dash Revamped
+9 = Trigonometry Sprint
+A = Geometry Dash Innovated
+
+Quality Ratings :
+
+0 = Basic (basically no star from ball and dao list)
+1 = Standard (star rate)
+2 = Featured
+3 = Epic
+4 = Legendary
+5 = Mythic
+6 = Godlike
+-----------------
+25882
+24413
+26284
+25682
+25B72
+25B73
+25B83
+21C13
+25684
+???82
+26382
+24285
+24113
+21B42
+25182
+25B72
+24B84
+22613
+25563
+26283
+24183
+25562
+25984
+24284
+25112
+25A62
+???83
+24682
+25B72
+???13
+???83
+24683
+25382
+25381
+24383
+26184
+26184
+23912
+22523
+???22
+23611
+22412
+23912
+263A3
+23914
+23982
+24483
+24B83
+26133
+25562
+25B85
+25B73
+25B73
+25A73
+25A73
+25774
+24174
+24382
+24384
+25C63
+25B73
+25284
+26143
+24585
+263A2
+25A73
+25834
+16402
+16402
+16402
+16C03
+16C02
+16C03
+18C03
+19302
+19303
+19303
+19303
+19303
+19303
+24772
+24773
+24773
+24773
+24A63
+23653
+23652
+23653
+24753
+18403
+18403
+18403
+18501
+18501
+18502
+18502
+18502
+18502
+18502
+18501
+18501
+18502
+25A72
+24883
+24213
+24B23
+22223
+23911
+24B92
+24B91
+24C92
+24C92
+24C92
+25192
+25192
+25192
+25293
+25292
+25293
+25293
+25292
+25293
+25393
+25392
+25391
+25392
+25393
+25392
+25392
+25393
+25492
+25493
+25493
+25492
+25494
+25492
+25493
+25591
+25593
+25691
+25691
+25692
+25691
+25791
+25891
+25892
+25993
+25993
+25991
+25A91
+25A93
+25A93
+25A92
+25A92
+25A91
+25A91
+25A93
+25B92
+25B91
+25B92
+25C93
+26193
+26193
+25B81
+24A41
+22223
+24B23
+22223
+23911
+24A41
+22223
+------------------------
+Wallyboom2010
+Apx-Wildcat, GWATeam
+ballgoballing, cross1508
+thelevelremaker
+Peneren
+coderbeginner94
+MichaelKArchives
+LegoScratchTanksuber
+compsognathus3
+compsognathus3
+compsognathus3
+thomaslyu
+APX-Wildcat, Squeeg
+BatteRaquette58
+compsognathus3, Takayukihiro
+Peneren
+thomaslyu, ShayLiksMeeems3
+LegoScratchTanksuber
+Peneren
+Wallyboom2010, PlayerEpic86
+Takayukihiro
+Peneren
+thelevelremaker
+Takayukihiro
+G1itched_XD, Squeeg
+ruasogetSevitaerC
+xStep13
+erty709999
+chipm0nk, wintermelonboss
+Squeeg, Captinfireball
+xStep13
+Zuhair12345
+sandbeard
+Wallyboom2010
+Takayurihiko
+xStep13
+xStep13
+ryanlwindicharlotte
+LegoScratchTanksuber
+LegoScratchTanksuber, Squeeg
+APX-Wildcat
+Apx-Wildcat, BLJ_BrokenGD
+BLJ_BrokenGD
+meow_wet
+BLJ_BrokenGD
+Captinfireball
+Takayukihiro
+geometrydash-creator
+meow_wet
+Peneren
+Takayukihiro, LushCavern
+coderbeginner94
+DragonBlackX2
+chipm0nk, wintermelonboss, oopsied
+chipm0nk, wintermelonboss
+ryannmay
+Takayurihiko
+wesnothplayer
+Takayukihiro
+ruasogetSevitaerC
+webreserch, Affan403, wintermelonboss, DiamondPrism456, v8367
+gooomboo
+wesnothplayer, GD_Noob
+Takayukihiro
+meow_wet, antawng2
+chipm0nk, wintermelonboss
+hypersonic_time
+RobTop, griffpatch
+RobTop, griffpatch
+RobTop, griffpatch
+RobTop, hoppingicon
+RobTop, hoppingicon
+RobTop, hoppingicon
+RobTop, hoppingicon
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+chipm0nk
+chipm0nk
+chipm0nk
+chipm0nk
+chipm0nk
+chipm0nk
+chipm0nk
+chipm0nk
+1games, chipm0nk
+RobTop, CrystalKeeper7
+RobTop, CrystalKeeper7
+RobTop, CrystalKeeper7
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+RobTop, chikomastr
+Affan403, awu3248
+LushCavern
+DJ_RD, __Supernova__
+a.s.k.kj
+alwaysmade2blade
+Atherist, meow_wet
+meow_wet
+rocketmix
+wonsz
+rocketmix
+meow_wet
+a.s.k.kj
+rocketmix
+a.s.k.kj
+ballgoballing
+meow_wet
+rocketmix
+ballgoballing
+ballgoballing
+rocketmix
+rocketmix
+asoknasja
+meow_wet
+ballgoballing
+rocketmix
+ballgoballing
+ballgoballing
+ballgoballing
+ballgoballing
+asoknasja
+ballgoballing
+ballgoballing
+rocketmix
+meow_wet
+meow_wet
+ballgoballing
+meow_wet
+rocketmix
+GangsterDino716
+rocketmix
+ballgoballing
+GangsterDino716
+Gleeful
+antawng2
+Peneren
+captinfireball
+Gleeful
+Gleeful, GangsterDino716
+Gleeful
+meow_wet
+Gleeful
+GangsterDino716
+VinnieK2008
+Gleeful
+meow_wet
+VinnieK2008
+a.s.k.kj
+VinnieK2008
+NintendoN64-GD
+LegoScratchTanksuber, Loz_Botw_2, TTCodersrealities, DelgadoYeet404
+LegoScratchTanksuber, DelgadoYeet404
+APX-Wildcat
+GD_Noob
+LegoScratchTanksuber
+------------------
+Cobwebs
+Theory Of Continuity
+Iraqophobia
+Kibo
+Peneren Hard Map V
+Phoenix A
+Styx
+Thermodynamix
+GIVEUP!AKITANERU!
+BonesJones Challenge
+WallyBoom Challenge
+Scratch Tidal Wave
+Arcane Extension
+Over The Edge
+GIVEUP!AKIRAMERU!
+Peneren Hard Map IV
+Flesh And Bones
+NO WAY
+Peneren Hard Map III
+high noon
+Amidst The Misery
+Peneren Hard Map II
+California girls
+m e n t a l I t o r t u r e
+Tidal Square Rebirth
+love.
+Interstellar
+Neptune
+Pigbuff
+SUPERMONKEWORLD
+Operation: Evolution
+WARCORA R
+Blue Blizzard
+To the skies
+Delima De Duelo
+Triangle Force
+Sweet Escape
+Every End
+WHAT THE H***
+Silent Dropstep
+Arcane Ascension
+Buffed Apex
+Lucid Dreaming
+Penumbra Phantasm
+Castlevita
+During Depression
+CORRUPT3D_N3BULA
+Dolor
+hammer of justice
+Peneren Hard Map I
+Machine Love
+Holography
+B R A I N S P A C E
+Mayham X
+Buffwartz
+Teto Territory
+BROKEN_CITYSCAPE
+I.N.S.A. Rebirth
+Cafe Aconite
+Idiot Corridor
+Infinite Cosmos
+DOWN BASS
+Midnight Circles
+Shattered Cityscape
+silent 12
+Pigs do buff
+Ultimate Kill Stream Finale 2
+Polargeist
+Back on Track
+Stereo Madness
+Dry Out
+Base After Base
+Can't Let Go
+Clubstep
+Blast Processing
+Fingerdash
+Geometrical Dominator
+Deadlocked
+Hexagon Force
+Theory of Everything 2
+Mayhem
+Hogwartz
+Pigs Do Fly
+Pigstep
+Spooky Scary Skeletons
+Shell Shock
+Egg-static
+Cracked Up
+Xmas
+Press Start
+Nock Em
+Power Trip
+Payload
+Beast Mode
+Machina
+Years
+Frontlines
+Space Pirates
+Striker
+Embers
+Round 1
+Monster Dance Off
+Stairs of Fate
+Nullify
+The World Destroyer Rebirth
+artistic potato
+berry good lebel
+sigma enigma
+level normal
+breaking bad
+algebra accelerate
+lord farquaad
+20m challenge
+distant midnight
+among us
+INPOSSABLE LEVEL
+pi
+actually cant let go
+make a wish
+Euler's Number
+creator point farm
+rocket's music mix
+sine
+forest landscape
+arud level
+Satan's R****m
+white girl music
+Some Sloppy Slop 4 U
+Backseat Freestyle
+Phone Home
+sloppy t***y
+Night Night
+Don't Play This Level
+ball's top 0
+blood banana
+Life... Is Roblox
+1kb challenge
+*
+simon
+the triple trials
+Freak Fly
+ship
+Levels Like Dimes
+Hypernovation
+Till The End
+mayo maze
+penguin map 1
+undyne is cool
+Water Well
+One Beginning
+TS!Level Easy
+point4
+point3
+Element 3 Li
+new top 1 by sozbos
+Nihilism
+The G***eral
+funky snow night
+peak gammer
+the peisos
+Sleep Phonk Layout
+Purple Storm
+Greyhound
+Invisible Arcane Ascension
+H***house
+Deaf Launch
+------------
+https://wallyboom2010.itch.io/cobwebss
+s1005303497
+https://ballz17.itch.io/iraqophobia-gdr
+s1191190819
+s1246571403/
+s1246571403/
+https://tuxat.itch.io/styx-nerfed
+s609559991/
+s1186792605
+https://daooooo.itch.io/bonesjones
+https://compy3.itch.io/wallyboom-challenge
+https://tuxat.itch.io/scratch-tidal-wave
+s952309641
+s1248724475/
+s1125346877
+s1246571403/
+https://tuxat.itch.io/flesh-and-bones
+s705937985
+s1002205963
+https://wallyboom2010.itch.io/high-noon
+s957121214
+s1002205963
+s1217668289
+https://cnfsn.itch.io/gdr-uwu
+s1064912591
+s1227956464
+s1268253853
+s1035225820
+s1246571403/
+s1219398323/
+s1179880324
+s1033647579
+s1116979598
+https://wallyboom2010.itch.io/to-the-skies
+s980848576
+s1268252535
+s1268251697/
+s894138145/
+s671831755
+s1105132154
+s741025864/
+s654440561
+s890935846/
+s1288154269
+s892583882/
+s1244283237
+s1000401283
+s1069159528
+s1239507430/
+s1002205963/
+https://cnfsn.itch.io/teto-i-love-you-teto-is-forever-my-favourite-vocal-synth-i-love-teto-aaaaaaa
+s1246571403
+s1246571403
+s1246571403
+s1236559654
+s1196700003
+s957169102
+s974507325/
+https://cnfsn.itch.io/mebirthday
+s1257473246
+s1246571403
+s1136423030
+s1089920588
+s1018703222
+https://therealfloridaman.itch.io/theworstsgdleveloat
+s1236559654
+s1167975221
+s1292808089
+s1292808089
+s1292808089
+s138159249
+s138159249
+s138159249
+s1292833271
+s194895616
+s194895616
+s194895616
+s194895616
+s194895616
+s194895616
+s1050118122
+s1050118122
+s1050118122
+s1050118122
+s1050118122
+s860151753
+s860151753
+s860151753
+s1051479693
+s479592151
+s479592151
+s479592151
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s205836726
+s1236559654
+s1058592268
+s965110567
+t139
+t140
+t141
+t142
+t143
+t144
+t146
+t148
+t153
+t154
+t155
+t157
+t158
+t159
+t161
+t163
+t169
+t170
+t171
+t173
+t174
+t175
+t176
+t177
+t178
+t179
+t180
+t181
+t183
+t186
+t187
+t188
+t189
+t190
+t191
+t192
+t193
+t194
+t200
+t199
+t201
+t204
+t205
+t208
+t210
+t211
+t214
+t215
+t218
+t229
+t231
+t233
+t237
+t239
+t240
+s1243009722
+s1098440029
+s1193614806
+s890953115
+s1285302879
+s638350601

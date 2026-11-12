@@ -79,12 +79,12 @@
 			"enj": 50
 		},
 		{
-            "user": "antawng2",
-            "link": "https://www.youtube.com/watch?v=r9zjx8Fotqs",
-            "percent": 100,
-            "hz": 120,
-            "enj": 80
-        },
+			"user": "antawng2",
+			"link": "https://www.youtube.com/watch?v=r9zjx8Fotqs",
+			"percent": 100,
+			"hz": 120,
+			"enj": 80
+		},
 		{
 			"user": "Peneren",
 			"link": "https://youtu.be/2Mvv8E9JFTs?t=128",
@@ -105,19 +105,19 @@
 			"hz": 60
 		},
 		{
-            "user": "CreativeStegosaur",
-            "link": "https://youtu.be/vjHIFNsrPRw",
-            "percent": 100,
-            "hz": 60,
+			"user": "CreativeStegosaur",
+			"link": "https://youtu.be/vjHIFNsrPRw",
+			"percent": 100,
+			"hz": 60,
 			"enj": 90
-        },
+		},
 		{
-            "user": "C257H383N65O77S6",
-            "link": "https://www.mediafire.com/file/y1rd0tclkkea78a/Crucio_X.mp4/file",
-            "percent": 100,
-            "hz": 60,
+			"user": "C257H383N65O77S6",
+			"link": "https://www.mediafire.com/file/y1rd0tclkkea78a/Crucio_X.mp4/file",
+			"percent": 100,
+			"hz": 60,
 			"enj": 70
-        }
+		}
 
 	]
 }

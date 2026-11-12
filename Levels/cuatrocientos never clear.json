@@ -1,19 +1,19 @@
 {
 	"codetorchLink": "https://codetorch.net/en/projects/74821",
-    "name": "cuatrocientos never clear",
-    "author": "meow_wet",
-    "creators": ["meow_wet"],
-    "verifier": "meow_wet",
-    "verification": "https://youtu.be/6Qhdvz281qk",
-    "percentToQualify": "100",
+	"name": "cuatrocientos never clear",
+	"author": "meow_wet",
+	"creators": ["meow_wet"],
+	"verifier": "meow_wet",
+	"verification": "https://youtu.be/6Qhdvz281qk",
+	"percentToQualify": "100",
 	"demonDifficulty": "Easy Demon",
-    "engine": "GDH",
+	"engine": "GDH",
 	"tags": ["Long", "Full Solo"],
 	"description": "idk man just map",
 	"hz": 240,
 	"enj": 88,
 	"rating": 1,
-    "records": [
+	"records": [
 		{
 			"user": "Peneren",
 			"link": "https://youtu.be/zE3XqkRGgzM",
@@ -36,12 +36,12 @@
 			"enj": 100
 		},
 		{
-            "user": "antawng2",
-            "link": "https://youtu.be/ZzACqZ0H_BY",
-            "percent": 100,
-            "hz": 240,
-            "enj": 20
-        },
+			"user": "antawng2",
+			"link": "https://youtu.be/ZzACqZ0H_BY",
+			"percent": 100,
+			"hz": 240,
+			"enj": 20
+		},
 		{
 			"user": "compsognathus3",
 			"link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
@@ -63,12 +63,12 @@
 			"enj": 80
 		},
 		{
-          "user": "Themasterd2010", 
-          "link": "https://youtu.be/aw3f6u_v9aw", 
-          "percent": 100, 
-          "hz": 60, 
-          "enj": 50,
-          "date": "2026-09-17T14:03:30.786Z"
-        }
+		  "user": "Themasterd2010", 
+		  "link": "https://youtu.be/aw3f6u_v9aw", 
+		  "percent": 100, 
+		  "hz": 60, 
+		  "enj": 50,
+		  "date": "2026-09-17T14:03:30.786Z"
+		}
 	]
 }

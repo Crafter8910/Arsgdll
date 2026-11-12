@@ -3,6 +3,8 @@
 [ext_resource type="Script" uid="uid://i1d02l350aul" path="res://level_description.gd" id="1_2cslj"]
 [ext_resource type="Texture2D" uid="uid://bpwu3003dim7o" path="res://Turbowarp Icon.png" id="2_oul27"]
 [ext_resource type="Texture2D" uid="uid://hdabomrxlljd" path="res://Scratch Icon.png" id="3_yp1oy"]
+[ext_resource type="Texture2D" uid="uid://bej2535tqyb4a" path="res://Itch Icon.png" id="4_h0lew"]
+[ext_resource type="Texture2D" uid="uid://ja1rorlkx2gk" path="res://Codetorch Icon.png" id="5_66c5p"]
 
 [node name="LevelDescription" type="Control" unique_id=961837041]
 layout_mode = 3
@@ -10,6 +12,75 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_2cslj")
+
+[node name="Turbowarp" type="TextureButton" parent="." unique_id=1625557724]
+layout_mode = 0
+offset_left = 185.0
+offset_right = 305.0
+offset_bottom = 120.0
+scale = Vector2(0.5, 0.5)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("2_oul27")
+texture_pressed = ExtResource("2_oul27")
+texture_hover = ExtResource("2_oul27")
+
+[node name="Scratch" type="TextureButton" parent="." unique_id=1781192329]
+layout_mode = 0
+offset_left = 176.0
+offset_top = 65.0
+offset_right = 669.0
+offset_bottom = 470.0
+scale = Vector2(0.15, 0.15)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_yp1oy")
+texture_pressed = ExtResource("3_yp1oy")
+texture_hover = ExtResource("3_yp1oy")
+
+[node name="Itch" type="TextureButton" parent="." unique_id=1375970788]
+layout_mode = 0
+offset_left = 181.0
+offset_top = 125.0
+offset_right = 581.0
+offset_bottom = 525.0
+scale = Vector2(0.16, 0.16)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_h0lew")
+texture_pressed = ExtResource("4_h0lew")
+texture_hover = ExtResource("4_h0lew")
+
+[node name="Codetorch" type="TextureButton" parent="." unique_id=1362683781]
+layout_mode = 0
+offset_left = 181.99998
+offset_top = 190.0
+offset_right = 582.0
+offset_bottom = 590.0
+scale = Vector2(0.14, 0.14)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("5_66c5p")
+texture_pressed = ExtResource("5_66c5p")
+texture_hover = ExtResource("5_66c5p")
+
+[node name="LDM" type="TextureButton" parent="." unique_id=1717477548]
+layout_mode = 0
+offset_left = 250.0
+offset_top = 1.0
+offset_right = 370.0
+offset_bottom = 121.0
+scale = Vector2(0.5, 0.5)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("2_oul27")
+texture_pressed = ExtResource("2_oul27")
+texture_hover = ExtResource("2_oul27")
+
+[node name="Label" type="Label" parent="LDM" unique_id=928498484]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 32.0
+offset_right = 99.0
+offset_bottom = 78.0625
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 33
+text = "LDM"
 
 [node name="Rating" type="Label" parent="." unique_id=925819860]
 layout_mode = 0
@@ -88,41 +159,15 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Engine: GDR"
 
-[node name="Button" type="Button" parent="." unique_id=1471942158]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
-
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1997343377]
+custom_maximum_size = Vector2(1, -1)
 layout_mode = 0
 offset_left = 185.0
 offset_right = 306.0
 offset_bottom = 269.0
 
-[node name="Turbowarp" type="TextureButton" parent="VBoxContainer" unique_id=1625557724]
-layout_mode = 2
-mouse_default_cursor_shape = 2
-texture_normal = ExtResource("2_oul27")
-texture_pressed = ExtResource("2_oul27")
-texture_hover = ExtResource("2_oul27")
-
-[node name="Scratch" type="TextureButton" parent="VBoxContainer" unique_id=1781192329]
-layout_mode = 2
-mouse_default_cursor_shape = 2
-texture_normal = ExtResource("3_yp1oy")
-texture_pressed = ExtResource("3_yp1oy")
-texture_hover = ExtResource("3_yp1oy")
-
-[node name="Itch" type="TextureButton" parent="VBoxContainer" unique_id=1375970788]
-layout_mode = 2
-mouse_default_cursor_shape = 2
-texture_normal = ExtResource("2_oul27")
-texture_pressed = ExtResource("2_oul27")
-texture_hover = ExtResource("2_oul27")
-
-[node name="LDM" type="TextureButton" parent="VBoxContainer" unique_id=1717477548]
-layout_mode = 2
-mouse_default_cursor_shape = 2
-texture_normal = ExtResource("2_oul27")
-texture_pressed = ExtResource("2_oul27")
-texture_hover = ExtResource("2_oul27")
+[connection signal="pressed" from="Turbowarp" to="." method="_on_turbowarp_pressed"]
+[connection signal="pressed" from="Scratch" to="." method="_on_scratch_pressed"]
+[connection signal="pressed" from="Itch" to="." method="_on_itch_pressed"]
+[connection signal="pressed" from="Codetorch" to="." method="_on_codetorch_pressed"]
+[connection signal="pressed" from="LDM" to="." method="_on_ldm_pressed"]

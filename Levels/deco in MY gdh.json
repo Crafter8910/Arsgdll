@@ -1,19 +1,19 @@
 {
 	"codetorchLink": "https://codetorch.net/en/projects/74821",
-    "name": "deco in MY gdh?",
-    "author": "meow_wet",
-    "creators": ["meow_wet"],
-    "verifier": "meow_wet",
-    "verification": "https://youtu.be/cyAcxh-zzdU",
-    "percentToQualify": "67",
+	"name": "deco in MY gdh?",
+	"author": "meow_wet",
+	"creators": ["meow_wet"],
+	"verifier": "meow_wet",
+	"verification": "https://youtu.be/cyAcxh-zzdU",
+	"percentToQualify": "67",
 	"demonDifficulty": "Medium Demon",
-    "engine": "GDH",
+	"engine": "GDH",
 	"tags": ["Long", "Bossfight", "Swingcopter", "Chokepoints", "Full Solo"],
 	"description": "best and hardest gdh map lowk",
 	"hz": 240,
 	"enj": 88,
 	"rating": 3,
-    "records": [
+	"records": [
 		{
 			"user": "CaptainFlufBall",
 			"link": "https://www.youtube.com/watch?v=jVeXgaDoUjY",
@@ -48,5 +48,5 @@
 			"hz": 240,
 			"enj": 70
 		}
-    ]
+	]
 }

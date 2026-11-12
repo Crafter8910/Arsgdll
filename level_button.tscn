@@ -9,6 +9,7 @@ offset_top = -2.9999995
 offset_right = 299.59998
 offset_bottom = 55.799995
 scale = Vector2(50, 50)
+mouse_default_cursor_shape = 2
 text = "            "
 alignment = 0
 script = ExtResource("1_k6cd2")
