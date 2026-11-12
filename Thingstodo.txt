@@ -1,3 +1,4 @@
+commit test
 1. Add demon difficulties to the diff/rate folder
 2. Add all the rating bgs
 3. Add all these levels
