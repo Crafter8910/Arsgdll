@@ -184,9 +184,10 @@ layout_mode = 2
 [node name="Tags" type="FlowContainer" parent="." unique_id=1820670045]
 layout_mode = 0
 offset_left = -185.0
-offset_top = 289.0
-offset_right = 285.0
-offset_bottom = 311.0
+offset_top = 255.0
+offset_right = 303.0
+offset_bottom = 319.0
+theme_override_constants/h_separation = 8
 
 [node name="Tag" parent="Tags" unique_id=185750335 instance=ExtResource("6_duva7")]
 layout_mode = 2

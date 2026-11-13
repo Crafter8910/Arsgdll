@@ -72,20 +72,9 @@ func loadleveldata(Levelname: String):
 			
 			
 			window.popup()
+			var tagdescriptions = getdata("res://Data/TagDescriptions.json")
 			var leveldata = getdata("res://Levels/" + Levelname + ".json")
 			var list : Array = getdata("res://Data/List.json")
-			#if leveldata.has("enj"):
-		#		print(leveldata["enj"])
-			#if leveldata.has("rating"):
-			#	print(leveldata["rating"])
-			#if leveldata.has("description"):
-			#	print(leveldata["description"])
-			#if leveldata.has("demonDifficulty"):
-		#		print(leveldata["demonDifficulty"])
-		#	if leveldata.has("verifier"):
-		#		print(leveldata["verifier"])
-		#	if leveldata.has("engine"):
-		#		print(leveldata["engine"])
 			window.title = Levelname
 			window.updateiframe(leveldata["verification"])
 			leveldesc.get_node("Levelname").text = Levelname
@@ -124,13 +113,18 @@ func loadleveldata(Levelname: String):
 				leveldesc.LDMLink = leveldata["itchLink2"]
 			else:
 				leveldesc.get_node("LDM").hide()
+			
 			for tags in leveldesc.get_node("Tags").get_children():
 				tags.queue_free()
 			if leveldata.has("tags"):
 				for newtag in leveldata["tags"]:
 					var tagbeingadded = preload("res://tag.tscn").instantiate()
-					tagbeingadded.description = newtag
+					if tagdescriptions.has("newtag"):
+						tagbeingadded.description = tagdescriptions["newtag"]
+					else:
+						tagbeingadded.description = "No Description"
 					tagbeingadded.text = newtag
+					leveldesc.get_node("Tags").add_child(tagbeingadded)
 			if leveldata.has("enj"):
 				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " +str(int(leveldata["enj"]))
 			else:
