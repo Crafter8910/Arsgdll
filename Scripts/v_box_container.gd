@@ -19,10 +19,12 @@ func loadlist(filterstring : String = "", filter = false):
 	var data = getdata("Data/List.json")
 	print(data)
 	for i in data.size():
-		
+		print(i)
 		#For every level in the list data, creating a button for it and load all the stuff
 		var level = levelbutton.instantiate()
 		var leveldata = getdata("res://Levels/" + str(data[i]) + ".json")
+		if not leveldata:
+			print("level data could not be found!")
 		var creatorstring : String
 	#	print(leveldata["name"].erase(len(filterstring),len(leveldata["name"])).to_lower())
 		if filter and leveldata["name"].erase(len(filterstring),len(leveldata["name"])).to_lower() == filterstring or not filter:

@@ -12,3 +12,4 @@ res://Scripts/window.gd
 res://Scripts/level_description.gd
 res://Data/TagDescriptions.json
 res://Scripts/tag.gd
+res://Data/List.json
