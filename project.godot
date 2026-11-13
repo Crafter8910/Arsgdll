@@ -13,6 +13,7 @@ config_version=5
 config/name="aresdl v1"
 run/main_scene="uid://caebunsk72x2s"
 config/features=PackedStringArray("4.7")
+boot_splash/stretch/mode="canvas_items"
 
 [display]
 

@@ -1,21 +1,21 @@
 {
 	"codetorchLink": "https://codetorch.net/projects/283759",
-    "itchLink": "https://crafter8910.itch.io/gdr-azatoth",
-    "id": "1364967127",
-    "name": "Azatoth",
-    "author": "Semimidgdplayer",
-    "creators": ["Semimidgdplayer"],
-    "verifier": "Semimidgdplayer",
-    "description": "first time gp > deco in my levels<br>my best level (starting my new era of good levels)",
-    "verification": "https://drive.google.com/file/d/1sPIOx22MsnOpIXOL-qW3ui97YJLxp77w/view?usp=sharing",
-    "percentToQualify": "67",
+	"itchLink": "https://crafter8910.itch.io/gdr-azatoth",
+	"id": "1364967127",
+	"name": "Azatoth",
+	"author": "Semimidgdplayer",
+	"creators": ["Semimidgdplayer"],
+	"verifier": "Semimidgdplayer",
+	"description": "first time gp > deco in my levels<br>my best level (starting my new era of good levels)",
+	"verification": "https://drive.google.com/file/d/1sPIOx22MsnOpIXOL-qW3ui97YJLxp77w/view?usp=sharing",
+	"percentToQualify": "67",
 	"demonDifficulty": "Medium Demon",
-    "tags": ["Wave", "Ball", "Cube", "Ship", "Swing", "Easy", "idk man"],
-    "engine": "GDR",
+	"tags": ["Wave", "Ball", "Cube", "Ship", "Swing", "Easy", "idk man"],
+	"engine": "GDR",
 	"enj": 100,
 	"hz": 115,
-    "rating": 4,
-    "records": [
+	"rating": 4,
+	"records": [
 		{
 			"user": "Wallyboom2010",
 			"link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
@@ -23,5 +23,5 @@
 			"hz": 120,
 			"enj": 70
 		}
-    ]
+	]
 }

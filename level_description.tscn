@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://bej2535tqyb4a" path="res://Assets/Itch Icon.png" id="4_h0lew"]
 [ext_resource type="Texture2D" uid="uid://ja1rorlkx2gk" path="res://Assets/Codetorch Icon.png" id="5_66c5p"]
 [ext_resource type="PackedScene" uid="uid://fbnjrcxwyf7r" path="res://tag.tscn" id="6_duva7"]
+[ext_resource type="Texture2D" uid="uid://clcwru3oudtun" path="res://Assets/Difficulties.png" id="7_3uot4"]
+[ext_resource type="Texture2D" uid="uid://1hvyop6aa126" path="res://Assets/Mythic.webp" id="8_14hyy"]
 
 [node name="LevelDescription" type="Control" unique_id=961837041]
 layout_mode = 3
@@ -14,12 +16,11 @@ offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_2cslj")
 
-[node name="Label" type="Label" parent="." unique_id=1453214452]
+[node name="Record Label" type="Label" parent="." unique_id=1453214452]
 layout_mode = 0
 offset_left = 454.0
-offset_top = -76.0
 offset_right = 554.0
-offset_bottom = -43.895832
+offset_bottom = 32.104168
 theme_override_font_sizes/font_size = 23
 text = "Records:"
 
@@ -95,12 +96,13 @@ text = "LDM"
 
 [node name="Rating" type="Label" parent="." unique_id=925819860]
 layout_mode = 0
-offset_left = 340.0
-offset_top = -14.0
+offset_left = 295.0
+offset_top = -6.0
 offset_right = 436.0
-offset_bottom = 20.895832
+offset_bottom = 28.895832
 theme_override_font_sizes/font_size = 25
 text = "Epic"
+horizontal_alignment = 1
 
 [node name="Levelname" type="Label" parent="." unique_id=1133854650]
 layout_mode = 0
@@ -173,7 +175,7 @@ text = "Engine: GDR"
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=317091307]
 layout_mode = 0
 offset_left = 454.0
-offset_top = -29.0
+offset_top = 38.0
 offset_right = 889.0
 offset_bottom = 439.0
 
@@ -203,6 +205,28 @@ offset_right = 270.0
 offset_bottom = 246.0
 theme_override_font_sizes/font_size = 50
 text = "Verification"
+
+[node name="Difficulty" type="Sprite2D" parent="." unique_id=1903574807]
+z_index = 1
+position = Vector2(364, -46.000004)
+scale = Vector2(0.5163934, 0.5163934)
+texture = ExtResource("7_3uot4")
+region_enabled = true
+region_rect = Rect2(298.02106, 123, 165.044, 131.213)
+
+[node name="Rating BG" type="Sprite2D" parent="." unique_id=795297382]
+position = Vector2(359.82047, -46.85408)
+scale = Vector2(0.26829025, 0.26829013)
+texture = ExtResource("8_14hyy")
+
+[node name="Verification Label" type="Label" parent="." unique_id=524336577]
+layout_mode = 0
+offset_left = 455.0
+offset_top = -94.0
+offset_right = 589.0
+offset_bottom = -61.895832
+theme_override_font_sizes/font_size = 23
+text = "Verification:"
 
 [connection signal="pressed" from="Turbowarp" to="." method="_on_turbowarp_pressed"]
 [connection signal="pressed" from="Scratch" to="." method="_on_scratch_pressed"]

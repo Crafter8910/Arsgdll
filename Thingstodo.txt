@@ -1,8 +1,8 @@
 commit test (it works)
-1. Add demon difficulties to the diff/rate folder
-2. Add all the rating bgs
-2.5. Fix all thumbnails that failed to load
-3. Add all these levels
+1. Add demon difficulties to the diff/rate folder check
+2. Add all the rating bgs check
+2.5. Fix all thumbnails that failed to load not check
+3. Add all these levels not chgeck
 digits 1/2 = last two digits of year
 digit 3 = month (1-9, then a/b/c for the last three)
 digit 4 = engine (list below)

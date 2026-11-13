@@ -86,7 +86,10 @@ func loadleveldata(Levelname: String):
 				print("has records")
 				for i in leveldata["records"]:
 					var record = preload("res://record.tscn").instantiate()
-					record.text = "#" + str(int(leveldata["records"].find(i)+1)) + " " +  str(int(i["hz"])) + " fps - " + i["user"] + " - " + str(int(i["percent"]))  + "%"
+					record.text = "#" + str(int(leveldata["records"].find(i)+1)) + " " 
+					if i.has("hz"):
+						record.text +=str(int(i["hz"])) + " fps - "
+					record.text += i["user"] + " - " + str(int(i["percent"]))  + "%"
 					if i.has("enj"):
 						record.text += " - enj: " + str(int(i["enj"]))
 					record.link = i["link"]
@@ -120,7 +123,22 @@ func loadleveldata(Levelname: String):
 				leveldesc.LDMLink = leveldata["itchLink2"]
 			else:
 				leveldesc.get_node("LDM").hide()
-			
+			if leveldata.has("demonDifficulty"):
+				leveldesc.get_node("FlowContainer").get_node("Difficulty").text = "Difficulty: " + str(leveldata["demonDifficulty"])
+				leveldesc.get_node("Difficulty").show()
+				leveldesc.get_node("Difficulty").texture = preload("res://Assets/Difficulties.png")
+				if leveldata["demonDifficulty"] == "Easy Demon":
+					leveldesc.get_node("Difficulty").region_rect = Rect2(4,257,135,125)
+				if leveldata["demonDifficulty"] == "Medium Demon":
+					leveldesc.get_node("Difficulty").region_rect = Rect2(155,263,128,125)
+				if leveldata["demonDifficulty"] == "Hard Demon":
+					leveldesc.get_node("Difficulty").region_rect = Rect2(-0.1,125,142.4,131)
+				if leveldata["demonDifficulty"] == "Insane Demon":
+					leveldesc.get_node("Difficulty").region_rect = Rect2(146,123,147,131)
+				if leveldata["demonDifficulty"] == "Extreme Demon":
+					leveldesc.get_node("Difficulty").region_rect = Rect2(298,123,165,131)
+			else:
+				leveldesc.get_node("Difficulty").hide()
 			for tags in leveldesc.get_node("Tags").get_children():
 				tags.queue_free()
 			if leveldata.has("tags"):
@@ -134,24 +152,71 @@ func loadleveldata(Levelname: String):
 						tagbeingadded.description = "No Description"
 					tagbeingadded.text = newtag
 					leveldesc.get_node("Tags").add_child(tagbeingadded)
+			var totalenj = 0
+			var amountofpeople = 0
 			if leveldata.has("enj"):
-				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " +str(int(leveldata["enj"]))
-			else:
-				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = ""
-			if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
-				leveldesc.get_node("Rating").text = ratings[int(leveldata["rating"])]
+				amountofpeople += 1
+				totalenj += leveldata["enj"]
+			if leveldata.has("records"):
+				for i in leveldata["records"]:
+					if i.has("enj"):		
+						totalenj += i["enj"]
+						amountofpeople += 1
+			if amountofpeople > 0:
+				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " +str(int(totalenj/amountofpeople))
+			else: 
+				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " + "No Data"
+			var ratingbg = leveldesc.get_node("Rating BG")
+			if leveldata.has("rating"):
+				if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
+					leveldesc.get_node("Rating").text = ratings[int(leveldata["rating"])]
+					ratingbg.show() 
+					print(int(leveldata["rating"]))
+					if int(leveldata["rating"]) == 1:
+						ratingbg.hide()
+					if int(leveldata["rating"]) == 2:
+						ratingbg.texture = preload("res://Assets/Featured.png") 
+						ratingbg.scale = Vector2(0.492,0.492)
+						ratingbg.position = Vector2(365, -44)
+					if int(leveldata["rating"]) == 3:
+						ratingbg.texture = preload("res://Assets/Epic.png") 
+						ratingbg.scale = Vector2(0.492,0.492)
+						ratingbg.position = Vector2(365, -49.0)
+					if int(leveldata["rating"]) == 4:
+						ratingbg.texture = preload("res://Assets/Legendary.webp") 
+						ratingbg.scale = Vector2(0.249,0.249)
+						ratingbg.position = Vector2(365.443, -44.48)
+					if int(leveldata["rating"]) == 5:
+						ratingbg.texture = preload("res://Assets/Mythic.webp") 
+						ratingbg.scale = Vector2(0.268,0.268)
+						ratingbg.position = Vector2(360, -47)
+					
+					
+				else:
+					leveldesc.get_node("Rating").text = "no star"
+					ratingbg.hide() 
 			else:
 				leveldesc.get_node("Rating").text = "no star"
-			leveldesc.get_node("FlowContainer").get_node("Difficulty").text = "Difficulty: " + str(leveldata["demonDifficulty"])
+				leveldesc.ratingbg.hide() 
 			if leveldata.has("hz"):
 				leveldesc.get_node("FlowContainer").get_node("Hertz").text = "Hertz verified on: " + str(int(leveldata["hz"]))
 			else:
 				leveldesc.get_node("FlowContainer").get_node("Hertz").text = ""
-			if leveldata["description"]:
+			if leveldata.has("description"):
 				leveldesc.get_node("Description").text = leveldata["description"]
 			else:
 				leveldesc.get_node("Description").text = ""
-			if leveldata["verifier"]:
+			if leveldata.has("verifier"):
+				var record = preload("res://record.tscn").instantiate()
+				record.text = ""
+				if leveldata.has("hz"):
+					record.text = str(int(leveldata["hz"])) + " fps - "
+				record.text += leveldata["verifier"] + " - "  + "100%"
+				if leveldata.has("enj"):
+					record.text += " - enj: " + str(int(leveldata["enj"]))
+				record.link = leveldata["verification"]
+				record.position = Vector2(452, -45) 
+				leveldesc.add_child(record)
 				leveldesc.get_node("FlowContainer").get_node("Verifier").text = "Verifier: " +str(leveldata["verifier"])
 			else:
 				leveldesc.get_node("FlowContainer").get_node("Verifier").text = ""
