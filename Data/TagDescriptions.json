@@ -1,3 +1,25 @@
 {
-	"Memory": "Levels with gameplay that is hard to sightread visually"
+	"Memory": "Levels with gameplay that is hard to sightread visually",
+	"Cube": "Levels consisting mainly of cube gameplay",
+	"Ship": "Levels consisting mainly of ship gameplay",
+	"Ball": "Levels consisting mainly of ball gameplay",
+	"UFO": "Levels consisting mainly of ufo gameplay",
+	"Wave": "Levels consisting mainly of wave gameplay",
+	"Robot": "Levels consisting mainly of robot gameplay",
+	"Spider": "Levels consisting mainly of spider gameplay",
+	"Swing": "Levels consisting mainly of swing gameplay",
+	"Overall": "Levels consisting of many types of gameplay",
+	"Timings": "Levels focused on tight timings",
+	"Long": "Levels between 1 and 2 minutes long",
+	"Short": "Levels that are shorter than 1 minute",
+	"XL": "Levels between 2 and 3 minutes",
+	"XXL": "Levels that are longer than 3 minutes",
+	"Learny": "Levels that take longer to learn",
+	"Clicksync": "Levels with a click pattern that syncs with the music",
+	"Swing": "Levels consisting mainly of swing gameplay",
+	"Fast-Paced": "Levels with fast gameplay",
+	"Remake": "Levels that are recrations of existing levels",
+	"Chokepoints": "Levels with some difficult clicks that often kill the player",
+	"Nerve Control": "Levels that test the player's ability to stay calm near the end",
+	"High CPS": "Levels that require a high number of clicks per second"
 }
