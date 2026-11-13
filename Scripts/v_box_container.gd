@@ -19,7 +19,6 @@ func loadlist(filterstring : String = "", filter = false):
 	var data = getdata("Data/List.json")
 	for i in data.size():
 		#For every level in the list data, creating a button for it and load all the stuff
-	
 		var level = levelbutton.instantiate()
 		var leveldata = getdata("res://Levels/" + str(data[i]) + ".json")
 		var creatorstring : String
