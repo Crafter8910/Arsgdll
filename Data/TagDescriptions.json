@@ -21,5 +21,6 @@
 	"Remake": "Levels that are recrations of existing levels",
 	"Chokepoints": "Levels with some difficult clicks that often kill the player",
 	"Nerve Control": "Levels that test the player's ability to stay calm near the end",
-	"High CPS": "Levels that require a high number of clicks per second"
+	"High CPS": "Levels that require a high number of clicks per second",
+	"Gimmicky": "Levels with unique gameplay mechanics"
 }
