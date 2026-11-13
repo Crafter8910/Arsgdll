@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://dk0cgmcub0slf"]
 
-[ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://level_button.gd" id="1_k6cd2"]
-[ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://thumbnail.gd" id="2_j8bpn"]
+[ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://Scripts/level_button.gd" id="1_k6cd2"]
+[ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://Scripts/thumbnail.gd" id="2_j8bpn"]
 [ext_resource type="Texture2D" uid="uid://cm0sw41a8uk40" path="res://Thumbnails/Ball's Top 1.png" id="2_shs6u"]
 
-[node name="LevelButton" type="Button" unique_id=957402781]
+[node name="LevelButton" type="Button" unique_id=957402781 groups=["LevelButton"]]
 offset_top = -2.9999995
 offset_right = 299.59998
 offset_bottom = 55.799995

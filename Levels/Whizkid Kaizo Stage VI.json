@@ -1,21 +1,21 @@
 {
-    "id": "1398219391",
-    "name": "Whizkid Kaizo Stage VI",
-    "author": "chezb0",
-    "creators": ["chezb0"],
-    "verifier": "chezb0",
-    "verification": "https://youtu.be/BH0POIIIqNE",
-    "percentToQualify": "67",
-    "demonDifficulty": "Medium Demon",
-    "description": "Whizkid",
-    "engine": "GDI",
-    "enj": "85",
-    "hz": "45",
-    "tags": ["Whizkid"],
-    "rating": "3",
-    "date": "2026-11-01T23:02:05.422Z",
-    "records": [
-         {
+	"id": "1398219391",
+	"name": "Whizkid Kaizo Stage VI",
+	"author": "chezb0",
+	"creators": ["chezb0"],
+	"verifier": "chezb0",
+	"verification": "https://youtu.be/BH0POIIIqNE",
+	"percentToQualify": "67",
+	"demonDifficulty": "Medium Demon",
+	"description": "Whizkid",
+	"engine": "GDI",
+	"enj": "85",
+	"hz": "45",
+	"tags": ["Whizkid"],
+	"rating": "3",
+	"date": "2026-11-01T23:02:05.422Z",
+	"records": [
+		 {
 			"user": "dragonblackX2",
 			"link": "https://www.youtube.com/watch?v=HrkuRlhJsC0",
 			"percent": 100,
@@ -36,14 +36,14 @@
 			"hz": 240,
 			"enj": 86
 		},
-        {
-          "user": "antawng2", 
-          "link": "https://www.youtube.com/watch?v=0dT_udRO5ac", 
-          "percent": 100, 
-          "hz": 180, 
-          "enj": 80,
-          "date": "2026-11-06T05:15:17.433Z"
-        }
+		{
+		  "user": "antawng2", 
+		  "link": "https://www.youtube.com/watch?v=0dT_udRO5ac", 
+		  "percent": 100, 
+		  "hz": 180, 
+		  "enj": 80,
+		  "date": "2026-11-06T05:15:17.433Z"
+		}
 
-    ]
+	]
 }

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b3us5d74j3mqm"]
+
+[ext_resource type="Script" uid="uid://bnvtv03ypp72j" path="res://Scripts/record.gd" id="1_egwgl"]
+
+[node name="Record" type="Button" unique_id=405498456]
+custom_minimum_size = Vector2(425, 0)
+offset_right = 604.0
+offset_bottom = 31.0
+mouse_default_cursor_shape = 2
+text = "120 fps - Semimidgdplayer - 100% - enj 68"
+alignment = 0
+script = ExtResource("1_egwgl")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

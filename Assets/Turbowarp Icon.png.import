@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bej2535tqyb4a"
-path="res://.godot/imported/Itch Icon.png-c1e11cf89e3e5c02c6550b9cb1f80d9d.ctex"
+uid="uid://bpwu3003dim7o"
+path="res://.godot/imported/Turbowarp Icon.png-e61b80d96160ec0c68f4c8677bd9c3ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Itch Icon.png"
-dest_files=["res://.godot/imported/Itch Icon.png-c1e11cf89e3e5c02c6550b9cb1f80d9d.ctex"]
+source_file="res://Assets/Turbowarp Icon.png"
+dest_files=["res://.godot/imported/Turbowarp Icon.png-e61b80d96160ec0c68f4c8677bd9c3ea.ctex"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://caebunsk72x2s"]
 
-[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://v_box_container.gd" id="1_dwlkc"]
+[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/v_box_container.gd" id="1_dwlkc"]
 [ext_resource type="PackedScene" uid="uid://cw1ftrd1h43d1" path="res://level_description.tscn" id="1_pdg4h"]
-[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://whjite square.png" id="1_y1u70"]
-[ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://window.gd" id="3_v5p8n"]
+[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/whjite square.png" id="1_y1u70"]
+[ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_v5p8n"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp2em"]
 bg_color = Color(0.2629324, 0.26293248, 0.26293242, 1)
@@ -22,9 +22,9 @@ expand_margin_bottom = 16.0
 
 [node name="Scrollbar of List" type="ScrollContainer" parent="." unique_id=1282794861]
 offset_left = 233.0
-offset_top = 67.0
+offset_top = 90.0
 offset_right = 541.5
-offset_bottom = 323.0
+offset_bottom = 334.5
 scale = Vector2(2, 2)
 theme_override_colors/scroll_hint_horizontal_color = Color(0, 0, 0, 0)
 
@@ -47,7 +47,8 @@ texture = ExtResource("1_y1u70")
 oversampling_override = 1.0
 title = "Shattered Cityscape"
 position = Vector2i(0, 36)
-size = Vector2i(1000, 575)
+size = Vector2i(1100, 575)
+visible = false
 unresizable = true
 popup_wm_hint = true
 theme_override_styles/embedded_border = SubResource("StyleBoxFlat_pp2em")
@@ -90,5 +91,13 @@ offset_bottom = 280.0
 
 [node name="HTTPRequest" type="HTTPRequest" parent="Window" unique_id=2078361744]
 
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1093695179]
+offset_left = 285.0
+offset_top = 17.0
+offset_right = 807.0
+offset_bottom = 71.0
+placeholder_text = "Search..."
+
 [connection signal="close_requested" from="Window" to="Window" method="_on_close_requested"]
 [connection signal="request_completed" from="Window/HTTPRequest" to="Scrollbar of List/List" method="_on_http_request_request_completed"]
+[connection signal="text_changed" from="LineEdit" to="Scrollbar of List/List" method="_on_line_edit_text_changed"]

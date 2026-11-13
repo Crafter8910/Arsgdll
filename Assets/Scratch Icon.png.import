@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpwu3003dim7o"
-path="res://.godot/imported/Turbowarp Icon.png-54eaadc53e104b7ddae32c68e9be3627.ctex"
+uid="uid://hdabomrxlljd"
+path="res://.godot/imported/Scratch Icon.png-d3acf74664027fd69c082dd46183424e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Turbowarp Icon.png"
-dest_files=["res://.godot/imported/Turbowarp Icon.png-54eaadc53e104b7ddae32c68e9be3627.ctex"]
+source_file="res://Assets/Scratch Icon.png"
+dest_files=["res://.godot/imported/Scratch Icon.png-d3acf74664027fd69c082dd46183424e.ctex"]
 
 [params]
 

@@ -1,6 +1,7 @@
 commit test (it works)
 1. Add demon difficulties to the diff/rate folder
 2. Add all the rating bgs
+2.5. Fix all thumbnails that failed to load
 3. Add all these levels
 digits 1/2 = last two digits of year
 digit 3 = month (1-9, then a/b/c for the last three)

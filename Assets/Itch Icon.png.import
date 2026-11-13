@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hdabomrxlljd"
-path="res://.godot/imported/Scratch Icon.png-628242b8446a2dc7bbd4457339e6400e.ctex"
+uid="uid://bej2535tqyb4a"
+path="res://.godot/imported/Itch Icon.png-1020992683ea2dda3498eb8228f19441.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scratch Icon.png"
-dest_files=["res://.godot/imported/Scratch Icon.png-628242b8446a2dc7bbd4457339e6400e.ctex"]
+source_file="res://Assets/Itch Icon.png"
+dest_files=["res://.godot/imported/Itch Icon.png-1020992683ea2dda3498eb8228f19441.ctex"]
 
 [params]
 

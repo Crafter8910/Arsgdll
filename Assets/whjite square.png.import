@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ja1rorlkx2gk"
-path="res://.godot/imported/Codetorch Icon.png-ae6d8854bf03fb3dec2ce725d93abe3e.ctex"
+uid="uid://b00k0t64icbxa"
+path="res://.godot/imported/whjite square.png-fb474614c8a599edc1f1d9389189f7cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Codetorch Icon.png"
-dest_files=["res://.godot/imported/Codetorch Icon.png-ae6d8854bf03fb3dec2ce725d93abe3e.ctex"]
+source_file="res://Assets/whjite square.png"
+dest_files=["res://.godot/imported/whjite square.png-fb474614c8a599edc1f1d9389189f7cf.ctex"]
 
 [params]
 
