@@ -3,6 +3,7 @@ var TurbowarpLink = "https://google.com"
 var ScratchLink = ""
 var ItchLink = ""
 var LDMLink = ""
+var VerificationLink
 var CodetorchLink = ""
 func _ready() -> void:
 	pass # Replace with function body.
@@ -48,3 +49,10 @@ func _on_codetorch_pressed() -> void:
 		JavaScriptBridge.eval("window.location.href='%s'" %CodetorchLink) 
 	else:
 		OS.shell_open("%s" % CodetorchLink) # Replace with function body.
+
+
+func _on_verification_pressed() -> void:
+	if OS.get_name() == "HTML5":
+		JavaScriptBridge.eval("window.location.href='%s'" %VerificationLink) 
+	else:
+		OS.shell_open("%s" % VerificationLink) # Replace with function body.

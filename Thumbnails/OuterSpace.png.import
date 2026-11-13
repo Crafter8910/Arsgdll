@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/OuterSpace.png-6540a6f02938b080babe1d1147ba0b
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

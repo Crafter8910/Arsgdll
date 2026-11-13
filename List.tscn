@@ -21,11 +21,11 @@ expand_margin_bottom = 16.0
 [node name="Listyayaya" type="Node2D" unique_id=1570408678]
 
 [node name="Scrollbar of List" type="ScrollContainer" parent="." unique_id=1282794861]
-offset_left = 233.0
+offset_left = 319.0
 offset_top = 90.0
-offset_right = 541.5
-offset_bottom = 334.5
-scale = Vector2(2, 2)
+offset_right = 627.5
+offset_bottom = 430.0
+scale = Vector2(1.5, 1.5)
 theme_override_colors/scroll_hint_horizontal_color = Color(0, 0, 0, 0)
 
 [node name="List" type="VBoxContainer" parent="Scrollbar of List" unique_id=548004150 node_paths=PackedStringArray("window", "leveldesc")]
@@ -61,7 +61,7 @@ offset_left = 405.0
 offset_top = 70.0
 offset_right = 473.5
 offset_bottom = 112.0
-text = "500"
+text = "400"
 placeholder_text = "X position"
 
 [node name="Y" type="LineEdit" parent="Window" unique_id=1023965289]
@@ -70,7 +70,7 @@ offset_left = 475.0
 offset_top = 27.0
 offset_right = 543.5
 offset_bottom = 69.0
-text = "325"
+text = "300"
 placeholder_text = "Y position"
 
 [node name="Scale" type="LineEdit" parent="Window" unique_id=2112911781]

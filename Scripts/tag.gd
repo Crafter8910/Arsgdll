@@ -12,7 +12,8 @@ func _process(delta: float) -> void:
 		$Description.text = description
 		$Description.show()
 		$Description.global_position = get_global_mouse_position()
-		$Description.global_position.x -= $Description.size.x/2
+		$Description.global_position.x -= $Description.size.x/10
+		$Description.global_position.y -= 15
 	else:
 		$Description.hide()
 

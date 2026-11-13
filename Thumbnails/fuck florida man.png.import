@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/fuck florida man.png-8a8c3b17bfddf5b1d4bc19a8
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/I.N.S.A. Rebirth.png-a5f96be27edb23dcad4574c0
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/mazer.png-38e937ca6b2606c582ba37ed122b5489.ct
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

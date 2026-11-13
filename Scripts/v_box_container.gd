@@ -17,12 +17,14 @@ func loadlist(filterstring : String = "", filter = false):
 	for child in get_children():
 		child.queue_free()
 	var data = getdata("Data/List.json")
+	print(data)
 	for i in data.size():
+		
 		#For every level in the list data, creating a button for it and load all the stuff
 		var level = levelbutton.instantiate()
 		var leveldata = getdata("res://Levels/" + str(data[i]) + ".json")
 		var creatorstring : String
-		print(leveldata["name"].erase(len(filterstring),len(leveldata["name"])).to_lower())
+	#	print(leveldata["name"].erase(len(filterstring),len(leveldata["name"])).to_lower())
 		if filter and leveldata["name"].erase(len(filterstring),len(leveldata["name"])).to_lower() == filterstring or not filter:
 			for creator in leveldata["creators"]:
 				if creatorstring != '':
@@ -75,7 +77,6 @@ func loadleveldata(Levelname: String):
 			var leveldata = getdata("res://Levels/" + Levelname + ".json")
 			var list : Array = getdata("res://Data/List.json")
 			window.title = Levelname
-			window.updateiframe(leveldata["verification"])
 			leveldesc.get_node("Levelname").text = Levelname
 			for child in leveldesc.get_node("ScrollContainer").get_node("Victors").get_children():
 				child.queue_free()
@@ -102,6 +103,11 @@ func loadleveldata(Levelname: String):
 				leveldesc.ItchLink = leveldata["itchLink"]
 			else:
 				leveldesc.get_node("Itch").hide()
+			if leveldata.has("verification"):
+				leveldesc.get_node("Verification").show()
+				leveldesc.VerificationLink = leveldata["verification"]
+			else:
+				leveldesc.get_node("Verification").hide()
 			if leveldata.has("codetorchLink"):
 				leveldesc.get_node("Codetorch").show()
 				leveldesc.CodetorchLink = leveldata["codetorchLink"]
@@ -118,8 +124,10 @@ func loadleveldata(Levelname: String):
 			if leveldata.has("tags"):
 				for newtag in leveldata["tags"]:
 					var tagbeingadded = preload("res://tag.tscn").instantiate()
-					if tagdescriptions.has("newtag"):
-						tagbeingadded.description = tagdescriptions["newtag"]
+					#print(tagdescriptions["Memory"])
+					#print(newtag)
+					if tagdescriptions.has(newtag):
+						tagbeingadded.description = tagdescriptions[newtag]
 					else:
 						tagbeingadded.description = "No Description"
 					tagbeingadded.text = newtag

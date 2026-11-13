@@ -195,8 +195,18 @@ layout_mode = 2
 [node name="Tag2" parent="Tags" unique_id=921575579 instance=ExtResource("6_duva7")]
 layout_mode = 2
 
+[node name="Verification" type="Button" parent="." unique_id=122189756]
+layout_mode = 0
+offset_left = -184.0
+offset_top = 90.0
+offset_right = 270.0
+offset_bottom = 246.0
+theme_override_font_sizes/font_size = 50
+text = "Verification"
+
 [connection signal="pressed" from="Turbowarp" to="." method="_on_turbowarp_pressed"]
 [connection signal="pressed" from="Scratch" to="." method="_on_scratch_pressed"]
 [connection signal="pressed" from="Itch" to="." method="_on_itch_pressed"]
 [connection signal="pressed" from="Codetorch" to="." method="_on_codetorch_pressed"]
 [connection signal="pressed" from="LDM" to="." method="_on_ldm_pressed"]
+[connection signal="pressed" from="Verification" to="." method="_on_verification_pressed"]
