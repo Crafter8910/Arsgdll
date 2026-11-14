@@ -9,7 +9,7 @@ func _ready() -> void:
 	#it hides
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	position = Vector2(25,50)
 	#position
 	#Creates an iframe as a javascript

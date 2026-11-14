@@ -10,7 +10,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	$Description.scale = Vector2(pow(30.0/len($Description.text), 0.05),pow(30.0/len($Description.text), 0.05))
 	$Description.size.x = 550/$Description.scale.x
 	#Makes the description text smaller if theres more text so it doesnt explode
