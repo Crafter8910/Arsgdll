@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://Scripts/level_button.gd" id="1_k6cd2"]
 [ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://Scripts/thumbnail.gd" id="2_j8bpn"]
-[ext_resource type="Texture2D" uid="uid://cm0sw41a8uk40" path="res://Thumbnails/Ball's Top 1.png" id="2_shs6u"]
 
 [node name="LevelButton" type="Button" unique_id=957402781 groups=["LevelButton"]]
 custom_minimum_size = Vector2(300, 60)
@@ -55,7 +54,6 @@ horizontal_alignment = 2
 z_index = -1
 position = Vector2(149.2, 31.2)
 scale = Vector2(0.27278212, 0.27110732)
-texture = ExtResource("2_shs6u")
 region_enabled = true
 region_rect = Rect2(0, 0, 1099.979, 210.672)
 script = ExtResource("2_j8bpn")

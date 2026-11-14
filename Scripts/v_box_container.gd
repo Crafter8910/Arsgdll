@@ -396,7 +396,7 @@ func loaduser(user :String, points :float, place :int):
 			if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
 				level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
 			else: 
-				print(level.get_node("Name").text)
+				print("could not load thumbnail of: " + level.get_node("Name").text)
 			level.get_node("Position").text = "#" + str(list.find(i)+1)
 			if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
 				level.get_node("Rating").text = ratings[int(leveldata["rating"])]

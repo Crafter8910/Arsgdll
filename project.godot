@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="aresdl v1"
+config/name="All rated scratch geometry dash levels list"
 run/main_scene="uid://caebunsk72x2s"
 config/features=PackedStringArray("4.7")
 boot_splash/image="uid://ncv25oc5waos"
+config/icon="uid://d0pa0q23qmqws"
 boot_splash/stretch/mode="canvas_items"
 config/image=""
 
