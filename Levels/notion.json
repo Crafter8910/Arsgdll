@@ -10,7 +10,7 @@
 	"demonDifficulty": "Insane Demon",
 	"tags": ["Wave", "Chokepoints", "Timings", "Flow"],
     "engine": "GDR",
-	"enj": 75,
+	"enj": 100,
 	"rating": 1,
     "records": [
         {
