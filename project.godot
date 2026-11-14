@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="All Rated Scratch Geometry Dash Levels List"
+config/description="A website for all the Scratch Geometry Dash Levels "
 config/version="v1"
 run/main_scene="uid://caebunsk72x2s"
 config/features=PackedStringArray("4.7")
