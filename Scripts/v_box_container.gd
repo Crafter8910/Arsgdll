@@ -5,15 +5,19 @@ var json = JSON.new()
 var levelbeingloaded = "Shattered Cityscape"
 var levelbutton = preload("res://level_button.tscn")
 var ratings = ['no star', 'star', 'feature', 'epic', 'legendary', 'mythic']
+var whatisbeingloaded = "List"
 func filterlist(filter: String):
 	for i in get_children():
-		
 		i.show()
 		if i.is_in_group("LevelButton"):
 			print(i.levelname.erase(len(filter),len(i.levelname)).to_lower())
 			if not i.levelname.erase(len(filter),len(i.levelname)).to_lower() == filter:
 				i.hide()
+		if i.is_in_group("Leaderboard"):
+			if not i.username.erase(len(filter),len(i.username)).to_lower() == filter:
+				i.hide()
 func loadlist(filterstring : String = "", filter = false):
+	whatisbeingloaded = "List"
 	for child in get_children():
 		child.queue_free()
 	var data = getdata("Data/List.json")
@@ -45,8 +49,11 @@ func loadlist(filterstring : String = "", filter = false):
 			level.pressed.connect
 			add_child(level)
 	add_child(preload("res://the_empty_space.tscn").instantiate())
-		
-		
+func _process(delta: float) -> void:
+	if whatisbeingloaded == "List":
+		add_theme_constant_override("separation", 10)
+	elif whatisbeingloaded == "Leaderboard":
+		add_theme_constant_override("separation", 10)
 func _ready() -> void:
 	#Humanized by Crafter
 	#Code originally done by the big c(rafter)
@@ -63,6 +70,60 @@ func getdata(filename : String):
 	var parsed = json.parse(text)
 	#print(json.data)
 	return json.data #the json.data part was 'ai' after searching up how to retrieve json data
+func sort_descending(a,b):
+	if a > b:
+		return true
+	return false
+func sort(variable : Array):
+	variable.sort_custom(sort_descending)
+	return variable
+func loadleaderboard(leaderboardtype = "Normal", list = "main"):
+	whatisbeingloaded = "Leaderboard"
+	for child in get_children():
+		child.queue_free()
+	var listdata
+	if list == "main":
+		listdata = getdata("res://Data/List.json")
+	else:
+		listdata = getdata("res://Data/List.json")
+	var users = []
+	var userpoints = []
+	var oldpoints = []
+	var sortedpoints = []
+	if leaderboardtype == "Normal":
+		for i in listdata:
+			var leveldata = getdata("res://Levels/" + i + ".json")
+			if not users.has(leveldata["verifier"]):
+				users.append(leveldata["verifier"])
+				userpoints.append(1)
+				oldpoints.append(2)
+			else:
+				userpoints[(users.find(leveldata["verifier"]))] += 1
+				oldpoints[(users.find(leveldata["verifier"]))] += 2
+			if leveldata.has("records"):
+				for record in leveldata["records"]:
+					if not users.has(record["user"]):
+						users.append(record["user"])
+						userpoints.append(1)
+						oldpoints.append(2)
+					else:
+						userpoints[(users.find(record["user"]))] += 1
+						oldpoints[(users.find(record["user"]))] += 2
+	#oldpoints = userpoints
+	sortedpoints = sort(userpoints)
+#	print(oldpoints)
+	#print(users)
+	for points in sortedpoints:
+		var user = preload("res://user.tscn").instantiate()
+		user.text = users[oldpoints.find(points*2)] + " - " + str(points)
+		user.username = users[oldpoints.find(points*2)]
+		users.remove_at(oldpoints.find(points*2))
+		oldpoints.remove_at(oldpoints.find(points*2))
+		user.add_to_group("Leaderboard")
+		add_child(user)
+#	print(userpoints)
+	
+		
 func loadleveldata(Levelname: String):
 	#if levelbeingloaded != Levelname:
 			
@@ -156,11 +217,11 @@ func loadleveldata(Levelname: String):
 			var amountofpeople = 0
 			if leveldata.has("enj"):
 				amountofpeople += 1
-				totalenj += leveldata["enj"]
+				totalenj += int(leveldata["enj"])
 			if leveldata.has("records"):
 				for i in leveldata["records"]:
 					if i.has("enj"):		
-						totalenj += i["enj"]
+						totalenj += int(i["enj"])
 						amountofpeople += 1
 			if amountofpeople > 0:
 				leveldesc.get_node("FlowContainer").get_node("Enjoyment").text = "Enjoyment: " +str(int(totalenj/amountofpeople))
@@ -206,9 +267,14 @@ func loadleveldata(Levelname: String):
 				leveldesc.get_node("Description").text = leveldata["description"]
 			else:
 				leveldesc.get_node("Description").text = ""
+			for i in leveldesc.get_children():
+				if i.is_in_group("Verifier Record"):
+					i.queue_free()
+				
 			if leveldata.has("verifier"):
 				var record = preload("res://record.tscn").instantiate()
 				record.text = ""
+				record.add_to_group("Verifier Record")
 				if leveldata.has("hz"):
 					record.text = str(int(leveldata["hz"])) + " fps - "
 				record.text += leveldata["verifier"] + " - "  + "100%"
@@ -233,3 +299,11 @@ func loadleveldata(Levelname: String):
 
 func _on_line_edit_text_changed(new_text: String) -> void:
 	filterlist(new_text)# Replace with function body.
+
+
+func _on_leaderboard_button_pressed() -> void:
+	loadleaderboard() # Replace with function body.
+
+
+func _on_list_button_pressed() -> void:
+	loadlist() # Replace with function body.

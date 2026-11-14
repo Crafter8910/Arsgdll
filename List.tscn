@@ -98,6 +98,25 @@ offset_right = 807.0
 offset_bottom = 71.0
 placeholder_text = "Search..."
 
+[node name="Leaderboard button" type="Button" parent="." unique_id=730304857]
+offset_left = 7.0
+offset_top = 7.0
+offset_right = 243.90321
+offset_bottom = 75.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 30
+text = "Leaderboard"
+
+[node name="List button" type="Button" parent="." unique_id=1394267589]
+offset_left = 952.0
+offset_top = 16.0
+offset_right = 1114.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 30
+text = "List"
+
 [connection signal="close_requested" from="Window" to="Window" method="_on_close_requested"]
 [connection signal="request_completed" from="Window/HTTPRequest" to="Scrollbar of List/List" method="_on_http_request_request_completed"]
 [connection signal="text_changed" from="LineEdit" to="Scrollbar of List/List" method="_on_line_edit_text_changed"]
+[connection signal="pressed" from="Leaderboard button" to="Scrollbar of List/List" method="_on_leaderboard_button_pressed"]
+[connection signal="pressed" from="List button" to="Scrollbar of List/List" method="_on_list_button_pressed"]

@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cm0sw41a8uk40" path="res://Thumbnails/Ball's Top 1.png" id="2_shs6u"]
 
 [node name="LevelButton" type="Button" unique_id=957402781 groups=["LevelButton"]]
+custom_minimum_size = Vector2(300, 60)
 offset_top = -2.9999995
 offset_right = 299.59998
 offset_bottom = 55.799995
