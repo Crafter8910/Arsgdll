@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/mayo maze.png-be32090f74a8aad72c7f8d43010dcfd
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

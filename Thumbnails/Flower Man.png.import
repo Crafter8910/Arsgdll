@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/Flower Man.png-7653d78db2c6a16b4ff815e40f1001
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/distant midnight.png-67c7df10d7a8cde3334a71c9
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/Kult.png-c5224cc3658f931ab4778c1db5ad1261.cte
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

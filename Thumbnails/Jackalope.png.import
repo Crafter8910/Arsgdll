@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/Jackalope.png-9feb34fdb6e8af8ff7f3d7985d67726
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

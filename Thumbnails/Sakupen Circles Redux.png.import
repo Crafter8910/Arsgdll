@@ -17,7 +17,7 @@ dest_files=["res://.godot/imported/Sakupen Circles Redux.png-b23e64a3bb08da329cd
 
 compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.4
+compress/lossy_quality=0.6
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
