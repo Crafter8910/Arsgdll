@@ -10,3 +10,5 @@ offset_bottom = 31.0
 mouse_default_cursor_shape = 2
 text = "compsognathus3"
 script = ExtResource("1_xg63p")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

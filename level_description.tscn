@@ -152,10 +152,20 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Easy Demon"
 
+[node name="Minimum Percentage" type="Label" parent="FlowContainer" unique_id=262979701]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Percent to qualify: 67%"
+
 [node name="Hertz" type="Label" parent="FlowContainer" unique_id=130538355]
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Hertz verified on: 60"
+
+[node name="Points" type="Label" parent="FlowContainer" unique_id=161486491]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Points: 350"
 
 [node name="Verifier" type="Label" parent="FlowContainer" unique_id=435720600]
 layout_mode = 2

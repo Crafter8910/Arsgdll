@@ -1,4 +1,5 @@
 extends Button
+@onready var list = get_node(^"/root/Website/Scrollbar of List/List")
 
 var levelname = ""
 # Called when the node enters the scene tree for the first time.
@@ -12,8 +13,7 @@ func _process(_delta: float) -> void:
 
 
 func _on_pressed() -> void:
-	if get_parent().name.to_lower() == "list":
 		if levelname == "love_":
-			get_parent().loadleveldata("love.")
+			list.loadleveldata("love.")
 			return
-		get_parent().loadleveldata(levelname)
+		list.loadleveldata(levelname)

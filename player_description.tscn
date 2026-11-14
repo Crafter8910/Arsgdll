@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://cxgf83acsmfrh"]
+
+[node name="PlayerDescription" type="Control" unique_id=394361189]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Name" type="Label" parent="." unique_id=1730607671]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 6.0
+offset_right = 483.0
+offset_bottom = 47.875
+theme_override_font_sizes/font_size = 30
+text = "CaptainFireball"
+
+[node name="Place" type="Label" parent="." unique_id=1742251725]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 5.0
+offset_right = 262.0
+offset_bottom = 46.875
+theme_override_font_sizes/font_size = 30
+text = "#1"
+horizontal_alignment = 1
+
+[node name="Points" type="Label" parent="." unique_id=2013389848]
+layout_mode = 0
+offset_left = 265.0
+offset_top = 54.0
+offset_right = 363.0
+offset_bottom = 81.916664
+theme_override_font_sizes/font_size = 20
+text = "10000"
+
+[node name="CompletedScroll" type="ScrollContainer" parent="." unique_id=282651680]
+layout_mode = 0
+offset_left = 349.0
+offset_top = 91.0
+offset_right = 741.0
+offset_bottom = 560.0
+
+[node name="Completed" type="VBoxContainer" parent="CompletedScroll" unique_id=420307440]
+layout_mode = 2
+
+[node name="CompletedLabel" type="Label" parent="CompletedScroll/Completed" unique_id=1252064220]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Completed(infinity):"
+horizontal_alignment = 1
+
+[node name="VerifiedScroll" type="ScrollContainer" parent="." unique_id=285573284]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.018000001
+anchor_bottom = 0.041
+offset_left = 767.0
+offset_top = 88.0
+offset_right = 1077.264
+offset_bottom = 522.432
+
+[node name="Verified" type="VBoxContainer" parent="VerifiedScroll" unique_id=689372116]
+layout_mode = 2
+
+[node name="VerifiedLabel" type="Label" parent="VerifiedScroll/Verified" unique_id=612896232]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Verified(-5):"
+horizontal_alignment = 1
+
+[node name="CreatedScroll" type="ScrollContainer" parent="." unique_id=940680166]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 81.0
+offset_right = 350.0
+offset_bottom = 550.0
+
+[node name="Created" type="VBoxContainer" parent="CreatedScroll" unique_id=271640802]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="CreatedLabel" type="Label" parent="CreatedScroll/Created" unique_id=1465558807]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Created(50):"
+horizontal_alignment = 1
