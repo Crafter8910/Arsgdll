@@ -27,10 +27,17 @@ window/stretch/mode="canvas_items"
 LevelButton=""
 "Verifier Record"=""
 Leaderboard=""
+User=""
 
 [gui]
 
 theme/default_font_multichannel_signed_distance_field=true
+
+[importer_defaults]
+
+texture={
+&"svg/scale": 10.0
+}
 
 [physics]
 

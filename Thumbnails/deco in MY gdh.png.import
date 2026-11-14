@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/deco in MY gdh.png-f4ad5fd321c4dcf18026a4603f
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

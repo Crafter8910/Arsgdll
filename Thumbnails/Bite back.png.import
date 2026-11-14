@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Bite back.png-3ee9a094bcb2154795be2dd347084a0
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

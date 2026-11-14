@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/The Fields of Pink and Gold.png-2d837bc47f469
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

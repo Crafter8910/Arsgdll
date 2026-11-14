@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Pigbuff.png-9a22942b7bf592b2dc99065dcca5cf5b.
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Dolor.png-7b6c176373bbc232dd54661c382f2279.ct
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

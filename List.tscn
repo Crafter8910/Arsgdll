@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://caebunsk72x2s"]
 
-[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/v_box_container.gd" id="1_dwlkc"]
+[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/List.gd" id="1_dwlkc"]
 [ext_resource type="PackedScene" uid="uid://cw1ftrd1h43d1" path="res://level_description.tscn" id="1_pdg4h"]
 [ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/whjite square.png" id="1_y1u70"]
 [ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_v5p8n"]
 [ext_resource type="PackedScene" uid="uid://cxgf83acsmfrh" path="res://player_description.tscn" id="4_w2ao3"]
+[ext_resource type="Texture2D" uid="uid://2yjkdffqlyo4" path="res://Settings 4.svg" id="6_pp2em"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp2em"]
 bg_color = Color(0.2629324, 0.26293248, 0.26293242, 1)
@@ -29,7 +30,7 @@ offset_bottom = 430.0
 scale = Vector2(1.5, 1.5)
 theme_override_colors/scroll_hint_horizontal_color = Color(0, 0, 0, 0)
 
-[node name="List" type="VBoxContainer" parent="Scrollbar of List" unique_id=548004150 node_paths=PackedStringArray("window", "leveldesc", "point_equation")]
+[node name="List" type="VBoxContainer" parent="Scrollbar of List" unique_id=548004150 node_paths=PackedStringArray("window", "leveldesc", "point_equation", "list_selector", "sort_selector")]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 theme_override_constants/separation = 40
@@ -37,11 +38,13 @@ script = ExtResource("1_dwlkc")
 window = NodePath("../../Window")
 leveldesc = NodePath("../../Window/LevelDescription")
 point_equation = NodePath("../../PointEquation")
+list_selector = NodePath("../../Listtoload")
+sort_selector = NodePath("../../Sort by")
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=321347463]
 self_modulate = Color(0.08553881, 0.08553881, 0.08553881, 1)
 z_index = -2
-position = Vector2(610, 325.99997)
+position = Vector2(625.99994, 325)
 scale = Vector2(8.012346, 5.1756754)
 texture = ExtResource("1_y1u70")
 
@@ -50,6 +53,7 @@ oversampling_override = 1.0
 title = "Shattered Cityscape"
 position = Vector2i(0, 36)
 size = Vector2i(1100, 575)
+visible = false
 unresizable = true
 popup_wm_hint = true
 theme_override_styles/embedded_border = SubResource("StyleBoxFlat_pp2em")
@@ -93,6 +97,7 @@ offset_bottom = 280.0
 [node name="HTTPRequest" type="HTTPRequest" parent="Window" unique_id=2078361744]
 
 [node name="PlayerDescription" parent="Window" unique_id=394361189 instance=ExtResource("4_w2ao3")]
+visible = false
 offset_left = 2.0
 offset_top = 5.0
 offset_right = 2.0
@@ -119,14 +124,15 @@ offset_left = 952.0
 offset_top = 16.0
 offset_right = 1114.0
 offset_bottom = 66.0
+mouse_default_cursor_shape = 2
 theme_override_font_sizes/font_size = 30
 text = "List"
 
 [node name="PointEquation" type="OptionButton" parent="." unique_id=2070955064]
-offset_left = 8.0
-offset_top = 73.0
-offset_right = 244.0
-offset_bottom = 140.0
+offset_left = 13.0
+offset_top = 570.0
+offset_right = 249.0
+offset_bottom = 637.0
 selected = 0
 search_bar_enabled = true
 item_count = 2
@@ -135,9 +141,75 @@ popup/item_0/id = 0
 popup/item_1/text = "Pointercrate"
 popup/item_1/id = 1
 
+[node name="Label" type="Label" parent="PointEquation" unique_id=1392100125]
+layout_mode = 0
+offset_left = 20.0
+offset_top = -39.0
+offset_right = 203.0
+offset_bottom = 0.08333206
+theme_override_font_sizes/font_size = 28
+text = "Point system:"
+
+[node name="Listtoload" type="OptionButton" parent="." unique_id=727894179]
+offset_left = 13.0
+offset_top = 465.0
+offset_right = 249.0
+offset_bottom = 532.0
+selected = 0
+search_bar_enabled = true
+item_count = 3
+popup/item_0/text = "Arsgdll"
+popup/item_0/id = 2
+popup/item_1/text = "Sgd list"
+popup/item_1/id = 1
+popup/item_2/text = "Unverified List"
+popup/item_2/id = 0
+
+[node name="Label" type="Label" parent="Listtoload" unique_id=2114339567]
+layout_mode = 0
+offset_left = 21.0
+offset_top = -39.0
+offset_right = 204.0
+offset_bottom = 0.08333206
+theme_override_font_sizes/font_size = 28
+text = "List:"
+horizontal_alignment = 1
+
+[node name="Sort by" type="OptionButton" parent="." unique_id=1064964086]
+offset_left = 13.0
+offset_top = 360.0
+offset_right = 249.0
+offset_bottom = 427.0
+selected = 0
+search_bar_enabled = true
+item_count = 2
+popup/item_0/text = "List points"
+popup/item_0/id = 2
+popup/item_1/text = "Creator Points"
+popup/item_1/id = 1
+
+[node name="Label" type="Label" parent="Sort by" unique_id=1723881046]
+layout_mode = 0
+offset_left = 21.0
+offset_top = -39.0
+offset_right = 204.0
+offset_bottom = 0.08333206
+theme_override_font_sizes/font_size = 28
+text = "Sort by:"
+horizontal_alignment = 1
+
+[node name="Settings5" type="Sprite2D" parent="." unique_id=1060074019]
+visible = false
+z_index = 3
+position = Vector2(67, 547)
+scale = Vector2(0.32031232, 0.32031232)
+texture = ExtResource("6_pp2em")
+
 [connection signal="close_requested" from="Window" to="Window" method="_on_close_requested"]
 [connection signal="request_completed" from="Window/HTTPRequest" to="Scrollbar of List/List" method="_on_http_request_request_completed"]
 [connection signal="text_changed" from="LineEdit" to="Scrollbar of List/List" method="_on_line_edit_text_changed"]
 [connection signal="pressed" from="Leaderboard button" to="Scrollbar of List/List" method="_on_leaderboard_button_pressed"]
 [connection signal="pressed" from="List button" to="Scrollbar of List/List" method="_on_list_button_pressed"]
 [connection signal="item_selected" from="PointEquation" to="Scrollbar of List/List" method="_on_point_equation_item_selected"]
+[connection signal="item_selected" from="Listtoload" to="Scrollbar of List/List" method="_on_listtoload_item_selected"]
+[connection signal="item_selected" from="Sort by" to="Scrollbar of List/List" method="_on_sort_by_item_selected"]

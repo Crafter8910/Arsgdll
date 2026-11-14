@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bj35806c6bitk"]
 
-[node name="nothing" type="Control" unique_id=1500895222]
+[node name="nothing" type="Control" unique_id=1500895222 groups=["LevelButton", "User"]]
 layout_mode = 3
 anchors_preset = 0
 offset_left = -50.0

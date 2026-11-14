@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Stereo Reckoning.png-a32bcc6b4c35a91b37a10a11
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

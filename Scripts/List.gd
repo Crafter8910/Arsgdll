@@ -5,12 +5,13 @@ var json = JSON.new()
 @export var window : Window
 @export var leveldesc : Control
 @export var point_equation : OptionButton
+@export var list_selector : OptionButton
+@export var sort_selector : OptionButton
 var the_empty_space = preload("res://the_empty_space.tscn")
 var level_being_loaded = "Shattered Cityscape"
 var level_button = preload("res://level_button.tscn")
 var ratings = ['no star', 'star', 'feature', 'epic', 'legendary', 'mythic']
 var what_is_being_loaded = "List"
-
 
 
 func filterlist(filter: String):
@@ -24,12 +25,17 @@ func filterlist(filter: String):
 			if not i.username.erase(len(filter),len(i.username)).to_lower() == filter:
 				i.hide()
 
-
 func loadlist(filterstring : String = "", filter = false):
 	what_is_being_loaded = "List"
 	for child in get_children():
-		child.queue_free()
-	var data = getdata("Data/List.json")
+		print(child)
+		if child.is_in_group("LevelButton"):
+			print("levelbutton")
+			child.queue_free()
+		elif child.is_in_group("User"):
+			print("user")
+			child.hide()
+	var data = getlistdata()
 	for i in data.size():
 		#For every level in the list data, create a button for it and load all the data
 		var level = level_button.instantiate()
@@ -56,7 +62,7 @@ func loadlist(filterstring : String = "", filter = false):
 				level.get_node("Rating").text = ratings[int(leveldata["rating"])]
 			else:
 				level.get_node("Rating").text = "no star"
-			add_child(level)
+		add_child(level)
 	add_child(the_empty_space.instantiate())
 
 
@@ -120,41 +126,41 @@ func sort(variable : Array):
 	variable.sort_custom(sort_descending)
 	return variable
 
-
-func loadleaderboard(leaderboardtype = "Normal", list = "main"):
+	
+func loadleaderboard():
 	what_is_being_loaded = "Leaderboard"
 	for child in get_children():
-		child.queue_free()
-	var listdata
-	if list == "main":
-		listdata = getdata("res://Data/List.json")
-	else:
-		listdata = getdata("res://Data/List.json")
+		if child.is_in_group("User"):
+			child.queue_free()
+		elif child.is_in_group("LevelButton"):
+			child.hide()
+
+	var listdata = getlistdata()
 	var users = []
 	var userpoints = []
 	var oldpoints = []
 	var sortedpoints = []
-	if leaderboardtype == "Normal":
+	if sort_selector.selected == 0:
 		for i in listdata:
 			var calculatedpoints = calculatepoints(listdata.find(i)+1, point_equation.selected)
 			var leveldata = getdata("res://Levels/" + i + ".json")
-		
-			if not users.has(leveldata["verifier"]):
-				users.append(leveldata["verifier"])
-				userpoints.append(calculatedpoints)
-				oldpoints.append(calculatedpoints)
-				print(str(leveldata["verifier"]) + " points - " + str(calculatedpoints))
-			else:
-				userpoints[(users.find(leveldata["verifier"]))] += calculatedpoints
-				oldpoints[(users.find(leveldata["verifier"]))] += calculatedpoints
-				print(str(leveldata["verifier"]) + " points - " + str(calculatedpoints))
+			if leveldata.has("verifier"):
+				if not users.has(leveldata["verifier"]):
+					users.append(leveldata["verifier"])
+					userpoints.append(calculatedpoints)
+					oldpoints.append(calculatedpoints)
+					#print(str(leveldata["verifier"]) + " points - " + str(calculatedpoints))
+				else:
+					userpoints[(users.find(leveldata["verifier"]))] += calculatedpoints
+					oldpoints[(users.find(leveldata["verifier"]))] += calculatedpoints
+			#	print(str(leveldata["verifier"]) + " points - " + str(calculatedpoints))
 			if leveldata.has("records"):
 				for record in leveldata["records"]:
 					var calculatedrecordpoints = calculatepoints(listdata.find(i)+1, point_equation.selected, record["percent"], leveldata["percentToQualify"])
-					print(listdata.find(i)+1)
-					print(point_equation.selected)
-					print(record["percent"])
-					print(leveldata["percentToQualify"])
+					#print(listdata.find(i)+1)
+				#	print(point_equation.selected)
+					#print(record["percent"])
+					#print(leveldata["percentToQualify"])
 					if not users.has(record["user"]):
 						users.append(record["user"])
 						userpoints.append(calculatedrecordpoints)
@@ -163,7 +169,17 @@ func loadleaderboard(leaderboardtype = "Normal", list = "main"):
 					else:
 						userpoints[(users.find(record["user"]))] += calculatedrecordpoints
 						oldpoints[(users.find(record["user"]))] += calculatedrecordpoints
-					print(str(record["user"]) + " points - " + str(calculatedrecordpoints))
+	elif sort_selector.selected == 1:
+		for i in listdata:
+			var leveldata = getdata("res://Levels/" + i + ".json")
+			for creator in leveldata["creators"]:
+				if not users.has(creator):
+					users.append(creator)
+					userpoints.append(int(leveldata["rating"]))
+					oldpoints.append(int(leveldata["rating"]))
+				else:
+					userpoints[(users.find(creator))] += int(leveldata["rating"])
+					oldpoints[(users.find(creator))] += int(leveldata["rating"])
 	#oldpoints = userpoints
 	sortedpoints = sort(userpoints)
 	#print(oldpoints)
@@ -189,7 +205,7 @@ func loadleveldata(Levelname: String):
 	window.get_node("PlayerDescription").hide()
 	var tagdescriptions = getdata("res://Data/TagDescriptions.json")
 	var leveldata = getdata("res://Levels/" + Levelname + ".json")
-	var list : Array = getdata("res://Data/List.json")
+	var list : Array = getlistdata()
 	window.title = Levelname
 	leveldesc.get_node("Levelname").text = Levelname
 	for child in leveldesc.get_node("ScrollContainer").get_node("Victors").get_children():
@@ -361,13 +377,21 @@ func _on_leaderboard_button_pressed() -> void:
 
 func _on_list_button_pressed() -> void:
 	loadlist() # Replace with function body.
-
+func getlistdata():
+	if list_selector.selected == 0:
+		return getdata("res://Data/List.json")
+	elif list_selector.selected == 1:
+		return getdata("res://Data/Sgd list.json")
+	elif list_selector.selected == 2:
+		return getdata("res://Data/Unverified list.json")
+		
 func loaduser(user :String, points :float, place :int):
 	window.popup()
 	window.get_node("LevelDescription").hide()
 	window.get_node("PlayerDescription").show()
 	var playerdesc = window.get_node("PlayerDescription")
-	var list = getdata("res://Data/List.json")
+	
+	var list = getlistdata()
 	var createdlevels = 0
 	var verifiedlevels = 0
 	var completedlevels = 0
@@ -386,24 +410,23 @@ func loaduser(user :String, points :float, place :int):
 	playerdesc.get_node("Place").text = "#" +str(place)
 	for i in list:
 		var leveldata = getdata("res://Levels/" + i + ".json")
-		
-		if leveldata["verifier"] == user:
-			var level = preload("res://level_button.tscn").instantiate()
-			verifiedlevels += 1
-			level.get_node("Name").text = str(i)
-			level.get_node("Author").text = "+ " + str(calculatepoints(list.find(i)+1, point_equation.selected))
-			level.levelname = i
-			if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
+		if leveldata.has("verifier"):
+			if leveldata["verifier"] == user:
+				var level = preload("res://level_button.tscn").instantiate()
+				verifiedlevels += 1
+				level.get_node("Name").text = str(i)
+				level.get_node("Author").text = "+ " + str(calculatepoints(list.find(i)+1, point_equation.selected))
+				level.levelname = i
 				level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
-			else: 
-				print("could not load thumbnail of: " + level.get_node("Name").text)
-			level.get_node("Position").text = "#" + str(list.find(i)+1)
-			if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
-				level.get_node("Rating").text = ratings[int(leveldata["rating"])]
-			else:
-				level.get_node("Rating").text = "no star"
-			playerdesc.get_node("VerifiedScroll").get_node("Verified").get_node("VerifiedLabel").text = "Verified (" + str(verifiedlevels) + "):"
-			playerdesc.get_node("VerifiedScroll").get_node("Verified").add_child(level)
+			#	else: 
+		#			print("could not load thumbnail of: " + level.get_node("Name").text)
+				level.get_node("Position").text = "#" + str(list.find(i)+1)
+				if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
+					level.get_node("Rating").text = ratings[int(leveldata["rating"])]
+				else:
+					level.get_node("Rating").text = "no star"
+				
+				playerdesc.get_node("VerifiedScroll").get_node("Verified").add_child(level)
 			
 		if leveldata.has("records"):
 			for record in leveldata["records"]:
@@ -422,19 +445,13 @@ func loaduser(user :String, points :float, place :int):
 						level.get_node("Rating").text = ratings[int(leveldata["rating"])]
 					else:
 						level.get_node("Rating").text = "no star"
-					playerdesc.get_node("CompletedScroll").get_node("Completed").get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
 					playerdesc.get_node("CompletedScroll").get_node("Completed").add_child(level)
 		for creator in leveldata["creators"]:
 			if creator == user:
 				var level = preload("res://level_button.tscn").instantiate()
 				createdlevels +=1
-				var creatorstring = ""
-				for levelcreator in leveldata["creators"]:
-					if creatorstring != "":
-						creatorstring += ", "
-					creatorstring += creator
 				level.get_node("Name").text = str(i)
-				level.get_node("Author").text = creatorstring
+				level.get_node("Author").text = "+" + str(int(leveldata["rating"]))
 				level.levelname = i
 				if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
 					level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
@@ -444,9 +461,23 @@ func loaduser(user :String, points :float, place :int):
 					level.get_node("Rating").text = ratings[int(leveldata["rating"])]
 				else:
 					level.get_node("Rating").text = "no star"
-				playerdesc.get_node("CreatedScroll").get_node("Created").get_node("CreatedLabel").text = "Created (" + str(createdlevels) + "):"
 				playerdesc.get_node("CreatedScroll").get_node("Created").add_child(level)
-				
+	playerdesc.get_node("CreatedScroll").get_node("Created").get_node("CreatedLabel").text = "Created (" + str(createdlevels) + "):"
+	playerdesc.get_node("VerifiedScroll").get_node("Verified").get_node("VerifiedLabel").text = "Verified (" + str(verifiedlevels) + "):"
+	playerdesc.get_node("CompletedScroll").get_node("Completed").get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
+
 func _on_point_equation_item_selected(index: int) -> void:
 	if what_is_being_loaded == "Leaderboard":
 		loadleaderboard()
+
+
+func _on_listtoload_item_selected(index: int) -> void:
+	if what_is_being_loaded == "List":
+		loadlist()
+	elif what_is_being_loaded == "Leaderboard":
+		loadleaderboard()
+
+
+func _on_sort_by_item_selected(index: int) -> void:
+	if what_is_being_loaded == "Leaderboard":
+		loadleaderboard() # Replace with function body.

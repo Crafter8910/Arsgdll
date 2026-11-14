@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Ik Niet.png-77940922931901a9a99f9c469da710d7.
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

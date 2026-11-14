@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/-Cluster Caverns-.png-fc710a77a0e74da19a8e433
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

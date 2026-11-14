@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/thunderzone.png-577141f6ee8b6a5c7afb82e517692
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

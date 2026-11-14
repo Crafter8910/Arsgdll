@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/high noon.png-4bb218adb8ae5b293a7f31d5e669578
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

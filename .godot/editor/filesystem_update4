@@ -9,3 +9,8 @@ res://Scripts/level_button.gd
 res://level_description.tscn
 res://Data/sgdlist.json
 res://the_empty_space.tscn
+res://Levels/into the wild.json
+res://Levels/Into the wild.json
+res://Data/Unverified list.json
+res://Scripts/List.gd
+res://Levels/Robotic Factory.json

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Intercept.png-67cd8ba321eb9d06f841cfb9234f0d8
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0

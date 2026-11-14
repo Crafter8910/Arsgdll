@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/Peer Pressure.png-1f00ec120d60dc91dfc9a743c56
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.6
 compress/uastc_level=0
