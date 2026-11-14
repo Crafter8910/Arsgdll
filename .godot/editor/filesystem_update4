@@ -1,2 +1,11 @@
 res://List.tscn
+res://Scripts/level_button.gd
+res://Scripts/record.gd
+res://Scripts/tag.gd
+res://Scripts/thumbnail.gd
+res://user.gd
 res://Scripts/v_box_container.gd
+res://level_button.tscn
+res://Scripts/level_description.gd
+res://Scripts/window.gd
+res://Data/List.json

@@ -6,7 +6,7 @@ var isready  =false
 func _ready() -> void:
 	isready = true
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if texture and not scaled and isready:
 			scaled = true
 			region_rect = Rect2(0, 0, (texture.get_width()/Region.size.x) * Region.size.x, (texture.get_width()/Region.size.x)*Region.size.y)
