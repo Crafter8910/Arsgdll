@@ -14,5 +14,11 @@
 	"tags": ["cube","ship","spider","medium"],
 	"rating": "0",
     "records": [
+		{
+			"user": "Kevmaster04",
+			"link": "https://www.youtube.com/watch?v=1KfOwOdWwIg",
+			"percent": 100,
+			"hz": 60
+		},
     ]
 }
