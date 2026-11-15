@@ -1,16 +1,3 @@
-res://List.tscn
-res://Scripts/v_box_container.gd
 res://player_description.tscn
-res://user.tscn
-res://user.gd
-res://Levels/Antipathy.json
-res://level_button.tscn
-res://Scripts/level_button.gd
-res://level_description.tscn
-res://Data/sgdlist.json
-res://the_empty_space.tscn
-res://Levels/into the wild.json
-res://Levels/Into the wild.json
-res://Data/Unverified list.json
 res://Scripts/List.gd
-res://Levels/Robotic Factory.json
+res://List.tscn

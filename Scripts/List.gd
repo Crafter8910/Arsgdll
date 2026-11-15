@@ -54,9 +54,7 @@ func loadlist(filterstring : String = "", filter = false):
 			level.get_node("Author").text = creatorstring
 			level.get_node("Percentage").text = ""
 			level.levelname = data[i]
-			if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
-				level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
-			else: print(level.get_node("Name").text)
+			level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
 			level.get_node("Position").text = "#" + str(i+1)
 			if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
 				level.get_node("Rating").text = ratings[int(leveldata["rating"])]
@@ -437,9 +435,7 @@ func loaduser(user :String, points :float, place :int):
 					level.get_node("Author").text = "+ " +str(calculatepoints(list.find(i)+1, point_equation.selected))
 					level.get_node("Percentage").text = "%" + str(int(record["percent"]))
 					level.levelname = i
-					if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
-						level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
-					else: print(level.get_node("Name").text)
+					level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
 					level.get_node("Position").text = "#" + str(list.find(i)+1)
 					if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
 						level.get_node("Rating").text = ratings[int(leveldata["rating"])]
@@ -453,9 +449,7 @@ func loaduser(user :String, points :float, place :int):
 				level.get_node("Name").text = str(i)
 				level.get_node("Author").text = "+" + str(int(leveldata["rating"]))
 				level.levelname = i
-				if FileAccess.file_exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
-					level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
-				else: print(level.get_node("Name").text)
+				level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
 				level.get_node("Position").text = "#" + str(list.find(i)+1)
 				if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
 					level.get_node("Rating").text = ratings[int(leveldata["rating"])]
