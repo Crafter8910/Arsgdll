@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://dem4aenv4mxyn"]
 
+[ext_resource type="StyleBox" uid="uid://cvi7k45t7qub8" path="res://Styles/button.tres" id="1_mwt1v"]
 [ext_resource type="Script" uid="uid://tuns6hsestdo" path="res://user.gd" id="1_xg63p"]
+[ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="2_e81rn"]
 
 [node name="User" type="Button" unique_id=1556537852 groups=["User"]]
 custom_minimum_size = Vector2(290, 0)
@@ -8,7 +10,11 @@ custom_maximum_size = Vector2(290, -1)
 offset_right = 311.0
 offset_bottom = 31.0
 mouse_default_cursor_shape = 2
+theme_override_styles/normal = ExtResource("1_mwt1v")
+theme_override_styles/pressed = ExtResource("2_e81rn")
+theme_override_styles/hover = ExtResource("2_e81rn")
 text = "compsognathus3"
+alignment = 0
 script = ExtResource("1_xg63p")
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]

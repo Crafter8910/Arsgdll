@@ -16,14 +16,13 @@ var what_is_being_loaded = "List"
 
 func filterlist(filter: String):
 	for i in get_children():
-		i.show()
-		if i.is_in_group("LevelButton"):
-		#	print(i.levelname.erase(len(filter),len(i.levelname)).to_lower())
-			if not i.levelname.erase(len(filter),len(i.levelname)).to_lower() == filter:
-				i.hide()
-		if i.is_in_group("Leaderboard"):
-			if not i.username.erase(len(filter),len(i.username)).to_lower() == filter:
-				i.hide()
+		i.hide()
+		if i.is_in_group("LevelButton") and what_is_being_loaded == "List":
+			if i.levelname.erase(len(filter),len(i.levelname)).to_lower() == filter:
+				i.show()
+		if i.is_in_group("Leaderboard") and what_is_being_loaded == "Leaderboard":
+			if i.username.erase(len(filter),len(i.username)).to_lower() == filter:
+				i.show()
 
 func loadlist(filterstring : String = "", filter = false):
 	what_is_being_loaded = "List"
@@ -365,8 +364,6 @@ func loadleveldata(Levelname: String):
 	leveldesc.get_node("FlowContainer").get_node("Engine").text = "Engine: " +leveldata["engine"]
 
 
-func _on_line_edit_text_changed(new_text: String) -> void:
-	filterlist(new_text)# Replace with function body.
 
 
 func _on_leaderboard_button_pressed() -> void:
@@ -456,9 +453,9 @@ func loaduser(user :String, points :float, place :int):
 				else:
 					level.get_node("Rating").text = "no star"
 				playerdesc.get_node("CreatedScroll").get_node("Created").add_child(level)
-	playerdesc.get_node("CreatedScroll").get_node("Created").get_node("CreatedLabel").text = "Created (" + str(createdlevels) + "):"
-	playerdesc.get_node("VerifiedScroll").get_node("Verified").get_node("VerifiedLabel").text = "Verified (" + str(verifiedlevels) + "):"
-	playerdesc.get_node("CompletedScroll").get_node("Completed").get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
+	playerdesc.get_node("CreatedLabel").text = "Created (" + str(createdlevels) + "):"
+	playerdesc.get_node("VerifiedLabel").text = "Verified (" + str(verifiedlevels) + "):"
+	playerdesc.get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
 
 func _on_point_equation_item_selected(index: int) -> void:
 	if what_is_being_loaded == "Leaderboard":
@@ -475,3 +472,21 @@ func _on_listtoload_item_selected(index: int) -> void:
 func _on_sort_by_item_selected(index: int) -> void:
 	if what_is_being_loaded == "Leaderboard":
 		loadleaderboard() # Replace with function body.
+
+
+func _on_search_filter_text_changed(new_text: String) -> void:
+	filterlist(new_text) # Replace with function body.
+
+
+func _on_record_submission_pressed() -> void:
+	if OS.get_name() == "HTML5":
+		JavaScriptBridge.eval("window.location.href='%s'" %"https://docs.google.com/forms/d/e/1FAIpQLSeUemIQTn0AyabE5WftDJ5mIE0MdwAd6LprLAjbVXyJnN5CIw/viewform?usp=header") 
+	else:
+		OS.shell_open("%s" % "https://docs.google.com/forms/d/e/1FAIpQLSeUemIQTn0AyabE5WftDJ5mIE0MdwAd6LprLAjbVXyJnN5CIw/viewform?usp=header")  # Replace with function body.
+
+
+func _on_discord_pressed() -> void:
+	if OS.get_name() == "HTML5":
+		JavaScriptBridge.eval("window.location.href='%s'" %"https://discord.gg/7XKh2653m7") 
+	else:
+		OS.shell_open("%s" % "https://discord.gg/7XKh2653m7")

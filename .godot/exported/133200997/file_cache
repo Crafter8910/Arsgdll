@@ -1,8 +1,11 @@
-res://level_button.tscn::0c359584517207520cbd7197bf87d3f1::1794695865::res://.godot/exported/133200997/export-bdf5682cf38f382048b2b255293a9b9b-level_button.scn
-res://level_description.tscn::1546185a62c141125c1e796831d57c20::1794688061::res://.godot/exported/133200997/export-c400c82f3b96bf40c5be71dc0884d0bf-level_description.scn
-res://List.tscn::b6a02553b6c57e67173315a49cde324f::1794700241::res://.godot/exported/133200997/export-c48b5a32fe21b80882e9caad7ce7e5af-List.scn
+res://level_button.tscn::8cdd108e34f318964dfd582cf1dbaa33::1794765434::res://.godot/exported/133200997/export-bdf5682cf38f382048b2b255293a9b9b-level_button.scn
+res://level_description.tscn::1546185a62c141125c1e796831d57c20::1794765331::res://.godot/exported/133200997/export-c400c82f3b96bf40c5be71dc0884d0bf-level_description.scn
+res://List.tscn::c40c7afb92a6de1baedbdca8b2cc8a65::1794766690::res://.godot/exported/133200997/export-c48b5a32fe21b80882e9caad7ce7e5af-List.scn
 res://tag.tscn::d880e5caa167fd9b712013938cb2e311::1794530580::res://.godot/exported/133200997/export-c85c2e6a6227bc4ae7c75422a05ae854-tag.scn
 res://the_empty_space.tscn::e0fd4b67f839e74ae85236696cf8e582::1794695907::res://.godot/exported/133200997/export-32635b0acbb06d9f45095898242d8254-the_empty_space.scn
 res://record.tscn::62de6cfba9e1baf3039fdcc37110c676::1794540126::res://.godot/exported/133200997/export-6a0ddc3a4ee217b10ac09b2f34bc2322-record.scn
-res://player_description.tscn::54a54571ff6b98149fbd60ac4cabcb05::1794683567::res://.godot/exported/133200997/export-577ca83f5d0282568ee4a5c326309417-player_description.scn
-res://user.tscn::e0d517bbd017b0b50e3356b62a52cdb3::1794695546::res://.godot/exported/133200997/export-fa5595a0cd6e50b1fd8b0f04f8de6207-user.scn
+res://player_description.tscn::22e994e5f51e2160b905d10d2e6d587a::1794765371::res://.godot/exported/133200997/export-577ca83f5d0282568ee4a5c326309417-player_description.scn
+res://user.tscn::03118a185a6755ce7b3a9235720fe612::1794765255::res://.godot/exported/133200997/export-fa5595a0cd6e50b1fd8b0f04f8de6207-user.scn
+res://Styles/button.tres::8c49becbdf26293790246cac3a5c02e9::1794763635::res://.godot/exported/133200997/export-27d9cec17a41295c326cc8c446e5cb02-button.res
+res://Styles/hover.tres::6435587470ed6b3ee420cb67c47695fe::1794764042::res://.godot/exported/133200997/export-7bf7fc2a548438ec53760132bfe18e93-hover.res
+res://hovercomponent.tscn::d7289accf650e447735a96bd524da36a::1794766480::res://.godot/exported/133200997/export-cb81f1596de1d8929f6690ecf0de6458-hovercomponent.scn

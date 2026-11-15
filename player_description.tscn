@@ -39,18 +39,12 @@ text = "10000"
 [node name="CompletedScroll" type="ScrollContainer" parent="." unique_id=282651680]
 layout_mode = 0
 offset_left = 349.0
-offset_top = 86.0
+offset_top = 146.0
 offset_right = 741.0
 offset_bottom = 555.0
 
 [node name="Completed" type="VBoxContainer" parent="CompletedScroll" unique_id=420307440]
 layout_mode = 2
-
-[node name="CompletedLabel" type="Label" parent="CompletedScroll/Completed" unique_id=1252064220]
-layout_mode = 2
-theme_override_font_sizes/font_size = 40
-text = "Completed(infinity):"
-horizontal_alignment = 1
 
 [node name="VerifiedScroll" type="ScrollContainer" parent="." unique_id=285573284]
 layout_mode = 1
@@ -58,23 +52,17 @@ anchors_preset = -1
 anchor_right = 0.018000001
 anchor_bottom = 0.041
 offset_left = 767.0
-offset_top = 87.0
+offset_top = 143.0
 offset_right = 1077.264
 offset_bottom = 521.432
 
 [node name="Verified" type="VBoxContainer" parent="VerifiedScroll" unique_id=689372116]
 layout_mode = 2
 
-[node name="VerifiedLabel" type="Label" parent="VerifiedScroll/Verified" unique_id=612896232]
-layout_mode = 2
-theme_override_font_sizes/font_size = 40
-text = "Verified(-5):"
-horizontal_alignment = 1
-
 [node name="CreatedScroll" type="ScrollContainer" parent="." unique_id=940680166]
 layout_mode = 0
 offset_left = 16.0
-offset_top = 85.0
+offset_top = 141.0
 offset_right = 350.0
 offset_bottom = 554.0
 
@@ -82,8 +70,32 @@ offset_bottom = 554.0
 layout_mode = 2
 theme_override_constants/separation = 4
 
-[node name="CreatedLabel" type="Label" parent="CreatedScroll/Created" unique_id=1465558807]
-layout_mode = 2
+[node name="CompletedLabel" type="Label" parent="." unique_id=1252064220]
+layout_mode = 0
+offset_left = 349.0
+offset_top = 86.0
+offset_right = 733.0
+offset_bottom = 141.83333
+theme_override_font_sizes/font_size = 40
+text = "Completed(infinity):"
+horizontal_alignment = 1
+
+[node name="CreatedLabel" type="Label" parent="." unique_id=1465558807]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 85.0
+offset_right = 251.0
+offset_bottom = 140.83333
 theme_override_font_sizes/font_size = 40
 text = "Created(50):"
+horizontal_alignment = 1
+
+[node name="VerifiedLabel" type="Label" parent="." unique_id=612896232]
+layout_mode = 0
+offset_left = 767.0
+offset_top = 87.0
+offset_right = 990.0
+offset_bottom = 142.83333
+theme_override_font_sizes/font_size = 40
+text = "Verified(-5):"
 horizontal_alignment = 1

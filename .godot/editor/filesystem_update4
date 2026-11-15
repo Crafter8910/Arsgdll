@@ -1,3 +1,11 @@
 res://player_description.tscn
 res://Scripts/List.gd
 res://List.tscn
+res://export_presets.cfg
+res://button.tres
+res://hover.tres
+res://hovercomponent.gd
+res://hovercomponent.tscn
+res://level_button.tscn
+res://user.tscn
+res://level_description.tscn
