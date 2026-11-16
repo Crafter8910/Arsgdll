@@ -5,16 +5,16 @@ var scale
 var y
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	hide()
-	#it hides
+  hide()
+  #it hides
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	position = Vector2(25,50)
-	#position
-	#Creates an iframe as a javascript
+  position = Vector2(25,50)
+  #position
+  #Creates an iframe as a javascript
 
 
 func _on_close_requested() -> void:
-	hide()
-	#Deletes element if element is there
+  hide()
+  #Deletes element if element is there

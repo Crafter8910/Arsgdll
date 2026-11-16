@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" uid="uid://dcguewcfdbi84" path="res://hovercomponent.gd" id="1_1kviv"]
 
-[node name="hovercomponent" type="Node2D" unique_id=2084300473]
+[node name="HoverComponent" type="Node2D" unique_id=2084300473]
 script = ExtResource("1_1kviv")

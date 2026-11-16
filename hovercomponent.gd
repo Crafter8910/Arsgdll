@@ -6,23 +6,23 @@ var speed = 5
 var mouseentered = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	if parent is Control:
-		parent.mouse_entered.connect(mouse_entered)
-		parent.mouse_exited.connect(mouse_exited)
-		basescale = get_parent().scale 
-		parent.pivot_offset = Vector2(parent.size.x/2, parent.size.y/2)# Replace with function body.
+  if parent is Control:
+    parent.mouse_entered.connect(mouse_entered)
+    parent.mouse_exited.connect(mouse_exited)
+    basescale = get_parent().scale 
+    parent.pivot_offset = Vector2(parent.size.x/2, parent.size.y/2)# Replace with function body.
 
 func mouse_entered():
-	print(get_parent().scale)
-	print((basescale*scalefactor))
-	print(basescale)
-	mouseentered = true
+  print(get_parent().scale)
+  print((basescale*scalefactor))
+  print(basescale)
+  mouseentered = true
 func mouse_exited():
-	print(basescale)
-	mouseentered = false
+  print(basescale)
+  mouseentered = false
 func _process(delta: float) -> void:
-	if mouseentered:
-		get_parent().scale += ((basescale*scalefactor)-get_parent().scale)/speed
-	else:
-		get_parent().scale += ((basescale)-get_parent().scale)/speed
-	
+  if mouseentered:
+    get_parent().scale += ((basescale*scalefactor)-get_parent().scale)/speed
+  else:
+    get_parent().scale += ((basescale)-get_parent().scale)/speed
+  
