@@ -1,15 +1,15 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1794793333
+::res://::1794793374
 discord inner.svg::CompressedTexture2D::7283686473592957889::1794793017::1794793112::1::::<><><>0<>0<>944afa2bc09be21ffe9a97373626b0de<>res://.godot/imported/discord inner.svg-8e4ae1b11c0c99d884efad84c5db041b.ctex::
 export_presets.cfg::TextFile::-1::1794793017::0::1::::<><><>0<>0<><>::
 Favicon.png::CompressedTexture2D::8944994336566017502::1794793017::1794793106::1::::<><><>0<>0<>ee63c93e89bb7ac9669d271f765c6c65<>res://.godot/imported/Favicon.png-08f7cf637a5f1a7d2575d64cdc070138.ctex::
-hovercomponent.gd::GDScript::7313248646745223287::1794793135::0::1::::<>Node2D<><>0<>0<><>::
+hover_component.tscn::PackedScene::1495237630883456927::1794793447::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hovercomponent.gd
 level_button.tscn::PackedScene::7912892714340942875::1794793017::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd
 level_description.tscn::PackedScene::6371008162799707464::1794793017::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://clcwru3oudtun::::res://Assets/Difficulties.png<>uid://1hvyop6aa126::::res://Assets/Mythic.webp
-List.tscn::PackedScene::4781196022381542684::1794793374::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://b00k0t64icbxa::::res://Assets/whjite square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://vkkl0guqwwp0::::res://hovercomponent.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://db1jitm8co3xt::::res://discord inner.svg
+List.tscn::PackedScene::4781196022381542684::1794793374::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://b00k0t64icbxa::::res://Assets/whjite square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://db1jitm8co3xt::::res://discord inner.svg
 player_description.tscn::PackedScene::6399935024517206429::1794793017::0::1::::<><><>0<>0<><>::
 record.tscn::PackedScene::4394142548660707564::1794793017::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
-hover_component.tscn::PackedScene::1495237630883456927::1794793251::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hovercomponent.gd
+hover_component.gd::GDScript::7313248646745223287::1794793135::0::1::::<>Node2D<><>0<>0<><>::
 scrollbar_of_list.gd::GDScript::6921927449119747106::1794793136::0::1::::<>ScrollContainer<><>0<>0<><>::
 Settings 4.svg::CompressedTexture2D::1945208320741347729::1794793017::1794793106::1::::<><><>0<>0<>30cbcd3b3c3f000446ac7f0ab0faec05<>res://.godot/imported/Settings 4.svg-cefa8e136a6e95471ec84275a9acf5ac.ctex::
 Splash.png::CompressedTexture2D::917908593545660734::1794793017::1794793107::1::::<><><>0<>0<>2b821830e38d52d1a4231c322d86d569<>res://.godot/imported/Splash.png-a2c00b34950005c5d52b66725d00fc48.ctex::
