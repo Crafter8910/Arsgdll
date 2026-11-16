@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/whjite square.png" id="1_y1u70"]
 [ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_v5p8n"]
 [ext_resource type="PackedScene" uid="uid://cxgf83acsmfrh" path="res://player_description.tscn" id="4_w2ao3"]
-[ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hovercomponent.tscn" id="6_xruw2"]
+[ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hover_component.tscn" id="6_xruw2"]
 [ext_resource type="StyleBox" uid="uid://cvi7k45t7qub8" path="res://Styles/button.tres" id="7_xruw2"]
 [ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="8_m0k1x"]
 [ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://discord inner.svg" id="10_nw45j"]
