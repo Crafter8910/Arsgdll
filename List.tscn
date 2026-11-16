@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://caebunsk72x2s"]
 
-[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/List.gd" id="1_dwlkc"]
-[ext_resource type="PackedScene" uid="uid://cw1ftrd1h43d1" path="res://level_description.tscn" id="1_pdg4h"]
-[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/whjite square.png" id="1_y1u70"]
-[ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_v5p8n"]
-[ext_resource type="PackedScene" uid="uid://cxgf83acsmfrh" path="res://player_description.tscn" id="4_w2ao3"]
-[ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hover_component.tscn" id="6_xruw2"]
-[ext_resource type="StyleBox" uid="uid://cvi7k45t7qub8" path="res://Styles/button.tres" id="7_xruw2"]
-[ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="8_m0k1x"]
-[ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://discord inner.svg" id="10_nw45j"]
+[ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/List.gd" id="1_phuk8"]
+[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/White Square.png" id="2_psvht"]
+[ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_c24qa"]
+[ext_resource type="PackedScene" uid="uid://cw1ftrd1h43d1" path="res://level_description.tscn" id="4_bpmuf"]
+[ext_resource type="PackedScene" uid="uid://cxgf83acsmfrh" path="res://player_description.tscn" id="5_oejdw"]
+[ext_resource type="StyleBox" uid="uid://cvi7k45t7qub8" path="res://Styles/button.tres" id="6_61nm0"]
+[ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="7_t2oa3"]
+[ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hover_component.tscn" id="8_a4h0v"]
+[ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://discord inner.svg" id="9_jcpvj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp2em"]
 bg_color = Color(0.2629324, 0.26293248, 0.26293242, 1)
@@ -37,7 +37,7 @@ theme_override_colors/scroll_hint_horizontal_color = Color(0, 0, 0, 0)
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 theme_override_constants/separation = 40
-script = ExtResource("1_dwlkc")
+script = ExtResource("1_phuk8")
 window = NodePath("../../Window")
 leveldesc = NodePath("../../Window/LevelDescription")
 point_equation = NodePath("../../PointEquation")
@@ -49,7 +49,7 @@ self_modulate = Color(0.08553881, 0.08553881, 0.08553881, 1)
 z_index = -2
 position = Vector2(625.99994, 325)
 scale = Vector2(8.012346, 5.1756754)
-texture = ExtResource("1_y1u70")
+texture = ExtResource("2_psvht")
 
 [node name="Window" type="Window" parent="." unique_id=1360586935]
 oversampling_override = 1.0
@@ -61,7 +61,7 @@ unresizable = true
 popup_wm_hint = true
 theme_override_styles/embedded_border = SubResource("StyleBoxFlat_pp2em")
 theme_override_styles/embedded_unfocused_border = SubResource("StyleBoxFlat_pp2em")
-script = ExtResource("3_v5p8n")
+script = ExtResource("3_c24qa")
 
 [node name="X" type="LineEdit" parent="Window" unique_id=383787668]
 visible = false
@@ -90,7 +90,7 @@ offset_bottom = 109.0
 text = "0.3"
 placeholder_text = "Scale"
 
-[node name="LevelDescription" parent="Window" unique_id=961837041 instance=ExtResource("1_pdg4h")]
+[node name="LevelDescription" parent="Window" unique_id=961837041 instance=ExtResource("4_bpmuf")]
 z_index = 2
 offset_left = 208.0
 offset_top = 105.0
@@ -99,7 +99,7 @@ offset_bottom = 280.0
 
 [node name="HTTPRequest" type="HTTPRequest" parent="Window" unique_id=2078361744]
 
-[node name="PlayerDescription" parent="Window" unique_id=394361189 instance=ExtResource("4_w2ao3")]
+[node name="PlayerDescription" parent="Window" unique_id=394361189 instance=ExtResource("5_oejdw")]
 visible = false
 offset_left = 2.0
 offset_top = 5.0
@@ -122,12 +122,12 @@ pivot_offset = Vector2(110, 0)
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0.43904984, 0.4390487, 0.43904918, 1)
 theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = ExtResource("7_xruw2")
-theme_override_styles/pressed = ExtResource("8_m0k1x")
-theme_override_styles/hover = ExtResource("8_m0k1x")
+theme_override_styles/normal = ExtResource("6_61nm0")
+theme_override_styles/pressed = ExtResource("7_t2oa3")
+theme_override_styles/hover = ExtResource("7_t2oa3")
 text = "Leaderboard"
 
-[node name="HoverComponent" parent="Leaderboard button" unique_id=2084300473 instance=ExtResource("6_xruw2")]
+[node name="HoverComponent" parent="Leaderboard button" unique_id=2084300473 instance=ExtResource("8_a4h0v")]
 position = Vector2(125.36, 44.22)
 
 [node name="List button" type="Button" parent="." unique_id=1394267589]
@@ -138,12 +138,12 @@ offset_bottom = 66.0
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0.48570347, 0.48570353, 0.48570347, 1)
 theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = ExtResource("7_xruw2")
-theme_override_styles/pressed = ExtResource("8_m0k1x")
-theme_override_styles/hover = ExtResource("8_m0k1x")
+theme_override_styles/normal = ExtResource("6_61nm0")
+theme_override_styles/pressed = ExtResource("7_t2oa3")
+theme_override_styles/hover = ExtResource("7_t2oa3")
 text = "List"
 
-[node name="HoverComponent" parent="List button" unique_id=2025151853 instance=ExtResource("6_xruw2")]
+[node name="HoverComponent" parent="List button" unique_id=2025151853 instance=ExtResource("8_a4h0v")]
 position = Vector2(125.36, 44.22)
 
 [node name="PointEquation" type="OptionButton" parent="." unique_id=2070955064]
@@ -227,12 +227,12 @@ offset_bottom = 638.0
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0.34781757, 0.3478167, 0.34781688, 1)
 theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = ExtResource("7_xruw2")
-theme_override_styles/pressed = ExtResource("8_m0k1x")
-theme_override_styles/hover = ExtResource("8_m0k1x")
+theme_override_styles/normal = ExtResource("6_61nm0")
+theme_override_styles/pressed = ExtResource("7_t2oa3")
+theme_override_styles/hover = ExtResource("7_t2oa3")
 text = "Record Submission"
 
-[node name="HoverComponent" parent="Record Submission" unique_id=1340086814 instance=ExtResource("6_xruw2")]
+[node name="HoverComponent" parent="Record Submission" unique_id=1340086814 instance=ExtResource("8_a4h0v")]
 scalefactor = 1.05
 
 [node name="Discord" type="TextureButton" parent="." unique_id=282525304]
@@ -244,12 +244,12 @@ offset_bottom = 4612.0
 scale = Vector2(0.01, 0.01)
 pivot_offset = Vector2(4092.5, 4092.5)
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("10_nw45j")
-texture_pressed = ExtResource("10_nw45j")
-texture_hover = ExtResource("10_nw45j")
+texture_normal = ExtResource("9_jcpvj")
+texture_pressed = ExtResource("9_jcpvj")
+texture_hover = ExtResource("9_jcpvj")
 ignore_texture_size = true
 
-[node name="HoverComponent" parent="Discord" unique_id=1528842859 instance=ExtResource("6_xruw2")]
+[node name="HoverComponent" parent="Discord" unique_id=1528842859 instance=ExtResource("8_a4h0v")]
 position = Vector2(4100, 4000)
 scalefactor = 1.05
 
