@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db1jitm8co3xt"
-path="res://.godot/imported/discord inner.svg-8e4ae1b11c0c99d884efad84c5db041b.ctex"
+path="res://.godot/imported/Discord.svg-7211c88a2a0756293375a5eb757eff31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://discord inner.svg"
-dest_files=["res://.godot/imported/discord inner.svg-8e4ae1b11c0c99d884efad84c5db041b.ctex"]
+source_file="res://Assets/Discord.svg"
+dest_files=["res://.godot/imported/Discord.svg-7211c88a2a0756293375a5eb757eff31.ctex"]
 
 [params]
 

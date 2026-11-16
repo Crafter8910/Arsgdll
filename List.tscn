@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://caebunsk72x2s"]
 
 [ext_resource type="Script" uid="uid://ksvplyc7p33p" path="res://Scripts/List.gd" id="1_phuk8"]
-[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/White Square.png" id="2_psvht"]
+[ext_resource type="Texture2D" uid="uid://b00k0t64icbxa" path="res://Assets/White Square.png" id="2_phuk8"]
 [ext_resource type="Script" uid="uid://ca5msevu7fxtu" path="res://Scripts/window.gd" id="3_c24qa"]
 [ext_resource type="PackedScene" uid="uid://cw1ftrd1h43d1" path="res://level_description.tscn" id="4_bpmuf"]
 [ext_resource type="PackedScene" uid="uid://cxgf83acsmfrh" path="res://player_description.tscn" id="5_oejdw"]
 [ext_resource type="StyleBox" uid="uid://cvi7k45t7qub8" path="res://Styles/button.tres" id="6_61nm0"]
 [ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="7_t2oa3"]
 [ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hover_component.tscn" id="8_a4h0v"]
-[ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://discord inner.svg" id="9_jcpvj"]
+[ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://Assets/Discord.svg" id="9_phuk8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp2em"]
 bg_color = Color(0.2629324, 0.26293248, 0.26293242, 1)
@@ -49,7 +49,7 @@ self_modulate = Color(0.08553881, 0.08553881, 0.08553881, 1)
 z_index = -2
 position = Vector2(625.99994, 325)
 scale = Vector2(8.012346, 5.1756754)
-texture = ExtResource("2_psvht")
+texture = ExtResource("2_phuk8")
 
 [node name="Window" type="Window" parent="." unique_id=1360586935]
 oversampling_override = 1.0
@@ -244,9 +244,9 @@ offset_bottom = 4612.0
 scale = Vector2(0.01, 0.01)
 pivot_offset = Vector2(4092.5, 4092.5)
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("9_jcpvj")
-texture_pressed = ExtResource("9_jcpvj")
-texture_hover = ExtResource("9_jcpvj")
+texture_normal = ExtResource("9_phuk8")
+texture_pressed = ExtResource("9_phuk8")
+texture_hover = ExtResource("9_phuk8")
 ignore_texture_size = true
 
 [node name="HoverComponent" parent="Discord" unique_id=1528842859 instance=ExtResource("8_a4h0v")]

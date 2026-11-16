@@ -1,13 +1,12 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1794793905
-discord inner.svg::CompressedTexture2D::7283686473592957889::1794793017::1794793112::1::::<><><>0<>0<>944afa2bc09be21ffe9a97373626b0de<>res://.godot/imported/discord inner.svg-8e4ae1b11c0c99d884efad84c5db041b.ctex::
+::res://::1794795322
 export_presets.cfg::TextFile::-1::1794793017::0::1::::<><><>0<>0<><>::
 Favicon.png::CompressedTexture2D::8944994336566017502::1794793017::1794793106::1::::<><><>0<>0<>ee63c93e89bb7ac9669d271f765c6c65<>res://.godot/imported/Favicon.png-08f7cf637a5f1a7d2575d64cdc070138.ctex::
 hover_component.gd::GDScript::7313248646745223287::1794793135::0::1::::<>Node2D<><>0<>0<><>::
 hover_component.tscn::PackedScene::1495237630883456927::1794793447::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hover_component.gd
 level_button.tscn::PackedScene::7912892714340942875::1794793017::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd
 level_description.tscn::PackedScene::6371008162799707464::1794793017::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://clcwru3oudtun::::res://Assets/Difficulties.png<>uid://1hvyop6aa126::::res://Assets/Mythic.webp
-list.tscn::PackedScene::4781196022381542684::1794793905::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://discord inner.svg
+list.tscn::PackedScene::4781196022381542684::1794795322::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg
 player_description.tscn::PackedScene::6399935024517206429::1794793017::0::1::::<><><>0<>0<><>::
 record.tscn::PackedScene::4394142548660707564::1794793017::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
 scrollbar_of_list.gd::GDScript::6921927449119747106::1794793136::0::1::::<>ScrollContainer<><>0<>0<><>::
@@ -15,12 +14,13 @@ Settings 4.svg::CompressedTexture2D::1945208320741347729::1794793017::1794793106
 Splash.png::CompressedTexture2D::917908593545660734::1794793017::1794793107::1::::<><><>0<>0<>2b821830e38d52d1a4231c322d86d569<>res://.godot/imported/Splash.png-a2c00b34950005c5d52b66725d00fc48.ctex::
 tag.tscn::PackedScene::353814886057255397::1794793017::0::1::::<><><>0<>0<><>::uid://ctv33mqldkc6::::res://Scripts/tag.gd
 the_empty_space.tscn::PackedScene::3077804655635958696::1794793017::0::1::::<><><>0<>0<><>::
-TODO.txt::TextFile::-1::1794793017::0::1::::<><><>0<>0<><>::
+TODO.txt::TextFile::-1::1794795309::0::1::::<><><>0<>0<><>::
 user.gd::GDScript::1375698689261460880::1794793136::0::1::::<>Button<><>0<>0<><>::
 user.tscn::PackedScene::7466550982639632169::1794793017::0::1::::<><><>0<>0<><>::uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://tuns6hsestdo::::res://user.gd<>uid://cfnhhhee2742q::::res://Styles/hover.tres
-::res://Assets/::1794793905
+::res://Assets/::1794795322
 Codetorch Icon.png::CompressedTexture2D::633309355153268282::1794793017::1794793107::1::::<><><>0<>0<>54f96aec887c5b0310f655c447f263a6<>res://.godot/imported/Codetorch Icon.png-d9725d20aeea716211558ccba8272b11.ctex::
 Difficulties.png::CompressedTexture2D::5550414629634413081::1794793017::1794793107::1::::<><><>0<>0<>80bcf2f11cd35fa6e708cc2c4dbfd5c1<>res://.godot/imported/Difficulties.png-119be3d88d3b0afa369ae3965b33e9df.ctex::
+Discord.svg::CompressedTexture2D::7283686473592957889::1794793017::1794795329::1::::<><><>0<>0<>05ca82d4f86d168ecaf368ca582f4d32<>res://.godot/imported/Discord.svg-7211c88a2a0756293375a5eb757eff31.ctex::
 Epic.png::CompressedTexture2D::2367510315079817616::1794793017::1794793107::1::::<><><>0<>0<>a7c1c66913752648849b74a955d838d4<>res://.godot/imported/Epic.png-de53ef4491c16e7a801b262afed969c3.ctex::
 Featured.png::CompressedTexture2D::618269687132798905::1794793017::1794793107::1::::<><><>0<>0<>f1e9f08fecd0f19eb83be9d1aa508dce<>res://.godot/imported/Featured.png-c2e690706aa485072548fd15fa65470a.ctex::
 Itch Icon.png::CompressedTexture2D::2687449908537146366::1794793017::1794793107::1::::<><><>0<>0<>bef9c3fecd888e3980ad0e40a39e7cd9<>res://.godot/imported/Itch Icon.png-1020992683ea2dda3498eb8228f19441.ctex::

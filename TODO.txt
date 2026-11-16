@@ -1,161 +1,161 @@
-commit test (it works)
-1. Add demon difficulties to the diff/rate folder check
-2. Add all the rating bgs check
-2.5. Fix all thumbnails that failed to load not check
-3. Add all these levels not chgeck
-digits 1/2 = last two digits of year
-digit 3 = month (1-9, then a/b/c for the last three)
-digit 4 = engine (list below)
-digit 5 = quality rating (also list below)
-
-
-Engines :
-
-0 = Griffpatch
-1 = iPhone Editor
-2 = TongHong
-3 = Compacted Editor
-4 = CaptainFlufBall (CFB)
-5 = Egg Dash
-6 = Spooky Dash
-7 = Pig Dash
-8 = Geometry Dash Revamped
-9 = Trigonometry Sprint
-A = Geometry Dash Innovated
-
-Quality Ratings :
-
-0 = Basic (basically no star from ball and dao list)
-1 = Standard (star rate)
-2 = Featured
-3 = Epic
-4 = Legendary
-5 = Mythic
-6 = Godlike
------------------
-25882
-24413
-26284
-25682
-25B72
-25B73
-25B83
-21C13
-25684
-???82
-26382
-24285
-24113
-21B42
-25182
-25B72
-24B84
-22613
-25563
-26283
-24183
-25562
-25984
-24284
-25112
-25A62
-???83
-24682
-25B72
-???13
-???83
-24683
-25382
-25381
-24383
-26184
-26184
-23912
-22523
-???22
-23611
-22412
-23912
-263A3
-23914
-23982
-24483
-24B83
-26133
-25562
-25B85
-25B73
-25B73
-25A73
-25A73
-25774
-24174
-24382
-24384
-25C63
-25B73
-25284
-26143
-24585
-263A2
-25A73
-25834
-16402
-16402
-16402
-16C03
-16C02
-16C03
-18C03
-19302
-19303
-19303
-19303
-19303
-19303
-24772
-24773
-24773
-24773
-24A63
-23653
-23652
-23653
-24753
-18403
-18403
-18403
-18501
-18501
-18502
-18502
-18502
-18502
-18502
-18501
-18501
-18502
-25A72
-24883
-24213
-24B23
-22223
-23911
-24B92
-24B91
-24C92
-24C92
-24C92
-25192
-25192
-25192
-25293
-25292
-25293
-25293
-25292
-25293
-25393
+commit test (it works)  
+1. Add demon difficulties to the diff/rate folder check  
+2. Add all the rating bgs check  
+2.5. Fix all thumbnails that failed to load not check  
+3. Add all these levels not chgeck  
+digits 1/2 = last two digits of year  
+digit 3 = month (1-9, then a/b/c for the last three)  
+digit 4 = engine (list below)  
+digit 5 = quality rating (also list below)  
+  
+  
+Engines :  
+  
+0 = Griffpatch  
+1 = iPhone Editor  
+2 = TongHong  
+3 = Compacted Editor  
+4 = CaptainFlufBall (CFB)  
+5 = Egg Dash  
+6 = Spooky Dash  
+7 = Pig Dash  
+8 = Geometry Dash Revamped  
+9 = Trigonometry Sprint  
+A = Geometry Dash Innovated  
+  
+Quality Ratings :  
+  
+0 = Basic (basically no star from ball and dao list)  
+1 = Standard (star rate)  
+2 = Featured  
+3 = Epic  
+4 = Legendary  
+5 = Mythic  
+6 = Godlike  
+-----------------  
+25882  
+24413  
+26284  
+25682  
+25B72  
+25B73  
+25B83  
+21C13  
+25684  
+???82  
+26382  
+24285  
+24113  
+21B42  
+25182  
+25B72  
+24B84  
+22613  
+25563  
+26283  
+24183  
+25562  
+25984  
+24284  
+25112  
+25A62  
+???83  
+24682  
+25B72  
+???13  
+???83  
+24683  
+25382  
+25381  
+24383  
+26184  
+26184  
+23912  
+22523  
+???22  
+23611  
+22412  
+23912  
+263A3  
+23914  
+23982  
+24483  
+24B83  
+26133  
+25562  
+25B85  
+25B73  
+25B73  
+25A73  
+25A73  
+25774  
+24174  
+24382  
+24384  
+25C63  
+25B73  
+25284  
+26143  
+24585  
+263A2  
+25A73  
+25834  
+16402  
+16402  
+16402  
+16C03  
+16C02  
+16C03  
+18C03  
+19302  
+19303  
+19303  
+19303  
+19303  
+19303  
+24772  
+24773  
+24773  
+24773  
+24A63  
+23653  
+23652  
+23653  
+24753  
+18403  
+18403  
+18403  
+18501  
+18501 
+18502 
+18502  
+18502  
+18502  
+18502  
+18501  
+18501  
+18502  
+25A72  
+24883  
+24213  
+24B23  
+22223  
+23911  
+24B92  
+24B91  
+24C92  
+24C92  
+24C92  
+25192  
+25192  
+25192  
+25293  
+25292 
+25293  
+25293  
+25292  
+25293  
+25393  
 25392
 25391
 25392
