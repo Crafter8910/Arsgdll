@@ -14,8 +14,6 @@ func _ready() -> void:
 
 func mouse_entered():
   print(get_parent().scale)
-  print((basescale*scalefactor))
-  print(basescale)
   mouseentered = true
 func mouse_exited():
   print(basescale)

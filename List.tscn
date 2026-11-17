@@ -129,7 +129,6 @@ text = "Leaderboard"
 
 [node name="HoverComponent" parent="Leaderboard button" unique_id=2084300473 instance=ExtResource("8_a4h0v")]
 position = Vector2(125.36, 44.22)
-scalefactor = null
 
 [node name="List button" type="Button" parent="." unique_id=1394267589]
 offset_left = 952.0
@@ -146,7 +145,6 @@ text = "List"
 
 [node name="HoverComponent" parent="List button" unique_id=2025151853 instance=ExtResource("8_a4h0v")]
 position = Vector2(125.36, 44.22)
-scalefactor = null
 
 [node name="PointEquation" type="OptionButton" parent="." unique_id=2070955064]
 offset_left = 13.0
