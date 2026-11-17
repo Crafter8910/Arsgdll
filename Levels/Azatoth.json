@@ -16,12 +16,12 @@
   "hz": 115,
   "rating": 4,
   "records": [
-    {
-      "user": "Wallyboom2010",
-      "link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
-      "percent": 100,
-      "hz": 120,
-      "enj": 70
-    }
+  {
+    "user": "Wallyboom2010",
+    "link": "https://www.youtube.com/watch?v=6Jj-X-20J8s",
+    "percent": 100,
+    "hz": 120,
+    "enj": 70
+  }
   ]
 }

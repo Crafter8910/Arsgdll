@@ -13,4 +13,4 @@ func _process(_delta: float) -> void:
 
 
 func _on_pressed() -> void:
-    get_parent().loaduser(username, points,place) # Replace with function body.
+  get_parent().loaduser(username, points,place) # Replace with function body.

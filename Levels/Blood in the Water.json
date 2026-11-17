@@ -14,54 +14,54 @@
   "tags": ["Wave", "Cube"],
   "rating": 2,
   "records": [
-    {
-      "user": "meow_wet",
-      "link": "https://www.youtube.com/watch?v=-aqWNY__mWY",
-      "percent": 100,
-      "hz": 30,
-      "enj": 83
-    },
-    {
-      "user": "compsognathus3",
-      "link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
-      "percent": 100,
-      "hz": 60
-    },
-    {
-      "user": "C0DERS0110",
-      "link": "https://www.youtube.com/watch?v=xljvJzL6-EQ",
-      "percent": 100,
-      "hz": 60,
-      "enj": 100
-    },
-    {
-      "user": "Wallyboom2010",
-      "link": "https://youtu.be/F9Se1s2EUe4?t=170",
-      "percent": 100,
-      "hz": 60,
-      "enj": 60
-    },
-    {
-      "user": "Kevmaster04",
-      "link": "https://m.youtube.com/watch?v=fSaU30QXpEw",
-      "percent": 100,
-      "hz": 100,
-      "enj": 60
-    },
-    {
-      "user": "CreativeStegosaur",
-      "link": "https://youtu.be/JLohnVobOp8",
-      "percent": 100,
-      "hz": 60,
-      "enj": 90
-    },
-    {
-      "user": "Themasterd2010", 
-      "link": "https://youtu.be/bDNXOPbkuQI", 
-      "percent": 100, 
-      "hz": 60, 
-      "enj": 90,
-      "date": "2026-09-17T13:45:21.881Z"
-    }
+  {
+    "user": "meow_wet",
+    "link": "https://www.youtube.com/watch?v=-aqWNY__mWY",
+    "percent": 100,
+    "hz": 30,
+    "enj": 83
+  },
+  {
+    "user": "compsognathus3",
+    "link": "https://drive.google.com/file/d/1AHnJ_odWrETYiNHyUpfo_eXSUth7bdoI/view",
+    "percent": 100,
+    "hz": 60
+  },
+  {
+    "user": "C0DERS0110",
+    "link": "https://www.youtube.com/watch?v=xljvJzL6-EQ",
+    "percent": 100,
+    "hz": 60,
+    "enj": 100
+  },
+  {
+    "user": "Wallyboom2010",
+    "link": "https://youtu.be/F9Se1s2EUe4?t=170",
+    "percent": 100,
+    "hz": 60,
+    "enj": 60
+  },
+  {
+    "user": "Kevmaster04",
+    "link": "https://m.youtube.com/watch?v=fSaU30QXpEw",
+    "percent": 100,
+    "hz": 100,
+    "enj": 60
+  },
+  {
+    "user": "CreativeStegosaur",
+    "link": "https://youtu.be/JLohnVobOp8",
+    "percent": 100,
+    "hz": 60,
+    "enj": 90
+  },
+  {
+    "user": "Themasterd2010", 
+    "link": "https://youtu.be/bDNXOPbkuQI", 
+    "percent": 100, 
+    "hz": 60, 
+    "enj": 90,
+    "date": "2026-09-17T13:45:21.881Z"
+  }
   ]
 }

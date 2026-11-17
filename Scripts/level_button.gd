@@ -13,7 +13,7 @@ func _process(_delta: float) -> void:
 
 
 func _on_pressed() -> void:
-    if levelname == "love_":
-      list.loadleveldata("love.")
-      return
+  if levelname == "love_":
+    list.loadleveldata("love.")
+    return
     list.loadleveldata(levelname)

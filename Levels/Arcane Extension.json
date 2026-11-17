@@ -15,12 +15,12 @@
   "hz": 30,
   "rating": 0,
   "records": [
-    {
-      "user": "Captinfireball",
-      "link": "https://youtu.be/6XsUQmmll4w?t=3430",
-      "percent": 100,
-      "hz": 30,
-      "enj": 50
-    }
+  {
+    "user": "Captinfireball",
+    "link": "https://youtu.be/6XsUQmmll4w?t=3430",
+    "percent": 100,
+    "hz": 30,
+    "enj": 50
+  }
   ] 
 }

@@ -13,47 +13,47 @@
   "enj": 87.62,
   "rating": 2,
   "records": [
-    {
-      "user": "Wallyboom2010",
-      "link": "https://www.youtube.com/watch?v=gyonh0908kI",
-      "percent": 100,
-      "hz": "60",
-      "enj": 60
-    },
-    {
-      "user": "compsognathus3",
-      "link": "https://drive.google.com/file/d/1DhffOVmRpfcCe1D0u1t7p846Y0q73WQc/view?usp=drive_link",
-      "percent": 100,
-      "hz": "240",
-      "enj": 82.21
-    },
-    {
-      "user": "Captinfireball",
-      "link": "https://www.youtube.com/watch?v=0cxTzRTNYtM",
-      "percent": 100,
-      "hz": 60,
-      "enj": 70
-    },
-    {
-      "user": "cross1508",
-      "link": "https://www.youtube.com/watch?v=mPtQgliezMA",
-      "percent": 100,
-      "hz": 120,
-      "enj": 60
-    },
-    {
-      "user": "Semidecentgdplayer",
-      "link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
-      "percent": 100,
-      "hz": 60,
-      "enj": 90
-    },        
-    {
-      "user": "Semimidgdplayer",
-      "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
-      "percent": 100,
-      "hz": 60,
-      "enj": 65
-    }
+  {
+    "user": "Wallyboom2010",
+    "link": "https://www.youtube.com/watch?v=gyonh0908kI",
+    "percent": 100,
+    "hz": "60",
+    "enj": 60
+  },
+  {
+    "user": "compsognathus3",
+    "link": "https://drive.google.com/file/d/1DhffOVmRpfcCe1D0u1t7p846Y0q73WQc/view?usp=drive_link",
+    "percent": 100,
+    "hz": "240",
+    "enj": 82.21
+  },
+  {
+    "user": "Captinfireball",
+    "link": "https://www.youtube.com/watch?v=0cxTzRTNYtM",
+    "percent": 100,
+    "hz": 60,
+    "enj": 70
+  },
+  {
+    "user": "cross1508",
+    "link": "https://www.youtube.com/watch?v=mPtQgliezMA",
+    "percent": 100,
+    "hz": 120,
+    "enj": 60
+  },
+  {
+    "user": "Semidecentgdplayer",
+    "link": "https://drive.google.com/drive/folders/1e1sHCq0uoRZ29u0ckuh3uVk0lIE8ZMHd?usp=sharing",
+    "percent": 100,
+    "hz": 60,
+    "enj": 90
+  },        
+  {
+    "user": "Semimidgdplayer",
+    "link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+    "percent": 100,
+    "hz": 60,
+    "enj": 65
+  }
   ]
 }

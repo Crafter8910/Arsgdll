@@ -15,12 +15,12 @@
   "tags": ["Cube", "Ship", "Ball", "Wave", "Timings", "Long", "Chokepoints", "Nerve Control"],
   "rating": 4,
   "records": [
-    {
-      "user": "Wallyboom2010",
-      "link": "https://youtu.be/O-_BhU-lp88?t=146",
-      "percent": 100,
-      "hz": 120,
-      "enj": 50
-    }
+  {
+    "user": "Wallyboom2010",
+    "link": "https://youtu.be/O-_BhU-lp88?t=146",
+    "percent": 100,
+    "hz": 120,
+    "enj": 50
+  }
   ]
 }

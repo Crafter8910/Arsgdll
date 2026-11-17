@@ -14,13 +14,13 @@
   "tags": ["Clicksync", "Timings", "Chokepoints", "contains swear words"],
   "rating": "1",
   "records": [
-    {
-      "user": "RandomAmerican7", 
-      "link": "https://youtu.be/vovGTE8AeF4", 
-      "percent": 100, 
-      "hz": 60, 
-      "enj": 50,
-      "date": "2026-10-31T18:01:18.884Z"
-    }
+  {
+    "user": "RandomAmerican7", 
+    "link": "https://youtu.be/vovGTE8AeF4", 
+    "percent": 100, 
+    "hz": 60, 
+    "enj": 50,
+    "date": "2026-10-31T18:01:18.884Z"
+  }
   ]
 }

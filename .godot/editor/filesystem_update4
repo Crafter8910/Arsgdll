@@ -1,2 +1,43 @@
+res://Scripts/level_button.gd
+res://player_description.tscn
+res://user.gd
 res://Data/List.json
-res://list.tscn
+res://Scripts/record.gd
+res://Levels/30 seconds of pure memory.json
+res://Levels/Agathokakological.json
+res://Levels/Amidst The Misery.json
+res://Levels/Antipathy.json
+res://Levels/Arcane Extension.json
+res://Levels/Azatoth.json
+res://Levels/B R A I N S P A C E.json
+res://Levels/Barracuda.json
+res://Levels/Biological Infiltration.json
+res://Levels/Blood in the Water.json
+res://Levels/Buffed Apex.json
+res://Levels/Bye Bye.json
+res://Levels/Clubbers.json
+res://Levels/Cobwebs.json
+res://Levels/Conventional wave challenge.json
+res://Levels/CORRUPT3D_N3BULA.json
+res://Levels/CREEPY WORD HERE.json
+res://Levels/Crucio X.json
+res://Levels/cuatrocientos never clear.json
+res://Levels/deafening silence.json
+res://Levels/deco in MY gdh.json
+res://Levels/Gameplay (TM).json
+res://Levels/hammer of justice.json
+res://hover_component.gd
+res://Levels/Impotence.json
+res://Levels/Interstellar.json
+res://Scripts/level_description.gd
+res://Scripts/List.gd
+res://Levels/Machine Love.json
+res://Levels/Mayham X.json
+res://Levels/mazer.json
+res://Levels/NASA SUPER COMPUTER.json
+res://Levels/Robotic Factory.json
+res://Levels/Rot for Clout.json
+res://Levels/Shattered Cityscape.json
+res://Levels/Silent 12.json
+res://Scripts/tag.gd
+res://Levels/Whizkid Kaizo Stage VI.json

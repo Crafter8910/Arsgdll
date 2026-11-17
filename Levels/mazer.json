@@ -12,12 +12,12 @@
   "tags": ["Cube","Ball","Memory"],
   "rating": 1,
   "records": [
-    {
-      "user": "Kevmaster04",
-      "link": "https://youtu.be/ojt261g1oEU",
-      "percent": 100,
-      "hz": 60,
-      "enj": 75
-    }
+  {
+    "user": "Kevmaster04",
+    "link": "https://youtu.be/ojt261g1oEU",
+    "percent": 100,
+    "hz": 60,
+    "enj": 75
+  }
   ] 
 }

@@ -13,19 +13,19 @@
   "tags": ["Cube", "Ship", "Wave", "Short", "Timings", "Endurance", "Nerve Control", "Laggy", "What the fuck"],
   "rating": 2,
   "records": [
-    {
-      "user": "Wallyboom2010",
-      "link": "https://youtu.be/P1i--hpsH8A?t=137",
-      "percent": 100,
-      "hz": 60,
-      "enj": 10
-    },
-    {
-      "user": "Captinfireball",
-      "link": "https://youtu.be/uUZAvMHu_L4",
-      "percent": 100,
-      "hz": 120,
-      "enj": 0
-    }
+  {
+    "user": "Wallyboom2010",
+    "link": "https://youtu.be/P1i--hpsH8A?t=137",
+    "percent": 100,
+    "hz": 60,
+    "enj": 10
+  },
+  {
+    "user": "Captinfireball",
+    "link": "https://youtu.be/uUZAvMHu_L4",
+    "percent": 100,
+    "hz": 120,
+    "enj": 0
+  }
   ] 
 }

@@ -14,12 +14,12 @@
   "tags": ["Cube", "Ship", "Memory", "Bullshit"],
   "rating": "2",
   "records": [
-    {
-      "user": "c257h383n65o77s6",
-      "link": "https://www.mediafire.com/file/5np91n57d4id41l/30_Seconds_of_Pure_Memory_100%25.mp4/file",
-      "percent": 100,
-      "hz": 120,
-      "enj": 80
-    }
+  {
+    "user": "c257h383n65o77s6",
+    "link": "https://www.mediafire.com/file/5np91n57d4id41l/30_Seconds_of_Pure_Memory_100%25.mp4/file",
+    "percent": 100,
+    "hz": 120,
+    "enj": 80
+  }
   ]
 }

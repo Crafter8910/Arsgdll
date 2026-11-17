@@ -15,13 +15,13 @@
   "rating": "1",
   "date": "2026-10-31T20:21:19.906Z",
   "records": [
-    {
-      "user": "meow_wet", 
-      "link": "https://youtu.be/HuHFa9qkIOM", 
-      "percent": 100, 
-      "hz": 60, 
-      "enj": 67,
-      "date": "2026-11-03T00:31:22.270Z"
-    }
+  {
+    "user": "meow_wet", 
+    "link": "https://youtu.be/HuHFa9qkIOM", 
+    "percent": 100, 
+    "hz": 60, 
+    "enj": 67,
+    "date": "2026-11-03T00:31:22.270Z"
+  }
   ]
 }
