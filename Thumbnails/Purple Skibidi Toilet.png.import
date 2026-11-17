@@ -2,16 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8qir2xfsmr3l"
-valid=false
+uid="uid://0hhmko543i8o"
+path="res://.godot/imported/Purple Skibidi Toilet.png-896fea34ad942de1780663f583933b62.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Thumbnails/Purple Skibidi Toilet.png"
+dest_files=["res://.godot/imported/Purple Skibidi Toilet.png-896fea34ad942de1780663f583933b62.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

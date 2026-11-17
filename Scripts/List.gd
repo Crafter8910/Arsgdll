@@ -18,11 +18,13 @@ func filterlist(filter: String):
   for i in get_children():
     i.hide()
     if i.is_in_group("LevelButton") and what_is_being_loaded == "List":
-      if i.levelname.erase(len(filter), len(i.levelname)).to_lower() == filter:
-        i.show()
+      if "levelname" in i:
+        if i.levelname.erase(len(filter), len(i.levelname)).to_lower() == filter:
+          i.show()
     if i.is_in_group("Leaderboard") and what_is_being_loaded == "Leaderboard":
-      if i.username.erase(len(filter), len(i.username)).to_lower() == filter:
-        i.show()
+      if "username" in i:
+        if i.username.erase(len(filter), len(i.username)).to_lower() == filter:
+          i.show()
 
 
 func loadlist(filterstring: String = "", filter = false):
@@ -54,6 +56,7 @@ func loadlist(filterstring: String = "", filter = false):
       level.get_node("Author").text = creatorstring
       level.get_node("Percentage").text = ""
       level.levelname = data[i]
+      leveldata["name"] = leveldata["name"].replace(":", "")
       level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
       level.get_node("Position").text = "#" + str(i + 1)
       if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
@@ -69,13 +72,10 @@ func _process(_delta: float) -> void:
     add_theme_constant_override("separation", 10)
   elif what_is_being_loaded == "Leaderboard":
     add_theme_constant_override("separation", 10)
-
+  
 
 func _ready() -> void:
-  #Humanized by Crafter
-  #Code originally done by the big c(rafter)
-  #comments arent needede yknow you can just read what the functions say comments are government propaganda made by the real programmers
-  #loadleveldata("Shattered Cityscape")
+  
   loadlist()
   #for i in range(150):
   #	print("test")
@@ -85,6 +85,7 @@ func _ready() -> void:
 func getdata(filename: String):
   #Gets the data based on the file name
   var fileaccess = FileAccess.open(filename, FileAccess.READ)
+  print(filename)
   var text = fileaccess.get_as_text()
   json.parse(text)
   return json.data
@@ -460,11 +461,13 @@ func loaduser(user: String, points: float, place: int):
   playerdesc.get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
 
 
+@warning_ignore("unused_parameter")
 func _on_point_equation_item_selected(index: int) -> void:
   if what_is_being_loaded == "Leaderboard":
     loadleaderboard()
 
 
+@warning_ignore("unused_parameter")
 func _on_listtoload_item_selected(index: int) -> void:
   if what_is_being_loaded == "List":
     loadlist()
@@ -472,6 +475,7 @@ func _on_listtoload_item_selected(index: int) -> void:
     loadleaderboard()
 
 
+@warning_ignore("unused_parameter")
 func _on_sort_by_item_selected(index: int) -> void:
   if what_is_being_loaded == "Leaderboard":
     loadleaderboard() # Replace with function body.

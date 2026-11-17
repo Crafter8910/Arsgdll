@@ -9,10 +9,10 @@
     "demonDifficulty": "Insane",
     "description": "Difficulty: Easy Demon",
     "engine": "GDR",
-	  "enj": "95",
-	  "hz": "60",
-	  "tags": ["easy"],
-	  "rating": "1",
+    "enj": "95",
+    "hz": "60",
+    "tags": ["easy"],
+    "rating": "1",
     "records": [
     ]
 }

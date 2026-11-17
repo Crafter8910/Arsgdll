@@ -1,5 +1,5 @@
 {
-	"id": "1375118115",
+  "id": "1375118115",
     "name": "Sunset Shores",
     "author": "busydragon",
     "creators": ["busydragon"],
@@ -10,9 +10,9 @@
     "description": "'Sometimes, you just need to travel to the beach with your two friends and just relax.'<br>All my friends (on scratch and irl) are included in this level. Can you find yourself?",
     "engine": "iPhone",
     "tags": ["Cube", "Ship", "Double clicks", "Medium"],
-	"enj": 90,
-	"hz": 120,
+  "enj": 90,
+  "hz": 120,
     "rating": 3,
-	"records": [
+  "records": [
     ]
 }

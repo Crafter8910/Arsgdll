@@ -2,16 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfehpt340vta2"
-valid=false
+uid="uid://cgboi7v4fnr8r"
+path="res://.godot/imported/Conventional wave challenge.png-64275087d37a453bbb1d5b7543e735e5.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Thumbnails/Conventional wave challenge.png"
+dest_files=["res://.godot/imported/Conventional wave challenge.png-64275087d37a453bbb1d5b7543e735e5.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

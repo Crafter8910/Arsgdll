@@ -2,16 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddbl7cm644wd3"
-valid=false
+uid="uid://dfqomv8323fq4"
+path="res://.godot/imported/SUPER SCARY FEM MAP 2.png-6c454acaa0d64f51798cde3df9d4975a.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://Thumbnails/SUPER SCARY FEM MAP 2.png"
+dest_files=["res://.godot/imported/SUPER SCARY FEM MAP 2.png-6c454acaa0d64f51798cde3df9d4975a.ctex"]
 
 [params]
 
-compress/mode=1
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

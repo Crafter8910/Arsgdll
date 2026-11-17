@@ -18,6 +18,7 @@ func mouse_entered():
 func mouse_exited():
   print(basescale)
   mouseentered = false
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
   if mouseentered:
     get_parent().scale += ((basescale*scalefactor)-get_parent().scale)/speed

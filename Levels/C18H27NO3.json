@@ -9,10 +9,10 @@
     "demonDifficulty": "Hard Demon",
     "description": "my fastest level <br> i think this might be the only gdr level with a (kinda) working 5x speed portal <br> <img src='../assets/levels/I am Speed.png'>",
     "engine": "GDR",
-	"enj": "30",
-	"hz": "60",
-	"tags": ["fast", "5x Speed", "Ship", "timings","Chokepoints"],
-	"rating": "1",
+  "enj": "30",
+  "hz": "60",
+  "tags": ["fast", "5x Speed", "Ship", "timings","Chokepoints"],
+  "rating": "1",
     "records": [
     ]
 }
