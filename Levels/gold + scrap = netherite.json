@@ -8,6 +8,7 @@
 	"demonDifficulty": "Extreme Demon",
     "description": "spam",
     "engine": "GDR",
+	"tags": ["Wave", "Ship", "Timings", "High CPS"],
 	"rating": 0,
     "records": [
     ]
