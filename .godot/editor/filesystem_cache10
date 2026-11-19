@@ -1,11 +1,11 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1795059012
-export_presets.cfg::TextFile::-1::1795057331::0::1::::<><><>0<>0<><>::
+::res://::1795060038
+export_presets.cfg::TextFile::-1::1795059289::0::1::::<><><>0<>0<><>::
 hover_component.gd::GDScript::7313248646745223287::1794877455::0::1::::<>Node2D<><>0<>0<><>::
 hover_component.tscn::PackedScene::1495237630883456927::1794874039::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hover_component.gd
 level_button.tscn::PackedScene::7912892714340942875::1794877582::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd
 level_description.tscn::PackedScene::6371008162799707464::1794975463::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://b1d2o36fcrutn::::res://Assets/Easy Demon.png<>uid://i2q2t86n4stt::::res://Assets/Featured.png
-List.tscn::PackedScene::4781196022381542684::1795058974::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg
+List.tscn::PackedScene::4781196022381542684::1795060015::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg
 player_description.tscn::PackedScene::6399935024517206429::1794874754::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1794874039::0::1::::<><><>0<>0<><>::
 record.tscn::PackedScene::4394142548660707564::1794970971::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
@@ -49,7 +49,7 @@ Other levels.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Sgd list.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 TagDescriptions.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Unverified list.json::JSON::-1::1795058141::0::1::::<><><>0<>0<><>::
-::res://Levels/::1795058959
+::res://Levels/::1795060034
 2.2 layout.json::JSON::-1::1794877039::0::1::::<><><>0<>0<><>::
 30 seconds of pure memory.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 absolute criticality point.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -269,7 +269,7 @@ Santa Never Claus.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratch Slaughterhouse.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratch Tidal Wave.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratcherhouse.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-Second Try.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Second try.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Setup Wizard.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Shake.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Shattered Cityscape.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
@@ -340,15 +340,15 @@ Whizkid Kaizo Stage VI.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Winter [unnerfed].json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Winter.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Your Death.json::JSON::-1::1795058959::0::1::::<><><>0<>0<><>::
-::res://LoadedData/::1795057217
-List.json::JSON::-1::1795058144::0::1::::<><><>0<>0<><>::
-Sgd%20list.json::JSON::-1::1795058171::0::1::::<><><>0<>0<><>::
-TagDescriptions.json::JSON::-1::1795058143::0::1::::<><><>0<>0<><>::
-Unverified%20list.json::JSON::-1::1795058188::0::1::::<><><>0<>0<><>::
-::res://Scripts/::1795058959
+::res://LoadedData/::1795060015
+List.json::JSON::-1::1795060015::0::1::::<><><>0<>0<><>::
+Sgd list.json::JSON::-1::1795059926::0::1::::<><><>0<>0<><>::
+TagDescriptions.json::JSON::-1::1795059925::0::1::::<><><>0<>0<><>::
+Unverified list.json::JSON::-1::1795059926::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1795059912
 level_button.gd::GDScript::2361941164603723083::1794877345::0::1::::<>Button<><>0<>0<><>::
 level_description.gd::GDScript::615412802972302747::1794874733::0::1::::<>Control<><>0<>0<><>::
-List.gd::GDScript::740349694676483055::1795058959::0::1::::<>VBoxContainer<><>0<>0<><>::
+List.gd::GDScript::740349694676483055::1795059912::0::1::::<>VBoxContainer<><>0<>0<><>::
 record.gd::GDScript::3343420065806742919::1794874697::0::1::::<>Button<><>0<>0<><>::
 tag.gd::GDScript::180927413613886419::1794874705::0::1::::<>Button<><>0<>0<><>::
 thumbnail.gd::GDScript::5665625880444997313::1794974460::0::1::::<>Sprite2D<><>0<>0<><>::
@@ -356,7 +356,7 @@ window.gd::GDScript::4835533691697469406::1794878414::0::1::::<>Window<><>0<>0<>
 ::res://Styles/::1794874039
 button.tres::StyleBoxFlat::6265284477952910707::1794874039::0::1::::<><><>0<>0<><>::
 hover.tres::StyleBoxFlat::5151060389947624266::1794874039::0::1::::<><><>0<>0<><>::
-::res://Thumbnails/::1795059012
+::res://Thumbnails/::1795060038
 2.2 layout.png::CompressedTexture2D::220584841421906521::1795058801::1795058805::0::::<><><>0<>0<>a18c6adf45aaf136fbf23663dd882545<>::
 30 seconds of pure memory.png::CompressedTexture2D::1217720849146543880::1795058801::1795058805::1::::<><><>0<>0<>e4bb73d456d635090c917e16415b1d3b<>res://.godot/imported/30 seconds of pure memory.png-5df19b27ba6c90ff814645ce334ec887.ctex::
 -Cluster Caverns-.png::CompressedTexture2D::7591262200577062495::1795058801::1795058805::1::::<><><>0<>0<>788e1ca8b6e7dfe312cd74d23b520044<>res://.godot/imported/-Cluster Caverns-.png-fc710a77a0e74da19a8e4330e3ecbdd9.ctex::
@@ -414,7 +414,6 @@ Cute Depressed.png::CompressedTexture2D::7036253750830074744::1795058801::179505
 Deaf Launch.png::CompressedTexture2D::1064037003651635993::1795058801::1795058804::1::::<><><>0<>0<>3e2494f24df648669ab477919bef5dc6<>res://.godot/imported/Deaf Launch.png-160dfa5606b0ccf7306f7c7b954e2397.ctex::
 deafening silence.png::::-1::1795058801::1795058801::0::::<><><>0<>0<>55e7cc79d9e0254d794519ffd8fb7f8f<>::
 deco in MY gdh.png::CompressedTexture2D::6045339857535494765::1795058801::1795058804::1::::<><><>0<>0<>2c7ee87dd8c558817b92bebd79bacb17<>res://.godot/imported/deco in MY gdh.png-f4ad5fd321c4dcf18026a4603fb07894.ctex::
-deco in MY gdh?.png::CompressedTexture2D::4419562441326162453::1795058801::1795058804::1::::<><><>0<>0<>f7bb98a8cfbec35805933803db7783c7<>res://.godot/imported/deco in MY gdh?.png-4074e03b01566e82a203bf9c04c0ca3c.ctex::
 Delima De Duelo.png::CompressedTexture2D::8707186747487579535::1795058801::1795058804::1::::<><><>0<>0<>2f661618a030b6243469d02e45e44826<>res://.godot/imported/Delima De Duelo.png-87ddbcf966dbf4d40b8730c4c6e18178.ctex::
 Demonic Nightmares 3 Rebirth.png::CompressedTexture2D::1544692978858717653::1795058801::1795058804::1::::<><><>0<>0<>a0ca856f26ca40e961eafbf5490ae860<>res://.godot/imported/Demonic Nightmares 3 Rebirth.png-202f6c93f97b2cf84fdd83048a65dc90.ctex::
 Demons.png::CompressedTexture2D::5635631828398956624::1795058801::1795058804::1::::<><><>0<>0<>4fb3beba355320e55ccf0f01b8716da4<>res://.godot/imported/Demons.png-bb5b74d5c8958cbe92a89d9e6a5f02b4.ctex::
@@ -535,6 +534,7 @@ Open Window.png::CompressedTexture2D::8077403530435156286::1795058801::179505880
 Operation Evolution.png::CompressedTexture2D::5476112729662199493::1795058801::1795058802::1::::<><><>0<>0<>614c1e06a1fd6f2b6883449ee517cbc0<>res://.godot/imported/Operation Evolution.png-6d9a91e33e833902a224572b2f185abb.ctex::
 OuterSpace.png::CompressedTexture2D::2859609607168703435::1795058801::1795058802::1::::<><><>0<>0<>28b3b7f451d3f8ed54f7c479da3dffa3<>res://.godot/imported/OuterSpace.png-6540a6f02938b080babe1d1147ba0b3f.ctex::
 Over The Edge.png::CompressedTexture2D::2628808031267411826::1795058801::1795058802::1::::<><><>0<>0<>7b5476c380706e4219206522f8298346<>res://.godot/imported/Over The Edge.png-02162ca83fb5ae2e40a3f8b381fc2a16.ctex::
+Payload Remix.png::CompressedTexture2D::58319639153271197::1795059408::1795059422::0::::<><><>0<>0<>87b8e4f25d78076cdc73c3350a3a4e20<>::
 Peer Pressure.png::CompressedTexture2D::8654512475585342014::1795058801::1795058803::1::::<><><>0<>0<>10adcebf08da44e941c6745aafef171d<>res://.godot/imported/Peer Pressure.png-1f00ec120d60dc91dfc9a743c56952f3.ctex::
 Peneren Hard Map I.png::CompressedTexture2D::5877988484730150179::1795058801::1795058803::1::::<><><>0<>0<>9909cd3aeabc18fdee6208716aade654<>res://.godot/imported/Peneren Hard Map I.png-39c69a1e93dd4397bd28556681839660.ctex::
 Peneren Hard Map II.png::CompressedTexture2D::6712331181733778215::1795058801::1795058803::1::::<><><>0<>0<>9c9df62191717f655ccb4747d93fd753<>res://.godot/imported/Peneren Hard Map II.png-d88e93d060ce401d4c713f5b86229bb5.ctex::
@@ -563,7 +563,7 @@ Scratch Icon.png::CompressedTexture2D::497517579190449225::1795058801::179505880
 Scratch Slaughterhouse.png::CompressedTexture2D::8924498537535687923::1795058801::1795058802::1::::<><><>0<>0<>9679ce980d3c514d17b93996f126fad7<>res://.godot/imported/Scratch Slaughterhouse.png-9b3ccaa565f3eb1285a9ee5f9e8cda29.ctex::
 Scratch Tidal Wave.png::CompressedTexture2D::4954404027465048447::1795058801::1795058802::1::::<><><>0<>0<>af20cc2232de211c45996be49d636d9a<>res://.godot/imported/Scratch Tidal Wave.png-e49fd792f7dd5a49e808de5c4aa0787a.ctex::
 Scratcherhouse.png::CompressedTexture2D::8791624400160018213::1795058801::1795058802::1::::<><><>0<>0<>62c28e220ad7fddfde9200d29a904143<>res://.godot/imported/Scratcherhouse.png-2a66d6d702de520ae65854b6fc8b761b.ctex::
-Second try.png::CompressedTexture2D::1948006755673663868::1795058801::1795058802::1::::<><><>0<>0<>307abcd97da4e20b8f8f19d1ddeed915<>res://.godot/imported/Second try.png-6795ed2793b57be337c8782b48380c18.ctex::
+Second try.png::CompressedTexture2D::1948006755673663868::1795058801::1795060038::1::::<><><>0<>0<>307abcd97da4e20b8f8f19d1ddeed915<>res://.godot/imported/Second try.png-6795ed2793b57be337c8782b48380c18.ctex::
 Setup Wizard.png::CompressedTexture2D::183871921106888662::1795058801::1795058802::1::::<><><>0<>0<>4b79320fd57bdc362f6c8af215bfbcda<>res://.godot/imported/Setup Wizard.png-9ae6837485e70ef535faca3be6589ca6.ctex::
 Shattered Cityscape.png::CompressedTexture2D::7139612760188036548::1795058801::1795058802::1::::<><><>0<>0<>db2e87a84b02f387b3c642a839f1a973<>res://.godot/imported/Shattered Cityscape.png-17f86c3ab736e566f1262006a3492de5.ctex::
 Silent 12.png::CompressedTexture2D::6944034372628604188::1795058801::1795058802::1::::<><><>0<>0<>c9626e9af04d371b1b14c9f5abafa857<>res://.godot/imported/Silent 12.png-573008d6b2944e5622db24f7211e0cda.ctex::
@@ -627,7 +627,6 @@ Ultimate Kill Stream Finale 2.png::CompressedTexture2D::8799255426961788742::179
 Ultimate Kill Stream.png::CompressedTexture2D::4404414831238686332::1795058801::1795058803::1::::<><><>0<>0<>63cde25e93f2d601913959605522679e<>res://.godot/imported/Ultimate Kill Stream.png-75cd5826d58e6a01a4d79987e863eb24.ctex::
 Undying Soul.png::CompressedTexture2D::7525719340518541618::1795058801::1795058803::1::::<><><>0<>0<>155212865d41587d1d6fdc7e3d6a9fae<>res://.godot/imported/Undying Soul.png-1bba8becd2ae9b621bcc2e315dd5c78e.ctex::
 UnnamedSqueegee.XML.png::CompressedTexture2D::5742396945579446367::1795058801::1795058803::1::::<><><>0<>0<>c65fc57b59fd6e6fa5cdc6eb271851a7<>res://.godot/imported/UnnamedSqueegee.XML.png-c9067555f158b1272fd1ca30e3687265.ctex::
-user.gd::GDScript::1375698689261460880::1795058801::0::1::::<>Button<><>0<>0<><>::
 Verdant Hash.png::CompressedTexture2D::8820514593104506081::1795058801::1795058803::1::::<><><>0<>0<>d6d3c02f9cfccc06a56b6830d0c02b83<>res://.godot/imported/Verdant Hash.png-5fd31f447ee71c8caed3370413840a6e.ctex::
 WallyBoom Challenge.png::CompressedTexture2D::3086954731179551034::1795058801::1795058803::1::::<><><>0<>0<>f45b31f21947d78143306901d3478acd<>res://.godot/imported/WallyBoom Challenge.png-ee0f3b28f3e91de2e4ff6452fecbf0b9.ctex::
 WARCORA R.png::CompressedTexture2D::1228720081113547859::1795058801::1795058803::1::::<><><>0<>0<>fa3fbd4ed034873c1ab202bb1db11e4d<>res://.godot/imported/WARCORA R.png-f80ee7e97e901ccba54a8cbd1ab4b9d8.ctex::

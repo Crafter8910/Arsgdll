@@ -13,7 +13,7 @@ var level_button = preload("res://level_button.tscn")
 var ratings = ['no star', 'star', 'feature', 'epic', 'legendary', 'mythic']
 var what_is_being_loaded = "List"
 var downloading = ""
-var lists = ["List", "Sgd%20list", "Unverified%20list"]
+var lists = ["List", "Sgd list", "Unverified list"]
 func download(link, path):
     var http = HTTPRequest.new()
     downloading = link
@@ -26,14 +26,16 @@ func download(link, path):
     remove_child(http)
     return completed
 func downloadfiles():
+  await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json", "LoadedData/TagDescriptions.json")
   for list in lists:
-    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list + ".json", "LoadedData/" + list.replace("%20", " ") + ".json")
-    var listdata = getdata("res://Data/" + list + ".json")
+    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json", "LoadedData/" + list.replace("%20", " ") + ".json")
+   # print(getdata("res://LoadedData/Sgd%20list.json"))
+    var listdata = getdata("res://LoadedData/" + list + ".json")
     for level in listdata:
       if not ResourceLoader.exists("res://Levels/" + level + ".json"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level + ".json", "Levels/" + level.replace("%20", " ")  +".json")
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json", "Levels/" + level.replace("%20", " ")  +".json")
       if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level + ".png", "Thumbnails/" + level.replace("%20", " ")  +".png")
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level.replace(" ", "%20") + ".png", "Thumbnails/" + level.replace("%20", " ")  +".png")
   loadlist()  
       
 
