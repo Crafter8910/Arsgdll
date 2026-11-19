@@ -1,6 +1,6 @@
 extends VBoxContainer
 
-var json = JSON.new()
+
 
 @export var window: Window
 @export var leveldesc: Control
@@ -12,25 +12,50 @@ var level_being_loaded = "Shattered Cityscape"
 var level_button = preload("res://level_button.tscn")
 var ratings = ['no star', 'star', 'feature', 'epic', 'legendary', 'mythic']
 var what_is_being_loaded = "List"
-
+var downloading = ""
+var lists = ["List", "Sgd%20list", "Unverified%20list"]
+func download(link, path):
+    var http = HTTPRequest.new()
+    downloading = link
+    add_child(http)
+    http.set_download_file(path)
+    var request = http.request(link)
+    if request != OK:
+        push_error("Http request error")
+    var completed = await http.request_completed
+    remove_child(http)
+    return completed
+func downloadfiles():
+  await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json", "LoadedData/TagDescriptions.json")
+  for list in lists:
+    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list + ".json", "LoadedData/" + list + ".json")
+    var listdata = getdata("res://LoadedData/" + list + ".json")
+    for level in listdata:
+      if not ResourceLoader.exists("res://Levels/" + level + ".json"):
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level + ".json", "Levels/" + level  +".json")
+      if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level + ".png", "Thumbnails/" + level  +".png")
+  loadlist()
+      
 
 func filterlist(filter: String):
   for i in get_children():
-    i.hide()
-    if i.is_in_group("LevelButton") and what_is_being_loaded == "List":
-      if "levelname" in i:
-        if i.levelname.erase(len(filter), len(i.levelname)).to_lower() == filter:
-          i.show()
-    if i.is_in_group("Leaderboard") and what_is_being_loaded == "Leaderboard":
-      if "username" in i:
-        if i.username.erase(len(filter), len(i.username)).to_lower() == filter:
-          i.show()
+    if i is not HTTPRequest:  
+      i.hide()
+      if i.is_in_group("LevelButton") and what_is_being_loaded == "List":
+        if "levelname" in i:
+          if i.levelname.erase(len(filter), len(i.levelname)).to_lower() == filter:
+            i.show()
+      if i.is_in_group("Leaderboard") and what_is_being_loaded == "Leaderboard":
+        if "username" in i:
+          if i.username.erase(len(filter), len(i.username)).to_lower() == filter:
+            i.show()
 
 
 func loadlist(filterstring: String = "", filter = false):
   what_is_being_loaded = "List"
   for child in get_children():
-    print(child)
+    #print(child)
     if child.is_in_group("LevelButton"):
       print("levelbutton")
       child.queue_free()
@@ -39,15 +64,19 @@ func loadlist(filterstring: String = "", filter = false):
       child.hide()
   var data = getlistdata()
   for i in data.size():
+    #print(i)
     #For every level in the list data, create a button for it and load all the data
     var level = level_button.instantiate()
     var leveldata = getdata("res://Levels/" + str(data[i]) + ".json")
+    
     if not leveldata:
-      print("level data could not be found!")
+      print("level data could not be found!" + str(data[i]))
+    #print("leveldata: " +str(leveldata))
     var creatorstring: String
+    
     #print("#"+ str(i) + ". " + leveldata["name"])
     if filter and leveldata["name"].erase(len(filterstring), len(leveldata["name"])).to_lower() == filterstring or not filter:
-      creatorstring = ""
+      creatorstring = "" 
       for creator in leveldata["creators"]:
         if creatorstring != "":
           creatorstring += ", "
@@ -75,8 +104,10 @@ func _process(_delta: float) -> void:
   
 
 func _ready() -> void:
-  
-  loadlist()
+  #add_child(http)
+  downloadfiles()  #while not loadedlevels:
+    #pass
+ 
   #for i in range(150):
   #	print("test")
   #	print("Position: " + str(i+1) + " Points: "+ str(calculatepoints(i+1, 2)))
@@ -84,8 +115,8 @@ func _ready() -> void:
 
 func getdata(filename: String):
   #Gets the data based on the file name
+  var json = JSON.new()
   var fileaccess = FileAccess.open(filename, FileAccess.READ)
-  print(filename)
   var text = fileaccess.get_as_text()
   json.parse(text)
   return json.data
@@ -203,7 +234,7 @@ func loadleveldata(Levelname: String):
   window.popup()
   window.get_node("LevelDescription").show()
   window.get_node("PlayerDescription").hide()
-  var tagdescriptions = getdata("res://Data/TagDescriptions.json")
+  var tagdescriptions = getdata("res://LoadedData/TagDescriptions.json")
   var leveldata = getdata("res://Levels/" + Levelname + ".json")
   var list: Array = getlistdata()
   window.title = Levelname
@@ -257,17 +288,12 @@ func loadleveldata(Levelname: String):
   if leveldata.has("demonDifficulty"):
     leveldesc.get_node("FlowContainer").get_node("Difficulty").text = "Difficulty: " + str(leveldata["demonDifficulty"])
     leveldesc.get_node("Difficulty").show()
-    leveldesc.get_node("Difficulty").texture = preload("res://Assets/Difficulties.png")
-    if leveldata["demonDifficulty"] == "Easy Demon":
-      leveldesc.get_node("Difficulty").region_rect = Rect2(4, 257, 135, 125)
-    if leveldata["demonDifficulty"] == "Medium Demon":
-      leveldesc.get_node("Difficulty").region_rect = Rect2(155, 263, 128, 125)
-    if leveldata["demonDifficulty"] == "Hard Demon":
-      leveldesc.get_node("Difficulty").region_rect = Rect2(-0.1, 125, 142.4, 131)
-    if leveldata["demonDifficulty"] == "Insane Demon":
-      leveldesc.get_node("Difficulty").region_rect = Rect2(146, 123, 147, 131)
-    if leveldata["demonDifficulty"] == "Extreme Demon":
-      leveldesc.get_node("Difficulty").region_rect = Rect2(298, 123, 165, 131)
+    if ResourceLoader.exists("res://Assets/" + str(leveldata["demonDifficulty"]) + ".png"):
+      leveldesc.get_node("Difficulty").texture = load("res://Assets/" + str(leveldata["demonDifficulty"]) + ".png")
+    else:
+      leveldesc.get_node("Difficulty").hide()
+    leveldesc.get_node("Difficulty").region_enabled =false
+    leveldesc.get_node("Difficulty").scale = Vector2(68.0/leveldesc.get_node("Difficulty").texture.get_width(), 68.0/leveldesc.get_node("Difficulty").texture.get_width())
   else:
     leveldesc.get_node("Difficulty").hide()
   for tags in leveldesc.get_node("Tags").get_children():
@@ -308,7 +334,7 @@ func loadleveldata(Levelname: String):
       if int(leveldata["rating"]) == 2:
         ratingbg.texture = preload("res://Assets/Featured.png")
         ratingbg.scale = Vector2(0.492, 0.492)
-        ratingbg.position = Vector2(365, -44)
+        ratingbg.position = Vector2(364.0, -46)
       if int(leveldata["rating"]) == 3:
         ratingbg.texture = preload("res://Assets/Epic.png")
         ratingbg.scale = Vector2(0.492, 0.492)
@@ -320,7 +346,7 @@ func loadleveldata(Levelname: String):
       if int(leveldata["rating"]) == 5:
         ratingbg.texture = preload("res://Assets/Mythic.webp")
         ratingbg.scale = Vector2(0.268, 0.268)
-        ratingbg.position = Vector2(360, -47)
+        ratingbg.position = Vector2(360.0, -47)
 
     else:
       leveldesc.get_node("Rating").text = "no star"
@@ -376,11 +402,11 @@ func _on_list_button_pressed() -> void:
 
 func getlistdata():
   if list_selector.selected == 0:
-    return getdata("res://Data/List.json")
+    return getdata("res://LoadedData/List.json")
   elif list_selector.selected == 1:
-    return getdata("res://Data/Sgd list.json")
+    return getdata("res://LoadedData/Sgd list.json")
   elif list_selector.selected == 2:
-    return getdata("res://Data/Unverified list.json")
+    return getdata("res://LoadedData/Unverified list.json")
 
 
 func loaduser(user: String, points: float, place: int):

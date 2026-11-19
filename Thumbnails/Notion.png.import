@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db1tjaai2uvy4"
-path="res://.godot/imported/Notion.png-8580b0af24f825db75f371dca4299905.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Notion.png"
-dest_files=["res://.godot/imported/Notion.png-8580b0af24f825db75f371dca4299905.ctex"]
 
 [params]
 

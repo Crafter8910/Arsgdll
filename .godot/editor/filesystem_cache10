@@ -1,41 +1,53 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1794877414
-export_presets.cfg::TextFile::-1::1794874039::0::1::::<><><>0<>0<><>::
+::res://::1795057022
+export_presets.cfg::TextFile::-1::1794971573::0::1::::<><><>0<>0<><>::
 hover_component.gd::GDScript::7313248646745223287::1794877455::0::1::::<>Node2D<><>0<>0<><>::
 hover_component.tscn::PackedScene::1495237630883456927::1794874039::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hover_component.gd
-level_button.tscn::PackedScene::7912892714340942875::1794877455::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd
-level_description.tscn::PackedScene::6371008162799707464::1794874039::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://clcwru3oudtun::::res://Assets/Difficulties.png<>uid://1hvyop6aa126::::res://Assets/Mythic.webp
-List.tscn::PackedScene::4781196022381542684::1794877323::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg
+level_button.tscn::PackedScene::7912892714340942875::1794877582::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd
+level_description.tscn::PackedScene::6371008162799707464::1794975463::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://b1d2o36fcrutn::::res://Assets/Easy Demon.png<>uid://i2q2t86n4stt::::res://Assets/Featured.png
+List.tscn::PackedScene::4781196022381542684::1795057022::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg
 player_description.tscn::PackedScene::6399935024517206429::1794874754::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1794874039::0::1::::<><><>0<>0<><>::
-record.tscn::PackedScene::4394142548660707564::1794874039::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
+record.tscn::PackedScene::4394142548660707564::1794970971::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
 scrollbar_of_list.gd::GDScript::6921927449119747106::1794874039::0::1::::<>ScrollContainer<><>0<>0<><>::
 tag.tscn::PackedScene::353814886057255397::1794874039::0::1::::<><><>0<>0<><>::uid://ctv33mqldkc6::::res://Scripts/tag.gd
 the_empty_space.tscn::PackedScene::3077804655635958696::1794874039::0::1::::<><><>0<>0<><>::
 TODO.txt::TextFile::-1::1794874039::0::1::::<><><>0<>0<><>::
 user.gd::GDScript::1375698689261460880::1794874697::0::1::::<>Button<><>0<>0<><>::
 user.tscn::PackedScene::7466550982639632169::1794874039::0::1::::<><><>0<>0<><>::uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://tuns6hsestdo::::res://user.gd<>uid://cfnhhhee2742q::::res://Styles/hover.tres
-::res://Assets/::1794877370
+::res://Assets/::1794975181
+Auto.png::CompressedTexture2D::1865792683196654360::1794974026::1794974041::1::::<><><>0<>0<>b528c8044d82a97f6cd74a1c7197cc0e<>res://.godot/imported/Auto.png-45e1154d8190c80fb858a0edd01e929b.ctex::
 Codetorch Icon.png::CompressedTexture2D::633309355153268282::1794874038::1794874038::1::::<><><>0<>0<>54f96aec887c5b0310f655c447f263a6<>res://.godot/imported/Codetorch Icon.png-d9725d20aeea716211558ccba8272b11.ctex::
-Difficulties.png::CompressedTexture2D::5550414629634413081::1794874038::1794874038::1::::<><><>0<>0<>80bcf2f11cd35fa6e708cc2c4dbfd5c1<>res://.godot/imported/Difficulties.png-119be3d88d3b0afa369ae3965b33e9df.ctex::
 Discord.svg::CompressedTexture2D::7283686473592957889::1794874038::1794874038::1::::<><><>0<>0<>05ca82d4f86d168ecaf368ca582f4d32<>res://.godot/imported/Discord.svg-7211c88a2a0756293375a5eb757eff31.ctex::
+Easy Demon.png::CompressedTexture2D::4219189630236768107::1794975152::1794975152::1::::<><><>0<>0<>73085a747fc9bac7237ec14a89b1c42b<>res://.godot/imported/Easy Demon.png-a64b4f5ccfa0555a5730cd4f9c5d9f99.ctex::
+Easy.png::CompressedTexture2D::4568469476954946370::1794974023::1794974041::1::::<><><>0<>0<>be52b62505f165623d5b30310dce3b6a<>res://.godot/imported/Easy.png-aa3d0eddb7e67855c23b0821e174342e.ctex::
 Epic.png::CompressedTexture2D::2367510315079817616::1794874038::1794874038::1::::<><><>0<>0<>a7c1c66913752648849b74a955d838d4<>res://.godot/imported/Epic.png-de53ef4491c16e7a801b262afed969c3.ctex::
+Extreme Demon.png::CompressedTexture2D::4395449649765464695::1794975171::1794975171::1::::<><><>0<>0<>de7492d6e52133b0abfec4e6aa01dcd5<>res://.godot/imported/Extreme Demon.png-d0220573cc399527df6ba019a573caa0.ctex::
 Favicon.png::CompressedTexture2D::8944994336566017502::1794874039::1794877368::1::::<><><>0<>0<>4b7a36316f8f5932ba3ba9b91b091064<>res://.godot/imported/Favicon.png-f4b5c78663c7ef6d681655cab2ffa9f5.ctex::
 Featured.png::CompressedTexture2D::618269687132798905::1794874038::1794874038::1::::<><><>0<>0<>f1e9f08fecd0f19eb83be9d1aa508dce<>res://.godot/imported/Featured.png-c2e690706aa485072548fd15fa65470a.ctex::
+Hard Demon.png::CompressedTexture2D::5038131747881101477::1794975162::1794975162::1::::<><><>0<>0<>da50935102dd69b1c5744ff0a026a488<>res://.godot/imported/Hard Demon.png-1c2d162eb3e925f58eb6aa873db31bfb.ctex::
+Hard.png::CompressedTexture2D::1741988550449885603::1794974022::1794974041::1::::<><><>0<>0<>7c1124816aac513b853103ff48c8f292<>res://.godot/imported/Hard.png-c5f52cbc049db559d71d4f5dc9e3e484.ctex::
+Harder.png::CompressedTexture2D::2414897883916351986::1794974021::1794974041::1::::<><><>0<>0<>747ee2db5831b660b5ce64955f1dc0d3<>res://.godot/imported/Harder.png-cbc755caf2165c27148b6c13c7ab0f28.ctex::
+Insane Demon.png::CompressedTexture2D::2867348975949322794::1794975166::1794975166::1::::<><><>0<>0<>1ad72d8ae08ab422c00c7c45cc50dd15<>res://.godot/imported/Insane Demon.png-3782796c50a4fc9fd660bf0b200ad8d4.ctex::
+Iraq Demon.svg::CompressedTexture2D::6692998933274449939::1794974015::1794974120::1::::<><><>0<>0<>a74212cccaf898fbdec0bd1fd1acbc7a<>res://.godot/imported/Iraq Demon.svg-2312b20418a1cc05ca368d2149f6ada5.ctex::
 Itch Icon.png::CompressedTexture2D::2687449908537146366::1794874038::1794874038::1::::<><><>0<>0<>bef9c3fecd888e3980ad0e40a39e7cd9<>res://.godot/imported/Itch Icon.png-1020992683ea2dda3498eb8228f19441.ctex::
+King Von Demon.jpeg::CompressedTexture2D::1296219451903453591::1794974016::1794974121::1::::<><><>0<>0<>8bb25e5df1a05cea3e88c0d3f3a438f0<>res://.godot/imported/King Von Demon.jpeg-a970fbab3abe4b5df85df939e7922ecd.ctex::
 Legendary.webp::CompressedTexture2D::4432707819551769977::1794874038::1794874038::1::::<><><>0<>0<>173312edfae91ace0059f0d52e162a10<>res://.godot/imported/Legendary.webp-7fb86bc5cb6b16061577fe3364bceff9.ctex::
+Medium Demon.png::CompressedTexture2D::3169855142475562745::1794975158::1794975158::1::::<><><>0<>0<>90aae6e370fb06327258ec9f6c4f45bf<>res://.godot/imported/Medium Demon.png-3d24f41c17f798f92518886cffd57d70.ctex::
 Mythic.webp::CompressedTexture2D::1840679254676571069::1794874038::1794874038::1::::<><><>0<>0<>572c32f5fd5fce414766a2143f241b13<>res://.godot/imported/Mythic.webp-3a62f8a6d033969a21ebd544030adfa4.ctex::
+Normal.png::CompressedTexture2D::4718846959470942628::1794974020::1794974114::1::::<><><>0<>0<>c17a26c3b23e5575070726f0c969c7dc<>res://.godot/imported/Normal.png-2f3d83926bdabce261e7fd77cdb6e09f.ctex::
+Playstation Vita Demon.png::CompressedTexture2D::6857809210735625807::1794974019::1794974118::1::::<><><>0<>0<>bed660af0026c4d288717198fddd7050<>res://.godot/imported/Playstation Vita Demon.png-fe91bce77e9db7e0a0f79876b3752458.ctex::
 Scratch Icon.png::CompressedTexture2D::497517579190449225::1794874038::1794874038::1::::<><><>0<>0<>8a270c8fd38da05b9c9dce19e2a9937e<>res://.godot/imported/Scratch Icon.png-d3acf74664027fd69c082dd46183424e.ctex::
 Splash.png::CompressedTexture2D::917908593545660734::1794874039::1794877370::1::::<><><>0<>0<>a6a5a2a24075222ad14f5c98a5899af4<>res://.godot/imported/Splash.png-df0fdff772a14b7d56f8dfadb5e8879a.ctex::
 Turbowarp Icon.png::CompressedTexture2D::3485935343917962542::1794874038::1794874038::1::::<><><>0<>0<>7742b06ada6a61cdb5021542250b2770<>res://.godot/imported/Turbowarp Icon.png-e61b80d96160ec0c68f4c8677bd9c3ea.ctex::
 White Square.png::CompressedTexture2D::4193404080431680258::1794874038::1794874039::1::::<><><>0<>0<>ca557b1c37dc12b97bc6b091768ac34e<>res://.godot/imported/White Square.png-667c558059434fd8d37fd4f7487a18ad.ctex::
-::res://Data/::1794877224
-List.json::JSON::-1::1794877224::0::1::::<><><>0<>0<><>::
+::res://Data/::1795057051
+List.json::JSON::-1::1794974293::0::1::::<><><>0<>0<><>::
 Other levels.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Unverified list.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Sgd list.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 TagDescriptions.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-Unverified list.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-::res://Levels/::1794877351
+::res://Levels/::1795056986
 2.2 layout.json::JSON::-1::1794877039::0::1::::<><><>0<>0<><>::
 30 seconds of pure memory.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 absolute criticality point.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -100,7 +112,7 @@ Demonic Nightmares 3 Rebirth.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>:
 Demons.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 denial of sanity.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Denouement.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-Desecration Dimension EXX v2.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Desecration Dimension EXX v2.json::JSON::-1::1795056986::0::1::::<><><>0<>0<><>::
 Detrimental.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Die in a nightmare.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 DIOMA Meteors.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -142,6 +154,7 @@ Gigachad House.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 GIVEUP!AKIRAMERU!.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 GIVEUP!AKITANERU!.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 GIVEUP!AVOCADO!.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+gold + scrap = netherite.json::JSON::-1::1795056896::0::1::::<><><>0<>0<><>::
 Gray Dust.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Greyhound.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 H0N3Y1MH0M3.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -157,16 +170,17 @@ Hydro.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 I Will Achieve Apotheosis.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 I.N.S.A. Rebirth.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Idiot Corridor.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-Ik Niet.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Ik Niet.json::JSON::-1::1794975046::0::1::::<><><>0<>0<><>::
 Im getting harder.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Impotence.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 In Circles.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Infinite Cosmos.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Insane (1).webp::CompressedTexture2D::7053350800207402352::1794974020::1794974021::1::::<><><>0<>0<>6301483a0106bea033d4ba6211ac7149<>res://.godot/imported/Insane (1).webp-44a9e8451fc6cf9c9cc01804fa3f2880.ctex::
 Intercept (joke).json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Intercept.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Interception 2.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Interstellar.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
-into the wild.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+into the wild.json::JSON::-1::1794972004::0::1::::<><><>0<>0<><>::
 Invisible Arcane Ascension.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Invisible End.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 IP Flare.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -209,7 +223,7 @@ notion.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Nova.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Nuclear Reactor.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Nuclear Void Escape.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-null..json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+null..json::JSON::-1::1794973853::0::1::::<><><>0<>0<><>::
 Nullify.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Oceanic Rift.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Old Level Idea.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -253,7 +267,7 @@ Santa Never Claus.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratch Slaughterhouse.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratch Tidal Wave.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Scratcherhouse.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-Second try.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
+Second Try.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Setup Wizard.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Shake.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Shattered Cityscape.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
@@ -324,277 +338,288 @@ Whizkid Kaizo Stage VI.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Winter [unnerfed].json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Winter.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Your Death.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-::res://Scripts/::1794877414
+::res://LoadedData/::0
+::res://Scripts/::1795057022
 level_button.gd::GDScript::2361941164603723083::1794877345::0::1::::<>Button<><>0<>0<><>::
 level_description.gd::GDScript::615412802972302747::1794874733::0::1::::<>Control<><>0<>0<><>::
-List.gd::GDScript::740349694676483055::1794877455::0::1::::<>VBoxContainer<><>0<>0<><>::
+List.gd::GDScript::740349694676483055::1795057022::0::1::::<>VBoxContainer<><>0<>0<><>::
 record.gd::GDScript::3343420065806742919::1794874697::0::1::::<>Button<><>0<>0<><>::
 tag.gd::GDScript::180927413613886419::1794874705::0::1::::<>Button<><>0<>0<><>::
-thumbnail.gd::GDScript::5665625880444997313::1794874039::0::1::::<>Sprite2D<><>0<>0<><>::
-window.gd::GDScript::4835533691697469406::1794874039::0::1::::<>Window<><>0<>0<><>::
+thumbnail.gd::GDScript::5665625880444997313::1794974460::0::1::::<>Sprite2D<><>0<>0<><>::
+window.gd::GDScript::4835533691697469406::1794878414::0::1::::<>Window<><>0<>0<><>::
 ::res://Styles/::1794874039
 button.tres::StyleBoxFlat::6265284477952910707::1794874039::0::1::::<><><>0<>0<><>::
 hover.tres::StyleBoxFlat::5151060389947624266::1794874039::0::1::::<><><>0<>0<><>::
-::res://Thumbnails/::1794877364
-2.2 layout.png::CompressedTexture2D::1679007318521359601::1794876876::1794877364::1::::<><><>0<>0<>c4cbf7d1ab9a3872115b7162520d9bac<>res://.godot/imported/2.2 layout.png-26da071ab80d8959199220b42a049959.ctex::
-30 seconds of pure memory.png::CompressedTexture2D::1217720849146543880::1794874039::1794874039::1::::<><><>0<>0<>e4bb73d456d635090c917e16415b1d3b<>res://.godot/imported/30 seconds of pure memory.png-5df19b27ba6c90ff814645ce334ec887.ctex::
--Cluster Caverns-.png::CompressedTexture2D::7591262200577062495::1794874039::1794874039::1::::<><><>0<>0<>788e1ca8b6e7dfe312cd74d23b520044<>res://.godot/imported/-Cluster Caverns-.png-fc710a77a0e74da19a8e4330e3ecbdd9.ctex::
-absolute criticality point.png::CompressedTexture2D::7645535975826631324::1794874039::1794874039::1::::<><><>0<>0<>719177f2740020565c8c40469473cc5d<>res://.godot/imported/absolute criticality point.png-12dbefb3d5a2e637ebeb29974709ca44.ctex::
-Agathokakological.png::CompressedTexture2D::7547165220220698104::1794874039::1794874039::1::::<><><>0<>0<>96afddf195372c85da3f71956812dbd9<>res://.godot/imported/Agathokakological.png-b3210f2969c9b9b567b1e9ee73d2a8b1.ctex::
-Agenda.png::CompressedTexture2D::5262851253393995584::1794874039::1794874039::1::::<><><>0<>0<>b5ebff617e7defe9e328635381b04eb5<>res://.godot/imported/Agenda.png-b0b1f48b778614d1841f703ee9af52d3.ctex::
-aintitfun.png::CompressedTexture2D::856300028568229275::1794874039::1794874039::1::::<><><>0<>0<>c359d0255054eff9af9e64b9e6c28e4c<>res://.godot/imported/aintitfun.png-d120e29f34a7eb0039d132fb4c11b993.ctex::
-Amidst The Misery.png::CompressedTexture2D::3739395951838146484::1794874039::1794874039::1::::<><><>0<>0<>e101bb5314011e769e603f935aa76c8c<>res://.godot/imported/Amidst The Misery.png-341878cce3b1ebb53da03ba146d594c9.ctex::
-Among Us.png::CompressedTexture2D::3304920482766131188::1794874039::1794874039::1::::<><><>0<>0<>f83264447977da62a88cc0278b75ca58<>res://.godot/imported/Among Us.png-7b55ffc48d446cd236a0bc408dcc7a02.ctex::
-Angel Down.png::CompressedTexture2D::6664276281052701089::1794874039::1794874039::1::::<><><>0<>0<>acb1fce2d88aec16f4dd447d1b796705<>res://.godot/imported/Angel Down.png-7a3a008fed8ead463612926569315034.ctex::
-Angel.png::CompressedTexture2D::4575760090014320014::1794874039::1794874039::1::::<><><>0<>0<>d68181a1e789c936858936fad7a58c32<>res://.godot/imported/Angel.png-7d92f5824e654fa53252012415b9ab4f.ctex::
-Angelic Jelly.png::CompressedTexture2D::1351970470236241377::1794874039::1794874039::1::::<><><>0<>0<>0751a45caa408ac34f02ded1f8b712a5<>res://.godot/imported/Angelic Jelly.png-1c6dcf1bd9a4e978d9034bc399121d72.ctex::
-Antipathy.png::CompressedTexture2D::7744919668028233507::1794874039::1794874039::1::::<><><>0<>0<>66f46d8290f27947269ef0519df9f89a<>res://.godot/imported/Antipathy.png-c5cefe69bf1fce1b041f48a850d98b0c.ctex::
-Arcane Ascension.png::CompressedTexture2D::938036272450900036::1794874039::1794874039::1::::<><><>0<>0<>1fd03d6df0b08907ff8b9a3dc3bc8411<>res://.godot/imported/Arcane Ascension.png-5ec67d3b3fb90a80b792f4ec4140c1a9.ctex::
-Arcane Extension.png::CompressedTexture2D::5245845381994581557::1794874039::1794874039::1::::<><><>0<>0<>ee373df7303b14840a71e872f6aef939<>res://.godot/imported/Arcane Extension.png-836b87e9a28eb4ffed260f7b65019666.ctex::
-Azatoth.png::CompressedTexture2D::6171781933467925613::1794874039::1794874039::1::::<><><>0<>0<>570e399fb66b32a5335e5814bbd385fc<>res://.godot/imported/Azatoth.png-20e4585d6e92476af18a535ac4a313c1.ctex::
-Azure Lake.png::CompressedTexture2D::1472344944019656185::1794874039::1794874039::1::::<><><>0<>0<>8d2129f2be0557d5476526e0860ef92d<>res://.godot/imported/Azure Lake.png-747102d2b6ab696c28f36e883f042ed2.ctex::
-B R A I N S P A C E.png::CompressedTexture2D::976478179633311962::1794874039::1794874039::1::::<><><>0<>0<>565aa6fbb94cce9577caefc3ebe02e0c<>res://.godot/imported/B R A I N S P A C E.png-4d4c8ebfffbebeea74127e4fc59201ef.ctex::
-Backseat Freestyle.png::CompressedTexture2D::1175260807962422629::1794874039::1794874039::0::::<><><>0<>0<>16546531b9d620518208410c76e26807<>::
-Ball's Top 1.png::CompressedTexture2D::5667850691616755915::1794874039::1794874039::1::::<><><>0<>0<>fd3365aee24545f5c7466789bb232e0c<>res://.godot/imported/Ball's Top 1.png-0738316381d23ff969e9e583624fc6fd.ctex::
-Barracuda.png::CompressedTexture2D::4215264629176606785::1794874039::1794874039::1::::<><><>0<>0<>9185357666c1be7f9a70ef6c8e7cd061<>res://.godot/imported/Barracuda.png-c04dcf3fdde9e9de26fa53cce0f20c05.ctex::
-Biological Infiltration.png::CompressedTexture2D::3733487358287368317::1794874039::1794874039::1::::<><><>0<>0<>566a86b74ce2444203d822394633627e<>res://.godot/imported/Biological Infiltration.png-9414ba9181613732ad86f28e5f9cdba0.ctex::
-Bite back.png::CompressedTexture2D::6764216116048543079::1794874039::1794874039::1::::<><><>0<>0<>f6267950d512e81ee7b2b47c5e8ed566<>res://.godot/imported/Bite back.png-3ee9a094bcb2154795be2dd347084a0b.ctex::
-Blood in the Water.png::CompressedTexture2D::2950097117377813181::1794874039::1794874039::1::::<><><>0<>0<>4e0553df08b238aea5fcc62e400c5248<>res://.godot/imported/Blood in the Water.png-c3f5b4066b7a6801adbe6a2260663404.ctex::
-Blood Trials.png::CompressedTexture2D::1496634654381622322::1794874039::1794874039::1::::<><><>0<>0<>4a7c2f8cb88be78ec8214c3464e11ec6<>res://.godot/imported/Blood Trials.png-8b59dc2b0877d46d35153abe3d754d24.ctex::
-Bloodbomb.png::CompressedTexture2D::7836965978157531947::1794874039::1794874039::1::::<><><>0<>0<>f526f7495b1210106e98013f86bfd3db<>res://.godot/imported/Bloodbomb.png-5c3bdfdb29875635adf2c35c36f016a0.ctex::
-Blossoms In Chaos.png::CompressedTexture2D::134518478717306470::1794874039::1794874039::1::::<><><>0<>0<>9d1962b906c7b65022e0231615b5c653<>res://.godot/imported/Blossoms In Chaos.png-179423d71ec05e7645f278d435494dc4.ctex::
-Blue Blizzard.png::CompressedTexture2D::5150304090784268363::1794874039::1794874039::1::::<><><>0<>0<>6a32fbaf6e15b1501d32b7399dd8abad<>res://.godot/imported/Blue Blizzard.png-7548823918969c7c47c4000b38cd511d.ctex::
-BonesJones Challenge.png::CompressedTexture2D::2335687132697652725::1794874039::1794874039::1::::<><><>0<>0<>cbc06e5462ca624f383264ea05e5b115<>res://.godot/imported/BonesJones Challenge.png-12749fa97fb71087c257fa5699b5b05c.ctex::
-Breaking Point.png::CompressedTexture2D::2312802105139029270::1794874039::1794874039::1::::<><><>0<>0<>aeb61683d369c1014bea281182b740e9<>res://.godot/imported/Breaking Point.png-fe7ac72e6a58d3121a1a8cab694e8ea2.ctex::
-Brianspace.png::CompressedTexture2D::3567673909423440622::1794874039::1794874039::1::::<><><>0<>0<>e823366f0f28713f9a2660e3b4190fdb<>res://.godot/imported/Brianspace.png-53dfe6c368c5d6f646e4eb6ec5fac1e0.ctex::
-BROKEN_CITYSCAPE.png::CompressedTexture2D::8500662221254542285::1794874039::1794874039::1::::<><><>0<>0<>05be8d4f32c40dad6dcb21ae6042a8fd<>res://.godot/imported/BROKEN_CITYSCAPE.png-b7691f2ace4c0ddec385c76d4d25ec8f.ctex::
-Bruh interslae.png::CompressedTexture2D::3891166340825366535::1794874039::1794874039::1::::<><><>0<>0<>4bbaa2c33f9cf0761f5383be66795f92<>res://.godot/imported/Bruh interslae.png-e1475b8be6b749a012c21e3e77303121.ctex::
-Buffed Apex.png::CompressedTexture2D::12594726650396782::1794874039::1794874039::1::::<><><>0<>0<>47e68358673ae34c43299661590c872d<>res://.godot/imported/Buffed Apex.png-50147eec66295a3b15dab0cfbb539165.ctex::
-Buffwartz.png::CompressedTexture2D::5444630515261410832::1794874039::1794874039::1::::<><><>0<>0<>ba13aa078abfafb1f770a125d21b8f9d<>res://.godot/imported/Buffwartz.png-b6445a94aba05048a5481fe9d0aec628.ctex::
-But my hope will never die.png::CompressedTexture2D::296603034497696100::1794874039::1794874039::1::::<><><>0<>0<>8aca8138ce85617f95b026e609ab48c2<>res://.godot/imported/But my hope will never die.png-cc06f85a583097d8a99581db88751156.ctex::
-Bye Bye.png::CompressedTexture2D::8723493683640868378::1794874039::1794874039::1::::<><><>0<>0<>dd025749e291449c08c407847c63c248<>res://.godot/imported/Bye Bye.png-e4c005291b274d4ad4ee02cecdbf095c.ctex::
-C18H27NO3.png::CompressedTexture2D::3200131165246873150::1794876073::1794876085::1::::<><><>0<>0<>ae79209ce7225d1998af53274dabe2c4<>res://.godot/imported/C18H27NO3.png-6c66ec98e32023479d745cdc1ca796b5.ctex::
-Cafe Aconite.png::CompressedTexture2D::2127344183477714415::1794874039::1794874039::1::::<><><>0<>0<>290e56c2cb9773a86364d6fe2319b060<>res://.godot/imported/Cafe Aconite.png-e7bd5e95c6b1960807840e4bd9b346a8.ctex::
-California girls.png::CompressedTexture2D::6617736501742933996::1794874039::1794874039::1::::<><><>0<>0<>442e3603ebc82a5337f78f66d4e0cb55<>res://.godot/imported/California girls.png-b0e8335966913aa8b1246dda583ae9f4.ctex::
-Can't Fix You.png::CompressedTexture2D::1264740899783270890::1794875611::1794875631::1::::<><><>0<>0<>d5d20a64dc4d095b889e67b7f3bf338b<>res://.godot/imported/Can't Fix You.png-06e355e7c57f97c953c199701decbc76.ctex::
-Castlevita.png::CompressedTexture2D::1765906890372852424::1794874039::1794874039::1::::<><><>0<>0<>cb67cba48f3ce49d1cbea74795aa1eda<>res://.godot/imported/Castlevita.png-409f7e4f77f5500f3d6f6991c9f69f7f.ctex::
-Clubbers.png::CompressedTexture2D::4757151579812549627::1794874039::1794874039::0::::<><><>0<>0<>96ccd16c26f13fb122dd94562eff545c<>::
-Cobwebs.png::CompressedTexture2D::4948162132562626147::1794874039::1794874039::1::::<><><>0<>0<>2de87bec5cce2dea9ce20abc8038a427<>res://.godot/imported/Cobwebs.png-67a7e37b1777d126ec68aebc9f8ca4db.ctex::
-Conventional wave challenge.png::CompressedTexture2D::5196904845731363919::1794876974::1794876985::1::::<><><>0<>0<>e89fa396bfacb20d22e5b507bdb4da87<>res://.godot/imported/Conventional wave challenge.png-64275087d37a453bbb1d5b7543e735e5.ctex::
-CORRUPT3D_N3BULA.png::CompressedTexture2D::2679868558059733032::1794874039::1794874039::1::::<><><>0<>0<>2e14cffaf83cf5f23630ed6afa3ada7a<>res://.godot/imported/CORRUPT3D_N3BULA.png-73c9823a2ece4bbe11b096ea4e256b91.ctex::
-Cosmic Wocatiom.png::CompressedTexture2D::220157116986237727::1794874039::1794874039::1::::<><><>0<>0<>506df801eaf376011ee95eac6bc3e0bb<>res://.godot/imported/Cosmic Wocatiom.png-2f95e27f32974047d99f9d7246a875e5.ctex::
-Crucio X.png::CompressedTexture2D::8804156768829668193::1794874039::1794874039::1::::<><><>0<>0<>4a44791f1d4f87b87390113d2975c5b5<>res://.godot/imported/Crucio X.png-7ec8c50989096210bcfea5cf7e3ed329.ctex::
-Crying Nightmare.png::CompressedTexture2D::9130137198747619542::1794874039::1794874039::1::::<><><>0<>0<>cf71f9073e6e5e9be25d8ae036c13603<>res://.godot/imported/Crying Nightmare.png-e2b84245cd727b9651b2c470fb74b69a.ctex::
-cuatrocientos never clear.png::CompressedTexture2D::7636598057542756437::1794874039::1794874039::1::::<><><>0<>0<>b1863e823b135b659f3e5ea208ecb70c<>res://.godot/imported/cuatrocientos never clear.png-cb63973c41dd876285a5c57375a32824.ctex::
-Cute Depressed.png::CompressedTexture2D::7036253750830074744::1794874039::1794874039::1::::<><><>0<>0<>9483177822b75df464d28b44fd0abe0a<>res://.godot/imported/Cute Depressed.png-071f56d667e0c49cbd855dd9a94be71f.ctex::
-Deaf Launch.png::CompressedTexture2D::1064037003651635993::1794874039::1794874039::1::::<><><>0<>0<>3e2494f24df648669ab477919bef5dc6<>res://.godot/imported/Deaf Launch.png-160dfa5606b0ccf7306f7c7b954e2397.ctex::
-deafening silence.png::CompressedTexture2D::1996886718483871128::1794876482::1794876491::1::::<><><>0<>0<>4f73098c7f033ac92e201ff0c228434a<>res://.godot/imported/deafening silence.png-3836ca6f2792920787f4b12e850389bc.ctex::
-deco in MY gdh?.png::CompressedTexture2D::6045339857535494765::1794874039::1794876380::1::::<><><>0<>0<>faf729d277d889dc4912bd5e020c563e<>res://.godot/imported/deco in MY gdh?.png-4074e03b01566e82a203bf9c04c0ca3c.ctex::
-Delima De Duelo.png::CompressedTexture2D::8707186747487579535::1794874039::1794874039::1::::<><><>0<>0<>2f661618a030b6243469d02e45e44826<>res://.godot/imported/Delima De Duelo.png-87ddbcf966dbf4d40b8730c4c6e18178.ctex::
-Demonic Nightmares 3 Rebirth.png::CompressedTexture2D::1544692978858717653::1794874039::1794874039::1::::<><><>0<>0<>a0ca856f26ca40e961eafbf5490ae860<>res://.godot/imported/Demonic Nightmares 3 Rebirth.png-202f6c93f97b2cf84fdd83048a65dc90.ctex::
-Demons.png::CompressedTexture2D::5635631828398956624::1794874039::1794874039::1::::<><><>0<>0<>4fb3beba355320e55ccf0f01b8716da4<>res://.godot/imported/Demons.png-bb5b74d5c8958cbe92a89d9e6a5f02b4.ctex::
-denial of sanity.png::CompressedTexture2D::4042733246191899874::1794874039::1794874039::1::::<><><>0<>0<>fe20862056851db60defb8c0c4912bad<>res://.godot/imported/denial of sanity.png-227ae96d8fef649e75f5ba13ddef13a2.ctex::
-Denouement.png::CompressedTexture2D::1166852746737807635::1794874039::1794874039::1::::<><><>0<>0<>517de4ad6ef43aa4d16cfdc438c9eb74<>res://.godot/imported/Denouement.png-d282fa4c140d0e8f76007c79a7120fd0.ctex::
-Desecration Dimension EXX v2.png::CompressedTexture2D::169923027675811179::1794874039::1794874039::1::::<><><>0<>0<>33011a2a280507cf6d3eee77df28f6a3<>res://.godot/imported/Desecration Dimension EXX v2.png-f421a3e8d13dd442d6f1a5c01cc750ad.ctex::
-Die in a nightmare.png::CompressedTexture2D::8635163039663791431::1794874039::1794874039::1::::<><><>0<>0<>8e9d3c17d88bf9a08bf19272cf552e3f<>res://.godot/imported/Die in a nightmare.png-37a752eee83e59e345c0c79a11592c36.ctex::
-DIOMA Meteors.png::CompressedTexture2D::4645155711310462347::1794874039::1794874039::1::::<><><>0<>0<>9ae077add92cc1b4020c17cf457be365<>res://.godot/imported/DIOMA Meteors.png-1391f47d0475b17813c1f0fee4091970.ctex::
-distant midnight.png::CompressedTexture2D::2502396396517187384::1794874039::1794874039::1::::<><><>0<>0<>311f528676e03dc447baf109a58785df<>res://.godot/imported/distant midnight.png-67c7df10d7a8cde3334a71c9df866868.ctex::
-Dolor.png::CompressedTexture2D::3098582741465302090::1794874039::1794874039::1::::<><><>0<>0<>0205ccb93c59f35e5e38a4523d5988b0<>res://.godot/imported/Dolor.png-7b6c176373bbc232dd54661c382f2279.ctex::
-DOWN BASS.png::CompressedTexture2D::8207239962874510570::1794874039::1794874039::1::::<><><>0<>0<>2a8038953119235b31533dbe34dbc949<>res://.godot/imported/DOWN BASS.png-32d2810e743dc8a9b2fd5dd65197fbe4.ctex::
-Dreambath.png::CompressedTexture2D::148658036700443097::1794874039::1794874039::1::::<><><>0<>0<>6c17ccc5f22ea1c049b87ae27486b093<>res://.godot/imported/Dreambath.png-bd23859526eec6b9c8b6d1c78e97b994.ctex::
-Dumb.png::CompressedTexture2D::3750118239236895316::1794874039::1794874039::1::::<><><>0<>0<>ec13f1b95f655810159846eeecd0df4c<>res://.godot/imported/Dumb.png-08d9fe1221d85174c41ff3fdeee317e2.ctex::
-During Depression.png::CompressedTexture2D::5493726433696874168::1794874039::1794874039::1::::<><><>0<>0<>e3539d920c60447bded15c1fad33dded<>res://.godot/imported/During Depression.png-398bc1f2c028452ea116658be2baea16.ctex::
-E-Labyrinth.png::CompressedTexture2D::8092138637902252802::1794874039::1794874039::1::::<><><>0<>0<>712a281529d3ae152f09511a54e94178<>res://.godot/imported/E-Labyrinth.png-1b06c92ef2f9ec863ad91e15bb65681b.ctex::
-Echoflame.png::CompressedTexture2D::3622386335989129233::1794874039::1794874039::1::::<><><>0<>0<>06ab23aae8b7ac53f85751738e6d4fcb<>res://.godot/imported/Echoflame.png-a8cd78ed5117bbab5f50dedce0d445d5.ctex::
-Emerald.png::CompressedTexture2D::120495999273185778::1794874039::1794874039::1::::<><><>0<>0<>4c7080853b38f7f18be477a0b7696987<>res://.godot/imported/Emerald.png-2b26c3b5e06042d0723e4d887a58a402.ctex::
-energy drink.png::CompressedTexture2D::8552879898429077328::1794874039::1794874039::0::::<><><>0<>0<>ea94e19e9269888589ed22691c9957a7<>::
-Enter_The_City.png::CompressedTexture2D::827363257433495061::1794874039::1794874039::1::::<><><>0<>0<>59439fdb15c84178027c36ee047d0068<>res://.godot/imported/Enter_The_City.png-6a8716a3fb58788bfd3565837e69f5ac.ctex::
-Epic Of Gilgamesh.png::CompressedTexture2D::5184756422149670806::1794874039::1794874039::1::::<><><>0<>0<>dc68395c405dfa0456109feded28c192<>res://.godot/imported/Epic Of Gilgamesh.png-fbd1333ce18ec1bdc8148fdb90f8b64a.ctex::
-Era of Disasters.png::CompressedTexture2D::486700722681528528::1794874039::1794874039::1::::<><><>0<>0<>6e8bf3a2f6226b45efd5254abec1f138<>res://.godot/imported/Era of Disasters.png-f22714dc95707f6c434be48519a02055.ctex::
-Eternal Rest.png::CompressedTexture2D::4984405964012048098::1794874039::1794874039::1::::<><><>0<>0<>6ccd1e5816cde757499f7b3dba429ba4<>res://.godot/imported/Eternal Rest.png-3a0a04e7ff3fbf75fc9392e870b3ca0d.ctex::
-Eternalize.png::CompressedTexture2D::6290583699017030517::1794874039::1794874039::1::::<><><>0<>0<>9a55a166299292d7e726b0ece978c2d4<>res://.godot/imported/Eternalize.png-3531b35e6dbf5e7f740120b50242bc14.ctex::
-Euler's Number.png::CompressedTexture2D::2898370138067915047::1794874039::1794874039::1::::<><><>0<>0<>53f3f04d036d05428e36da4878ed90e2<>res://.godot/imported/Euler's Number.png-382d2e5dd8af2980efba24f9508e10e6.ctex::
-Every End.png::CompressedTexture2D::3059354893313751912::1794874039::1794874039::1::::<><><>0<>0<>8cf5bfafc874f0f99b1cccc59c55e2ca<>res://.godot/imported/Every End.png-b5559bc41c8a1550178575e47dbc5b47.ctex::
-Extreme Denial.png::CompressedTexture2D::4373858829003664241::1794874039::1794874039::0::::<><><>0<>0<>83d5320b81b03fe2db6e7c9fa7b9c62d<>::
-F L Y.png::CompressedTexture2D::7888689332925700144::1794874039::1794874039::1::::<><><>0<>0<>de49c1eb64305d4d7d3f445a43c5eed6<>res://.godot/imported/F L Y.png-e830ef08305e915ea169d12dd0d5e079.ctex::
-final desti-wave.png::CompressedTexture2D::122018664189365638::1794874039::1794874039::1::::<><><>0<>0<>f0d2ad56e5402379724c06901a922fae<>res://.godot/imported/final desti-wave.png-c5b388fb47153362b6b926ad9c881adb.ctex::
-Firefly Valley.png::CompressedTexture2D::3333727637077001005::1794874039::1794874039::1::::<><><>0<>0<>e9c517b97a47bcc8b8238c26432df62d<>res://.godot/imported/Firefly Valley.png-922ae6104a6dd070c75023911f18f72d.ctex::
-fish demon.png::CompressedTexture2D::1568561097689103256::1794874039::1794874039::1::::<><><>0<>0<>87c8b34763c2e3499d7a4d07f8f33715<>res://.godot/imported/fish demon.png-abda7a6962626000eb80f2cfd46353b5.ctex::
-Flesh And Bones.png::CompressedTexture2D::1217861724167217973::1794874039::1794874039::1::::<><><>0<>0<>e90705859ea17b7cdad95aa9f460986a<>res://.godot/imported/Flesh And Bones.png-47474364c56393c2d80622fc459e019e.ctex::
-flip coolthagoras.png::CompressedTexture2D::2293342588501969003::1794874039::1794874039::1::::<><><>0<>0<>2d0b901bd68df9d86caf60eb79bc7ea6<>res://.godot/imported/flip coolthagoras.png-df5260d03b1ce30cc869fb09fa7a539e.ctex::
-Florida Man ahh level.png::CompressedTexture2D::2724944014153372553::1794876113::1794876174::1::::<><><>0<>0<>c811bcbde4c72ef1eef5d85b5e21dbfd<>res://.godot/imported/Florida Man ahh level.png-eec9fa287b1c7cf893c9981633511e73.ctex::
-Flower 2.png::CompressedTexture2D::941084742698065854::1794874039::1794874039::1::::<><><>0<>0<>812eaa524b57ea6127d4b796bd759d60<>res://.godot/imported/Flower 2.png-81b6646123345540036b15041da4c0c8.ctex::
-Flower Man.png::CompressedTexture2D::6067821516235711295::1794874039::1794874039::1::::<><><>0<>0<>4abdda98914d5581ac81a318ac227e77<>res://.godot/imported/Flower Man.png-7653d78db2c6a16b4ff815e40f10018c.ctex::
-Flowing Robots.png::CompressedTexture2D::8884993473088255169::1794875670::1794875677::1::::<><><>0<>0<>50c0d98e75ab0aa8b80ebe6e39937de6<>res://.godot/imported/Flowing Robots.png-0bb2b0ad3adf6c58a2c1e455de4cc553.ctex::
-fuck florida man.png::CompressedTexture2D::3059605665073083147::1794874039::1794874039::1::::<><><>0<>0<>6dcb133f41b377e056f6786de118ce8c<>res://.godot/imported/fuck florida man.png-8a8c3b17bfddf5b1d4bc19a8de42b0d4.ctex::
-full moon.png::CompressedTexture2D::1890976974345535115::1794874039::1794874039::1::::<><><>0<>0<>43637268a29eac5ef72f11a920642a4c<>res://.godot/imported/full moon.png-3e3f341e096bd316e4c529571286f5d1.ctex::
-Gameplay (TM).png::CompressedTexture2D::2303654808288954176::1794874039::1794874039::1::::<><><>0<>0<>655a91278dc7222b21e764a467d1f56f<>res://.godot/imported/Gameplay (TM).png-3ff0a77266e952db0aff6da35735769c.ctex::
-Gates of Heaven.png::CompressedTexture2D::6039975203181107331::1794874039::1794874039::1::::<><><>0<>0<>70a6447de5c28fb1852722db1fa04e02<>res://.godot/imported/Gates of Heaven.png-1e70d3cea90a39be7edf60e5d5949545.ctex::
-Geometry Dash Bloodbath.png::CompressedTexture2D::2068093276926146768::1794874039::1794874039::1::::<><><>0<>0<>77594d9c4bfc9d09af9439c23a5ccf53<>res://.godot/imported/Geometry Dash Bloodbath.png-5c87d015d72eef3ee82d1876c6eeb8b7.ctex::
-GetYoAhhTight!Tiramisu!.png::CompressedTexture2D::1556965276871020170::1794874039::1794874039::1::::<><><>0<>0<>8678e176090184bb9eac20f212c514f6<>res://.godot/imported/GetYoAhhTight!Tiramisu!.png-f068d696fcec7e3ecc7593096704920b.ctex::
-Gigachad House.png::CompressedTexture2D::2394738017299109179::1794874039::1794874039::1::::<><><>0<>0<>71cedb9417b8226377e0c0445dcd04b1<>res://.godot/imported/Gigachad House.png-2b63e4ead2f135b0f6b32a028b973dc5.ctex::
-GIVEUP!AKIRAMERU!.png::CompressedTexture2D::5224926787279004372::1794874039::1794874039::1::::<><><>0<>0<>8c79ccbfa14178729153d24cbf4c0246<>res://.godot/imported/GIVEUP!AKIRAMERU!.png-99d97380392d9b76e600835c7dd4b164.ctex::
-GIVEUP!AKITANERU!.png::CompressedTexture2D::8214170803038917038::1794874039::1794874039::1::::<><><>0<>0<>c55a6f072a1e42d211ad6e129110858c<>res://.godot/imported/GIVEUP!AKITANERU!.png-c215f4c47d8cd7da0e6f67605c474856.ctex::
-GIVEUP!AVOCADO!.png::CompressedTexture2D::2573475294192821741::1794874039::1794874039::1::::<><><>0<>0<>fd692d1c460936d67c81d04686149d0c<>res://.godot/imported/GIVEUP!AVOCADO!.png-dca624885042335d358dab9fc69a6506.ctex::
-Gray Dust.png::CompressedTexture2D::504445295654031511::1794874039::1794874039::1::::<><><>0<>0<>ab1e63a6f915a5dfaf3820ce62a2e0c6<>res://.godot/imported/Gray Dust.png-5cbdaad155c867640f4038bb0faca9f9.ctex::
-Greyhound.png::CompressedTexture2D::3749924770712570130::1794874039::1794874039::1::::<><><>0<>0<>840e58e911af717317842d89b0655da4<>res://.godot/imported/Greyhound.png-07dc62765679aa148e55f6afe989dab6.ctex::
-H0N3Y1MH0M3.png::CompressedTexture2D::5218392729486192497::1794874039::1794874039::1::::<><><>0<>0<>d8a38b1c1b4be97e1400ba07926cad7c<>res://.godot/imported/H0N3Y1MH0M3.png-8a4e2fc95571546c622bca4d1d31d758.ctex::
-hammer of justice 2.png::CompressedTexture2D::1734386282031891282::1794874039::1794874039::1::::<><><>0<>0<>e7ab2d629909a0bf3201e5f7d9250978<>res://.godot/imported/hammer of justice 2.png-19890e7fd4f43d19d7cf33c32489a7fa.ctex::
-hammer of justice.png::CompressedTexture2D::6066090095350301240::1794874039::1794874039::1::::<><><>0<>0<>65cbf8425e7541ca40695491cd217846<>res://.godot/imported/hammer of justice.png-1098bcae1339e655af77e2fa5cddf59a.ctex::
-HEARTBREAKER.png::CompressedTexture2D::6800194469714280687::1794874039::1794874039::1::::<><><>0<>0<>67d3e4883d360dffe5a6e14d19e6afd2<>res://.godot/imported/HEARTBREAKER.png-5121c3f1a43ae30f9e15f57e60f5db45.ctex::
-Hidden in the Sand.png::CompressedTexture2D::8293843011224923356::1794874039::1794874039::1::::<><><>0<>0<>089065c6980bdc98c686d6779e92ba48<>res://.godot/imported/Hidden in the Sand.png-4087406f349bbb4ffd3a75529d2cb123.ctex::
-high noon.png::CompressedTexture2D::430819871453960212::1794874039::1794874039::1::::<><><>0<>0<>3bd1f470f328283b80a685ae2d7b2cb5<>res://.godot/imported/high noon.png-4bb218adb8ae5b293a7f31d5e6695781.ctex::
-Holography.png::CompressedTexture2D::7767073555699981746::1794874039::1794874039::1::::<><><>0<>0<>dc1c4512ca15dc0278af0cbe4ee1cdbc<>res://.godot/imported/Holography.png-ab5fd6c60d79182d550cf58ef960f668.ctex::
-Hydro.png::CompressedTexture2D::4662108237539898664::1794874039::1794874039::1::::<><><>0<>0<>509f18317616e5139176a859aa9e5a14<>res://.godot/imported/Hydro.png-a708d7a712af836f68bda445135639fd.ctex::
-I.N.S.A. Rebirth.png::CompressedTexture2D::1640649879174772897::1794874039::1794874039::1::::<><><>0<>0<>eab022bcf0ed3b93e1c74b7d67516873<>res://.godot/imported/I.N.S.A. Rebirth.png-a5f96be27edb23dcad4574c09ec18b53.ctex::
-Idiot Corridor.png::CompressedTexture2D::1693305612312121172::1794874039::1794874039::1::::<><><>0<>0<>93f62014f2bcdfaa339551559cc7ef2f<>res://.godot/imported/Idiot Corridor.png-86711e8c60c571a190947e745c0e2e8a.ctex::
-Ik Niet.png::CompressedTexture2D::2774987199776684859::1794874039::1794874039::1::::<><><>0<>0<>167568a3bc715ec2f977ce0ed658b306<>res://.godot/imported/Ik Niet.png-77940922931901a9a99f9c469da710d7.ctex::
-Im getting harder.png::CompressedTexture2D::2640279750565212445::1794874039::1794874039::1::::<><><>0<>0<>0397039e353f964bc2b527434537b2a1<>res://.godot/imported/Im getting harder.png-8fcdd1984e1477cb5b06e33437522d2e.ctex::
-Impotence.png::CompressedTexture2D::9002318369833253812::1794877003::1794877012::1::::<><><>0<>0<>dbae8bf8c7b4b2510031a4619ae06cd9<>res://.godot/imported/Impotence.png-08fa34433c6f689f03f55ec4ed3c3942.ctex::
-In Circles.png::CompressedTexture2D::9137586295409209591::1794874039::1794874039::1::::<><><>0<>0<>8f2f3aabccfec5b76f302af762fc81db<>res://.godot/imported/In Circles.png-be1b7c51f6371cd2bbfcbc9227e55ec3.ctex::
-Infinite Cosmos.png::CompressedTexture2D::115319189375863473::1794874039::1794874039::1::::<><><>0<>0<>a53dd2d001e7d6ae027d017f8af653e9<>res://.godot/imported/Infinite Cosmos.png-7bb033bf813840b44639f9c7fb820f25.ctex::
-Intercept.png::CompressedTexture2D::5968615036748002637::1794874039::1794874039::1::::<><><>0<>0<>7a380a3d786cc6775bc8ff52eafbcb6f<>res://.godot/imported/Intercept.png-67cd8ba321eb9d06f841cfb9234f0d8a.ctex::
-Interstellar.png::CompressedTexture2D::8685723125212713775::1794874039::1794874039::1::::<><><>0<>0<>425801dab9c204a4a61865ebc03cdf8e<>res://.godot/imported/Interstellar.png-0d66991c09983efd0c346199a2dac5a1.ctex::
-Into the Wild.png::CompressedTexture2D::885068464733210023::1794874039::1794874039::1::::<><><>0<>0<>6c07a549105348cdbecb943eb48bc052<>res://.godot/imported/Into the Wild.png-5978b7744fd81df66aed651747473446.ctex::
-Invisible End.png::CompressedTexture2D::321917361627674624::1794874039::1794874039::1::::<><><>0<>0<>5db20f3c7145e2d79646dc0ec2ffdafb<>res://.godot/imported/Invisible End.png-9a916feadece0e70b73692576be434f4.ctex::
-Iraqophobia.png::CompressedTexture2D::929176887670177237::1794874039::1794874039::1::::<><><>0<>0<>68d2d3611e7664671d30ac0564719b3d<>res://.godot/imported/Iraqophobia.png-867fc7be0fff835085b18c55b07a46bb.ctex::
-It's Boshy Time!.png::CompressedTexture2D::3121305587264943609::1794876815::1794877295::1::::<><><>0<>0<>303c9b00a9c5d7dc8ba5968d9f065e3c<>res://.godot/imported/It's Boshy Time!.png-f61fb8080a22446f98bd31c4974be870.ctex::
-Its Boshy Time!.png::CompressedTexture2D::5331803987224783453::1794874039::1794874039::1::::<><><>0<>0<>e1a935103afffba56d890d4cb7814fb3<>res://.godot/imported/Its Boshy Time!.png-32cfefc7754c5cb7a462117b6b4b0c1d.ctex::
-Jackalope.png::CompressedTexture2D::6840125860244497666::1794874039::1794874039::1::::<><><>0<>0<>ec8e1a5557bc18d145cc1992e9fe4258<>res://.godot/imported/Jackalope.png-9feb34fdb6e8af8ff7f3d7985d677265.ctex::
-Java Circles.png::CompressedTexture2D::9156526883243505594::1794874039::1794874039::1::::<><><>0<>0<>f06a2fa8eda862c2a354c207a7989eaf<>res://.godot/imported/Java Circles.png-7f88e25d7b016e8fb0277388412370f9.ctex::
-Jim Halpert Extreme.png::CompressedTexture2D::54408863452460113::1794874039::1794874039::1::::<><><>0<>0<>2b1032cfb4327bcebb401e65f40045ec<>res://.godot/imported/Jim Halpert Extreme.png-89ec12bdb6d3a92e8878154841eb5ef6.ctex::
-Jim Halpert Machine.png::CompressedTexture2D::816928439813394894::1794874039::1794874039::1::::<><><>0<>0<>da90715d9e912122419e63338e12fead<>res://.godot/imported/Jim Halpert Machine.png-4a6e669d5b290fa7d96ee4e64754311a.ctex::
-Kev Challenge.png::CompressedTexture2D::7861249670048791828::1794874039::1794874039::1::::<><><>0<>0<>a37391a45dbc5699c98072f293dbfd7d<>res://.godot/imported/Kev Challenge.png-0aac4fd88d756830cf92c920fb5813dc.ctex::
-Kibo II.png::CompressedTexture2D::377252959225392351::1794874039::1794874039::1::::<><><>0<>0<>3e66a09339dd623144e1e09912fab774<>res://.godot/imported/Kibo II.png-f784600218a0237c93ed78b28a15c7bf.ctex::
-Kibo.png::CompressedTexture2D::7805983871871760166::1794874039::1794874039::1::::<><><>0<>0<>9491038798ab7e67d733a7cadface38c<>res://.godot/imported/Kibo.png-732756e764c3c4c634edc776eea6c970.ctex::
-Kult.png::CompressedTexture2D::323072824339182798::1794874039::1794874039::1::::<><><>0<>0<>e557e6f21280f11d5004ba7c3ba5bd97<>res://.godot/imported/Kult.png-c5224cc3658f931ab4778c1db5ad1261.ctex::
-Lamprey Hole.png::CompressedTexture2D::1393489712449629879::1794874039::1794874039::1::::<><><>0<>0<>99f0fd41ee43a2b336801259614e74e2<>res://.godot/imported/Lamprey Hole.png-db5b0eb7dfa8fa4970a83b9999d1f12f.ctex::
-Legacy Orochi.png::CompressedTexture2D::7073739558938712256::1794874039::1794874039::1::::<><><>0<>0<>257ca45cf0161c1b682fb3c009c1df63<>res://.godot/imported/Legacy Orochi.png-d89148650b7fe87903eb7e295082204b.ctex::
-Life Letters.png::CompressedTexture2D::6858353482995455701::1794874039::1794874039::1::::<><><>0<>0<>28b97f04c2c3fb3c65640fef334036fc<>res://.godot/imported/Life Letters.png-36ee0ecd6d0c2cbe4bfc190a5ee73a3b.ctex::
-love..png::CompressedTexture2D::7458338734966682680::1794874039::1794874039::1::::<><><>0<>0<>f9a5c7448e85d0f83f17e41d2edd601a<>res://.godot/imported/love..png-96bd86c2b39053a8a6890f4556d4dbcb.ctex::
-Loveless Eternally.png::CompressedTexture2D::1848242805652408982::1794874039::1794874039::1::::<><><>0<>0<>c24fabcfa7e471f5d1c3c30412d73b37<>res://.godot/imported/Loveless Eternally.png-d42f847d9fd30f2a2855c8db8653e161.ctex::
-Lucid Dreaming.png::CompressedTexture2D::767375473848300574::1794874039::1794874039::1::::<><><>0<>0<>de985a2ce70db0c467c8a902f8fb8876<>res://.godot/imported/Lucid Dreaming.png-a0004ad8459d9c9f6fb82cabd4920eaa.ctex::
-m e n t a l t o r t u r e.png::CompressedTexture2D::6898500376202939736::1794874039::1794874039::1::::<><><>0<>0<>234b09f358d7fdf5dcb8be97c978c356<>res://.godot/imported/m e n t a l t o r t u r e.png-9d020ebdffce714ac29b62125255b212.ctex::
-m i s e r y.png::CompressedTexture2D::4786011160009263519::1794874039::1794874039::1::::<><><>0<>0<>514d5967bf9bc65ca24816dff59297fa<>res://.godot/imported/m i s e r y.png-d36484ca5b74c9fdfb917a175c53a849.ctex::
-Machine Love.png::CompressedTexture2D::3380396392135355265::1794874039::1794874039::1::::<><><>0<>0<>67338ef9cc17d090d541b829bcdfb890<>res://.godot/imported/Machine Love.png-9c84eb42da3c90d395e688a53e710924.ctex::
-Malice.png::CompressedTexture2D::1102503640518773004::1794874039::1794874039::1::::<><><>0<>0<>219eb0f274c217bc86e4e1b3f6ec22f1<>res://.godot/imported/Malice.png-452e750b29a6529a702b67f053d88832.ctex::
-Mayham X.png::CompressedTexture2D::8423269595604013325::1794874039::1794874039::1::::<><><>0<>0<>cb31dd3a949771b3cb5333629d3a1dd5<>res://.godot/imported/Mayham X.png-31be330d0bc286eb2e4e69daeed75610.ctex::
-mayo maze.png::CompressedTexture2D::9062412903096367857::1794874039::1794874039::1::::<><><>0<>0<>0d154014e010fb7f43307716132e4a8d<>res://.godot/imported/mayo maze.png-be32090f74a8aad72c7f8d43010dcfdd.ctex::
-Maze Of Justice.png::CompressedTexture2D::4057044466726214883::1794874039::1794874039::1::::<><><>0<>0<>28de3b026f79c12c7e2bb245aec76e57<>res://.godot/imported/Maze Of Justice.png-d27fec15f49ab0f9fd9620ee1b00fecc.ctex::
-mazer.png::CompressedTexture2D::645197150662291368::1794874039::1794874039::1::::<><><>0<>0<>02b3c9e466ea23d07b56200113f020c1<>res://.godot/imported/mazer.png-38e937ca6b2606c582ba37ed122b5489.ctex::
-Midnight Circles.png::CompressedTexture2D::5447614383771684637::1794874039::1794874039::1::::<><><>0<>0<>feab840d057dfabc26990baccb6855d5<>res://.godot/imported/Midnight Circles.png-1777cd47430b4cf52c652387823e58f6.ctex::
-Mystic.png::CompressedTexture2D::58697241857282567::1794877032::1794877038::1::::<><><>0<>0<>27b5f83b2ce7858039ae148a8aa93fe5<>res://.godot/imported/Mystic.png-787db5bebfe50fea1039fcdcdfa9d106.ctex::
-NASA SUPER COMPUTER.png::CompressedTexture2D::3113048211182283932::1794874039::1794874039::1::::<><><>0<>0<>8f4ca702575f43402283cb9158385dbc<>res://.godot/imported/NASA SUPER COMPUTER.png-a8670458589eded2fc6fd764ee3e7635.ctex::
-Neon Clownparty.png::CompressedTexture2D::7643039774383802626::1794874039::1794874039::1::::<><><>0<>0<>072de1891a4ebc85f873370b36f6213b<>res://.godot/imported/Neon Clownparty.png-ae3925107517ec8cfc986765cbb3dac0.ctex::
-Neptune.png::CompressedTexture2D::497299296212972811::1794874039::1794874039::1::::<><><>0<>0<>fe46cfc5eab28c5aec1eee255b380688<>res://.godot/imported/Neptune.png-7c805585a627b49c172ed318f670af37.ctex::
-New Hammaniac.png::CompressedTexture2D::5073078677150451181::1794874039::1794874039::1::::<><><>0<>0<>b198977a279de9eedf25c5219f276c4b<>res://.godot/imported/New Hammaniac.png-cdc813094ce70dcc3ab0378885bfafac.ctex::
-new life.png::CompressedTexture2D::8770280171083841258::1794874039::1794874039::1::::<><><>0<>0<>cdd285dbcbf5b16d7f08b44b6d1acac5<>res://.godot/imported/new life.png-2f98ccbc3c1a0f382af2bd0341faa401.ctex::
-Night Night.png::CompressedTexture2D::5321659877995881489::1794874039::1794874039::1::::<><><>0<>0<>864420a81487dfb3d92585f91b483151<>res://.godot/imported/Night Night.png-c8d759e3bb0ca3436634f2769cc30aa1.ctex::
-NO WAY.png::CompressedTexture2D::2699833085299824202::1794874039::1794874039::1::::<><><>0<>0<>a2bef081bc2f6db5993f91576c6ec662<>res://.godot/imported/NO WAY.png-57b1153795c64f9b5722fa6fa6be8002.ctex::
-Notion.png::CompressedTexture2D::7284294411730972273::1794874039::1794874039::1::::<><><>0<>0<>b5f8151157f195f3b2ed5c3e95953780<>res://.godot/imported/Notion.png-8580b0af24f825db75f371dca4299905.ctex::
-Nova.png::CompressedTexture2D::4988668092912660929::1794874039::1794874039::1::::<><><>0<>0<>0e320f504b9693b30f0a019ce45fbb16<>res://.godot/imported/Nova.png-5e27acb27a50e26d273c04b466edead7.ctex::
-Nuclear Reactor.png::CompressedTexture2D::4102352467453215599::1794874039::1794874039::1::::<><><>0<>0<>89b191bc91c079b03e84a6084c010640<>res://.godot/imported/Nuclear Reactor.png-03b0c59dfc59f799c13a8b67d6305982.ctex::
-Nuclear Void Escape.png::CompressedTexture2D::4914372184850642730::1794874039::1794874039::1::::<><><>0<>0<>640e81ed8d649a9132fd29fa2e29a4eb<>res://.godot/imported/Nuclear Void Escape.png-6976607954e6be5c87f8524e286bd71f.ctex::
-null..png::CompressedTexture2D::6920129490481788221::1794874039::1794874039::1::::<><><>0<>0<>ff8de56f9c1b32b03cb636fc5c6fc49b<>res://.godot/imported/null..png-3cb8c50cf22c7ec7e4dc572d3ceed854.ctex::
-Nullify.png::CompressedTexture2D::6972874139669253782::1794874039::1794874039::1::::<><><>0<>0<>c95aeaf7caad97f135add9f0cd726c7a<>res://.godot/imported/Nullify.png-cc18ff9975fbf6367f979bbbb629e1af.ctex::
-Oceanic Rift.png::CompressedTexture2D::558845613093684654::1794874039::1794874039::1::::<><><>0<>0<>9696d0e629221ad0cfee864184e228ee<>res://.godot/imported/Oceanic Rift.png-be538eca29d5df7e666b6c4816acd958.ctex::
-oopsied impossible level 1.png::CompressedTexture2D::7428534216175353260::1794874039::1794874039::1::::<><><>0<>0<>86b1155bab257d190bb3bb11617e2fe1<>res://.godot/imported/oopsied impossible level 1.png-43167ba95a18fbd3ed1741a3652c3635.ctex::
-Open Window.png::CompressedTexture2D::8077403530435156286::1794874039::1794874039::1::::<><><>0<>0<>6c78f70de5df14f5036bc3da1a05a31d<>res://.godot/imported/Open Window.png-ba60e40db3ed951faefced9faeec7693.ctex::
-Operation Evolution.png::CompressedTexture2D::5476112729662199493::1794874039::1794874039::1::::<><><>0<>0<>614c1e06a1fd6f2b6883449ee517cbc0<>res://.godot/imported/Operation Evolution.png-6d9a91e33e833902a224572b2f185abb.ctex::
-OuterSpace.png::CompressedTexture2D::2859609607168703435::1794874039::1794874039::1::::<><><>0<>0<>28b3b7f451d3f8ed54f7c479da3dffa3<>res://.godot/imported/OuterSpace.png-6540a6f02938b080babe1d1147ba0b3f.ctex::
-Over The Edge.png::CompressedTexture2D::2628808031267411826::1794874039::1794874039::1::::<><><>0<>0<>7b5476c380706e4219206522f8298346<>res://.godot/imported/Over The Edge.png-02162ca83fb5ae2e40a3f8b381fc2a16.ctex::
-Payload Remix.png::CompressedTexture2D::5936767346387324940::1794876145::1794876173::1::::<><><>0<>0<>74fe7b7ad045d9708f15bac34a6b757e<>res://.godot/imported/Payload Remix.png-c589935d75e64d50a0892273cf124116.ctex::
-Peer Pressure.png::CompressedTexture2D::8654512475585342014::1794874039::1794874039::1::::<><><>0<>0<>10adcebf08da44e941c6745aafef171d<>res://.godot/imported/Peer Pressure.png-1f00ec120d60dc91dfc9a743c56952f3.ctex::
-Peneren Hard Map I.png::CompressedTexture2D::5877988484730150179::1794874039::1794874039::1::::<><><>0<>0<>9909cd3aeabc18fdee6208716aade654<>res://.godot/imported/Peneren Hard Map I.png-39c69a1e93dd4397bd28556681839660.ctex::
-Peneren Hard Map II.png::CompressedTexture2D::6712331181733778215::1794874039::1794874039::1::::<><><>0<>0<>9c9df62191717f655ccb4747d93fd753<>res://.godot/imported/Peneren Hard Map II.png-d88e93d060ce401d4c713f5b86229bb5.ctex::
-Peneren Hard Map III.png::CompressedTexture2D::4332432869511007312::1794874039::1794874039::1::::<><><>0<>0<>2b12d7e9a476028ce3d2fc221e77e6ed<>res://.godot/imported/Peneren Hard Map III.png-4646e885f3e878533b0317f66527d326.ctex::
-Peneren Hard Map IV.png::CompressedTexture2D::2113715579563428013::1794874039::1794874039::1::::<><><>0<>0<>49ed94703f7b95fb7f0a7c45fdf76119<>res://.godot/imported/Peneren Hard Map IV.png-e0647e59a06b3b13ff37aeaa3766e462.ctex::
-Peneren Hard Map V.png::CompressedTexture2D::4032072457734453470::1794874039::1794874039::1::::<><><>0<>0<>d4b7e8cb573fe28bd1d7fab5162bf196<>res://.godot/imported/Peneren Hard Map V.png-6772c7fed8101c4216a86b2885cc259b.ctex::
-Penumbra Phantasm.png::CompressedTexture2D::4123313887928661671::1794874039::1794874039::1::::<><><>0<>0<>0e556722bbb2423c3d9b0772e6ca0e84<>res://.godot/imported/Penumbra Phantasm.png-284885bcc020e08dcd7c0f1a78b0bb69.ctex::
-Phoenix A.png::CompressedTexture2D::6210101303238764809::1794874039::1794874039::1::::<><><>0<>0<>2a72dc368fd6c32374b0c7d893401082<>res://.godot/imported/Phoenix A.png-82ec2904035fcc4ca74308bb54193b98.ctex::
-Pigbuff.png::CompressedTexture2D::5332033409881504229::1794874039::1794874039::1::::<><><>0<>0<>d29329ae8f3b4d3abc329c4d6ea72cb7<>res://.godot/imported/Pigbuff.png-9a22942b7bf592b2dc99065dcca5cf5b.ctex::
-Pigs do buff.png::CompressedTexture2D::3836115630965663090::1794874039::1794874039::1::::<><><>0<>0<>fb9636ffc22759326be609612a8b0d5f<>res://.godot/imported/Pigs do buff.png-dfeb3af4ce15b50e6a434447429b0b48.ctex::
-Pigstep.png::CompressedTexture2D::2406872973279344172::1794874039::1794874039::1::::<><><>0<>0<>bda1f659d049d605f28b2e446bf280d3<>res://.godot/imported/Pigstep.png-9692d52b4a9b05aa89816e407e2a555d.ctex::
-poocubed.png::CompressedTexture2D::7288846281156141232::1794874039::1794874039::1::::<><><>0<>0<>6845b84605d5127c33fa4a1da7ac31d9<>res://.godot/imported/poocubed.png-7c4e3d3109d42bd1216a5b6d7f0e3597.ctex::
-Problematic.png::CompressedTexture2D::3659615152849144953::1794874039::1794874039::1::::<><><>0<>0<>15a499cd04ed538afba81c03f4a9703c<>res://.godot/imported/Problematic.png-bfca5cd5945f68b3e4cd60fdddfb9f4a.ctex::
-Purple Clutterfunk.png::CompressedTexture2D::2560424694654048169::1794874039::1794874039::1::::<><><>0<>0<>0bae344acde479e942b13ceb33ababbe<>res://.godot/imported/Purple Clutterfunk.png-4d25da70c2287b5925426b58faece92d.ctex::
-Purple Skibidi Toilet.png::CompressedTexture2D::1769618731969142656::1794876942::1794876952::1::::<><><>0<>0<>87cd2b7a8a41f9f0c0565e2d15fab83b<>res://.godot/imported/Purple Skibidi Toilet.png-896fea34ad942de1780663f583933b62.ctex::
-Purple Storm.png::CompressedTexture2D::4497975241874162630::1794874039::1794874039::1::::<><><>0<>0<>3256f328893027831a3fbac0d23b5cc9<>res://.godot/imported/Purple Storm.png-403ffe14ca121cfdbaee7ba763405a54.ctex::
-Quiet Afternoon.png::CompressedTexture2D::1933030159133158748::1794874039::1794874039::1::::<><><>0<>0<>90bcf80724977fdc8775169089054d10<>res://.godot/imported/Quiet Afternoon.png-48ebe879baf22ede227e917df672bcb3.ctex::
-Red Essence.png::CompressedTexture2D::7695084311566524018::1794874039::1794874039::1::::<><><>0<>0<>c177bb6a2f8564b3003f8ed36032e90e<>res://.godot/imported/Red Essence.png-ee3d7d5dc24d325a6ae9eaaf7b5e5fac.ctex::
-Return of the Cipher.png::CompressedTexture2D::3309836308692816264::1794874039::1794874039::1::::<><><>0<>0<>9f3f34d3de1cf0b7e5f236ccee73a190<>res://.godot/imported/Return of the Cipher.png-27b2083a46e948861a4ef8da5f167bd9.ctex::
-right down the toilet.png::CompressedTexture2D::7688471313317210556::1794874039::1794874039::1::::<><><>0<>0<>cca856871a9f2cba8dbb77099df426ac<>res://.godot/imported/right down the toilet.png-226200b320c0c98e9dede4f332a02c9f.ctex::
-Robotic Factory.png::CompressedTexture2D::6410221947799104::1794874039::1794874039::1::::<><><>0<>0<>6b459d7a119704fe4151614f55cab59b<>res://.godot/imported/Robotic Factory.png-56bf3058c4e26a0f0f0bf03918f74b97.ctex::
-Rot for Clout.png::CompressedTexture2D::8222022268669322987::1794874039::1794874039::1::::<><><>0<>0<>f6224627a60882c5453cfffc5b25be40<>res://.godot/imported/Rot for Clout.png-2e81c8477f2eb4b6bf2bfd1ddcae12cb.ctex::
-Sakupen Circles Redux.png::CompressedTexture2D::1852893658704460951::1794874039::1794874039::1::::<><><>0<>0<>58aa29239dcd87bdeb02ee11eab21997<>res://.godot/imported/Sakupen Circles Redux.png-b23e64a3bb08da329cdae533da54e536.ctex::
-Sakupen Resurgence.png::CompressedTexture2D::4599584183467549607::1794874039::1794874039::1::::<><><>0<>0<>2a8fd3c17a7552b5466131174c07b11d<>res://.godot/imported/Sakupen Resurgence.png-c32d6a3e694d687c63d8eee1b8e461b5.ctex::
-Scratch Slaughterhouse.png::CompressedTexture2D::8924498537535687923::1794874039::1794874039::1::::<><><>0<>0<>9679ce980d3c514d17b93996f126fad7<>res://.godot/imported/Scratch Slaughterhouse.png-9b3ccaa565f3eb1285a9ee5f9e8cda29.ctex::
-Scratch Tidal Wave.png::CompressedTexture2D::4954404027465048447::1794874039::1794874039::1::::<><><>0<>0<>af20cc2232de211c45996be49d636d9a<>res://.godot/imported/Scratch Tidal Wave.png-e49fd792f7dd5a49e808de5c4aa0787a.ctex::
-Scratcherhouse.png::CompressedTexture2D::8791624400160018213::1794874039::1794874039::1::::<><><>0<>0<>62c28e220ad7fddfde9200d29a904143<>res://.godot/imported/Scratcherhouse.png-2a66d6d702de520ae65854b6fc8b761b.ctex::
-Second Try.png::CompressedTexture2D::1948006755673663868::1794874039::1794874039::1::::<><><>0<>0<>e9e695da33db42abeb6c45fa779e5c2d<>res://.godot/imported/Second Try.png-66f286b5a0485f629c6f19a1d4da72f8.ctex::
-Setup Wizard.png::CompressedTexture2D::183871921106888662::1794874039::1794874039::1::::<><><>0<>0<>4b79320fd57bdc362f6c8af215bfbcda<>res://.godot/imported/Setup Wizard.png-9ae6837485e70ef535faca3be6589ca6.ctex::
-Shattered Cityscape.png::CompressedTexture2D::7139612760188036548::1794874039::1794874039::1::::<><><>0<>0<>db2e87a84b02f387b3c642a839f1a973<>res://.godot/imported/Shattered Cityscape.png-17f86c3ab736e566f1262006a3492de5.ctex::
-Silent 12.png::CompressedTexture2D::6944034372628604188::1794874039::1794874039::1::::<><><>0<>0<>c9626e9af04d371b1b14c9f5abafa857<>res://.godot/imported/Silent 12.png-573008d6b2944e5622db24f7211e0cda.ctex::
-Silent Dropstep.png::CompressedTexture2D::3023746661527477429::1794874039::1794874039::1::::<><><>0<>0<>c3e7820a5cc9af34f672aef06bba884d<>res://.godot/imported/Silent Dropstep.png-595aeab692d67631b218fe11d9a46547.ctex::
-Silent Quasar.png::CompressedTexture2D::7301806815085112960::1794874039::1794874039::1::::<><><>0<>0<>4c036da4af2ad987bea00f600ebc9851<>res://.godot/imported/Silent Quasar.png-005febb1130e700dc4f3574a357cdde9.ctex::
-Soaring the Wind.png::CompressedTexture2D::2970412718150958057::1794874039::1794874039::1::::<><><>0<>0<>a63c588e17e52d65512f3707f6278d9e<>res://.godot/imported/Soaring the Wind.png-b7bab5cbd4ff388cdacc6a8f4890b7da.ctex::
-Solitude.png::CompressedTexture2D::7926154094081079041::1794874039::1794874039::1::::<><><>0<>0<>b9fe90e4bbfbbb95d1628452616fe7c5<>res://.godot/imported/Solitude.png-29edec2e758b92a43d36a0bf1f162b42.ctex::
-Sonic Wave MEGA COLLAB.png::CompressedTexture2D::5770402842912313926::1794874039::1794874039::1::::<><><>0<>0<>e61eccd98957388a3505ea4fbd7f0db6<>res://.godot/imported/Sonic Wave MEGA COLLAB.png-e967efd4cf706e2a287cfbf6e348581b.ctex::
-Spider Dance.png::CompressedTexture2D::1131995833560364979::1794874039::1794874039::1::::<><><>0<>0<>646c73870af4ad1a1b10db34cc69ce0b<>res://.godot/imported/Spider Dance.png-0e5e18197243d5c80f521d6683f9d0bf.ctex::
-spongebob clear map.png::CompressedTexture2D::24626847939533598::1794874039::1794874039::1::::<><><>0<>0<>172d5040a7f8e80216b0257c2dd81d05<>res://.godot/imported/spongebob clear map.png-2c113d0aa35b004309a07817eae761f3.ctex::
-Squeegee Luigi Never Clear.png::CompressedTexture2D::8923116926146303351::1794874039::1794874039::1::::<><><>0<>0<>0eebae5510ccbdec448ac2779a8fc3bf<>res://.godot/imported/Squeegee Luigi Never Clear.png-1839cfcda0c796742117dca2d3b43e84.ctex::
-Stairs Of Fate.png::CompressedTexture2D::2605278281671896172::1794874039::1794874039::1::::<><><>0<>0<>20ad5b8cdabce831fb8254f9a6707a98<>res://.godot/imported/Stairs Of Fate.png-3aca8645378d4021b189a04a4b8337ec.ctex::
-Stay Inside Me.png::CompressedTexture2D::4094990130520514740::1794874039::1794874039::1::::<><><>0<>0<>93964c3545040609961f582123e776c0<>res://.godot/imported/Stay Inside Me.png-3706adb4b9e377eeaf9d8b21d0599139.ctex::
-Steel Terror.png::CompressedTexture2D::3915784743867852804::1794874039::1794874039::1::::<><><>0<>0<>94e01ccdcf33ae0bb3a73c3d7e53c7c5<>res://.godot/imported/Steel Terror.png-df3bb66c9c99fd45e63b2979bed9b0ef.ctex::
-Stereo Reckoning.png::CompressedTexture2D::1576997088508609057::1794874039::1794874039::1::::<><><>0<>0<>8996b3deb554a5ce3441e342a3860ff4<>res://.godot/imported/Stereo Reckoning.png-a32bcc6b4c35a91b37a10a11663f90e2.ctex::
-Styx.png::CompressedTexture2D::2155394623305552406::1794874039::1794874039::1::::<><><>0<>0<>52b246b7b529ab8da88d2e0f91251764<>res://.godot/imported/Styx.png-8f33e337af8ff3de9bf13a67600c6609.ctex::
-Sunset Shores.png::CompressedTexture2D::4972280951378690450::1794876207::1794876218::1::::<><><>0<>0<>957615e79dc227d5865ca20f0a186f70<>res://.godot/imported/Sunset Shores.png-881b858bf00f8c0eb781eb00dcd0ea02.ctex::
-SUPER SCARY FEM MAP 2.png::CompressedTexture2D::7544108936038289313::1794876432::1794876444::1::::<><><>0<>0<>d8f0c03a32b9a2b5a95958707a58d0b9<>res://.godot/imported/SUPER SCARY FEM MAP 2.png-6c454acaa0d64f51798cde3df9d4975a.ctex::
-SUPERMONKEWORLD.png::CompressedTexture2D::5647643379597267271::1794874039::1794874039::1::::<><><>0<>0<>1f9ee99888d3610254634b8dbe43372d<>res://.godot/imported/SUPERMONKEWORLD.png-ef616205849f435ddf9a7d52536cee21.ctex::
-SVC.png::CompressedTexture2D::3606930928025542282::1794874039::1794874039::1::::<><><>0<>0<>f448920bc60e0378efcb9b011dc9933b<>res://.godot/imported/SVC.png-110d9ba174d282883676eacde9f337db.ctex::
-Sweet Escape.png::CompressedTexture2D::2496490104071331228::1794874039::1794874039::1::::<><><>0<>0<>aece10f3cb63a47d135278faccf6b0e6<>res://.godot/imported/Sweet Escape.png-5097f1cbca968db03cd0b182790056e3.ctex::
-Temperate Cycles.png::CompressedTexture2D::5128136701785226110::1794874039::1794874039::1::::<><><>0<>0<>918a7c21b210279b668e6bcc8ddc2629<>res://.godot/imported/Temperate Cycles.png-7487e535bd39b20361cbf4ea09e7ac3a.ctex::
-Teto Territory.png::CompressedTexture2D::5471395246388660928::1794874039::1794874039::1::::<><><>0<>0<>8a612bc99568f378644f0a493486fcc0<>res://.godot/imported/Teto Territory.png-083ef200cb59129ff306952f839498a5.ctex::
-The Beginning.png::CompressedTexture2D::436180400775090037::1794874039::1794874039::1::::<><><>0<>0<>7213c621cfa15c52b01341a2d00188f0<>res://.godot/imported/The Beginning.png-f5f6328a5015b11a66c9e947bdae9df8.ctex::
-The Blue.png::CompressedTexture2D::7250576543176521289::1794874039::1794874039::1::::<><><>0<>0<>0488388496671b9f1a5cf9f9c99f7253<>res://.godot/imported/The Blue.png-b5fd0e38a1f8acd53314c3e136fe06f3.ctex::
-The Empty Space.png::CompressedTexture2D::2329436323063947904::1794874039::1794874039::1::::<><><>0<>0<>f3e9f7fe0ddcaa268ad1fca12f01565b<>res://.godot/imported/The Empty Space.png-106f46eb9b5c634ac078fac31bbe075e.ctex::
-The Epic Of Gilgamesh.png::CompressedTexture2D::4904052269065140628::1794874039::1794874039::1::::<><><>0<>0<>b8d27f8a240d0fe3afcfa810c665448b<>res://.godot/imported/The Epic Of Gilgamesh.png-2e49c8052d5f5995a7b1cb7e5805474e.ctex::
-The Fields of Pink and Gold.png::CompressedTexture2D::1496024216492131811::1794874039::1794874039::1::::<><><>0<>0<>abe54493820a7538aaf5c0d17605aee1<>res://.godot/imported/The Fields of Pink and Gold.png-2d837bc47f469be8f7d2db5c75db46c0.ctex::
-The Honor Over World.png::CompressedTexture2D::1185224234476399053::1794874039::1794874039::1::::<><><>0<>0<>54c182fb57c6634cf9b606c207aa1680<>res://.godot/imported/The Honor Over World.png-85a8d0b6d89ba818127c810b4e03bbe3.ctex::
-The Lantern Dragon.png::CompressedTexture2D::2213706318839013730::1794874039::1794874039::1::::<><><>0<>0<>76f93234207618997c17fc0b9eec38fa<>res://.godot/imported/The Lantern Dragon.png-22aff388f7699cd3244b116b1aec0f65.ctex::
-The Shaq House.png::CompressedTexture2D::3440456581052475761::1794874039::1794874039::1::::<><><>0<>0<>8557d428dd70cce9cf5336f5e3c47afb<>res://.godot/imported/The Shaq House.png-f035d295d0027119cb83188f5186a736.ctex::
-The Swag Road.png::CompressedTexture2D::5112704654597868910::1794874039::1794874039::1::::<><><>0<>0<>ccfbe6a066d9f9738ab3efe4fb78233e<>res://.godot/imported/The Swag Road.png-6a52bb36f1071a56c765bbbeda796772.ctex::
-The Theory of Final Infinity.png::CompressedTexture2D::7585834197347191219::1794874039::1794874039::1::::<><><>0<>0<>4a337dc2aa09e28ffc479123c87f74fd<>res://.godot/imported/The Theory of Final Infinity.png-a15950d6a26c72089ecd820c8cecead7.ctex::
-the third variant.png::CompressedTexture2D::4618864130295877262::1794874039::1794874039::1::::<><><>0<>0<>345329d6e3d17f64efb39b99dfa03d42<>res://.godot/imported/the third variant.png-2c05428702e916207b7f4b2d5f259a57.ctex::
-The World Destroyer Rebirth.png::CompressedTexture2D::8514172661886371749::1794874039::1794874039::1::::<><><>0<>0<>99ee4e8a39f15ef3454d8ffc8f117dbe<>res://.godot/imported/The World Destroyer Rebirth.png-8f4a099f404a97f6ff0d5e7628cd447e.ctex::
-Theory Of Continuity.png::CompressedTexture2D::3623449823896313880::1794874039::1794874039::1::::<><><>0<>0<>ab3eefcf68c91300ecf36ac2fa894da3<>res://.godot/imported/Theory Of Continuity.png-c8deaf62482c836bb31c336fabb3813d.ctex::
-Theory Of Nothing (ASC_095).png::CompressedTexture2D::4017089477637949957::1794874039::1794876454::1::::<><><>0<>0<>4e92ea9f45f94c5b3918c93b70fc1604<>res://.godot/imported/Theory Of Nothing (ASC_095).png-35270514f2f76794f82c7e76926059ac.ctex::
-Theory of Nothing (cwkollie12137).png::CompressedTexture2D::202716204964208571::1794874039::1794876918::1::::<><><>0<>0<>07d8c26df88d4539573e98e448a66239<>res://.godot/imported/Theory of Nothing (cwkollie12137).png-87864e229d2cd0a3f6e23b733db9776e.ctex::
-Thermodynamix.png::CompressedTexture2D::3068698282406558578::1794874039::1794874039::1::::<><><>0<>0<>07a4cb5e62f338967898c4cbc053e67f<>res://.godot/imported/Thermodynamix.png-1095d79b9c776b47040a1f6ddaf56ac3.ctex::
-ThermodynamixMEGACOLLAB.png::CompressedTexture2D::1314023510320019039::1794874039::1794874039::1::::<><><>0<>0<>e65e5ae498175a798052852446e5119b<>res://.godot/imported/ThermodynamixMEGACOLLAB.png-e819d3941521c964541d916797027cc3.ctex::
-Thinkinh Space 6.png::CompressedTexture2D::6893386783759353066::1794874039::1794874039::1::::<><><>0<>0<>0ec19a442568faadfa604a8c66d67602<>res://.godot/imported/Thinkinh Space 6.png-3723d45fad7657490d03820cf06ce807.ctex::
-thunderzone.png::CompressedTexture2D::7494528172286167848::1794874039::1794874039::1::::<><><>0<>0<>78aad85775f100cd2ee126ea3d3f5657<>res://.godot/imported/thunderzone.png-577141f6ee8b6a5c7afb82e517692807.ctex::
-Tidal Square Rebirth.png::CompressedTexture2D::1670063466037238149::1794874039::1794874039::1::::<><><>0<>0<>5dbadf58b1f7d7fb0f96e63da13fad1c<>res://.godot/imported/Tidal Square Rebirth.png-056589b48393014aad860c8aa7a6ca05.ctex::
-To the skies.png::CompressedTexture2D::6941526078570825112::1794874039::1794874039::1::::<><><>0<>0<>37c3d3feb261c29b34dd60a2a582c5dd<>res://.godot/imported/To the skies.png-631a7b608e5cf53272f0df540816035c.ctex::
-Triangle Force.png::CompressedTexture2D::3969872160137658039::1794874039::1794874039::1::::<><><>0<>0<>14805c390ea04bf2201ac3b7deb9cdc6<>res://.godot/imported/Triangle Force.png-948eaf546e7e45db87357cbff487bcfd.ctex::
-Triangle Of Time.png::CompressedTexture2D::1165500183870576301::1794874039::1794874039::1::::<><><>0<>0<>8006098b5d7b85459158762b7f843523<>res://.godot/imported/Triangle Of Time.png-03cc0e3207ee1891a2120edbd14530d7.ctex::
-Trigger Wizard.png::CompressedTexture2D::2762165237387720277::1794874039::1794874039::1::::<><><>0<>0<>52749e1a117065227aa507227dcf29e8<>res://.godot/imported/Trigger Wizard.png-798fd34d6a2813114e622a0fa367584f.ctex::
-Ultimate Destruction (LegoScratchTanksuber).png::CompressedTexture2D::7218977981218606129::1794874039::1794874039::1::::<><><>0<>0<>cfdc267e4677bf5b321272f723cdf854<>res://.godot/imported/Ultimate Destruction (LegoScratchTanksuber).png-9a90ccd02b2b772517a6d27e96ea5a3e.ctex::
-Ultimate Destruction (meow_wet).png::CompressedTexture2D::1617823846766405659::1794874039::1794875882::1::::<><><>0<>0<>cfe017a138fd96f82921b7132b044ff3<>res://.godot/imported/Ultimate Destruction (meow_wet).png-da69f28f5c3ee222a1ce05aa12cd0766.ctex::
-Ultimate Kill Stream Finale 2.png::CompressedTexture2D::8799255426961788742::1794874039::1794874039::1::::<><><>0<>0<>b375f2daebe726862143fd6cf602f533<>res://.godot/imported/Ultimate Kill Stream Finale 2.png-3533e9a51fa115bee56c70879815f9ee.ctex::
-Ultimate Kill Stream.png::CompressedTexture2D::4404414831238686332::1794874039::1794874039::1::::<><><>0<>0<>63cde25e93f2d601913959605522679e<>res://.godot/imported/Ultimate Kill Stream.png-75cd5826d58e6a01a4d79987e863eb24.ctex::
-Undying Soul.png::CompressedTexture2D::7525719340518541618::1794874039::1794874039::1::::<><><>0<>0<>155212865d41587d1d6fdc7e3d6a9fae<>res://.godot/imported/Undying Soul.png-1bba8becd2ae9b621bcc2e315dd5c78e.ctex::
-UnnamedSqueegee.XML.png::CompressedTexture2D::5742396945579446367::1794874039::1794874039::1::::<><><>0<>0<>c65fc57b59fd6e6fa5cdc6eb271851a7<>res://.godot/imported/UnnamedSqueegee.XML.png-c9067555f158b1272fd1ca30e3687265.ctex::
-Verdant Hash.png::CompressedTexture2D::8820514593104506081::1794874039::1794874039::1::::<><><>0<>0<>d6d3c02f9cfccc06a56b6830d0c02b83<>res://.godot/imported/Verdant Hash.png-5fd31f447ee71c8caed3370413840a6e.ctex::
-WallyBoom Challenge.png::CompressedTexture2D::3086954731179551034::1794874039::1794874039::1::::<><><>0<>0<>f45b31f21947d78143306901d3478acd<>res://.godot/imported/WallyBoom Challenge.png-ee0f3b28f3e91de2e4ff6452fecbf0b9.ctex::
-WARCORA R.png::CompressedTexture2D::1228720081113547859::1794874039::1794874039::1::::<><><>0<>0<>fa3fbd4ed034873c1ab202bb1db11e4d<>res://.godot/imported/WARCORA R.png-f80ee7e97e901ccba54a8cbd1ab4b9d8.ctex::
-Waterworld.png::CompressedTexture2D::3028071838294597879::1794874039::1794874039::1::::<><><>0<>0<>1a79a899ede8d406499655dc647864cc<>res://.godot/imported/Waterworld.png-6a216c34010bc2b8140637fbc242bd6f.ctex::
-wave thing.png::CompressedTexture2D::5757235044271987927::1794874039::1794874039::1::::<><><>0<>0<>da22f8d484c678858559e52db199fb50<>res://.godot/imported/wave thing.png-a32f2b42ff2ca900dbec935a8353815a.ctex::
-web demon.png::CompressedTexture2D::8843322386725478500::1794874039::1794874039::1::::<><><>0<>0<>b3f5ea33e647c7dc329b2bbf6f5c1834<>res://.godot/imported/web demon.png-bb3b30bf408d92c4c36c4ebc23c9fb3c.ctex::
-what could ts be.png::CompressedTexture2D::3550312255319244145::1794874039::1794874039::1::::<><><>0<>0<>29377efa0f885c68ef41491c0a81d25b<>res://.godot/imported/what could ts be.png-a19fbd3c0ba2008d15de5e2f735017f5.ctex::
-WHAT THE H3LL.png::CompressedTexture2D::5861152914050562535::1794874039::1794874039::1::::<><><>0<>0<>591e2ef904943ff8eef9d1fa58f63e25<>res://.godot/imported/WHAT THE H3LL.png-ce4dc31d54e85cf35c18f8833b9ffb5b.ctex::
-Whizkid Kaizo Stage VI.png::CompressedTexture2D::1321673087905196414::1794876325::1794876332::1::::<><><>0<>0<>ac0b05708de3e84165a99064b2ad6ee6<>res://.godot/imported/Whizkid Kaizo Stage VI.png-68d19a13d73eb68233b487df2e06f2cd.ctex::
-Winter [unnerfed].png::CompressedTexture2D::4576714934856110394::1794874039::1794874039::1::::<><><>0<>0<>00cf94dda941824266b82f322ecaab2b<>res://.godot/imported/Winter [unnerfed].png-19c0d6c1f42ebb56003174d8eab9a481.ctex::
-Winter.png::CompressedTexture2D::494422961788611601::1794874039::1794874039::1::::<><><>0<>0<>7b87dab5074cc76fb6b8a2a44d642626<>res://.godot/imported/Winter.png-38380f4d1a9d073e13ef29c2c728b456.ctex::
-Your Death.png::CompressedTexture2D::3043055576180433806::1794874039::1794874039::1::::<><><>0<>0<>ad3c6d5d1b3d38bc547d28f54c104829<>res://.godot/imported/Your Death.png-a025b0a4875b8011d4c55bc680e9b282.ctex::
-[CREEPY WORD HERE].png::CompressedTexture2D::1309529492159217123::1794874039::1794874039::1::::<><><>0<>0<>7477d9b86fc9e599a1143d413c79a84d<>res://.godot/imported/[CREEPY WORD HERE].png-e7603fca1b075444e092cdd4a372ea5c.ctex::
+::res://Thumbnails/::1795056896
+2.2 layout.png::CompressedTexture2D::1679007318521359601::1794973813::1794973815::0::::<><><>0<>0<>b02e67f492dc99d2b6e711415c4c9182<>::
+30 seconds of pure memory.png::CompressedTexture2D::1217720849146543880::1794973809::1794973797::1::::<><><>0<>0<>e4bb73d456d635090c917e16415b1d3b<>res://.godot/imported/30 seconds of pure memory.png-5df19b27ba6c90ff814645ce334ec887.ctex::
+-Cluster Caverns-.png::CompressedTexture2D::7591262200577062495::1794874039::1794973797::1::::<><><>0<>0<>788e1ca8b6e7dfe312cd74d23b520044<>res://.godot/imported/-Cluster Caverns-.png-fc710a77a0e74da19a8e4330e3ecbdd9.ctex::
+absolute criticality point.png::CompressedTexture2D::7645535975826631324::1794973810::1794973797::1::::<><><>0<>0<>719177f2740020565c8c40469473cc5d<>res://.godot/imported/absolute criticality point.png-12dbefb3d5a2e637ebeb29974709ca44.ctex::
+Agathokakological.png::CompressedTexture2D::7547165220220698104::1794973803::1794973797::1::::<><><>0<>0<>96afddf195372c85da3f71956812dbd9<>res://.godot/imported/Agathokakological.png-b3210f2969c9b9b567b1e9ee73d2a8b1.ctex::
+Agenda.png::CompressedTexture2D::5262851253393995584::1794874039::1794973797::1::::<><><>0<>0<>b5ebff617e7defe9e328635381b04eb5<>res://.godot/imported/Agenda.png-b0b1f48b778614d1841f703ee9af52d3.ctex::
+aintitfun.png::CompressedTexture2D::856300028568229275::1794874039::1794973797::1::::<><><>0<>0<>c359d0255054eff9af9e64b9e6c28e4c<>res://.godot/imported/aintitfun.png-d120e29f34a7eb0039d132fb4c11b993.ctex::
+Amidst The Misery.png::CompressedTexture2D::3739395951838146484::1794973806::1794973797::1::::<><><>0<>0<>e101bb5314011e769e603f935aa76c8c<>res://.godot/imported/Amidst The Misery.png-341878cce3b1ebb53da03ba146d594c9.ctex::
+Among Us.png::CompressedTexture2D::3304920482766131188::1794874039::1794973797::1::::<><><>0<>0<>f83264447977da62a88cc0278b75ca58<>res://.godot/imported/Among Us.png-7b55ffc48d446cd236a0bc408dcc7a02.ctex::
+Angel Down.png::CompressedTexture2D::6664276281052701089::1794874039::1794973797::1::::<><><>0<>0<>acb1fce2d88aec16f4dd447d1b796705<>res://.godot/imported/Angel Down.png-7a3a008fed8ead463612926569315034.ctex::
+Angel.png::CompressedTexture2D::4575760090014320014::1794973805::1794973797::1::::<><><>0<>0<>d68181a1e789c936858936fad7a58c32<>res://.godot/imported/Angel.png-7d92f5824e654fa53252012415b9ab4f.ctex::
+Angelic Jelly.png::CompressedTexture2D::1351970470236241377::1794973808::1794973797::1::::<><><>0<>0<>0751a45caa408ac34f02ded1f8b712a5<>res://.godot/imported/Angelic Jelly.png-1c6dcf1bd9a4e978d9034bc399121d72.ctex::
+Antipathy.png::CompressedTexture2D::7744919668028233507::1794973802::1794973797::1::::<><><>0<>0<>66f46d8290f27947269ef0519df9f89a<>res://.godot/imported/Antipathy.png-c5cefe69bf1fce1b041f48a850d98b0c.ctex::
+Arcane Ascension.png::CompressedTexture2D::938036272450900036::1794973810::1794973797::1::::<><><>0<>0<>1fd03d6df0b08907ff8b9a3dc3bc8411<>res://.godot/imported/Arcane Ascension.png-5ec67d3b3fb90a80b792f4ec4140c1a9.ctex::
+Arcane Extension.png::CompressedTexture2D::5245845381994581557::1794973803::1794973797::1::::<><><>0<>0<>ee373df7303b14840a71e872f6aef939<>res://.godot/imported/Arcane Extension.png-836b87e9a28eb4ffed260f7b65019666.ctex::
+Azatoth.png::CompressedTexture2D::6171781933467925613::1794973808::1794973797::1::::<><><>0<>0<>570e399fb66b32a5335e5814bbd385fc<>res://.godot/imported/Azatoth.png-20e4585d6e92476af18a535ac4a313c1.ctex::
+Azure Lake.png::CompressedTexture2D::1472344944019656185::1794874039::1794973797::1::::<><><>0<>0<>8d2129f2be0557d5476526e0860ef92d<>res://.godot/imported/Azure Lake.png-747102d2b6ab696c28f36e883f042ed2.ctex::
+B R A I N S P A C E.png::CompressedTexture2D::976478179633311962::1794874039::1794973797::1::::<><><>0<>0<>565aa6fbb94cce9577caefc3ebe02e0c<>res://.godot/imported/B R A I N S P A C E.png-4d4c8ebfffbebeea74127e4fc59201ef.ctex::
+Backseat Freestyle.png::::-1::1794874039::1794874039::0::::<><><>0<>0<>16546531b9d620518208410c76e26807<>::
+Ball's Top 1.png::CompressedTexture2D::5667850691616755915::1794973801::1794973797::1::::<><><>0<>0<>fd3365aee24545f5c7466789bb232e0c<>res://.godot/imported/Ball's Top 1.png-0738316381d23ff969e9e583624fc6fd.ctex::
+Barracuda.png::CompressedTexture2D::4215264629176606785::1794973801::1794973797::1::::<><><>0<>0<>9185357666c1be7f9a70ef6c8e7cd061<>res://.godot/imported/Barracuda.png-c04dcf3fdde9e9de26fa53cce0f20c05.ctex::
+Biological Infiltration.png::CompressedTexture2D::3733487358287368317::1794973813::1794973797::1::::<><><>0<>0<>566a86b74ce2444203d822394633627e<>res://.godot/imported/Biological Infiltration.png-9414ba9181613732ad86f28e5f9cdba0.ctex::
+Bite back.png::CompressedTexture2D::6764216116048543079::1794874039::1794973797::1::::<><><>0<>0<>f6267950d512e81ee7b2b47c5e8ed566<>res://.godot/imported/Bite back.png-3ee9a094bcb2154795be2dd347084a0b.ctex::
+Blood in the Water.png::CompressedTexture2D::2950097117377813181::1794874039::1794973797::1::::<><><>0<>0<>4e0553df08b238aea5fcc62e400c5248<>res://.godot/imported/Blood in the Water.png-c3f5b4066b7a6801adbe6a2260663404.ctex::
+Blood Trials.png::CompressedTexture2D::1496634654381622322::1794874039::1794973797::1::::<><><>0<>0<>4a7c2f8cb88be78ec8214c3464e11ec6<>res://.godot/imported/Blood Trials.png-8b59dc2b0877d46d35153abe3d754d24.ctex::
+Bloodbath.png::CompressedTexture2D::1773934595143373067::1794973815::1794973815::1::::<><><>0<>0<>f84894b7e3e4317ac08656656733081e<>res://.godot/imported/Bloodbath.png-58bf6d3757b63344ff8ac2fc034877b5.ctex::
+Bloodbomb.png::CompressedTexture2D::7836965978157531947::1794874039::1794973797::1::::<><><>0<>0<>f526f7495b1210106e98013f86bfd3db<>res://.godot/imported/Bloodbomb.png-5c3bdfdb29875635adf2c35c36f016a0.ctex::
+Blossoms In Chaos.png::CompressedTexture2D::134518478717306470::1794973814::1794973797::1::::<><><>0<>0<>9d1962b906c7b65022e0231615b5c653<>res://.godot/imported/Blossoms In Chaos.png-179423d71ec05e7645f278d435494dc4.ctex::
+Blue Blizzard.png::CompressedTexture2D::5150304090784268363::1794973807::1794973797::1::::<><><>0<>0<>6a32fbaf6e15b1501d32b7399dd8abad<>res://.godot/imported/Blue Blizzard.png-7548823918969c7c47c4000b38cd511d.ctex::
+BonesJones Challenge.png::CompressedTexture2D::2335687132697652725::1794973802::1794973797::1::::<><><>0<>0<>cbc06e5462ca624f383264ea05e5b115<>res://.godot/imported/BonesJones Challenge.png-12749fa97fb71087c257fa5699b5b05c.ctex::
+Breaking Point.png::CompressedTexture2D::2312802105139029270::1794874039::1794973797::1::::<><><>0<>0<>aeb61683d369c1014bea281182b740e9<>res://.godot/imported/Breaking Point.png-fe7ac72e6a58d3121a1a8cab694e8ea2.ctex::
+Brianspace.png::CompressedTexture2D::3567673909423440622::1794973811::1794973815::0::::<><><>0<>0<>ae07998f2db79326b5147fa28f1e4535<>::
+BROKEN_CITYSCAPE.png::CompressedTexture2D::8500662221254542285::1794874039::1794973797::1::::<><><>0<>0<>05be8d4f32c40dad6dcb21ae6042a8fd<>res://.godot/imported/BROKEN_CITYSCAPE.png-b7691f2ace4c0ddec385c76d4d25ec8f.ctex::
+Bruh interslae.png::CompressedTexture2D::3891166340825366535::1794874039::1794973797::1::::<><><>0<>0<>4bbaa2c33f9cf0761f5383be66795f92<>res://.godot/imported/Bruh interslae.png-e1475b8be6b749a012c21e3e77303121.ctex::
+Buffed Apex.png::CompressedTexture2D::12594726650396782::1794973808::1794973797::1::::<><><>0<>0<>47e68358673ae34c43299661590c872d<>res://.godot/imported/Buffed Apex.png-50147eec66295a3b15dab0cfbb539165.ctex::
+Buffwartz.png::CompressedTexture2D::5444630515261410832::1794874039::1794973797::1::::<><><>0<>0<>ba13aa078abfafb1f770a125d21b8f9d<>res://.godot/imported/Buffwartz.png-b6445a94aba05048a5481fe9d0aec628.ctex::
+But my hope will never die.png::CompressedTexture2D::296603034497696100::1794874039::1794973797::1::::<><><>0<>0<>8aca8138ce85617f95b026e609ab48c2<>res://.godot/imported/But my hope will never die.png-cc06f85a583097d8a99581db88751156.ctex::
+Bye Bye.png::CompressedTexture2D::8723493683640868378::1794874039::1794973797::1::::<><><>0<>0<>dd025749e291449c08c407847c63c248<>res://.godot/imported/Bye Bye.png-e4c005291b274d4ad4ee02cecdbf095c.ctex::
+C18H27NO3.png::CompressedTexture2D::3200131165246873150::1794973804::1794973815::0::::<><><>0<>0<>77b318081dfe441969b5e0eee3e1c4f3<>::
+Cafe Aconite.png::CompressedTexture2D::2127344183477714415::1794874039::1794973797::1::::<><><>0<>0<>290e56c2cb9773a86364d6fe2319b060<>res://.godot/imported/Cafe Aconite.png-e7bd5e95c6b1960807840e4bd9b346a8.ctex::
+California girls.png::CompressedTexture2D::6617736501742933996::1794973804::1794973797::1::::<><><>0<>0<>442e3603ebc82a5337f78f66d4e0cb55<>res://.godot/imported/California girls.png-b0e8335966913aa8b1246dda583ae9f4.ctex::
+Can't Fix You.png::CompressedTexture2D::1264740899783270890::1794875611::1794973797::1::::<><><>0<>0<>d5d20a64dc4d095b889e67b7f3bf338b<>res://.godot/imported/Can't Fix You.png-06e355e7c57f97c953c199701decbc76.ctex::
+Castlevita.png::CompressedTexture2D::1765906890372852424::1794973812::1794973797::1::::<><><>0<>0<>cb67cba48f3ce49d1cbea74795aa1eda<>res://.godot/imported/Castlevita.png-409f7e4f77f5500f3d6f6991c9f69f7f.ctex::
+Clubbers.png::::-1::1794874039::1794874039::0::::<><><>0<>0<>96ccd16c26f13fb122dd94562eff545c<>::
+Cobwebs.png::CompressedTexture2D::4948162132562626147::1794973801::1794973797::1::::<><><>0<>0<>2de87bec5cce2dea9ce20abc8038a427<>res://.godot/imported/Cobwebs.png-67a7e37b1777d126ec68aebc9f8ca4db.ctex::
+Conventional wave challenge.png::CompressedTexture2D::5196904845731363919::1794876974::1794973797::1::::<><><>0<>0<>e89fa396bfacb20d22e5b507bdb4da87<>res://.godot/imported/Conventional wave challenge.png-64275087d37a453bbb1d5b7543e735e5.ctex::
+CORRUPT3D_N3BULA.png::CompressedTexture2D::2679868558059733032::1794973809::1794973797::1::::<><><>0<>0<>2e14cffaf83cf5f23630ed6afa3ada7a<>res://.godot/imported/CORRUPT3D_N3BULA.png-73c9823a2ece4bbe11b096ea4e256b91.ctex::
+Cosmic Wocatiom.png::CompressedTexture2D::220157116986237727::1794874039::1794973797::1::::<><><>0<>0<>506df801eaf376011ee95eac6bc3e0bb<>res://.godot/imported/Cosmic Wocatiom.png-2f95e27f32974047d99f9d7246a875e5.ctex::
+CREEPY WORD HERE.png::CompressedTexture2D::5644767597930433571::1794973815::1794973815::1::::<><><>0<>0<>888d956615b02cd76a908ee769a159b7<>res://.godot/imported/CREEPY WORD HERE.png-02cd9ba0eed24c8f5454049974f835cd.ctex::
+Crucio X.png::CompressedTexture2D::8804156768829668193::1794874039::1794973797::1::::<><><>0<>0<>4a44791f1d4f87b87390113d2975c5b5<>res://.godot/imported/Crucio X.png-7ec8c50989096210bcfea5cf7e3ed329.ctex::
+Crying Nightmare.png::CompressedTexture2D::9130137198747619542::1794874039::1794973797::1::::<><><>0<>0<>cf71f9073e6e5e9be25d8ae036c13603<>res://.godot/imported/Crying Nightmare.png-e2b84245cd727b9651b2c470fb74b69a.ctex::
+cuatrocientos never clear.png::CompressedTexture2D::7636598057542756437::1794874039::1794973797::1::::<><><>0<>0<>b1863e823b135b659f3e5ea208ecb70c<>res://.godot/imported/cuatrocientos never clear.png-cb63973c41dd876285a5c57375a32824.ctex::
+Cute Depressed.png::CompressedTexture2D::7036253750830074744::1794874039::1794973797::1::::<><><>0<>0<>9483177822b75df464d28b44fd0abe0a<>res://.godot/imported/Cute Depressed.png-071f56d667e0c49cbd855dd9a94be71f.ctex::
+Deaf Launch.png::CompressedTexture2D::1064037003651635993::1794874039::1794973797::1::::<><><>0<>0<>3e2494f24df648669ab477919bef5dc6<>res://.godot/imported/Deaf Launch.png-160dfa5606b0ccf7306f7c7b954e2397.ctex::
+deafening silence.png::CompressedTexture2D::1996886718483871128::1794973811::1794973815::0::::<><><>0<>0<>5a8b8645a3b14539c1c0a2b665474a56<>::
+deco in MY gdh.png::CompressedTexture2D::3750286637170813351::1794973809::1794973815::1::::<><><>0<>0<>aa5a0b06d178aacaf41261a75b861e18<>res://.godot/imported/deco in MY gdh.png-f4ad5fd321c4dcf18026a4603fb07894.ctex::
+deco in MY gdh?.png::CompressedTexture2D::6045339857535494765::1794874039::1794973797::1::::<><><>0<>0<>faf729d277d889dc4912bd5e020c563e<>res://.godot/imported/deco in MY gdh?.png-4074e03b01566e82a203bf9c04c0ca3c.ctex::
+Delima De Duelo.png::CompressedTexture2D::8707186747487579535::1794973811::1794973797::1::::<><><>0<>0<>2f661618a030b6243469d02e45e44826<>res://.godot/imported/Delima De Duelo.png-87ddbcf966dbf4d40b8730c4c6e18178.ctex::
+Demonic Nightmares 3 Rebirth.png::CompressedTexture2D::1544692978858717653::1794874039::1794973797::1::::<><><>0<>0<>a0ca856f26ca40e961eafbf5490ae860<>res://.godot/imported/Demonic Nightmares 3 Rebirth.png-202f6c93f97b2cf84fdd83048a65dc90.ctex::
+Demons.png::CompressedTexture2D::5635631828398956624::1794874039::1794973797::1::::<><><>0<>0<>4fb3beba355320e55ccf0f01b8716da4<>res://.godot/imported/Demons.png-bb5b74d5c8958cbe92a89d9e6a5f02b4.ctex::
+denial of sanity.png::CompressedTexture2D::4042733246191899874::1794874039::1794973797::1::::<><><>0<>0<>fe20862056851db60defb8c0c4912bad<>res://.godot/imported/denial of sanity.png-227ae96d8fef649e75f5ba13ddef13a2.ctex::
+Denouement.png::CompressedTexture2D::1166852746737807635::1794874039::1794973797::1::::<><><>0<>0<>517de4ad6ef43aa4d16cfdc438c9eb74<>res://.godot/imported/Denouement.png-d282fa4c140d0e8f76007c79a7120fd0.ctex::
+Desecration Dimension EXX v2.png::CompressedTexture2D::169923027675811179::1795055735::1794974172::1::::<><><>0<>0<>33011a2a280507cf6d3eee77df28f6a3<>res://.godot/imported/Desecration Dimension EXX v2.png-f421a3e8d13dd442d6f1a5c01cc750ad.ctex::
+Die in a nightmare.png::CompressedTexture2D::8635163039663791431::1794874039::1794973797::1::::<><><>0<>0<>8e9d3c17d88bf9a08bf19272cf552e3f<>res://.godot/imported/Die in a nightmare.png-37a752eee83e59e345c0c79a11592c36.ctex::
+DIOMA Meteors.png::CompressedTexture2D::4645155711310462347::1794874039::1794973797::1::::<><><>0<>0<>9ae077add92cc1b4020c17cf457be365<>res://.godot/imported/DIOMA Meteors.png-1391f47d0475b17813c1f0fee4091970.ctex::
+distant midnight.png::CompressedTexture2D::2502396396517187384::1794874039::1794973797::1::::<><><>0<>0<>311f528676e03dc447baf109a58785df<>res://.godot/imported/distant midnight.png-67c7df10d7a8cde3334a71c9df866868.ctex::
+Dolor.png::CompressedTexture2D::3098582741465302090::1794874039::1794973797::1::::<><><>0<>0<>0205ccb93c59f35e5e38a4523d5988b0<>res://.godot/imported/Dolor.png-7b6c176373bbc232dd54661c382f2279.ctex::
+DOWN BASS.png::CompressedTexture2D::8207239962874510570::1794874039::1794973797::1::::<><><>0<>0<>2a8038953119235b31533dbe34dbc949<>res://.godot/imported/DOWN BASS.png-32d2810e743dc8a9b2fd5dd65197fbe4.ctex::
+Dreambath.png::CompressedTexture2D::148658036700443097::1794874039::1794973797::1::::<><><>0<>0<>6c17ccc5f22ea1c049b87ae27486b093<>res://.godot/imported/Dreambath.png-bd23859526eec6b9c8b6d1c78e97b994.ctex::
+Dumb.png::CompressedTexture2D::3750118239236895316::1794874039::1794973797::1::::<><><>0<>0<>ec13f1b95f655810159846eeecd0df4c<>res://.godot/imported/Dumb.png-08d9fe1221d85174c41ff3fdeee317e2.ctex::
+During Depression.png::CompressedTexture2D::5493726433696874168::1794973810::1794973797::1::::<><><>0<>0<>e3539d920c60447bded15c1fad33dded<>res://.godot/imported/During Depression.png-398bc1f2c028452ea116658be2baea16.ctex::
+E-Labyrinth.png::CompressedTexture2D::8092138637902252802::1794874039::1794973797::1::::<><><>0<>0<>712a281529d3ae152f09511a54e94178<>res://.godot/imported/E-Labyrinth.png-1b06c92ef2f9ec863ad91e15bb65681b.ctex::
+Echoflame.png::CompressedTexture2D::3622386335989129233::1794874039::1794973797::1::::<><><>0<>0<>06ab23aae8b7ac53f85751738e6d4fcb<>res://.godot/imported/Echoflame.png-a8cd78ed5117bbab5f50dedce0d445d5.ctex::
+Emerald.png::CompressedTexture2D::120495999273185778::1794874039::1794973797::1::::<><><>0<>0<>4c7080853b38f7f18be477a0b7696987<>res://.godot/imported/Emerald.png-2b26c3b5e06042d0723e4d887a58a402.ctex::
+energy drink.png::::-1::1794874039::1794874039::0::::<><><>0<>0<>ea94e19e9269888589ed22691c9957a7<>::
+Enter_The_City.png::CompressedTexture2D::827363257433495061::1794874039::1794973797::1::::<><><>0<>0<>59439fdb15c84178027c36ee047d0068<>res://.godot/imported/Enter_The_City.png-6a8716a3fb58788bfd3565837e69f5ac.ctex::
+Epic Of Gilgamesh.png::CompressedTexture2D::5184756422149670806::1794874039::1794973797::1::::<><><>0<>0<>dc68395c405dfa0456109feded28c192<>res://.godot/imported/Epic Of Gilgamesh.png-fbd1333ce18ec1bdc8148fdb90f8b64a.ctex::
+Era of Disasters.png::CompressedTexture2D::486700722681528528::1794973806::1794973797::1::::<><><>0<>0<>6e8bf3a2f6226b45efd5254abec1f138<>res://.godot/imported/Era of Disasters.png-f22714dc95707f6c434be48519a02055.ctex::
+Eternal Rest.png::CompressedTexture2D::4984405964012048098::1794874039::1794973797::1::::<><><>0<>0<>6ccd1e5816cde757499f7b3dba429ba4<>res://.godot/imported/Eternal Rest.png-3a0a04e7ff3fbf75fc9392e870b3ca0d.ctex::
+Eternalize.png::CompressedTexture2D::6290583699017030517::1794874039::1794973798::1::::<><><>0<>0<>9a55a166299292d7e726b0ece978c2d4<>res://.godot/imported/Eternalize.png-3531b35e6dbf5e7f740120b50242bc14.ctex::
+Euler's Number.png::CompressedTexture2D::2898370138067915047::1794874039::1794973797::1::::<><><>0<>0<>53f3f04d036d05428e36da4878ed90e2<>res://.godot/imported/Euler's Number.png-382d2e5dd8af2980efba24f9508e10e6.ctex::
+Every End.png::CompressedTexture2D::3059354893313751912::1794973805::1794973797::1::::<><><>0<>0<>8cf5bfafc874f0f99b1cccc59c55e2ca<>res://.godot/imported/Every End.png-b5559bc41c8a1550178575e47dbc5b47.ctex::
+Extreme Denial.png::::-1::1794874039::1794874039::0::::<><><>0<>0<>83d5320b81b03fe2db6e7c9fa7b9c62d<>::
+F L Y.png::CompressedTexture2D::7888689332925700144::1794874039::1794973798::1::::<><><>0<>0<>de49c1eb64305d4d7d3f445a43c5eed6<>res://.godot/imported/F L Y.png-e830ef08305e915ea169d12dd0d5e079.ctex::
+final desti-wave.png::CompressedTexture2D::122018664189365638::1794874039::1794973797::1::::<><><>0<>0<>f0d2ad56e5402379724c06901a922fae<>res://.godot/imported/final desti-wave.png-c5b388fb47153362b6b926ad9c881adb.ctex::
+Firefly Valley.png::CompressedTexture2D::3333727637077001005::1794874039::1794973798::1::::<><><>0<>0<>e9c517b97a47bcc8b8238c26432df62d<>res://.godot/imported/Firefly Valley.png-922ae6104a6dd070c75023911f18f72d.ctex::
+fish demon.png::CompressedTexture2D::1568561097689103256::1794874039::1794973797::1::::<><><>0<>0<>87c8b34763c2e3499d7a4d07f8f33715<>res://.godot/imported/fish demon.png-abda7a6962626000eb80f2cfd46353b5.ctex::
+Flesh And Bones.png::CompressedTexture2D::1217861724167217973::1794973804::1794973798::1::::<><><>0<>0<>e90705859ea17b7cdad95aa9f460986a<>res://.godot/imported/Flesh And Bones.png-47474364c56393c2d80622fc459e019e.ctex::
+flip coolthagoras.png::CompressedTexture2D::2293342588501969003::1794874039::1794973798::1::::<><><>0<>0<>2d0b901bd68df9d86caf60eb79bc7ea6<>res://.godot/imported/flip coolthagoras.png-df5260d03b1ce30cc869fb09fa7a539e.ctex::
+flip tennessee person.png::CompressedTexture2D::4335115739239657471::1794973803::1794973815::0::::<><><>0<>0<>7bf2e21f4fd60c002aa7b6bf35d91e58<>::
+Florida Man ahh level.png::CompressedTexture2D::2724944014153372553::1794973806::1794973815::0::::<><><>0<>0<>441093b46f8a026e8f465111d5f4f963<>::
+Flower 2.png::CompressedTexture2D::941084742698065854::1794874039::1794973798::1::::<><><>0<>0<>812eaa524b57ea6127d4b796bd759d60<>res://.godot/imported/Flower 2.png-81b6646123345540036b15041da4c0c8.ctex::
+Flower Man.png::CompressedTexture2D::6067821516235711295::1794973804::1794973798::1::::<><><>0<>0<>4abdda98914d5581ac81a318ac227e77<>res://.godot/imported/Flower Man.png-7653d78db2c6a16b4ff815e40f10018c.ctex::
+Flowing Robots.png::CompressedTexture2D::8884993473088255169::1794875670::1794973798::1::::<><><>0<>0<>50c0d98e75ab0aa8b80ebe6e39937de6<>res://.godot/imported/Flowing Robots.png-0bb2b0ad3adf6c58a2c1e455de4cc553.ctex::
+fuck florida man.png::CompressedTexture2D::3059605665073083147::1794874039::1794973798::1::::<><><>0<>0<>6dcb133f41b377e056f6786de118ce8c<>res://.godot/imported/fuck florida man.png-8a8c3b17bfddf5b1d4bc19a8de42b0d4.ctex::
+full moon.png::CompressedTexture2D::1890976974345535115::1794874039::1794973798::1::::<><><>0<>0<>43637268a29eac5ef72f11a920642a4c<>res://.godot/imported/full moon.png-3e3f341e096bd316e4c529571286f5d1.ctex::
+Gameplay (TM).png::CompressedTexture2D::2303654808288954176::1794874039::1794973798::1::::<><><>0<>0<>655a91278dc7222b21e764a467d1f56f<>res://.godot/imported/Gameplay (TM).png-3ff0a77266e952db0aff6da35735769c.ctex::
+Gates of Heaven.png::CompressedTexture2D::6039975203181107331::1794874039::1794973798::1::::<><><>0<>0<>70a6447de5c28fb1852722db1fa04e02<>res://.godot/imported/Gates of Heaven.png-1e70d3cea90a39be7edf60e5d5949545.ctex::
+Geometry Dash Bloodbath.png::CompressedTexture2D::2068093276926146768::1794874039::1794973798::1::::<><><>0<>0<>77594d9c4bfc9d09af9439c23a5ccf53<>res://.godot/imported/Geometry Dash Bloodbath.png-5c87d015d72eef3ee82d1876c6eeb8b7.ctex::
+GetYoAhhTight!Tiramisu!.png::CompressedTexture2D::1556965276871020170::1794973812::1794973798::1::::<><><>0<>0<>8678e176090184bb9eac20f212c514f6<>res://.godot/imported/GetYoAhhTight!Tiramisu!.png-f068d696fcec7e3ecc7593096704920b.ctex::
+Gigachad House.png::CompressedTexture2D::2394738017299109179::1794874039::1794973798::1::::<><><>0<>0<>71cedb9417b8226377e0c0445dcd04b1<>res://.godot/imported/Gigachad House.png-2b63e4ead2f135b0f6b32a028b973dc5.ctex::
+GIVEUP!AKIRAMERU!.png::CompressedTexture2D::5224926787279004372::1794973804::1794973798::1::::<><><>0<>0<>8c79ccbfa14178729153d24cbf4c0246<>res://.godot/imported/GIVEUP!AKIRAMERU!.png-99d97380392d9b76e600835c7dd4b164.ctex::
+GIVEUP!AKITANERU!.png::CompressedTexture2D::8214170803038917038::1794973802::1794973798::1::::<><><>0<>0<>c55a6f072a1e42d211ad6e129110858c<>res://.godot/imported/GIVEUP!AKITANERU!.png-c215f4c47d8cd7da0e6f67605c474856.ctex::
+GIVEUP!AVOCADO!.png::CompressedTexture2D::2573475294192821741::1794874039::1794973798::1::::<><><>0<>0<>fd692d1c460936d67c81d04686149d0c<>res://.godot/imported/GIVEUP!AVOCADO!.png-dca624885042335d358dab9fc69a6506.ctex::
+gold + scrap = netherite.png::CompressedTexture2D::6315576257755236130::1795056896::1795056896::0::::<><><>0<>0<>51c6123701f0385cc070e5373eb4d453<>::
+Gray Dust.png::CompressedTexture2D::504445295654031511::1794874039::1794973798::1::::<><><>0<>0<>ab1e63a6f915a5dfaf3820ce62a2e0c6<>res://.godot/imported/Gray Dust.png-5cbdaad155c867640f4038bb0faca9f9.ctex::
+Greyhound.png::CompressedTexture2D::3749924770712570130::1794874039::1794973797::1::::<><><>0<>0<>840e58e911af717317842d89b0655da4<>res://.godot/imported/Greyhound.png-07dc62765679aa148e55f6afe989dab6.ctex::
+H0N3Y1MH0M3.png::CompressedTexture2D::5218392729486192497::1794874039::1794973797::1::::<><><>0<>0<>d8a38b1c1b4be97e1400ba07926cad7c<>res://.godot/imported/H0N3Y1MH0M3.png-8a4e2fc95571546c622bca4d1d31d758.ctex::
+hammer of justice 2.png::CompressedTexture2D::1734386282031891282::1794874039::1794973797::1::::<><><>0<>0<>e7ab2d629909a0bf3201e5f7d9250978<>res://.godot/imported/hammer of justice 2.png-19890e7fd4f43d19d7cf33c32489a7fa.ctex::
+hammer of justice.png::CompressedTexture2D::6066090095350301240::1794973814::1794973797::1::::<><><>0<>0<>65cbf8425e7541ca40695491cd217846<>res://.godot/imported/hammer of justice.png-1098bcae1339e655af77e2fa5cddf59a.ctex::
+HEARTBREAKER.png::CompressedTexture2D::6800194469714280687::1794973802::1794973797::1::::<><><>0<>0<>67d3e4883d360dffe5a6e14d19e6afd2<>res://.godot/imported/HEARTBREAKER.png-5121c3f1a43ae30f9e15f57e60f5db45.ctex::
+Hidden in the Sand.png::CompressedTexture2D::8293843011224923356::1794973806::1794973815::0::::<><><>0<>0<>ae1bd4f35566e98d2e4a1ff002a15e5f<>::
+high noon.png::CompressedTexture2D::430819871453960212::1794973806::1794973797::1::::<><><>0<>0<>3bd1f470f328283b80a685ae2d7b2cb5<>res://.godot/imported/high noon.png-4bb218adb8ae5b293a7f31d5e6695781.ctex::
+Holography.png::CompressedTexture2D::7767073555699981746::1794874039::1794973797::1::::<><><>0<>0<>dc1c4512ca15dc0278af0cbe4ee1cdbc<>res://.godot/imported/Holography.png-ab5fd6c60d79182d550cf58ef960f668.ctex::
+Hydro.png::CompressedTexture2D::4662108237539898664::1794874039::1794973797::1::::<><><>0<>0<>509f18317616e5139176a859aa9e5a14<>res://.godot/imported/Hydro.png-a708d7a712af836f68bda445135639fd.ctex::
+I.N.S.A. Rebirth.png::CompressedTexture2D::1640649879174772897::1794874039::1794973797::1::::<><><>0<>0<>eab022bcf0ed3b93e1c74b7d67516873<>res://.godot/imported/I.N.S.A. Rebirth.png-a5f96be27edb23dcad4574c09ec18b53.ctex::
+Idiot Corridor.png::CompressedTexture2D::1693305612312121172::1794874039::1794973797::1::::<><><>0<>0<>93f62014f2bcdfaa339551559cc7ef2f<>res://.godot/imported/Idiot Corridor.png-86711e8c60c571a190947e745c0e2e8a.ctex::
+Ik Niet.png::CompressedTexture2D::2774987199776684859::1794874039::1794973797::1::::<><><>0<>0<>167568a3bc715ec2f977ce0ed658b306<>res://.godot/imported/Ik Niet.png-77940922931901a9a99f9c469da710d7.ctex::
+Im getting harder.png::CompressedTexture2D::2640279750565212445::1794874039::1794973797::1::::<><><>0<>0<>0397039e353f964bc2b527434537b2a1<>res://.godot/imported/Im getting harder.png-8fcdd1984e1477cb5b06e33437522d2e.ctex::
+Impotence.png::CompressedTexture2D::9002318369833253812::1794877003::1794973797::1::::<><><>0<>0<>dbae8bf8c7b4b2510031a4619ae06cd9<>res://.godot/imported/Impotence.png-08fa34433c6f689f03f55ec4ed3c3942.ctex::
+In Circles.png::CompressedTexture2D::9137586295409209591::1794874039::1794973797::1::::<><><>0<>0<>8f2f3aabccfec5b76f302af762fc81db<>res://.godot/imported/In Circles.png-be1b7c51f6371cd2bbfcbc9227e55ec3.ctex::
+Infinite Cosmos.png::CompressedTexture2D::115319189375863473::1794973813::1794973797::1::::<><><>0<>0<>a53dd2d001e7d6ae027d017f8af653e9<>res://.godot/imported/Infinite Cosmos.png-7bb033bf813840b44639f9c7fb820f25.ctex::
+Intercept.png::CompressedTexture2D::5968615036748002637::1794874039::1794973797::1::::<><><>0<>0<>7a380a3d786cc6775bc8ff52eafbcb6f<>res://.godot/imported/Intercept.png-67cd8ba321eb9d06f841cfb9234f0d8a.ctex::
+Interstellar.png::CompressedTexture2D::8685723125212713775::1794973808::1794973797::1::::<><><>0<>0<>425801dab9c204a4a61865ebc03cdf8e<>res://.godot/imported/Interstellar.png-0d66991c09983efd0c346199a2dac5a1.ctex::
+Into the Wild.png::CompressedTexture2D::885068464733210023::1794973800::1794973815::0::::<><><>0<>0<>ab60bbd998c9b062f482538824cc2c4f<>::
+Invisible End.png::CompressedTexture2D::321917361627674624::1794874039::1794973797::1::::<><><>0<>0<>5db20f3c7145e2d79646dc0ec2ffdafb<>res://.godot/imported/Invisible End.png-9a916feadece0e70b73692576be434f4.ctex::
+Iraqophobia.png::CompressedTexture2D::929176887670177237::1794973800::1794973797::1::::<><><>0<>0<>68d2d3611e7664671d30ac0564719b3d<>res://.godot/imported/Iraqophobia.png-867fc7be0fff835085b18c55b07a46bb.ctex::
+It's Boshy Time!.png::CompressedTexture2D::3121305587264943609::1794973813::1794973815::0::::<><><>0<>0<>c85e1563d6a86c6c077ecd6330ff27dd<>::
+Its Boshy Time!.png::CompressedTexture2D::5331803987224783453::1794874039::1794973798::1::::<><><>0<>0<>e1a935103afffba56d890d4cb7814fb3<>res://.godot/imported/Its Boshy Time!.png-32cfefc7754c5cb7a462117b6b4b0c1d.ctex::
+Jackalope.png::CompressedTexture2D::6840125860244497666::1794874039::1794973797::1::::<><><>0<>0<>ec8e1a5557bc18d145cc1992e9fe4258<>res://.godot/imported/Jackalope.png-9feb34fdb6e8af8ff7f3d7985d677265.ctex::
+Java Circles.png::CompressedTexture2D::9156526883243505594::1794874039::1794973797::1::::<><><>0<>0<>f06a2fa8eda862c2a354c207a7989eaf<>res://.godot/imported/Java Circles.png-7f88e25d7b016e8fb0277388412370f9.ctex::
+Jim Halpert Extreme.png::CompressedTexture2D::54408863452460113::1794874039::1794973797::1::::<><><>0<>0<>2b1032cfb4327bcebb401e65f40045ec<>res://.godot/imported/Jim Halpert Extreme.png-89ec12bdb6d3a92e8878154841eb5ef6.ctex::
+Jim Halpert Machine.png::CompressedTexture2D::816928439813394894::1794874039::1794973797::1::::<><><>0<>0<>da90715d9e912122419e63338e12fead<>res://.godot/imported/Jim Halpert Machine.png-4a6e669d5b290fa7d96ee4e64754311a.ctex::
+Kev Challenge.png::CompressedTexture2D::7861249670048791828::1794973801::1794973797::1::::<><><>0<>0<>a37391a45dbc5699c98072f293dbfd7d<>res://.godot/imported/Kev Challenge.png-0aac4fd88d756830cf92c920fb5813dc.ctex::
+Kibo II.png::CompressedTexture2D::377252959225392351::1794874039::1794973797::1::::<><><>0<>0<>3e66a09339dd623144e1e09912fab774<>res://.godot/imported/Kibo II.png-f784600218a0237c93ed78b28a15c7bf.ctex::
+Kibo.png::CompressedTexture2D::7805983871871760166::1794973802::1794973797::1::::<><><>0<>0<>9491038798ab7e67d733a7cadface38c<>res://.godot/imported/Kibo.png-732756e764c3c4c634edc776eea6c970.ctex::
+Kult.png::CompressedTexture2D::323072824339182798::1794874039::1794973797::1::::<><><>0<>0<>e557e6f21280f11d5004ba7c3ba5bd97<>res://.godot/imported/Kult.png-c5224cc3658f931ab4778c1db5ad1261.ctex::
+Lamprey Hole.png::CompressedTexture2D::1393489712449629879::1794973812::1794973797::1::::<><><>0<>0<>99f0fd41ee43a2b336801259614e74e2<>res://.godot/imported/Lamprey Hole.png-db5b0eb7dfa8fa4970a83b9999d1f12f.ctex::
+Legacy Orochi.png::CompressedTexture2D::7073739558938712256::1794874039::1794973796::1::::<><><>0<>0<>257ca45cf0161c1b682fb3c009c1df63<>res://.godot/imported/Legacy Orochi.png-d89148650b7fe87903eb7e295082204b.ctex::
+Life Letters.png::CompressedTexture2D::6858353482995455701::1794874039::1794973796::1::::<><><>0<>0<>28b97f04c2c3fb3c65640fef334036fc<>res://.godot/imported/Life Letters.png-36ee0ecd6d0c2cbe4bfc190a5ee73a3b.ctex::
+love..png::CompressedTexture2D::7458338734966682680::1794973811::1794973796::1::::<><><>0<>0<>f9a5c7448e85d0f83f17e41d2edd601a<>res://.godot/imported/love..png-96bd86c2b39053a8a6890f4556d4dbcb.ctex::
+Loveless Eternally.png::CompressedTexture2D::1848242805652408982::1794874039::1794973796::1::::<><><>0<>0<>c24fabcfa7e471f5d1c3c30412d73b37<>res://.godot/imported/Loveless Eternally.png-d42f847d9fd30f2a2855c8db8653e161.ctex::
+Lucid Dreaming.png::CompressedTexture2D::767375473848300574::1794973812::1794973796::1::::<><><>0<>0<>de985a2ce70db0c467c8a902f8fb8876<>res://.godot/imported/Lucid Dreaming.png-a0004ad8459d9c9f6fb82cabd4920eaa.ctex::
+m e n t a l t o r t u r e.png::CompressedTexture2D::6898500376202939736::1794973804::1794973796::1::::<><><>0<>0<>234b09f358d7fdf5dcb8be97c978c356<>res://.godot/imported/m e n t a l t o r t u r e.png-9d020ebdffce714ac29b62125255b212.ctex::
+m i s e r y.png::CompressedTexture2D::4786011160009263519::1794874039::1794973796::1::::<><><>0<>0<>514d5967bf9bc65ca24816dff59297fa<>res://.godot/imported/m i s e r y.png-d36484ca5b74c9fdfb917a175c53a849.ctex::
+Machine Love.png::CompressedTexture2D::3380396392135355265::1794973810::1794973796::1::::<><><>0<>0<>67338ef9cc17d090d541b829bcdfb890<>res://.godot/imported/Machine Love.png-9c84eb42da3c90d395e688a53e710924.ctex::
+Malice.png::CompressedTexture2D::1102503640518773004::1794874039::1794973796::1::::<><><>0<>0<>219eb0f274c217bc86e4e1b3f6ec22f1<>res://.godot/imported/Malice.png-452e750b29a6529a702b67f053d88832.ctex::
+Mayham X.png::CompressedTexture2D::8423269595604013325::1794874039::1794973796::1::::<><><>0<>0<>cb31dd3a949771b3cb5333629d3a1dd5<>res://.godot/imported/Mayham X.png-31be330d0bc286eb2e4e69daeed75610.ctex::
+mayo maze.png::CompressedTexture2D::9062412903096367857::1794874039::1794973796::1::::<><><>0<>0<>0d154014e010fb7f43307716132e4a8d<>res://.godot/imported/mayo maze.png-be32090f74a8aad72c7f8d43010dcfdd.ctex::
+Maze Of Justice.png::CompressedTexture2D::4057044466726214883::1794874039::1794973796::1::::<><><>0<>0<>28de3b026f79c12c7e2bb245aec76e57<>res://.godot/imported/Maze Of Justice.png-d27fec15f49ab0f9fd9620ee1b00fecc.ctex::
+mazer.png::CompressedTexture2D::645197150662291368::1794874039::1794973796::1::::<><><>0<>0<>02b3c9e466ea23d07b56200113f020c1<>res://.godot/imported/mazer.png-38e937ca6b2606c582ba37ed122b5489.ctex::
+Midnight Circles.png::CompressedTexture2D::5447614383771684637::1794874039::1794973796::1::::<><><>0<>0<>feab840d057dfabc26990baccb6855d5<>res://.godot/imported/Midnight Circles.png-1777cd47430b4cf52c652387823e58f6.ctex::
+Mystic.png::CompressedTexture2D::58697241857282567::1794877032::1794973796::1::::<><><>0<>0<>27b5f83b2ce7858039ae148a8aa93fe5<>res://.godot/imported/Mystic.png-787db5bebfe50fea1039fcdcdfa9d106.ctex::
+NASA SUPER COMPUTER.png::CompressedTexture2D::3113048211182283932::1794874039::1794973796::1::::<><><>0<>0<>8f4ca702575f43402283cb9158385dbc<>res://.godot/imported/NASA SUPER COMPUTER.png-a8670458589eded2fc6fd764ee3e7635.ctex::
+Neon Clownparty.png::CompressedTexture2D::7643039774383802626::1794874039::1794973796::1::::<><><>0<>0<>072de1891a4ebc85f873370b36f6213b<>res://.godot/imported/Neon Clownparty.png-ae3925107517ec8cfc986765cbb3dac0.ctex::
+Neptune.png::CompressedTexture2D::497299296212972811::1794973810::1794973796::1::::<><><>0<>0<>fe46cfc5eab28c5aec1eee255b380688<>res://.godot/imported/Neptune.png-7c805585a627b49c172ed318f670af37.ctex::
+New Hammaniac.png::CompressedTexture2D::5073078677150451181::1794874039::1794973796::1::::<><><>0<>0<>b198977a279de9eedf25c5219f276c4b<>res://.godot/imported/New Hammaniac.png-cdc813094ce70dcc3ab0378885bfafac.ctex::
+new life.png::CompressedTexture2D::8770280171083841258::1794973801::1794973796::1::::<><><>0<>0<>cdd285dbcbf5b16d7f08b44b6d1acac5<>res://.godot/imported/new life.png-2f98ccbc3c1a0f382af2bd0341faa401.ctex::
+Night Night.png::CompressedTexture2D::5321659877995881489::1794874039::1794973796::1::::<><><>0<>0<>864420a81487dfb3d92585f91b483151<>res://.godot/imported/Night Night.png-c8d759e3bb0ca3436634f2769cc30aa1.ctex::
+NO WAY.png::CompressedTexture2D::2699833085299824202::1794973803::1794973796::1::::<><><>0<>0<>a2bef081bc2f6db5993f91576c6ec662<>res://.godot/imported/NO WAY.png-57b1153795c64f9b5722fa6fa6be8002.ctex::
+Notion.png::CompressedTexture2D::7284294411730972273::1794973800::1794973815::0::::<><><>0<>0<>410a1b82889bc8bccfa55b89e698fdd0<>::
+Nova.png::CompressedTexture2D::4988668092912660929::1794874039::1794973796::1::::<><><>0<>0<>0e320f504b9693b30f0a019ce45fbb16<>res://.godot/imported/Nova.png-5e27acb27a50e26d273c04b466edead7.ctex::
+Nuclear Reactor.png::CompressedTexture2D::4102352467453215599::1794874039::1794973796::1::::<><><>0<>0<>89b191bc91c079b03e84a6084c010640<>res://.godot/imported/Nuclear Reactor.png-03b0c59dfc59f799c13a8b67d6305982.ctex::
+Nuclear Void Escape.png::CompressedTexture2D::4914372184850642730::1794973805::1794973796::1::::<><><>0<>0<>640e81ed8d649a9132fd29fa2e29a4eb<>res://.godot/imported/Nuclear Void Escape.png-6976607954e6be5c87f8524e286bd71f.ctex::
+null..png::CompressedTexture2D::6920129490481788221::1794874039::1794973796::1::::<><><>0<>0<>ff8de56f9c1b32b03cb636fc5c6fc49b<>res://.godot/imported/null..png-3cb8c50cf22c7ec7e4dc572d3ceed854.ctex::
+Nullify.png::CompressedTexture2D::6972874139669253782::1794874039::1794973796::1::::<><><>0<>0<>c95aeaf7caad97f135add9f0cd726c7a<>res://.godot/imported/Nullify.png-cc18ff9975fbf6367f979bbbb629e1af.ctex::
+Oceanic Rift.png::CompressedTexture2D::558845613093684654::1794874039::1794973796::1::::<><><>0<>0<>9696d0e629221ad0cfee864184e228ee<>res://.godot/imported/Oceanic Rift.png-be538eca29d5df7e666b6c4816acd958.ctex::
+oopsied impossible level 1.png::CompressedTexture2D::7428534216175353260::1794973811::1794973796::1::::<><><>0<>0<>86b1155bab257d190bb3bb11617e2fe1<>res://.godot/imported/oopsied impossible level 1.png-43167ba95a18fbd3ed1741a3652c3635.ctex::
+Open Window.png::CompressedTexture2D::8077403530435156286::1794973805::1794973796::1::::<><><>0<>0<>6c78f70de5df14f5036bc3da1a05a31d<>res://.godot/imported/Open Window.png-ba60e40db3ed951faefced9faeec7693.ctex::
+Operation Evolution.png::CompressedTexture2D::5476112729662199493::1794973808::1794973796::1::::<><><>0<>0<>614c1e06a1fd6f2b6883449ee517cbc0<>res://.godot/imported/Operation Evolution.png-6d9a91e33e833902a224572b2f185abb.ctex::
+OuterSpace.png::CompressedTexture2D::2859609607168703435::1794874039::1794973796::1::::<><><>0<>0<>28b3b7f451d3f8ed54f7c479da3dffa3<>res://.godot/imported/OuterSpace.png-6540a6f02938b080babe1d1147ba0b3f.ctex::
+Over The Edge.png::CompressedTexture2D::2628808031267411826::1794874039::1794973796::1::::<><><>0<>0<>7b5476c380706e4219206522f8298346<>res://.godot/imported/Over The Edge.png-02162ca83fb5ae2e40a3f8b381fc2a16.ctex::
+Payload Remix.png::CompressedTexture2D::5936767346387324940::1794973807::1794973815::0::::<><><>0<>0<>2dfb258200b896ba6f605a623715cc54<>::
+Peer Pressure.png::CompressedTexture2D::8654512475585342014::1794874039::1794973796::1::::<><><>0<>0<>10adcebf08da44e941c6745aafef171d<>res://.godot/imported/Peer Pressure.png-1f00ec120d60dc91dfc9a743c56952f3.ctex::
+Peneren Hard Map I.png::CompressedTexture2D::5877988484730150179::1794973814::1794973796::1::::<><><>0<>0<>9909cd3aeabc18fdee6208716aade654<>res://.godot/imported/Peneren Hard Map I.png-39c69a1e93dd4397bd28556681839660.ctex::
+Peneren Hard Map II.png::CompressedTexture2D::6712331181733778215::1794874039::1794973796::1::::<><><>0<>0<>9c9df62191717f655ccb4747d93fd753<>res://.godot/imported/Peneren Hard Map II.png-d88e93d060ce401d4c713f5b86229bb5.ctex::
+Peneren Hard Map III.png::CompressedTexture2D::4332432869511007312::1794973805::1794973796::1::::<><><>0<>0<>2b12d7e9a476028ce3d2fc221e77e6ed<>res://.godot/imported/Peneren Hard Map III.png-4646e885f3e878533b0317f66527d326.ctex::
+Peneren Hard Map IV.png::CompressedTexture2D::2113715579563428013::1794973803::1794973796::1::::<><><>0<>0<>49ed94703f7b95fb7f0a7c45fdf76119<>res://.godot/imported/Peneren Hard Map IV.png-e0647e59a06b3b13ff37aeaa3766e462.ctex::
+Peneren Hard Map V.png::CompressedTexture2D::4032072457734453470::1794973801::1794973796::1::::<><><>0<>0<>d4b7e8cb573fe28bd1d7fab5162bf196<>res://.godot/imported/Peneren Hard Map V.png-6772c7fed8101c4216a86b2885cc259b.ctex::
+Penumbra Phantasm.png::CompressedTexture2D::4123313887928661671::1794973814::1794973796::1::::<><><>0<>0<>0e556722bbb2423c3d9b0772e6ca0e84<>res://.godot/imported/Penumbra Phantasm.png-284885bcc020e08dcd7c0f1a78b0bb69.ctex::
+Phoenix A.png::CompressedTexture2D::6210101303238764809::1794973800::1794973796::1::::<><><>0<>0<>2a72dc368fd6c32374b0c7d893401082<>res://.godot/imported/Phoenix A.png-82ec2904035fcc4ca74308bb54193b98.ctex::
+Pigbuff.png::CompressedTexture2D::5332033409881504229::1794973807::1794973796::1::::<><><>0<>0<>d29329ae8f3b4d3abc329c4d6ea72cb7<>res://.godot/imported/Pigbuff.png-9a22942b7bf592b2dc99065dcca5cf5b.ctex::
+Pigs do buff.png::CompressedTexture2D::3836115630965663090::1794973810::1794973796::1::::<><><>0<>0<>fb9636ffc22759326be609612a8b0d5f<>res://.godot/imported/Pigs do buff.png-dfeb3af4ce15b50e6a434447429b0b48.ctex::
+Pigstep.png::CompressedTexture2D::2406872973279344172::1794973805::1794973796::1::::<><><>0<>0<>bda1f659d049d605f28b2e446bf280d3<>res://.godot/imported/Pigstep.png-9692d52b4a9b05aa89816e407e2a555d.ctex::
+poocubed.png::CompressedTexture2D::7288846281156141232::1794874039::1794973796::1::::<><><>0<>0<>6845b84605d5127c33fa4a1da7ac31d9<>res://.godot/imported/poocubed.png-7c4e3d3109d42bd1216a5b6d7f0e3597.ctex::
+Problematic.png::CompressedTexture2D::3659615152849144953::1794874039::1794973796::1::::<><><>0<>0<>15a499cd04ed538afba81c03f4a9703c<>res://.godot/imported/Problematic.png-bfca5cd5945f68b3e4cd60fdddfb9f4a.ctex::
+Purple Clutterfunk.png::CompressedTexture2D::2560424694654048169::1794973806::1794973796::1::::<><><>0<>0<>0bae344acde479e942b13ceb33ababbe<>res://.godot/imported/Purple Clutterfunk.png-4d25da70c2287b5925426b58faece92d.ctex::
+Purple Skibidi Toilet.png::CompressedTexture2D::1769618731969142656::1794876942::1794973796::1::::<><><>0<>0<>87cd2b7a8a41f9f0c0565e2d15fab83b<>res://.godot/imported/Purple Skibidi Toilet.png-896fea34ad942de1780663f583933b62.ctex::
+Purple Storm.png::CompressedTexture2D::4497975241874162630::1794874039::1794973796::1::::<><><>0<>0<>3256f328893027831a3fbac0d23b5cc9<>res://.godot/imported/Purple Storm.png-403ffe14ca121cfdbaee7ba763405a54.ctex::
+Quiet Afternoon.png::CompressedTexture2D::1933030159133158748::1794874039::1794973796::1::::<><><>0<>0<>90bcf80724977fdc8775169089054d10<>res://.godot/imported/Quiet Afternoon.png-48ebe879baf22ede227e917df672bcb3.ctex::
+Red Essence.png::CompressedTexture2D::7695084311566524018::1794973812::1794973796::1::::<><><>0<>0<>c177bb6a2f8564b3003f8ed36032e90e<>res://.godot/imported/Red Essence.png-ee3d7d5dc24d325a6ae9eaaf7b5e5fac.ctex::
+Return of the Cipher.png::CompressedTexture2D::3309836308692816264::1794874039::1794973796::1::::<><><>0<>0<>9f3f34d3de1cf0b7e5f236ccee73a190<>res://.godot/imported/Return of the Cipher.png-27b2083a46e948861a4ef8da5f167bd9.ctex::
+right down the toilet.png::CompressedTexture2D::7688471313317210556::1794973812::1794973796::1::::<><><>0<>0<>cca856871a9f2cba8dbb77099df426ac<>res://.godot/imported/right down the toilet.png-226200b320c0c98e9dede4f332a02c9f.ctex::
+Robotic Factory.png::CompressedTexture2D::6410221947799104::1794973809::1794973796::1::::<><><>0<>0<>6b459d7a119704fe4151614f55cab59b<>res://.godot/imported/Robotic Factory.png-56bf3058c4e26a0f0f0bf03918f74b97.ctex::
+Rot for Clout.png::CompressedTexture2D::8222022268669322987::1794973801::1794973796::1::::<><><>0<>0<>f6224627a60882c5453cfffc5b25be40<>res://.godot/imported/Rot for Clout.png-2e81c8477f2eb4b6bf2bfd1ddcae12cb.ctex::
+Sakupen Circles Redux.png::CompressedTexture2D::1852893658704460951::1794973814::1794973796::1::::<><><>0<>0<>58aa29239dcd87bdeb02ee11eab21997<>res://.godot/imported/Sakupen Circles Redux.png-b23e64a3bb08da329cdae533da54e536.ctex::
+Sakupen Resurgence.png::CompressedTexture2D::4599584183467549607::1794973811::1794973796::1::::<><><>0<>0<>2a8fd3c17a7552b5466131174c07b11d<>res://.godot/imported/Sakupen Resurgence.png-c32d6a3e694d687c63d8eee1b8e461b5.ctex::
+Scratch Slaughterhouse.png::CompressedTexture2D::8924498537535687923::1794973809::1794973796::1::::<><><>0<>0<>9679ce980d3c514d17b93996f126fad7<>res://.godot/imported/Scratch Slaughterhouse.png-9b3ccaa565f3eb1285a9ee5f9e8cda29.ctex::
+Scratch Tidal Wave.png::CompressedTexture2D::4954404027465048447::1794973804::1794973796::1::::<><><>0<>0<>af20cc2232de211c45996be49d636d9a<>res://.godot/imported/Scratch Tidal Wave.png-e49fd792f7dd5a49e808de5c4aa0787a.ctex::
+Scratcherhouse.png::CompressedTexture2D::8791624400160018213::1794973813::1794973796::1::::<><><>0<>0<>62c28e220ad7fddfde9200d29a904143<>res://.godot/imported/Scratcherhouse.png-2a66d6d702de520ae65854b6fc8b761b.ctex::
+Second Try.png::CompressedTexture2D::1948006755673663868::1794874039::1794973796::1::::<><><>0<>0<>e9e695da33db42abeb6c45fa779e5c2d<>res://.godot/imported/Second Try.png-66f286b5a0485f629c6f19a1d4da72f8.ctex::
+Setup Wizard.png::CompressedTexture2D::183871921106888662::1794874039::1794973796::1::::<><><>0<>0<>4b79320fd57bdc362f6c8af215bfbcda<>res://.godot/imported/Setup Wizard.png-9ae6837485e70ef535faca3be6589ca6.ctex::
+Shattered Cityscape.png::CompressedTexture2D::7139612760188036548::1794874039::1794973797::1::::<><><>0<>0<>db2e87a84b02f387b3c642a839f1a973<>res://.godot/imported/Shattered Cityscape.png-17f86c3ab736e566f1262006a3492de5.ctex::
+Silent 12.png::CompressedTexture2D::6944034372628604188::1794874039::1794973797::1::::<><><>0<>0<>c9626e9af04d371b1b14c9f5abafa857<>res://.godot/imported/Silent 12.png-573008d6b2944e5622db24f7211e0cda.ctex::
+Silent Dropstep.png::CompressedTexture2D::3023746661527477429::1794973810::1794973797::1::::<><><>0<>0<>c3e7820a5cc9af34f672aef06bba884d<>res://.godot/imported/Silent Dropstep.png-595aeab692d67631b218fe11d9a46547.ctex::
+Silent Quasar.png::CompressedTexture2D::7301806815085112960::1794874039::1794973797::1::::<><><>0<>0<>4c036da4af2ad987bea00f600ebc9851<>res://.godot/imported/Silent Quasar.png-005febb1130e700dc4f3574a357cdde9.ctex::
+Soaring the Wind.png::CompressedTexture2D::2970412718150958057::1794874039::1794973797::1::::<><><>0<>0<>a63c588e17e52d65512f3707f6278d9e<>res://.godot/imported/Soaring the Wind.png-b7bab5cbd4ff388cdacc6a8f4890b7da.ctex::
+Solitude.png::CompressedTexture2D::7926154094081079041::1794874039::1794973797::1::::<><><>0<>0<>b9fe90e4bbfbbb95d1628452616fe7c5<>res://.godot/imported/Solitude.png-29edec2e758b92a43d36a0bf1f162b42.ctex::
+Sonic Wave MEGA COLLAB.png::CompressedTexture2D::5770402842912313926::1794874039::1794973797::1::::<><><>0<>0<>e61eccd98957388a3505ea4fbd7f0db6<>res://.godot/imported/Sonic Wave MEGA COLLAB.png-e967efd4cf706e2a287cfbf6e348581b.ctex::
+Spider Dance.png::CompressedTexture2D::1131995833560364979::1794973802::1794973797::1::::<><><>0<>0<>646c73870af4ad1a1b10db34cc69ce0b<>res://.godot/imported/Spider Dance.png-0e5e18197243d5c80f521d6683f9d0bf.ctex::
+spongebob clear map.png::CompressedTexture2D::24626847939533598::1794874039::1794973797::1::::<><><>0<>0<>172d5040a7f8e80216b0257c2dd81d05<>res://.godot/imported/spongebob clear map.png-2c113d0aa35b004309a07817eae761f3.ctex::
+Squeegee Luigi Never Clear.png::CompressedTexture2D::8923116926146303351::1794973813::1794973797::1::::<><><>0<>0<>0eebae5510ccbdec448ac2779a8fc3bf<>res://.godot/imported/Squeegee Luigi Never Clear.png-1839cfcda0c796742117dca2d3b43e84.ctex::
+Stairs Of Fate.png::CompressedTexture2D::2605278281671896172::1794874039::1794973797::1::::<><><>0<>0<>20ad5b8cdabce831fb8254f9a6707a98<>res://.godot/imported/Stairs Of Fate.png-3aca8645378d4021b189a04a4b8337ec.ctex::
+Stay Inside Me.png::CompressedTexture2D::4094990130520514740::1794874039::1794973797::1::::<><><>0<>0<>93964c3545040609961f582123e776c0<>res://.godot/imported/Stay Inside Me.png-3706adb4b9e377eeaf9d8b21d0599139.ctex::
+Steel Terror.png::CompressedTexture2D::3915784743867852804::1794874039::1794973797::1::::<><><>0<>0<>94e01ccdcf33ae0bb3a73c3d7e53c7c5<>res://.godot/imported/Steel Terror.png-df3bb66c9c99fd45e63b2979bed9b0ef.ctex::
+Stereo Reckoning.png::CompressedTexture2D::1576997088508609057::1794874039::1794973797::1::::<><><>0<>0<>8996b3deb554a5ce3441e342a3860ff4<>res://.godot/imported/Stereo Reckoning.png-a32bcc6b4c35a91b37a10a11663f90e2.ctex::
+Styx.png::CompressedTexture2D::2155394623305552406::1794973802::1794973797::1::::<><><>0<>0<>52b246b7b529ab8da88d2e0f91251764<>res://.godot/imported/Styx.png-8f33e337af8ff3de9bf13a67600c6609.ctex::
+Sunset Shores.png::CompressedTexture2D::4972280951378690450::1794876207::1794973797::1::::<><><>0<>0<>957615e79dc227d5865ca20f0a186f70<>res://.godot/imported/Sunset Shores.png-881b858bf00f8c0eb781eb00dcd0ea02.ctex::
+SUPER SCARY FEM MAP 2.png::CompressedTexture2D::7544108936038289313::1794973809::1794973815::0::::<><><>0<>0<>dd291f95279ab137c4e46689cefb14e6<>::
+SUPERMONKEWORLD.png::CompressedTexture2D::5647643379597267271::1794973807::1794973797::1::::<><><>0<>0<>1f9ee99888d3610254634b8dbe43372d<>res://.godot/imported/SUPERMONKEWORLD.png-ef616205849f435ddf9a7d52536cee21.ctex::
+SVC.png::CompressedTexture2D::3606930928025542282::1794874039::1794973797::1::::<><><>0<>0<>f448920bc60e0378efcb9b011dc9933b<>res://.godot/imported/SVC.png-110d9ba174d282883676eacde9f337db.ctex::
+Sweet Escape.png::CompressedTexture2D::2496490104071331228::1794973808::1794973797::1::::<><><>0<>0<>aece10f3cb63a47d135278faccf6b0e6<>res://.godot/imported/Sweet Escape.png-5097f1cbca968db03cd0b182790056e3.ctex::
+Temperate Cycles.png::CompressedTexture2D::5128136701785226110::1794874039::1794973797::1::::<><><>0<>0<>918a7c21b210279b668e6bcc8ddc2629<>res://.godot/imported/Temperate Cycles.png-7487e535bd39b20361cbf4ea09e7ac3a.ctex::
+Teto Territory.png::CompressedTexture2D::5471395246388660928::1794874039::1794973797::1::::<><><>0<>0<>8a612bc99568f378644f0a493486fcc0<>res://.godot/imported/Teto Territory.png-083ef200cb59129ff306952f839498a5.ctex::
+The Beginning.png::CompressedTexture2D::436180400775090037::1794874039::1794973797::1::::<><><>0<>0<>7213c621cfa15c52b01341a2d00188f0<>res://.godot/imported/The Beginning.png-f5f6328a5015b11a66c9e947bdae9df8.ctex::
+The Blue.png::CompressedTexture2D::7250576543176521289::1794874039::1794973797::1::::<><><>0<>0<>0488388496671b9f1a5cf9f9c99f7253<>res://.godot/imported/The Blue.png-b5fd0e38a1f8acd53314c3e136fe06f3.ctex::
+The Empty Space.png::CompressedTexture2D::2329436323063947904::1794973807::1794973797::1::::<><><>0<>0<>f3e9f7fe0ddcaa268ad1fca12f01565b<>res://.godot/imported/The Empty Space.png-106f46eb9b5c634ac078fac31bbe075e.ctex::
+The Epic Of Gilgamesh.png::CompressedTexture2D::4904052269065140628::1794874039::1794973797::1::::<><><>0<>0<>b8d27f8a240d0fe3afcfa810c665448b<>res://.godot/imported/The Epic Of Gilgamesh.png-2e49c8052d5f5995a7b1cb7e5805474e.ctex::
+The Fields of Pink and Gold.png::CompressedTexture2D::1496024216492131811::1794973801::1794973797::1::::<><><>0<>0<>abe54493820a7538aaf5c0d17605aee1<>res://.godot/imported/The Fields of Pink and Gold.png-2d837bc47f469be8f7d2db5c75db46c0.ctex::
+The Honor Over World.png::CompressedTexture2D::1185224234476399053::1794973807::1794973797::1::::<><><>0<>0<>54c182fb57c6634cf9b606c207aa1680<>res://.godot/imported/The Honor Over World.png-85a8d0b6d89ba818127c810b4e03bbe3.ctex::
+The Lantern Dragon.png::CompressedTexture2D::2213706318839013730::1794874039::1794973797::1::::<><><>0<>0<>76f93234207618997c17fc0b9eec38fa<>res://.godot/imported/The Lantern Dragon.png-22aff388f7699cd3244b116b1aec0f65.ctex::
+The Shaq House.png::CompressedTexture2D::3440456581052475761::1794874039::1794973797::1::::<><><>0<>0<>8557d428dd70cce9cf5336f5e3c47afb<>res://.godot/imported/The Shaq House.png-f035d295d0027119cb83188f5186a736.ctex::
+The Swag Road.png::CompressedTexture2D::5112704654597868910::1794874039::1794973797::1::::<><><>0<>0<>ccfbe6a066d9f9738ab3efe4fb78233e<>res://.godot/imported/The Swag Road.png-6a52bb36f1071a56c765bbbeda796772.ctex::
+The Theory of Final Infinity.png::CompressedTexture2D::7585834197347191219::1794874039::1794973797::1::::<><><>0<>0<>4a337dc2aa09e28ffc479123c87f74fd<>res://.godot/imported/The Theory of Final Infinity.png-a15950d6a26c72089ecd820c8cecead7.ctex::
+the third variant.png::CompressedTexture2D::4618864130295877262::1794874039::1794973797::1::::<><><>0<>0<>345329d6e3d17f64efb39b99dfa03d42<>res://.godot/imported/the third variant.png-2c05428702e916207b7f4b2d5f259a57.ctex::
+The World Destroyer Rebirth.png::CompressedTexture2D::8514172661886371749::1794874039::1794973796::1::::<><><>0<>0<>99ee4e8a39f15ef3454d8ffc8f117dbe<>res://.godot/imported/The World Destroyer Rebirth.png-8f4a099f404a97f6ff0d5e7628cd447e.ctex::
+Theory Of Continuity.png::CompressedTexture2D::3623449823896313880::1794973800::1794973796::1::::<><><>0<>0<>ab3eefcf68c91300ecf36ac2fa894da3<>res://.godot/imported/Theory Of Continuity.png-c8deaf62482c836bb31c336fabb3813d.ctex::
+Theory Of Nothing (ASC_095).png::CompressedTexture2D::4017089477637949957::1794874039::1794973796::1::::<><><>0<>0<>4e92ea9f45f94c5b3918c93b70fc1604<>res://.godot/imported/Theory Of Nothing (ASC_095).png-35270514f2f76794f82c7e76926059ac.ctex::
+Theory of Nothing (cwkollie12137).png::CompressedTexture2D::202716204964208571::1794874039::1794973796::1::::<><><>0<>0<>07d8c26df88d4539573e98e448a66239<>res://.godot/imported/Theory of Nothing (cwkollie12137).png-87864e229d2cd0a3f6e23b733db9776e.ctex::
+Theory of Nothing (real ver).png::CompressedTexture2D::4689576745848609704::1794973814::1794973815::1::::<><><>0<>0<>38ec7cd3716248c45ebabffcd45284be<>res://.godot/imported/Theory of Nothing (real ver).png-f2a4cef4d85c497615ee5acd3b058108.ctex::
+Theory Of Nothing.png::CompressedTexture2D::1318053117720512692::1794973811::1794973815::0::::<><><>0<>0<>8c6f2cf4bc4f613836cec7f01681b0a0<>::
+Thermodynamix.png::CompressedTexture2D::3068698282406558578::1794973803::1794973796::1::::<><><>0<>0<>07a4cb5e62f338967898c4cbc053e67f<>res://.godot/imported/Thermodynamix.png-1095d79b9c776b47040a1f6ddaf56ac3.ctex::
+ThermodynamixMEGACOLLAB.png::CompressedTexture2D::1314023510320019039::1794874039::1794973796::1::::<><><>0<>0<>e65e5ae498175a798052852446e5119b<>res://.godot/imported/ThermodynamixMEGACOLLAB.png-e819d3941521c964541d916797027cc3.ctex::
+Thinkinh Space 6.png::CompressedTexture2D::6893386783759353066::1794874039::1794973796::1::::<><><>0<>0<>0ec19a442568faadfa604a8c66d67602<>res://.godot/imported/Thinkinh Space 6.png-3723d45fad7657490d03820cf06ce807.ctex::
+thunderzone.png::CompressedTexture2D::7494528172286167848::1794973812::1794973796::1::::<><><>0<>0<>78aad85775f100cd2ee126ea3d3f5657<>res://.godot/imported/thunderzone.png-577141f6ee8b6a5c7afb82e517692807.ctex::
+Tidal Square Rebirth.png::CompressedTexture2D::1670063466037238149::1794973805::1794973796::1::::<><><>0<>0<>5dbadf58b1f7d7fb0f96e63da13fad1c<>res://.godot/imported/Tidal Square Rebirth.png-056589b48393014aad860c8aa7a6ca05.ctex::
+To The KOCMOC.png::CompressedTexture2D::3485134474481849543::1794973812::1794973815::0::::<><><>0<>0<>bf75d2db71c6f337ee8ed611ad57acb0<>::
+To the skies.png::CompressedTexture2D::6941526078570825112::1794874039::1794973796::1::::<><><>0<>0<>37c3d3feb261c29b34dd60a2a582c5dd<>res://.godot/imported/To the skies.png-631a7b608e5cf53272f0df540816035c.ctex::
+Triangle Force.png::CompressedTexture2D::3969872160137658039::1794973808::1794973796::1::::<><><>0<>0<>14805c390ea04bf2201ac3b7deb9cdc6<>res://.godot/imported/Triangle Force.png-948eaf546e7e45db87357cbff487bcfd.ctex::
+Triangle Of Time.png::CompressedTexture2D::1165500183870576301::1794874039::1794973796::1::::<><><>0<>0<>8006098b5d7b85459158762b7f843523<>res://.godot/imported/Triangle Of Time.png-03cc0e3207ee1891a2120edbd14530d7.ctex::
+Trigger Wizard.png::CompressedTexture2D::2762165237387720277::1794874039::1794973796::1::::<><><>0<>0<>52749e1a117065227aa507227dcf29e8<>res://.godot/imported/Trigger Wizard.png-798fd34d6a2813114e622a0fa367584f.ctex::
+Ultimate Destruction (LegoScratchTanksuber).png::CompressedTexture2D::7218977981218606129::1794973806::1794973796::1::::<><><>0<>0<>cfdc267e4677bf5b321272f723cdf854<>res://.godot/imported/Ultimate Destruction (LegoScratchTanksuber).png-9a90ccd02b2b772517a6d27e96ea5a3e.ctex::
+Ultimate Destruction (meow_wet).png::CompressedTexture2D::1617823846766405659::1794874039::1794973797::1::::<><><>0<>0<>cfe017a138fd96f82921b7132b044ff3<>res://.godot/imported/Ultimate Destruction (meow_wet).png-da69f28f5c3ee222a1ce05aa12cd0766.ctex::
+Ultimate Destruction(TSprint).png::CompressedTexture2D::4135308720077095896::1794973815::1794973815::1::::<><><>0<>0<>2aafbe5dbc776fe3b1ef331aef59e01e<>res://.godot/imported/Ultimate Destruction(TSprint).png-900e9bc335ef920cea23b9d911ab51e8.ctex::
+Ultimate Kill Stream Finale 2.png::CompressedTexture2D::8799255426961788742::1794874039::1794973796::1::::<><><>0<>0<>b375f2daebe726862143fd6cf602f533<>res://.godot/imported/Ultimate Kill Stream Finale 2.png-3533e9a51fa115bee56c70879815f9ee.ctex::
+Ultimate Kill Stream.png::CompressedTexture2D::4404414831238686332::1794874039::1794973796::1::::<><><>0<>0<>63cde25e93f2d601913959605522679e<>res://.godot/imported/Ultimate Kill Stream.png-75cd5826d58e6a01a4d79987e863eb24.ctex::
+Undying Soul.png::CompressedTexture2D::7525719340518541618::1794874039::1794973796::1::::<><><>0<>0<>155212865d41587d1d6fdc7e3d6a9fae<>res://.godot/imported/Undying Soul.png-1bba8becd2ae9b621bcc2e315dd5c78e.ctex::
+UnnamedSqueegee.XML.png::CompressedTexture2D::5742396945579446367::1794973814::1794973796::1::::<><><>0<>0<>c65fc57b59fd6e6fa5cdc6eb271851a7<>res://.godot/imported/UnnamedSqueegee.XML.png-c9067555f158b1272fd1ca30e3687265.ctex::
+Verdant Hash.png::CompressedTexture2D::8820514593104506081::1794874039::1794973796::1::::<><><>0<>0<>d6d3c02f9cfccc06a56b6830d0c02b83<>res://.godot/imported/Verdant Hash.png-5fd31f447ee71c8caed3370413840a6e.ctex::
+WallyBoom Challenge.png::CompressedTexture2D::3086954731179551034::1794973802::1794973796::1::::<><><>0<>0<>f45b31f21947d78143306901d3478acd<>res://.godot/imported/WallyBoom Challenge.png-ee0f3b28f3e91de2e4ff6452fecbf0b9.ctex::
+WARCORA R.png::CompressedTexture2D::1228720081113547859::1794973809::1794973796::1::::<><><>0<>0<>fa3fbd4ed034873c1ab202bb1db11e4d<>res://.godot/imported/WARCORA R.png-f80ee7e97e901ccba54a8cbd1ab4b9d8.ctex::
+Waterworld.png::CompressedTexture2D::3028071838294597879::1794973807::1794973797::1::::<><><>0<>0<>1a79a899ede8d406499655dc647864cc<>res://.godot/imported/Waterworld.png-6a216c34010bc2b8140637fbc242bd6f.ctex::
+wave thing.png::CompressedTexture2D::5757235044271987927::1794973814::1794973797::1::::<><><>0<>0<>da22f8d484c678858559e52db199fb50<>res://.godot/imported/wave thing.png-a32f2b42ff2ca900dbec935a8353815a.ctex::
+web demon.png::CompressedTexture2D::8843322386725478500::1794874039::1794973796::1::::<><><>0<>0<>b3f5ea33e647c7dc329b2bbf6f5c1834<>res://.godot/imported/web demon.png-bb3b30bf408d92c4c36c4ebc23c9fb3c.ctex::
+what could ts be.png::CompressedTexture2D::3550312255319244145::1794874039::1794973797::1::::<><><>0<>0<>29377efa0f885c68ef41491c0a81d25b<>res://.godot/imported/what could ts be.png-a19fbd3c0ba2008d15de5e2f735017f5.ctex::
+WHAT THE H3LL.png::CompressedTexture2D::5861152914050562535::1794973806::1794973797::1::::<><><>0<>0<>591e2ef904943ff8eef9d1fa58f63e25<>res://.godot/imported/WHAT THE H3LL.png-ce4dc31d54e85cf35c18f8833b9ffb5b.ctex::
+Whizkid Kaizo Stage VI.png::CompressedTexture2D::1321673087905196414::1794973808::1794973815::0::::<><><>0<>0<>ac1ec08c829246c47142d06c18b707c2<>::
+Winter [unnerfed].png::CompressedTexture2D::4576714934856110394::1794874039::1794973797::1::::<><><>0<>0<>00cf94dda941824266b82f322ecaab2b<>res://.godot/imported/Winter [unnerfed].png-19c0d6c1f42ebb56003174d8eab9a481.ctex::
+Winter.png::CompressedTexture2D::494422961788611601::1794973804::1794973797::1::::<><><>0<>0<>7b87dab5074cc76fb6b8a2a44d642626<>res://.godot/imported/Winter.png-38380f4d1a9d073e13ef29c2c728b456.ctex::
+Your Death.png::CompressedTexture2D::3043055576180433806::1794874039::1794973797::1::::<><><>0<>0<>ad3c6d5d1b3d38bc547d28f54c104829<>res://.godot/imported/Your Death.png-a025b0a4875b8011d4c55bc680e9b282.ctex::
+[CREEPY WORD HERE].png::CompressedTexture2D::1309529492159217123::1794874039::1794973797::1::::<><><>0<>0<>7477d9b86fc9e599a1143d413c79a84d<>res://.godot/imported/[CREEPY WORD HERE].png-e7603fca1b075444e092cdd4a372ea5c.ctex::
+::res://trash/::1795056328

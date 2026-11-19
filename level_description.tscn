@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://bej2535tqyb4a" path="res://Assets/Itch Icon.png" id="4_h0lew"]
 [ext_resource type="Texture2D" uid="uid://ja1rorlkx2gk" path="res://Assets/Codetorch Icon.png" id="5_66c5p"]
 [ext_resource type="PackedScene" uid="uid://fbnjrcxwyf7r" path="res://tag.tscn" id="6_duva7"]
-[ext_resource type="Texture2D" uid="uid://clcwru3oudtun" path="res://Assets/Difficulties.png" id="7_3uot4"]
-[ext_resource type="Texture2D" uid="uid://1hvyop6aa126" path="res://Assets/Mythic.webp" id="8_14hyy"]
+[ext_resource type="Texture2D" uid="uid://b1d2o36fcrutn" path="res://Assets/Easy Demon.png" id="7_14hyy"]
+[ext_resource type="Texture2D" uid="uid://i2q2t86n4stt" path="res://Assets/Featured.png" id="8_14hyy"]
 
 [node name="LevelDescription" type="Control" unique_id=961837041]
 layout_mode = 3
@@ -220,14 +220,13 @@ text = "Verification"
 [node name="Difficulty" type="Sprite2D" parent="." unique_id=1903574807]
 z_index = 1
 position = Vector2(364, -46.000004)
-scale = Vector2(0.5163934, 0.5163934)
-texture = ExtResource("7_3uot4")
-region_enabled = true
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("7_14hyy")
 region_rect = Rect2(298.02106, 123, 165.044, 131.213)
 
 [node name="Rating BG" type="Sprite2D" parent="." unique_id=795297382]
-position = Vector2(359.82047, -46.85408)
-scale = Vector2(0.26829025, 0.26829013)
+position = Vector2(364, -46.000004)
+scale = Vector2(0.533536, 0.5335357)
 texture = ExtResource("8_14hyy")
 
 [node name="Verification Label" type="Label" parent="." unique_id=524336577]

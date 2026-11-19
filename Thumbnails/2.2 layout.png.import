@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x6lagbtbu03f"
-path="res://.godot/imported/2.2 layout.png-26da071ab80d8959199220b42a049959.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/2.2 layout.png"
-dest_files=["res://.godot/imported/2.2 layout.png-26da071ab80d8959199220b42a049959.ctex"]
 
 [params]
 

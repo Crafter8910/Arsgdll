@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqt2xquc5h5nc"
-path="res://.godot/imported/Payload Remix.png-c589935d75e64d50a0892273cf124116.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Payload Remix.png"
-dest_files=["res://.godot/imported/Payload Remix.png-c589935d75e64d50a0892273cf124116.ctex"]
 
 [params]
 

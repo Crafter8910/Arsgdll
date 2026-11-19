@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkp8pgyv53mdd"
-path="res://.godot/imported/It's Boshy Time!.png-f61fb8080a22446f98bd31c4974be870.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/It's Boshy Time!.png"
-dest_files=["res://.godot/imported/It's Boshy Time!.png-f61fb8080a22446f98bd31c4974be870.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be28ou3u6xavx"
-path="res://.godot/imported/Florida Man ahh level.png-eec9fa287b1c7cf893c9981633511e73.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Florida Man ahh level.png"
-dest_files=["res://.godot/imported/Florida Man ahh level.png-eec9fa287b1c7cf893c9981633511e73.ctex"]
 
 [params]
 

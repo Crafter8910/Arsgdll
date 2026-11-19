@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3pkox8frgeg3"
-path="res://.godot/imported/deafening silence.png-3836ca6f2792920787f4b12e850389bc.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/deafening silence.png"
-dest_files=["res://.godot/imported/deafening silence.png-3836ca6f2792920787f4b12e850389bc.ctex"]
 
 [params]
 

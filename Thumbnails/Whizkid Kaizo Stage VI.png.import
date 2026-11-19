@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s3h06vsuqkeo"
-path="res://.godot/imported/Whizkid Kaizo Stage VI.png-68d19a13d73eb68233b487df2e06f2cd.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Whizkid Kaizo Stage VI.png"
-dest_files=["res://.godot/imported/Whizkid Kaizo Stage VI.png-68d19a13d73eb68233b487df2e06f2cd.ctex"]
 
 [params]
 

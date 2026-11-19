@@ -6,22 +6,22 @@
     "verifier": "CreativeStegosaur",
     "verification": "https://youtu.be/iI2HC0Utybw",
     "percentToQualify": 67,
-	"demonDifficulty": "Normal",
+   "demonDifficulty": "Normal",
     "description": "null.",
     "engine": "Spooky Dash",
-	"tags": ["Cube", "Ship", "Null"],
-	"hz": 30,
-	"enj": 100,
+  "tags": ["Cube", "Ship", "Null"],
+  "hz": 30,
+  "enj": 100,
     "rating": 2,
     "records": [
-		{
-			"user": "Kevmaster04",
-			"link": "https://m.youtube.com/watch?v=Pxlav3unkQI",
-			"percent": 100,
-			"hz": 60,
-			"enj": 80
-		}
+    {
+      "user": "Kevmaster04",
+      "link": "https://m.youtube.com/watch?v=Pxlav3unkQI",
+      "percent": 100,
+      "hz": 60,
+      "enj": 80
+    }
         
-			
+      
    ]
 }
