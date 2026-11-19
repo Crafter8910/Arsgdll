@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc3u0gm15qd0u"
-path="res://.godot/imported/Sunset Shores.png-881b858bf00f8c0eb781eb00dcd0ea02.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://bnkgml1re3d0o"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Sunset Shores.png"
-dest_files=["res://.godot/imported/Sunset Shores.png-881b858bf00f8c0eb781eb00dcd0ea02.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

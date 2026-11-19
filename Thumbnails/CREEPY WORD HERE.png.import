@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmomq6iy64uwp"
-path="res://.godot/imported/CREEPY WORD HERE.png-02cd9ba0eed24c8f5454049974f835cd.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://dqybnr47khdqw"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/CREEPY WORD HERE.png"
-dest_files=["res://.godot/imported/CREEPY WORD HERE.png-02cd9ba0eed24c8f5454049974f835cd.ctex"]
 
 [params]
 

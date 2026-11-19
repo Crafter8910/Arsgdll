@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sawdldpcqls1"
-path="res://.godot/imported/Can't Fix You.png-06e355e7c57f97c953c199701decbc76.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://ce7vyoi5f5qrm"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Can't Fix You.png"
-dest_files=["res://.godot/imported/Can't Fix You.png-06e355e7c57f97c953c199701decbc76.ctex"]
 
 [params]
 

@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1i14r0rf8onk"
-path="res://.godot/imported/Impotence.png-08fa34433c6f689f03f55ec4ed3c3942.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://cbd7yss8f2up"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Impotence.png"
-dest_files=["res://.godot/imported/Impotence.png-08fa34433c6f689f03f55ec4ed3c3942.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

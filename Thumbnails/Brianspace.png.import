@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bq3hckwoly5nm"
-valid=false
+path="res://.godot/imported/brianspace.png-a3cbf0fdda445b7d011bcdd67ce739d4.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Thumbnails/Brianspace.png"
+source_file="res://Thumbnails/brianspace.png"
+dest_files=["res://.godot/imported/brianspace.png-a3cbf0fdda445b7d011bcdd67ce739d4.ctex"]
 
 [params]
 

@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://be28ou3u6xavx"
+uid="uid://cvg2l1tj8g2u0"
 valid=false
 
 [deps]
@@ -11,7 +11,7 @@ source_file="res://Thumbnails/Florida Man ahh level.png"
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

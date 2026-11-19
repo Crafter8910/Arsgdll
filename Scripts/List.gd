@@ -26,16 +26,15 @@ func download(link, path):
     remove_child(http)
     return completed
 func downloadfiles():
-  await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json", "LoadedData/TagDescriptions.json")
   for list in lists:
-    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list + ".json", "LoadedData/" + list + ".json")
-    var listdata = getdata("res://LoadedData/" + list + ".json")
+    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list + ".json", "LoadedData/" + list.replace("%20", " ") + ".json")
+    var listdata = getdata("res://Data/" + list + ".json")
     for level in listdata:
       if not ResourceLoader.exists("res://Levels/" + level + ".json"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level + ".json", "Levels/" + level  +".json")
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level + ".json", "Levels/" + level.replace("%20", " ")  +".json")
       if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level + ".png", "Thumbnails/" + level  +".png")
-  loadlist()
+        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level + ".png", "Thumbnails/" + level.replace("%20", " ")  +".png")
+  loadlist()  
       
 
 func filterlist(filter: String):
@@ -105,6 +104,8 @@ func _process(_delta: float) -> void:
 
 func _ready() -> void:
   #add_child(http)
+  for file in DirAccess.get_files_at("res://LoadedData"):
+    DirAccess.remove_absolute("res://LoadedData" + file)
   downloadfiles()  #while not loadedlevels:
     #pass
  

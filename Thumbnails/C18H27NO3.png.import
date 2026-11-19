@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blufxs2yhtb8q"
+uid="uid://bvin7j56cbum3"
 valid=false
 
 [deps]
@@ -11,7 +11,7 @@ source_file="res://Thumbnails/C18H27NO3.png"
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

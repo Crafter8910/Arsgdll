@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0jkpc2r5wjo2"
-path="res://.godot/imported/Bloodbath.png-58bf6d3757b63344ff8ac2fc034877b5.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://cmfg25uhw4xkl"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Bloodbath.png"
-dest_files=["res://.godot/imported/Bloodbath.png-58bf6d3757b63344ff8ac2fc034877b5.ctex"]
 
 [params]
 

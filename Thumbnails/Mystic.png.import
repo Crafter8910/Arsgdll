@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3oy8wl1jr80"
-path="res://.godot/imported/Mystic.png-787db5bebfe50fea1039fcdcdfa9d106.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://dmn6ohj4vaxmj"
+valid=false
 
 [deps]
 
 source_file="res://Thumbnails/Mystic.png"
-dest_files=["res://.godot/imported/Mystic.png-787db5bebfe50fea1039fcdcdfa9d106.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

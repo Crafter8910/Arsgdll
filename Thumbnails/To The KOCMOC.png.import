@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpwhwj5drjloh"
+uid="uid://bc2doyd1oi76r"
 valid=false
 
 [deps]
@@ -11,7 +11,7 @@ source_file="res://Thumbnails/To The KOCMOC.png"
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

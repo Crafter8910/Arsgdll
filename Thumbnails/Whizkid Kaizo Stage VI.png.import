@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s3h06vsuqkeo"
+uid="uid://d31si7uitmvqd"
 valid=false
 
 [deps]
@@ -11,7 +11,7 @@ source_file="res://Thumbnails/Whizkid Kaizo Stage VI.png"
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
