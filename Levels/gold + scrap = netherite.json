@@ -1,1 +1,19 @@
+<<<<<<< HEAD
 Bad Request
+=======
+{
+    "codetorchLink": "https://codetorch.net/projects/218678",
+    "name": "gold + scrap = netherite",
+    "author": "sh3lt0n",
+    "creators": ["sh3lt0n"],
+    "verification": "https://www.youtube.com/watch?v=fHRIg91eqaw",
+    "percentToQualify": "0",
+	"demonDifficulty": "Extreme Demon",
+    "description": "spam",
+    "engine": "GDR",
+	"tags": ["Wave", "Ship", "Timings", "High CPS"],
+	"rating": 0,
+    "records": [
+    ]
+}
+>>>>>>> 3424a53bb75206d7e88f7bd2ffda72d4c1838724
