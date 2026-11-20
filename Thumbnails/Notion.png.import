@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db1tjaai2uvy4"
-path="res://.godot/imported/notion.png-945a8cde63aba3ef1e7be79634ebc3b6.ctex"
+path="res://.godot/imported/Notion.png-8580b0af24f825db75f371dca4299905.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Thumbnails/notion.png"
-dest_files=["res://.godot/imported/notion.png-945a8cde63aba3ef1e7be79634ebc3b6.ctex"]
+source_file="res://Thumbnails/Notion.png"
+dest_files=["res://.godot/imported/Notion.png-8580b0af24f825db75f371dca4299905.ctex"]
 
 [params]
 

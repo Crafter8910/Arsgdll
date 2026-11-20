@@ -1,15 +1,11 @@
-res://Levels/Desecration Dimension EXX v2.json
+res://LoadedData/List.json
+res://Thumbnails/into the wild.png
+res://Thumbnails/Into the Wild.png
+res://Thumbnails/notion.png
+res://Thumbnails/Notion.png
+res://Thumbnails/Hidden in the sand.png
+res://Thumbnails/Hidden in the Sand.png
 res://list.tscn
 res://Scripts/List.gd
-res://Data/List.json
-res://Data/Sgd%20list.json
+res://LoadedData/Sgd list.json
 res://Data/Unverified list.json
-res://export_presets.cfg
-res://Levels/gold + scrap = netherite.json
-res://List.tscn
-res://Levels/Your Death.json
-res://LoadedData/List.json
-res://Thumbnails/Second try.png
-res://Thumbnails/Second Try.png
-res://Levels/Second Try.json
-res://Levels/Second try.json

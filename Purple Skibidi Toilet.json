@@ -1,0 +1,55 @@
+{
+	"id": "1390947442",
+	"name": "Purple Skibidi Toilet",
+	"author": "meow_wet",
+	"creators": [
+		"meow_wet"
+	],
+	"verifier": "meow_wet",
+	"verification": "https://youtu.be/S7LNwt_DLj4",
+	"percentToQualify": 67.0,
+	"demonDifficulty": "Easy Demon",
+	"description": "Why?",
+	"engine": "CFB",
+	"enj": 15.0,
+	"hz": 30.0,
+	"tags": [
+		"florida man",
+		"CFB",
+		"Dash Orb"
+	],
+	"rating": 0.0,
+	"date": "2026-10-13T06:03:21.466Z",
+	"records": [
+		{
+			"user": "chezb0",
+			"link": "https://youtu.be/GaX00I3SMNo",
+			"percent": 100.0,
+			"hz": 30.0,
+			"enj": 170.0,
+			"date": "2026-10-13T20:31:22.094Z"
+		},
+		{
+			"user": "dragonblackX2",
+			"link": "https://youtu.be/IskSQJeyxSo",
+			"percent": 100.0,
+			"hz": 30.0,
+			"enj": 100.0
+		},
+		{
+			"user": "Semimidgdplayer",
+			"link": "https://drive.google.com/drive/u/0/folders/1aC6wOvqze0y-9kOBAxUFkDpauLZUIHjL",
+			"percent": 100.0,
+			"hz": 60.0,
+			"enj": 80.0
+		},
+		{
+			"user": "what_a_name1",
+			"link": "https://drive.google.com/file/d/1t-VoJETisPWW56jVc2hY8OED8wb0FXoT/view?usp=sharing",
+			"percent": 100.0,
+			"hz": 30.0,
+			"enj": 78.0,
+			"date": "2026-10-29T14:26:12.074Z"
+		}
+	]
+}

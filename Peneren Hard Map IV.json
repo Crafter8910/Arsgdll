@@ -1,0 +1,75 @@
+{
+	"id": "1246571403",
+	"name": "Peneren Hard Map IV",
+	"author": "ballgoballing",
+	"creators": [
+		"Peneren"
+	],
+	"verifier": "unruffled",
+	"verification": "https://www.youtube.com/embed/8yGx6r7dUps?start=402",
+	"percentToQualify": 47.0,
+	"demonDifficulty": "Poopy Demon",
+	"description": "Due to his map \"Peneren Hard Map III\" being brutally beaten by oopsied, Peneren decided to make a new map in the series. He decided to write a mod for a game called \"Pig Dash\", where pigs dash (move) automatically along a level where they can jump, which you control with your keyboard/mouse. This game is one of the most brutal games ever, due to your mistakes killing pigs. Due to this <a style='text-decoration: underline;' href='https://www.peta.org'>PETA©</a> has filed a lawsuit against the maker of \"Pig Dash\". After finshing the mod, Peneren used his modded version of \"Pig Dash\" to make one of the hardest maps in the series. This map, was called \"Peneren Hard Map IV\" out of the respect for his father's map series.",
+	"engine": "Pig Dash",
+	"tags": [
+		"Chokepoints",
+		"Ship",
+		"Cube",
+		"Nerve Control",
+		"yea",
+		"Legacy Hitboxes",
+		"Memory"
+	],
+	"rating": 2.0,
+	"records": [
+		{
+			"user": "cross1508",
+			"link": "https://www.youtube.com/watch?v=3lzyiokSXoY",
+			"percent": 100.0,
+			"hz": 60.0,
+			"enj": 65.0
+		},
+		{
+			"user": "coolathagoras",
+			"link": "https://www.youtube.com/watch?v=NUq0Bqya3l0",
+			"percent": 100.0,
+			"hz": 240.0,
+			"enj": 30.0
+		},
+		{
+			"user": "ballgoballing",
+			"link": "https://www.youtube.com/watch?v=zds5fh0O0Vw",
+			"percent": 100.0,
+			"hz": 60.0,
+			"enj": 87.0
+		},
+		{
+			"user": "Captinfireball",
+			"link": "https://www.youtube.com/watch?v=6XsUQmmll4w&t=3352s",
+			"percent": 100.0,
+			"hz": 240.0,
+			"enj": 60.0
+		},
+		{
+			"user": "Kevmaster04",
+			"link": "https://youtu.be/YGzk0_RLz9Q",
+			"percent": 100.0,
+			"hz": 60.0,
+			"enj": 35.0
+		},
+		{
+			"user": "antawng2",
+			"link": "https://youtu.be/qwfSvwwthZI",
+			"percent": 89.0,
+			"hz": 240.0,
+			"enj": 85.0
+		},
+		{
+			"user": "Wallyboom2010",
+			"link": "https://www.youtube.com/watch?v=07e0pL_BVFU",
+			"percent": 100.0,
+			"hz": 120.0,
+			"enj": -1000000.0
+		}
+	]
+}

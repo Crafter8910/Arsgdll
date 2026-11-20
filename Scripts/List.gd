@@ -13,29 +13,35 @@ var level_button = preload("res://level_button.tscn")
 var ratings = ['no star', 'star', 'feature', 'epic', 'legendary', 'mythic']
 var what_is_being_loaded = "List"
 var downloading = ""
+var downloadedfiles= {}
 var lists = ["List", "Sgd list", "Unverified list"]
-func download(link, path):
+func download(link):
     var http = HTTPRequest.new()
     downloading = link
     add_child(http)
-    http.set_download_file(path)
+   # http.set_download_file(path)
     var request = http.request(link)
     if request != OK:
         push_error("Http request error")
     var completed = await http.request_completed
     remove_child(http)
-    return completed
+    
+    return completed[3].get_string_from_utf8()
 func downloadfiles():
-  await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json", "LoadedData/TagDescriptions.json")
+  var result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json")
+  downloadedfiles["LoadedData/TagDescriptions.json"] = result
   for list in lists:
-    await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json", "LoadedData/" + list.replace("%20", " ") + ".json")
-   # print(getdata("res://LoadedData/Sgd%20list.json"))
+    result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
+    downloadedfiles["LoadedData/" + list.replace("%20", " ") + ".json"]  = result
+  # print(getdata("res://LoadedData/Sgd%20list.json"))
     var listdata = getdata("res://LoadedData/" + list + ".json")
     for level in listdata:
       if not ResourceLoader.exists("res://Levels/" + level + ".json"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json", "Levels/" + level.replace("%20", " ")  +".json")
+        result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json")
+        downloadedfiles["Levels/" + level.replace("%20", " ")  +".json"] = result
       if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
-        await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level.replace(" ", "%20") + ".png", "Thumbnails/" + level.replace("%20", " ")  +".png")
+        result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level.replace(" ", "%20") + ".png")
+        downloadedfiles["Thumbnails/" + level.replace("%20", " ")  +".png"] = result
   loadlist()  
       
 
@@ -108,7 +114,7 @@ func _ready() -> void:
   #add_child(http)
   for file in DirAccess.get_files_at("res://LoadedData"):
     DirAccess.remove_absolute("res://LoadedData" + file)
-  downloadfiles()  #while not loadedlevels:
+  downloadfiles() 
     #pass
  
   #for i in range(150):
@@ -119,10 +125,14 @@ func _ready() -> void:
 func getdata(filename: String):
   #Gets the data based on the file name
   var json = JSON.new()
-  var fileaccess = FileAccess.open(filename, FileAccess.READ)
-  var text = fileaccess.get_as_text()
-  json.parse(text)
-  return json.data
+  if ResourceLoader.exists(filename):
+    var fileaccess = FileAccess.open(filename, FileAccess.READ)
+    var text = fileaccess.get_as_text()
+    json.parse(text)
+    return json.data
+  else:
+    if downloadedfiles.has(filename.replace("res://", "")):
+      return downloadedfiles[filename]
 
 
 func calculatepoints(position_of_level, equation: int = 1, percentage = 100, minimumpercent = 67):
