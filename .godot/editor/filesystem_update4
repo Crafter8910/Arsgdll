@@ -1,11 +1,5 @@
-res://LoadedData/List.json
-res://Thumbnails/into the wild.png
-res://Thumbnails/Into the Wild.png
-res://Thumbnails/notion.png
-res://Thumbnails/Notion.png
-res://Thumbnails/Hidden in the sand.png
-res://Thumbnails/Hidden in the Sand.png
+res://Data/Unverified list.json
 res://list.tscn
 res://Scripts/List.gd
-res://LoadedData/Sgd list.json
-res://Data/Unverified list.json
+res://Levels/-Cluster Caverns-.json
+res://Levels/hammer of justice.json

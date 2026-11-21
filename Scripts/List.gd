@@ -26,14 +26,20 @@ func download(link):
     var completed = await http.request_completed
     remove_child(http)
     
-    return completed[3].get_string_from_utf8()
+    return JSON.parse_string(completed[3].get_string_from_utf8())
 func downloadfiles():
   var result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/TagDescriptions.json")
   downloadedfiles["LoadedData/TagDescriptions.json"] = result
   for list in lists:
-    result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
+    print(list)
+    if list.contains("Sgd list"):
+      result = await download("https://sgdlist.pages.dev/data/_list.json")
+    else:
+      result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
+      print("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
+    
     downloadedfiles["LoadedData/" + list.replace("%20", " ") + ".json"]  = result
-  # print(getdata("res://LoadedData/Sgd%20list.json"))
+    print(result)
     var listdata = getdata("res://LoadedData/" + list + ".json")
     for level in listdata:
       if not ResourceLoader.exists("res://Levels/" + level + ".json"):
@@ -112,8 +118,8 @@ func _process(_delta: float) -> void:
 
 func _ready() -> void:
   #add_child(http)
-  for file in DirAccess.get_files_at("res://LoadedData"):
-    DirAccess.remove_absolute("res://LoadedData" + file)
+#  for file in DirAccess.get_files_at("res://LoadedData"):
+  #  DirAccess.remove_absolute("res://LoadedData" + file)
   downloadfiles() 
     #pass
  
@@ -125,14 +131,15 @@ func _ready() -> void:
 func getdata(filename: String):
   #Gets the data based on the file name
   var json = JSON.new()
+  if downloadedfiles.has(filename.replace("res://", "")):
+      print(downloadedfiles[filename.replace("res://", "")])
+      return downloadedfiles[filename.replace("res://", "")]
   if ResourceLoader.exists(filename):
     var fileaccess = FileAccess.open(filename, FileAccess.READ)
     var text = fileaccess.get_as_text()
     json.parse(text)
     return json.data
-  else:
-    if downloadedfiles.has(filename.replace("res://", "")):
-      return downloadedfiles[filename]
+    
 
 
 func calculatepoints(position_of_level, equation: int = 1, percentage = 100, minimumpercent = 67):
