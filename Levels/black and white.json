@@ -11,7 +11,7 @@
     "engine": "GDR",
     "enj": "100",
     "hz": "120",
-    "tags": ["Robot", "Effects", "Ball", "Cube", "Ship", "Timings"],
+    "tags": ["Robot", "Effects", "Ball", "Cube", "Ship", "Timings", "Long", "Chokepoints", "Nerve Control", "Wave"],
     "rating": "3",
     "date": "2026-11-19T21:54:39.894Z",
     "records": [
@@ -24,4 +24,4 @@
           "date": "2026-11-21T03:04:48.698Z"
         }
     ]
-}
+} 
