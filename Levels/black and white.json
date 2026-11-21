@@ -1,0 +1,27 @@
+{
+    "codetorchLink": "https://codetorch.net/projects/253089",
+    "name": "black and white",
+    "author": "Zonk",
+    "creators": ["Zonk"],
+    "verifier": "nullshift",
+    "verification": "https://www.image2url.com/r2/default/videos/1795125229768-5abf4dc9-b5be-4231-a5f8-ac6347a8d795.mov",
+    "percentToQualify": "67",
+    "demonDifficulty": "Hard Demon",
+    "description": "Two colours, one challenge, GL",
+    "engine": "GDR",
+    "enj": "100",
+    "hz": "120",
+    "tags": ["Robot", "Effects", "Ball", "Cube", "Ship", "Timings"],
+    "rating": "3",
+    "date": "2026-11-19T21:54:39.894Z",
+    "records": [
+        {
+          "user": "Semimidgdplayer", 
+          "link": "https://drive.google.com/file/d/181ytdmYHnYTB4pdup5w-lk5NzxSnHYHD/view?usp=sharing", 
+          "percent": 100, 
+          "hz": 120, 
+          "enj": 70,
+          "date": "2026-11-21T03:04:48.698Z"
+        }
+    ]
+}
