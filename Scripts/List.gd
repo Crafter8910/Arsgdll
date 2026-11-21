@@ -117,6 +117,9 @@ func _process(_delta: float) -> void:
   
 
 func _ready() -> void:
+  for child in get_children():
+    if child is Label or child is Button or child is OptionButton:
+      child.font = load("res://fonts/josefin-sans/JosefinSans-SemiBold.ttf")
   #add_child(http)
 #  for file in DirAccess.get_files_at("res://LoadedData"):
   #  DirAccess.remove_absolute("res://LoadedData" + file)

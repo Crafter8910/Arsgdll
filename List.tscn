@@ -9,6 +9,7 @@
 [ext_resource type="StyleBox" uid="uid://cfnhhhee2742q" path="res://Styles/hover.tres" id="7_t2oa3"]
 [ext_resource type="PackedScene" uid="uid://vkkl0guqwwp0" path="res://hover_component.tscn" id="8_a4h0v"]
 [ext_resource type="Texture2D" uid="uid://db1jitm8co3xt" path="res://Assets/Discord.svg" id="9_phuk8"]
+[ext_resource type="FontFile" uid="uid://djko1y3ltyl48" path="res://fonts/josefin-sans/JosefinSans-SemiBold.ttf" id="9_psvht"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pp2em"]
 bg_color = Color(0.2629324, 0.26293248, 0.26293242, 1)
@@ -26,28 +27,34 @@ expand_margin_bottom = 16.0
 [node name="Website" type="Node2D" unique_id=1570408678]
 
 [node name="Scrollbar of List" type="ScrollContainer" parent="." unique_id=1282794861]
-offset_left = 319.0
-offset_top = 90.0
-offset_right = 627.5
-offset_bottom = 430.0
+offset_left = 320.0
+offset_top = 82.0
+offset_right = 656.6667
+offset_bottom = 427.33334
 scale = Vector2(1.5, 1.5)
+pivot_offset = Vector2(50, 0)
 theme_override_colors/scroll_hint_horizontal_color = Color(0, 0, 0, 0)
 
-[node name="List" type="VBoxContainer" parent="Scrollbar of List" unique_id=548004150 node_paths=PackedStringArray("window", "leveldesc", "point_equation", "list_selector", "sort_selector")]
+[node name="MarginContainer" type="MarginContainer" parent="Scrollbar of List" unique_id=334903593]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_right = 10
+
+[node name="List" type="VBoxContainer" parent="Scrollbar of List/MarginContainer" unique_id=548004150 node_paths=PackedStringArray("window", "leveldesc", "point_equation", "list_selector", "sort_selector")]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 theme_override_constants/separation = 40
 script = ExtResource("1_phuk8")
-window = NodePath("../../Window")
-leveldesc = NodePath("../../Window/LevelDescription")
-point_equation = NodePath("../../PointEquation")
-list_selector = NodePath("../../Listtoload")
-sort_selector = NodePath("../../Sort by")
+window = NodePath("../../../Window")
+leveldesc = NodePath("../../../Window/LevelDescription")
+point_equation = NodePath("../../../PointEquation")
+list_selector = NodePath("../../../Listtoload")
+sort_selector = NodePath("../../../Sort by")
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=321347463]
 self_modulate = Color(0.08553881, 0.08553881, 0.08553881, 1)
 z_index = -2
-position = Vector2(619.99994, 319.00006)
+position = Vector2(627, 390.99997)
 scale = Vector2(18.522783, 19.02027)
 texture = ExtResource("2_phuk8")
 
@@ -215,6 +222,7 @@ offset_left = 21.0
 offset_top = -39.0
 offset_right = 204.0
 offset_bottom = 0.08333206
+theme_override_fonts/font = ExtResource("9_psvht")
 theme_override_font_sizes/font_size = 28
 text = "Sort by:"
 horizontal_alignment = 1
@@ -226,7 +234,7 @@ offset_right = 1139.0
 offset_bottom = 638.0
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(0.34781757, 0.3478167, 0.34781688, 1)
-theme_override_font_sizes/font_size = 30
+theme_override_font_sizes/font_size = 35
 theme_override_styles/normal = ExtResource("6_61nm0")
 theme_override_styles/pressed = ExtResource("7_t2oa3")
 theme_override_styles/hover = ExtResource("7_t2oa3")
@@ -254,12 +262,12 @@ position = Vector2(4100, 4000)
 scalefactor = 1.05
 
 [connection signal="close_requested" from="Window" to="Window" method="_on_close_requested"]
-[connection signal="request_completed" from="Window/HTTPRequest" to="Scrollbar of List/List" method="_on_http_request_request_completed"]
-[connection signal="text_changed" from="Search Filter" to="Scrollbar of List/List" method="_on_search_filter_text_changed"]
-[connection signal="pressed" from="Leaderboard button" to="Scrollbar of List/List" method="_on_leaderboard_button_pressed"]
-[connection signal="pressed" from="List button" to="Scrollbar of List/List" method="_on_list_button_pressed"]
-[connection signal="item_selected" from="PointEquation" to="Scrollbar of List/List" method="_on_point_equation_item_selected"]
-[connection signal="item_selected" from="Listtoload" to="Scrollbar of List/List" method="_on_listtoload_item_selected"]
-[connection signal="item_selected" from="Sort by" to="Scrollbar of List/List" method="_on_sort_by_item_selected"]
-[connection signal="pressed" from="Record Submission" to="Scrollbar of List/List" method="_on_record_submission_pressed"]
-[connection signal="pressed" from="Discord" to="Scrollbar of List/List" method="_on_discord_pressed"]
+[connection signal="request_completed" from="Window/HTTPRequest" to="Scrollbar of List/MarginContainer/List" method="_on_http_request_request_completed"]
+[connection signal="text_changed" from="Search Filter" to="Scrollbar of List/MarginContainer/List" method="_on_search_filter_text_changed"]
+[connection signal="pressed" from="Leaderboard button" to="Scrollbar of List/MarginContainer/List" method="_on_leaderboard_button_pressed"]
+[connection signal="pressed" from="List button" to="Scrollbar of List/MarginContainer/List" method="_on_list_button_pressed"]
+[connection signal="item_selected" from="PointEquation" to="Scrollbar of List/MarginContainer/List" method="_on_point_equation_item_selected"]
+[connection signal="item_selected" from="Listtoload" to="Scrollbar of List/MarginContainer/List" method="_on_listtoload_item_selected"]
+[connection signal="item_selected" from="Sort by" to="Scrollbar of List/MarginContainer/List" method="_on_sort_by_item_selected"]
+[connection signal="pressed" from="Record Submission" to="Scrollbar of List/MarginContainer/List" method="_on_record_submission_pressed"]
+[connection signal="pressed" from="Discord" to="Scrollbar of List/MarginContainer/List" method="_on_discord_pressed"]

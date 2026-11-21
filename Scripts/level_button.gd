@@ -1,5 +1,5 @@
 extends Button
-@onready var list = get_node(^"/root/Website/Scrollbar of List/List")
+@onready var list = get_node(^"/root/Website/Scrollbar of List/MarginContainer/List")
 
 var levelname = ""
 # Called when the node enters the scene tree for the first time.

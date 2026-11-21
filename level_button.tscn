@@ -2,17 +2,65 @@
 
 [ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://Scripts/level_button.gd" id="1_k6cd2"]
 [ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://Scripts/thumbnail.gd" id="2_j8bpn"]
+[ext_resource type="Texture2D" uid="uid://rl4xjitrsjoi" path="res://Thumbnails/30 seconds of pure memory.png" id="2_shs6u"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_shs6u"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.62352943, 0.7176471, 0.83137256, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 4.0
+expand_margin_right = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_txyvr"]
+bg_color = Color(0.065986276, 0.31252605, 0.3526203, 0.5372549)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.62352943, 0.7176471, 0.83137256, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 4.0
+expand_margin_right = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k1cd6"]
+bg_color = Color(0.38431373, 0.7882353, 0.8666667, 0.30588236)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.62352943, 0.7176471, 0.83137256, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 4.0
+expand_margin_right = 3.0
 
 [node name="LevelButton" type="Button" unique_id=957402781 groups=["LevelButton"]]
 custom_minimum_size = Vector2(300, 60)
-offset_top = -4.0
-offset_right = 300.0
-offset_bottom = 57.0
+anchors_preset = -1
+anchor_left = -0.008
+anchor_top = -0.021000002
+anchor_right = 0.268
+anchor_bottom = 0.105000004
+offset_left = 17.76144
+offset_top = 13.608001
+offset_right = -0.19058228
+offset_bottom = 1.9599991
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_shs6u")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_txyvr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_k1cd6")
 text = "            "
 alignment = 0
 script = ExtResource("1_k6cd2")
@@ -23,14 +71,18 @@ offset_left = 35.400032
 offset_top = 11.399999
 offset_right = 256.0
 offset_bottom = 34.399998
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
 text = "Theory of continuity"
 clip_text = true
 
 [node name="Position" type="Label" parent="." unique_id=447612275]
 layout_mode = 0
-offset_top = 1.2
-offset_right = 20.0
-offset_bottom = 59.6
+offset_left = 9.0
+offset_top = 6.2
+offset_right = 29.0
+offset_bottom = 64.6
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 14
 text = "#1"
 vertical_alignment = 1
@@ -41,23 +93,26 @@ offset_left = 37.400005
 offset_top = 34.199993
 offset_right = 118.40001
 offset_bottom = 57.199993
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 15
 text = "GWATeam"
 
 [node name="Rating" type="Label" parent="." unique_id=98808866]
 layout_mode = 0
-offset_left = 230.40004
-offset_top = 21.799997
-offset_right = 297.2
-offset_bottom = 35.75833
+offset_left = 227.40004
+offset_top = 19.799997
+offset_right = 294.2
+offset_bottom = 33.75833
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 10
 text = "feature"
 horizontal_alignment = 2
 
 [node name="Thumbnail" type="Sprite2D" parent="." unique_id=1387221007]
 z_index = -1
-position = Vector2(149.2, 30.2)
+position = Vector2(150.2, 29.2)
 scale = Vector2(0.27278212, 0.27110732)
+texture = ExtResource("2_shs6u")
 region_enabled = true
 region_rect = Rect2(0, 0, 1099.979, 210.672)
 script = ExtResource("2_j8bpn")
@@ -65,10 +120,11 @@ Region = Rect2(0, 0, 1100, 210)
 
 [node name="Percentage" type="Label" parent="." unique_id=363404614]
 layout_mode = 0
-offset_left = 252.93999
+offset_left = 249.93999
 offset_top = 39.04
-offset_right = 295.39984
+offset_right = 292.39984
 offset_bottom = 52.998337
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 10
 text = "100%"
 horizontal_alignment = 2

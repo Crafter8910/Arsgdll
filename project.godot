@@ -36,6 +36,7 @@ User=""
 [gui]
 
 theme/default_font_multichannel_signed_distance_field=true
+theme/custom_font="uid://byuwky5txc8rl"
 
 [importer_defaults]
 

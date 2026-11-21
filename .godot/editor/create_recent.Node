@@ -1,3 +1,5 @@
+MarginContainer
+Control
 TextureButton
 Button
 Label
@@ -11,4 +13,3 @@ Sprite2D
 TextureRect
 FlowContainer
 LineEdit
-VScrollBar
