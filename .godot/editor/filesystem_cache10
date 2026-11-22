@@ -1,9 +1,9 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1795307999
+::res://::1795308138
 export_presets.cfg::TextFile::-1::1795307709::0::1::::<><><>0<>0<><>::
 hover_component.gd::GDScript::7313248646745223287::1795306060::0::1::::<>Node2D<><>0<>0<><>::
 hover_component.tscn::PackedScene::1495237630883456927::1794874039::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hover_component.gd
-level_button.tscn::PackedScene::7912892714340942875::1795307999::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd<>uid://muy7iie2555t::::res://Thumbnails/Into the Wild.png
+level_button.tscn::PackedScene::7912892714340942875::1795308138::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd<>uid://muy7iie2555t::::res://Thumbnails/into the wild.png
 level_description.tscn::PackedScene::6371008162799707464::1794975463::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://b1d2o36fcrutn::::res://Assets/Easy Demon.png<>uid://i2q2t86n4stt::::res://Assets/Featured.png
 list.tscn::PackedScene::4781196022381542684::1795307976::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg<>uid://djko1y3ltyl48::::res://fonts/josefin-sans/JosefinSans-SemiBold.ttf
 player_description.tscn::PackedScene::6399935024517206429::1795306104::0::1::::<><><>0<>0<><>::
@@ -61,7 +61,7 @@ JosefinSans-SemiBold.ttf::FontFile::7812503194243514359::1397558850::1795236281:
 JosefinSans-SemiBoldItalic.ttf::FontFile::2133899854959826702::1397558850::1795236281::1::::<><><>0<>0<>e8e7bb93c39142504e86566af71f07ad<>res://.godot/imported/JosefinSans-SemiBoldItalic.ttf-ec760ed4e12443b66aa369325c1aa30a.fontdata::
 JosefinSans-Thin.ttf::FontFile::4455437922037385353::1397558850::1795236281::1::::<><><>0<>0<>9cc1cf23533a17d9ed7b51402749f1ae<>res://.godot/imported/JosefinSans-Thin.ttf-5e0754783f4548e059461ed60d09bbe1.fontdata::
 JosefinSans-ThinItalic.ttf::FontFile::1612789542418122682::1397558850::1795236281::1::::<><><>0<>0<>521326f77e0c7a3f23a3db8417a3c663<>res://.godot/imported/JosefinSans-ThinItalic.ttf-700968ce7165b8c86c87764901dfd687.fontdata::
-::res://Levels/::1795307976
+::res://Levels/::1795308076
 2.2 layout.json::JSON::-1::1794877039::0::1::::<><><>0<>0<><>::
 30 seconds of pure memory.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 -Cluster Caverns-.json::JSON::-1::1795227101::0::1::::<><><>0<>0<><>::
@@ -88,7 +88,7 @@ Barracuda.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 BEYOND ALL LIMITS.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Biological Infiltration.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Bite back.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-black and white.json::JSON::-1::1795237290::0::1::::<><><>0<>0<><>::
+Black And White.json::JSON::-1::1795308076::0::1::::<><><>0<>0<><>::
 Blood in the Water.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Blood Trials.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Bloodbath.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -366,7 +366,7 @@ window.gd::GDScript::4835533691697469406::1794878414::0::1::::<>Window<><>0<>0<>
 ::res://Styles/::1794874039
 button.tres::StyleBoxFlat::6265284477952910707::1794874039::0::1::::<><><>0<>0<><>::
 hover.tres::StyleBoxFlat::5151060389947624266::1794874039::0::1::::<><><>0<>0<><>::
-::res://Thumbnails/::1795235961
+::res://Thumbnails/::1795308138
 2.2 layout.png::CompressedTexture2D::220584841421906521::1795058801::1795058805::0::::<><><>0<>0<>a18c6adf45aaf136fbf23663dd882545<>::
 30 seconds of pure memory.png::CompressedTexture2D::1217720849146543880::1795058801::1795058805::1::::<><><>0<>0<>e4bb73d456d635090c917e16415b1d3b<>res://.godot/imported/30 seconds of pure memory.png-5df19b27ba6c90ff814645ce334ec887.ctex::
 -Cluster Caverns-.png::CompressedTexture2D::7591262200577062495::1795058801::1795058805::1::::<><><>0<>0<>788e1ca8b6e7dfe312cd74d23b520044<>res://.godot/imported/-Cluster Caverns-.png-fc710a77a0e74da19a8e4330e3ecbdd9.ctex::
@@ -495,7 +495,7 @@ In Circles.png::CompressedTexture2D::9137586295409209591::1795058801::1795058805
 Infinite Cosmos.png::CompressedTexture2D::115319189375863473::1795058801::1795058805::1::::<><><>0<>0<>a53dd2d001e7d6ae027d017f8af653e9<>res://.godot/imported/Infinite Cosmos.png-7bb033bf813840b44639f9c7fb820f25.ctex::
 Intercept.png::CompressedTexture2D::5968615036748002637::1795058801::1795058805::1::::<><><>0<>0<>7a380a3d786cc6775bc8ff52eafbcb6f<>res://.godot/imported/Intercept.png-67cd8ba321eb9d06f841cfb9234f0d8a.ctex::
 Interstellar.png::CompressedTexture2D::8685723125212713775::1795058801::1795058805::1::::<><><>0<>0<>425801dab9c204a4a61865ebc03cdf8e<>res://.godot/imported/Interstellar.png-0d66991c09983efd0c346199a2dac5a1.ctex::
-Into the Wild.png::CompressedTexture2D::885068464733210023::1795058801::1795134714::1::::<><><>0<>0<>6c07a549105348cdbecb943eb48bc052<>res://.godot/imported/Into the Wild.png-5978b7744fd81df66aed651747473446.ctex::
+into the wild.png::CompressedTexture2D::885068464733210023::1795058801::1795308138::1::::<><><>0<>0<>371702b3e34f73830c43b64a3cd88924<>res://.godot/imported/into the wild.png-11ca73074116594fe6fe97f4748e5608.ctex::
 Invisible End.png::CompressedTexture2D::321917361627674624::1795058801::1795058806::1::::<><><>0<>0<>5db20f3c7145e2d79646dc0ec2ffdafb<>res://.godot/imported/Invisible End.png-9a916feadece0e70b73692576be434f4.ctex::
 Iraqophobia.png::CompressedTexture2D::929176887670177237::1795058801::1795058806::1::::<><><>0<>0<>68d2d3611e7664671d30ac0564719b3d<>res://.godot/imported/Iraqophobia.png-867fc7be0fff835085b18c55b07a46bb.ctex::
 It's Boshy Time!.png::CompressedTexture2D::5586697602981963564::1795058801::1795058806::0::::<><><>0<>0<>a7deb643f86a38b25fb9c3cef614e195<>::

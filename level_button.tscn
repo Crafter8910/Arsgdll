@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://Scripts/level_button.gd" id="1_k6cd2"]
 [ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://Scripts/thumbnail.gd" id="2_j8bpn"]
-[ext_resource type="Texture2D" uid="uid://muy7iie2555t" path="res://Thumbnails/Into the Wild.png" id="2_shs6u"]
+[ext_resource type="Texture2D" uid="uid://muy7iie2555t" path="res://Thumbnails/into the wild.png" id="2_shs6u"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_shs6u"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
