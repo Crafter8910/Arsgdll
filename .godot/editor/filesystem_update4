@@ -1,23 +1,5 @@
 res://level_button.tscn
-res://hover_component.gd
-res://Scripts/level_button.gd
-res://Scripts/List.gd
-res://Scripts/thumbnail.gd
-res://record.tscn
-res://Scripts/record.gd
-res://player_description.tscn
+res://level_description.tscn
+res://flow_container.gd
 res://list.tscn
-res://Data/List.json
-res://List.tscn
-res://Data/Unverified list.json
-res://Levels/gold + scrap = netherite.json
 res://export_presets.cfg
-res://Levels/black and white.json
-res://Levels/Black And White.json
-res://Thumbnails/Into the Wild.png
-res://Thumbnails/into the wild.png
-res://Levels/into the wild.json
-res://Thumbnails/Hidden in the Sand.png
-res://Thumbnails/Hidden in the sand.png
-res://Thumbnails/Notion.png
-res://Thumbnails/notion.png

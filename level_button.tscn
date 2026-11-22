@@ -94,11 +94,13 @@ vertical_alignment = 1
 layout_mode = 0
 offset_left = 37.400005
 offset_top = 34.199993
-offset_right = 118.40001
-offset_bottom = 57.199993
+offset_right = 271.45456
+offset_bottom = 68.0
 theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 15
 text = "GWATeam"
+autowrap_mode = 2
+clip_text = true
 
 [node name="Rating" type="Label" parent="." unique_id=98808866]
 layout_mode = 0

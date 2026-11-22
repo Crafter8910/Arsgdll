@@ -2,12 +2,13 @@
 
 [ext_resource type="Script" uid="uid://i1d02l350aul" path="res://Scripts/level_description.gd" id="1_2cslj"]
 [ext_resource type="Texture2D" uid="uid://bpwu3003dim7o" path="res://Assets/Turbowarp Icon.png" id="2_oul27"]
-[ext_resource type="Texture2D" uid="uid://hdabomrxlljd" path="res://Assets/Scratch Icon.png" id="3_yp1oy"]
-[ext_resource type="Texture2D" uid="uid://bej2535tqyb4a" path="res://Assets/Itch Icon.png" id="4_h0lew"]
-[ext_resource type="Texture2D" uid="uid://ja1rorlkx2gk" path="res://Assets/Codetorch Icon.png" id="5_66c5p"]
+[ext_resource type="Texture2D" uid="uid://hdabomrxlljd" path="res://Thumbnails/Scratch Icon.png" id="3_yp1oy"]
+[ext_resource type="Texture2D" uid="uid://bej2535tqyb4a" path="res://Thumbnails/Itch Icon.png" id="4_h0lew"]
+[ext_resource type="Texture2D" uid="uid://ja1rorlkx2gk" path="res://Thumbnails/Codetorch Icon.png" id="5_66c5p"]
+[ext_resource type="Script" uid="uid://bq7lhwp0oiqo4" path="res://flow_container.gd" id="6_32iek"]
 [ext_resource type="PackedScene" uid="uid://fbnjrcxwyf7r" path="res://tag.tscn" id="6_duva7"]
 [ext_resource type="Texture2D" uid="uid://b1d2o36fcrutn" path="res://Assets/Easy Demon.png" id="7_14hyy"]
-[ext_resource type="Texture2D" uid="uid://i2q2t86n4stt" path="res://Assets/Featured.png" id="8_14hyy"]
+[ext_resource type="Texture2D" uid="uid://i2q2t86n4stt" path="res://Thumbnails/Featured.png" id="8_14hyy"]
 
 [node name="LevelDescription" type="Control" unique_id=961837041]
 layout_mode = 3
@@ -135,52 +136,72 @@ autowrap_mode = 2
 paragraph_separator = "<br>"
 
 [node name="FlowContainer" type="FlowContainer" parent="." unique_id=976951688]
+clip_contents = true
 layout_mode = 0
-offset_left = -191.0
-offset_top = 316.0
-offset_right = 472.0
-offset_bottom = 456.0
-theme_override_constants/h_separation = 56
+offset_left = -191.00002
+offset_top = 311.0
+offset_right = 588.99994
+offset_bottom = 525.28564
+scale = Vector2(0.7, 0.7)
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 15
+script = ExtResource("6_32iek")
 
 [node name="Enjoyment" type="Label" parent="FlowContainer" unique_id=1424621922]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Enjoyment: 80"
+autowrap_mode = 2
 
 [node name="Difficulty" type="Label" parent="FlowContainer" unique_id=1489507288]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
-text = "Easy Demon"
+text = "Difficulty: Easy Demon"
+autowrap_mode = 2
 
 [node name="Minimum Percentage" type="Label" parent="FlowContainer" unique_id=262979701]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Percent to qualify: 67%"
+autowrap_mode = 2
 
 [node name="Hertz" type="Label" parent="FlowContainer" unique_id=130538355]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Hertz verified on: 60"
+autowrap_mode = 2
 
 [node name="Points" type="Label" parent="FlowContainer" unique_id=161486491]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Points: 350"
+autowrap_mode = 2
 
 [node name="Verifier" type="Label" parent="FlowContainer" unique_id=435720600]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Verifier: thomaslyu"
+autowrap_mode = 2
 
 [node name="Creator" type="Label" parent="FlowContainer" unique_id=1070328856]
+custom_minimum_size = Vector2(400, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Creators: Takayukihiro"
+autowrap_mode = 2
 
 [node name="Engine" type="Label" parent="FlowContainer" unique_id=1909125088]
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "Engine: GDR"
+autowrap_mode = 2
 
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=317091307]
 layout_mode = 0
