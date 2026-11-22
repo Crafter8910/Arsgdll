@@ -17,6 +17,7 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 expand_margin_left = 4.0
 expand_margin_right = 3.0
+expand_margin_bottom = 6.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_txyvr"]
 bg_color = Color(0.065986276, 0.31252605, 0.3526203, 0.5372549)
@@ -31,6 +32,7 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 expand_margin_left = 4.0
 expand_margin_right = 3.0
+expand_margin_bottom = 6.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k1cd6"]
 bg_color = Color(0.38431373, 0.7882353, 0.8666667, 0.30588236)
@@ -45,6 +47,7 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 expand_margin_left = 4.0
 expand_margin_right = 3.0
+expand_margin_bottom = 6.0
 
 [node name="LevelButton" type="Button" unique_id=957402781 groups=["LevelButton"]]
 custom_minimum_size = Vector2(300, 60)

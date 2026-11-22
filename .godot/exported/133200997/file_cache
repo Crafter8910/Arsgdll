@@ -1,11 +1,11 @@
-res://level_button.tscn::bc18685a37e9faab297879adf5660b07::1795236740::res://.godot/exported/133200997/export-bdf5682cf38f382048b2b255293a9b9b-level_button.scn
+res://level_button.tscn::c9173ad8a65329a7b69c8869f2f9e4f5::1795306078::res://.godot/exported/133200997/export-bdf5682cf38f382048b2b255293a9b9b-level_button.scn
 res://level_description.tscn::2680d2fbcf153f1cef678c6e381d1ca6::1794975463::res://.godot/exported/133200997/export-c400c82f3b96bf40c5be71dc0884d0bf-level_description.scn
-res://List.tscn::51ac68ea5fcfa08247e04b7f0cf081b3::1795236644::res://.godot/exported/133200997/export-c48b5a32fe21b80882e9caad7ce7e5af-List.scn
 res://tag.tscn::d880e5caa167fd9b712013938cb2e311::1794874039::res://.godot/exported/133200997/export-c85c2e6a6227bc4ae7c75422a05ae854-tag.scn
 res://the_empty_space.tscn::e0fd4b67f839e74ae85236696cf8e582::1794874039::res://.godot/exported/133200997/export-32635b0acbb06d9f45095898242d8254-the_empty_space.scn
-res://record.tscn::62de6cfba9e1baf3039fdcc37110c676::1794970971::res://.godot/exported/133200997/export-6a0ddc3a4ee217b10ac09b2f34bc2322-record.scn
-res://player_description.tscn::3637d9f8ba6a2a2c26538b9efc39bdb1::1794874754::res://.godot/exported/133200997/export-577ca83f5d0282568ee4a5c326309417-player_description.scn
+res://record.tscn::62de6cfba9e1baf3039fdcc37110c676::1795306100::res://.godot/exported/133200997/export-6a0ddc3a4ee217b10ac09b2f34bc2322-record.scn
+res://player_description.tscn::22e994e5f51e2160b905d10d2e6d587a::1795306104::res://.godot/exported/133200997/export-577ca83f5d0282568ee4a5c326309417-player_description.scn
 res://user.tscn::03118a185a6755ce7b3a9235720fe612::1794874039::res://.godot/exported/133200997/export-fa5595a0cd6e50b1fd8b0f04f8de6207-user.scn
 res://Styles/button.tres::8c49becbdf26293790246cac3a5c02e9::1794874039::res://.godot/exported/133200997/export-27d9cec17a41295c326cc8c446e5cb02-button.res
 res://Styles/hover.tres::6435587470ed6b3ee420cb67c47695fe::1794874039::res://.godot/exported/133200997/export-7bf7fc2a548438ec53760132bfe18e93-hover.res
 res://hover_component.tscn::f4eb419cdc0ad0e3e1600043188e85d1::1794874039::res://.godot/exported/133200997/export-12bc6c4990ee0dbca364777d8b4b4de0-hover_component.scn
+res://list.tscn::134ca8d51fb1046fc7066feb5f0f8837::1795307622::res://.godot/exported/133200997/export-4e9dfc8cdbbb58728c4494dc40bde5d9-list.scn
