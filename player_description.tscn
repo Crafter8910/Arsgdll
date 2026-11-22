@@ -67,7 +67,6 @@ offset_right = 350.0
 offset_bottom = 554.0
 
 [node name="Created" type="VBoxContainer" parent="CreatedScroll" unique_id=271640802]
-visible = false
 layout_mode = 2
 theme_override_constants/separation = 4
 

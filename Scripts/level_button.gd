@@ -19,4 +19,5 @@ func _on_pressed() -> void:
   if levelname == "Operation: Evolution":
     list.loadleveldata("Operation Evolution")
     return
+  #Returns different values based on the names
   list.loadleveldata(levelname)

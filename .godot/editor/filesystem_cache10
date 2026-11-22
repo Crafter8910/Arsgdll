@@ -1,14 +1,14 @@
 9cad1ddce9e5a63143ba340c9520626b
-::res://::1795236591
-export_presets.cfg::TextFile::-1::1795150478::0::1::::<><><>0<>0<><>::
-hover_component.gd::GDScript::7313248646745223287::1794877455::0::1::::<>Node2D<><>0<>0<><>::
+::res://::1795307441
+export_presets.cfg::TextFile::-1::1795236875::0::1::::<><><>0<>0<><>::
+hover_component.gd::GDScript::7313248646745223287::1795306060::0::1::::<>Node2D<><>0<>0<><>::
 hover_component.tscn::PackedScene::1495237630883456927::1794874039::0::1::::<><><>0<>0<><>::uid://dcguewcfdbi84::::res://hover_component.gd
-level_button.tscn::PackedScene::7912892714340942875::1795235785::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd<>uid://rl4xjitrsjoi::::res://Thumbnails/30 seconds of pure memory.png
+level_button.tscn::PackedScene::7912892714340942875::1795306078::0::1::::<><><>0<>0<><>::uid://8we3c0ca66rv::::res://Scripts/level_button.gd<>uid://cmyqbbiqnrjnl::::res://Scripts/thumbnail.gd<>uid://muy7iie2555t::::res://Thumbnails/Into the Wild.png
 level_description.tscn::PackedScene::6371008162799707464::1794975463::0::1::::<><><>0<>0<><>::uid://i1d02l350aul::::res://Scripts/level_description.gd<>uid://bpwu3003dim7o::::res://Assets/Turbowarp Icon.png<>uid://hdabomrxlljd::::res://Assets/Scratch Icon.png<>uid://bej2535tqyb4a::::res://Assets/Itch Icon.png<>uid://ja1rorlkx2gk::::res://Assets/Codetorch Icon.png<>uid://fbnjrcxwyf7r::::res://tag.tscn<>uid://b1d2o36fcrutn::::res://Assets/Easy Demon.png<>uid://i2q2t86n4stt::::res://Assets/Featured.png
-List.tscn::PackedScene::4781196022381542684::1795236589::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg<>uid://djko1y3ltyl48::::res://fonts/josefin-sans/JosefinSans-SemiBold.ttf
-player_description.tscn::PackedScene::6399935024517206429::1794874754::0::1::::<><><>0<>0<><>::
+List.tscn::PackedScene::4781196022381542684::1795307441::0::1::::<><><>0<>0<><>::uid://ksvplyc7p33p::::res://Scripts/List.gd<>uid://b00k0t64icbxa::::res://Assets/White Square.png<>uid://ca5msevu7fxtu::::res://Scripts/window.gd<>uid://cw1ftrd1h43d1::::res://level_description.tscn<>uid://cxgf83acsmfrh::::res://player_description.tscn<>uid://cvi7k45t7qub8::::res://Styles/button.tres<>uid://cfnhhhee2742q::::res://Styles/hover.tres<>uid://vkkl0guqwwp0::::res://hover_component.tscn<>uid://db1jitm8co3xt::::res://Assets/Discord.svg<>uid://djko1y3ltyl48::::res://fonts/josefin-sans/JosefinSans-SemiBold.ttf
+player_description.tscn::PackedScene::6399935024517206429::1795306104::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1794874039::0::1::::<><><>0<>0<><>::
-record.tscn::PackedScene::4394142548660707564::1794970971::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
+record.tscn::PackedScene::4394142548660707564::1795306100::0::1::::<><><>0<>0<><>::uid://bnvtv03ypp72j::::res://Scripts/record.gd
 scrollbar_of_list.gd::GDScript::6921927449119747106::1794874039::0::1::::<>ScrollContainer<><>0<>0<><>::
 tag.tscn::PackedScene::353814886057255397::1794874039::0::1::::<><><>0<>0<><>::uid://ctv33mqldkc6::::res://Scripts/tag.gd
 the_empty_space.tscn::PackedScene::3077804655635958696::1794874039::0::1::::<><><>0<>0<><>::
@@ -43,8 +43,8 @@ Turbowarp Icon.png::CompressedTexture2D::3485935343917962542::1794874038::179487
 web demon.png::CompressedTexture2D::8843322386725478500::1795058801::1795059012::1::::<><><>0<>0<>4d94c4079d84b04f20ea033987a114a9<>res://.godot/imported/web demon.png-add0121979b7d629d40eaa1b23103a90.ctex::
 what could ts be.png::CompressedTexture2D::3550312255319244145::1795058801::1795059012::1::::<><><>0<>0<>f45c223b7a9f4932cd621fc8671011d0<>res://.godot/imported/what could ts be.png-f832067ecb13536c2e5e23ba6e0b28ca.ctex::
 White Square.png::CompressedTexture2D::4193404080431680258::1794874038::1794874039::1::::<><><>0<>0<>ca557b1c37dc12b97bc6b091768ac34e<>res://.godot/imported/White Square.png-667c558059434fd8d37fd4f7487a18ad.ctex::
-::res://Data/::1795225270
-List.json::JSON::-1::1795058141::0::1::::<><><>0<>0<><>::
+::res://Data/::1795307415
+List.json::JSON::-1::1795307415::0::1::::<><><>0<>0<><>::
 Other levels.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Sgd list.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 TagDescriptions.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -61,7 +61,7 @@ JosefinSans-SemiBold.ttf::FontFile::7812503194243514359::1397558850::1795236281:
 JosefinSans-SemiBoldItalic.ttf::FontFile::2133899854959826702::1397558850::1795236281::1::::<><><>0<>0<>e8e7bb93c39142504e86566af71f07ad<>res://.godot/imported/JosefinSans-SemiBoldItalic.ttf-ec760ed4e12443b66aa369325c1aa30a.fontdata::
 JosefinSans-Thin.ttf::FontFile::4455437922037385353::1397558850::1795236281::1::::<><><>0<>0<>9cc1cf23533a17d9ed7b51402749f1ae<>res://.godot/imported/JosefinSans-Thin.ttf-5e0754783f4548e059461ed60d09bbe1.fontdata::
 JosefinSans-ThinItalic.ttf::FontFile::1612789542418122682::1397558850::1795236281::1::::<><><>0<>0<>521326f77e0c7a3f23a3db8417a3c663<>res://.godot/imported/JosefinSans-ThinItalic.ttf-700968ce7165b8c86c87764901dfd687.fontdata::
-::res://Levels/::1795236294
+::res://Levels/::1795237290
 2.2 layout.json::JSON::-1::1794877039::0::1::::<><><>0<>0<><>::
 30 seconds of pure memory.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 -Cluster Caverns-.json::JSON::-1::1795227101::0::1::::<><><>0<>0<><>::
@@ -88,7 +88,7 @@ Barracuda.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 BEYOND ALL LIMITS.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Biological Infiltration.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Bite back.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
-black and white.json::JSON::-1::1795230445::0::1::::<><><>0<>0<><>::
+black and white.json::JSON::-1::1795237290::0::1::::<><><>0<>0<><>::
 Blood in the Water.json::JSON::-1::1794874697::0::1::::<><><>0<>0<><>::
 Blood Trials.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Bloodbath.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
@@ -355,13 +355,13 @@ Winter [unnerfed].json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Winter.json::JSON::-1::1794874039::0::1::::<><><>0<>0<><>::
 Your Death.json::JSON::-1::1795058959::0::1::::<><><>0<>0<><>::
 ::res://LoadedData/::1795225936
-::res://Scripts/::1795236522
-level_button.gd::GDScript::2361941164603723083::1795235303::0::1::::<>Button<><>0<>0<><>::
+::res://Scripts/::1795307272
+level_button.gd::GDScript::2361941164603723083::1795306060::0::1::::<>Button<><>0<>0<><>::
 level_description.gd::GDScript::615412802972302747::1794874733::0::1::::<>Control<><>0<>0<><>::
-List.gd::GDScript::740349694676483055::1795236522::0::1::::<>VBoxContainer<><>0<>0<><>::
-record.gd::GDScript::3343420065806742919::1794874697::0::1::::<>Button<><>0<>0<><>::
+List.gd::GDScript::740349694676483055::1795307272::0::1::::<>VBoxContainer<><>0<>0<><>::
+record.gd::GDScript::3343420065806742919::1795306100::0::1::::<>Button<><>0<>0<><>::
 tag.gd::GDScript::180927413613886419::1794874705::0::1::::<>Button<><>0<>0<><>::
-thumbnail.gd::GDScript::5665625880444997313::1794974460::0::1::::<>Sprite2D<><>0<>0<><>::
+thumbnail.gd::GDScript::5665625880444997313::1795306078::0::1::::<>Sprite2D<><>0<>0<><>::
 window.gd::GDScript::4835533691697469406::1794878414::0::1::::<>Window<><>0<>0<><>::
 ::res://Styles/::1794874039
 button.tres::StyleBoxFlat::6265284477952910707::1794874039::0::1::::<><><>0<>0<><>::

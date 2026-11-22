@@ -1,2 +1,11 @@
-res://list.tscn
 res://level_button.tscn
+res://hover_component.gd
+res://Scripts/level_button.gd
+res://Scripts/List.gd
+res://Scripts/thumbnail.gd
+res://record.tscn
+res://Scripts/record.gd
+res://player_description.tscn
+res://list.tscn
+res://Data/List.json
+res://List.tscn

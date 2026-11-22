@@ -16,4 +16,4 @@ func _on_pressed() -> void:
     JavaScriptBridge.eval("window.location.href='%s'" %link) 
   else:
     OS.shell_open("%s" % link) 
- # Replace with function body.
+ #Redirects to the link of the record (defined in list.json)

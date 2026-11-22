@@ -12,8 +12,4 @@ func _process(_delta: float) -> void:
       region_rect = Rect2(0, 0, (texture.get_width()/Region.size.x) * Region.size.x, (texture.get_width()/Region.size.x)*Region.size.y)
       apply_scale(Vector2(Region.size.x/texture.get_width(),Region.size.x/texture.get_width()))
       return
-#		elif texture.get_height() < Region.size.y*0.271:
-    #	scaled = true
-      #region_rect = Rect2(0, 0, (texture.get_width()/Region.size.y) * Region.size.x, (texture.get_width()/Region.size.y)*Region.size.y)
-    ##	apply_scale(Vector2(Region.size.y/texture.get_width(),Region.size.y/texture.get_width()))
-    
+  #Resizes the texture based on its dimensions and crops it

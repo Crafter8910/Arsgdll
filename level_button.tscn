@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://8we3c0ca66rv" path="res://Scripts/level_button.gd" id="1_k6cd2"]
 [ext_resource type="Script" uid="uid://cmyqbbiqnrjnl" path="res://Scripts/thumbnail.gd" id="2_j8bpn"]
-[ext_resource type="Texture2D" uid="uid://rl4xjitrsjoi" path="res://Thumbnails/30 seconds of pure memory.png" id="2_shs6u"]
+[ext_resource type="Texture2D" uid="uid://muy7iie2555t" path="res://Thumbnails/Into the Wild.png" id="2_shs6u"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_shs6u"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
@@ -110,7 +110,7 @@ horizontal_alignment = 2
 
 [node name="Thumbnail" type="Sprite2D" parent="." unique_id=1387221007]
 z_index = -1
-position = Vector2(150.2, 29.2)
+position = Vector2(150.2, 35.2)
 scale = Vector2(0.27278212, 0.27110732)
 texture = ExtResource("2_shs6u")
 region_enabled = true
