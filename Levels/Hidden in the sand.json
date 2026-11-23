@@ -9,17 +9,17 @@
     "demonDifficulty": "Hard Demon",
     "description": "We were playing in the sand...",
     "engine": "GDR",
-	"enj": 35,
-	"hz": 60,
-	"tags": ["Wave", "Timings", "Medium"],
-	"rating": 2,
+  "enj": 35,
+  "hz": 60,
+  "tags": ["Wave", "Timings", "Medium"],
+  "rating": 2,
     "records": [
-		{
-			"user": "Wallyboom2010",
-			"link": "https://www.youtube.com/watch?v=VKlRMFElnmY",
-			"percent": 100,
-			"hz": 60,
-			"enj": 40
-		}
+    {
+      "user": "Wallyboom2010",
+      "link": "https://www.youtube.com/watch?v=VKlRMFElnmY",
+      "percent": 100,
+      "hz": 60,
+      "enj": 40
+    }
     ]
 }

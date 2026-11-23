@@ -91,10 +91,11 @@ text = "#1"
 vertical_alignment = 1
 
 [node name="Author" type="Label" parent="." unique_id=161009795]
+custom_minimum_size = Vector2(220, 0)
 layout_mode = 0
 offset_left = 37.400005
 offset_top = 34.199993
-offset_right = 271.45456
+offset_right = 212.40001
 offset_bottom = 68.0
 theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 15
@@ -104,12 +105,12 @@ clip_text = true
 
 [node name="Rating" type="Label" parent="." unique_id=98808866]
 layout_mode = 0
-offset_left = 227.40004
-offset_top = 19.799997
-offset_right = 294.2
-offset_bottom = 33.75833
+offset_left = 230.40004
+offset_top = 18.799997
+offset_right = 297.2
+offset_bottom = 38.799995
 theme_override_constants/outline_size = 2
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 20
 text = "feature"
 horizontal_alignment = 2
 
@@ -125,12 +126,12 @@ Region = Rect2(0, 0, 1100, 210)
 
 [node name="Percentage" type="Label" parent="." unique_id=363404614]
 layout_mode = 0
-offset_left = 249.93999
-offset_top = 39.04
-offset_right = 292.39984
-offset_bottom = 52.998337
+offset_left = 250.93999
+offset_top = 44.04
+offset_right = 293.39984
+offset_bottom = 60.04
 theme_override_constants/outline_size = 2
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 15
 text = "100%"
 horizontal_alignment = 2
 

@@ -26,12 +26,6 @@ func _process(delta: float) -> void:
   
 
 func _ready() -> void:
-  for child in get_children():
-    if child is Label or child is Button or child is OptionButton:
-      child.font = load("res://fonts/josefin-sans/JosefinSans-SemiBold.ttf")
-  #add_child(http)
-#  for file in DirAccess.get_files_at("res://LoadedData"):
-  #  DirAccess.remove_absolute("res://LoadedData" + file)
   
   downloadfiles() 
     #pass
@@ -81,7 +75,9 @@ func downloadfiles():
       result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
     
     downloadedfiles["LoadedData/" + list.replace("%20", " ") + ".json"]  = result
-    var listdata = getdata("res://LoadedData/" + list + ".json")
+  loadlist()  
+  for listthumbnail in lists:
+    var listdata = getdata("res://LoadedData/" + listthumbnail + ".json")
     for level in listdata:
       if not ResourceLoader.exists("res://Levels/" + level + ".json"):
         result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json")
@@ -89,7 +85,6 @@ func downloadfiles():
       if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
         result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level.replace(" ", "%20") + ".png")
         downloadedfiles["Thumbnails/" + level.replace("%20", " ")  +".png"] = result
-  loadlist()  
 
 #Loading ui
 func loadlist(filterstring: String = "", filter = false):
@@ -381,14 +376,14 @@ func loaduser(user: String, points: float, place: int):
   var verifiedlevels = 0
   var completedlevels = 0
 
-  for child in playerdesc.get_node("CompletedScroll").get_node("Completed").get_children():
+  for child in playerdesc.get_node("CompletedScroll").get_node("MarginContainer").get_node("Completed").get_children():
     if child is Button:
       child.queue_free()
       #Deletes every node in the completed node to reset it, same with verified/created
-  for child in playerdesc.get_node("VerifiedScroll").get_node("Verified").get_children():
+  for child in playerdesc.get_node("VerifiedScroll").get_node("MarginContainer").get_node("Verified").get_children():
     if child is Button:
       child.queue_free()
-  for child in playerdesc.get_node("CreatedScroll").get_node("Created").get_children():
+  for child in playerdesc.get_node("CreatedScroll").get_node("MarginContainer").get_node("Created").get_children():
     if child is Button:
       child.queue_free()
   playerdesc.get_node("Name").text = user
@@ -415,7 +410,7 @@ func loaduser(user: String, points: float, place: int):
         else:
           level.get_node("Rating").text = "no star"
 
-        playerdesc.get_node("VerifiedScroll").get_node("Verified").add_child(level)
+        playerdesc.get_node("VerifiedScroll").get_node("MarginContainer").get_node("Verified").add_child(level)
 
     if leveldata.has("records"):
       for record in leveldata["records"]:
@@ -425,18 +420,19 @@ func loaduser(user: String, points: float, place: int):
           completedlevels += 1
           level.get_node("Name").text = str(i)
           level.get_node("Author").text = "+ " + str(calculatepoints(list.find(i) + 1, point_equation.selected))
-          level.get_node("Percentage").text = "%" + str(int(record["percent"]))
+          level.get_node("Percentage").text = str(int(record["percent"])) + "%" 
           level.levelname = i
           if ResourceLoader.exists("res://Thumbnails/" + str(leveldata["name"]) + ".png"):
             level.get_node("Thumbnail").texture = load("res://Thumbnails/" + str(leveldata["name"]) + ".png")
           else:
             level.get_node("Thumbnail").texture = getdata("res://Thumbnails/" + str(leveldata["name"]) + ".png")    
-          level.get_node("Position").text = "#" + str(i + 1)
+          level.get_node("Position").text = "#" + str(list.find(i) + 1)
           if int(leveldata["rating"]) >= 0 and float(leveldata["rating"]) == round(float(leveldata["rating"])):
             level.get_node("Rating").text = ratings[int(leveldata["rating"])]
           else:
             level.get_node("Rating").text = "no star"
-          playerdesc.get_node("CompletedScroll").get_node("Completed").add_child(level)
+          playerdesc.get_node("CompletedScroll").get_node("MarginContainer").get_node("Completed").add_child(level)
+      
     for creator in leveldata["creators"]:
       if creator == user:
         var level = preload("res://level_button.tscn").instantiate()
@@ -453,7 +449,10 @@ func loaduser(user: String, points: float, place: int):
           level.get_node("Rating").text = ratings[int(leveldata["rating"])]
         else:
           level.get_node("Rating").text = "no star"
-        playerdesc.get_node("CreatedScroll").get_node("Created").add_child(level)
+        playerdesc.get_node("CreatedScroll").get_node("MarginContainer").get_node("Created").add_child(level)
+  playerdesc.get_node("CreatedScroll").get_node("MarginContainer").get_node("Created").add_child(preload("res://the_empty_space.tscn").instantiate())
+  playerdesc.get_node("VerifiedScroll").get_node("MarginContainer").get_node("Verified").add_child(preload("res://the_empty_space.tscn").instantiate())
+  playerdesc.get_node("CompletedScroll").get_node("MarginContainer").get_node("Completed").add_child(preload("res://the_empty_space.tscn").instantiate())
   playerdesc.get_node("CreatedLabel").text = "Created (" + str(createdlevels) + "):"
   playerdesc.get_node("VerifiedLabel").text = "Verified (" + str(verifiedlevels) + "):"
   playerdesc.get_node("CompletedLabel").text = "Completed (" + str(completedlevels) + "):"
