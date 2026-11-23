@@ -105,13 +105,13 @@ clip_text = true
 
 [node name="Rating" type="Label" parent="." unique_id=98808866]
 layout_mode = 0
-offset_left = 230.40004
+offset_left = 219.40002
 offset_top = 18.799997
-offset_right = 297.2
+offset_right = 299.40002
 offset_bottom = 38.799995
 theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 20
-text = "feature"
+text = "legendary"
 horizontal_alignment = 2
 
 [node name="Thumbnail" type="Sprite2D" parent="." unique_id=1387221007]

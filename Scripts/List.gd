@@ -377,14 +377,11 @@ func loaduser(user: String, points: float, place: int):
   var completedlevels = 0
 
   for child in playerdesc.get_node("CompletedScroll").get_node("MarginContainer").get_node("Completed").get_children():
-    if child is Button:
       child.queue_free()
       #Deletes every node in the completed node to reset it, same with verified/created
   for child in playerdesc.get_node("VerifiedScroll").get_node("MarginContainer").get_node("Verified").get_children():
-    if child is Button:
       child.queue_free()
   for child in playerdesc.get_node("CreatedScroll").get_node("MarginContainer").get_node("Created").get_children():
-    if child is Button:
       child.queue_free()
   playerdesc.get_node("Name").text = user
   playerdesc.get_node("Points").text = str(points)

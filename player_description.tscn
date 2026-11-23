@@ -39,9 +39,9 @@ text = "10000"
 [node name="CompletedScroll" type="ScrollContainer" parent="." unique_id=282651680]
 layout_mode = 0
 offset_left = 349.0
-offset_top = 146.0
+offset_top = 140.0
 offset_right = 741.0
-offset_bottom = 555.0
+offset_bottom = 549.0
 
 [node name="MarginContainer" type="MarginContainer" parent="CompletedScroll" unique_id=140127986]
 layout_mode = 2
@@ -57,9 +57,9 @@ anchors_preset = -1
 anchor_right = 0.018000001
 anchor_bottom = 0.041
 offset_left = 767.0
-offset_top = 143.0
+offset_top = 140.0
 offset_right = 1077.264
-offset_bottom = 521.432
+offset_bottom = 518.432
 
 [node name="MarginContainer" type="MarginContainer" parent="VerifiedScroll" unique_id=2135600109]
 layout_mode = 2
@@ -72,9 +72,9 @@ theme_override_constants/separation = 16
 [node name="CreatedScroll" type="ScrollContainer" parent="." unique_id=940680166]
 layout_mode = 0
 offset_left = 16.0
-offset_top = 141.0
+offset_top = 140.0
 offset_right = 350.0
-offset_bottom = 554.0
+offset_bottom = 553.0
 
 [node name="MarginContainer" type="MarginContainer" parent="CreatedScroll" unique_id=2000436999]
 layout_mode = 2
