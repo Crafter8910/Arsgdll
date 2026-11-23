@@ -6,3 +6,4 @@ res://export_presets.cfg
 res://Scripts/List.gd
 res://player_description.tscn
 res://Levels/Hidden in the sand.json
+res://tag.tscn
