@@ -27,6 +27,14 @@
 			"link": "https://drive.google.com/file/d/19SkkLHvmqJP9d3doBCdaDorMo4VlbnXw/view?usp=sharing",
 			"percent": 100,
 			"hz": 90
-		}
+		},
+        {
+          "user": "CaptainFlufBall", 
+          "link": "https://www.youtube.com/watch?v=CsutNjCg2VY", 
+          "percent": 100, 
+          "hz": 120, 
+          "enj": 95,
+          "date": "2026-11-23T22:23:50.225Z"
+        }
     ]
 }
