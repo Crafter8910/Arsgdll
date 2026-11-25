@@ -1,0 +1,16 @@
+{
+    "id": 1042732698,
+    "name": "RAIN",
+    "author": "geometrydash-creator",
+    "creators": ["geometrydash-creator"],
+    "verification": "https://www.youtube.com/watch?v=YDYhosQd_Qc&list=PLnPrjdaDkDsKFUxuei8zuOPG2eHPeMvY9&index=38",
+    "percentToQualify": "67",
+    "demonDifficulty": "Extreme Demon",
+    "description": "Lag reduction update posted on Feb 25, 2024.",
+    "engine": "GDR",
+    "hz": "60",
+    "tags": ["Long", "Wave", "Ball", "Cube", "Ship"],
+    "rating": "2",
+    "records": [
+    ]
+}
