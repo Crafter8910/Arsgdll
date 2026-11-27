@@ -20,13 +20,6 @@
             "hz": 60,
 			"enj": 70
         },
-        {
-            "user": "DerpIsOk",
-            "link": "https://www.youtube.com/watch?v=jjBeEu0p5iI",
-            "percent": 100,
-			"mobile": "true",
-            "hz": 60
-        },
 		{
             "user": "GD_Noob",
             "link": "https://www.youtube.com/watch?v=6GFUL_pR2Bw",
@@ -102,14 +95,6 @@
           "hz": 48, 
           "enj": -496,
           "date": "2026-10-31T03:39:33.417Z"
-        },
-        {
-          "user": "Zuhair12345", 
-          "link": "https://youtu.be/X8d836lyqBA", 
-          "percent": 100, 
-          "hz": 30, 
-          "enj": 61,
-          "date": "2026-11-08T13:30:22.832Z"
         },
         {
           "user": "Zuhair12345", 
