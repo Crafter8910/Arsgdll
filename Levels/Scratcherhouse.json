@@ -14,13 +14,6 @@
 	"rating": 2,
     "records": [
         {
-            "user": "DerpIsOk",
-            "link": "https://www.youtube.com/watch?v=38EFooAbBGE",
-            "percent": 100,
-            "mobile": "true",
-            "hz": 60
-        },
-        {
             "user": "gooomboo",
             "link": "https://youtu.be/OpZJnCb6yAo?t=27",
             "percent": 100,
