@@ -1,9 +1,3 @@
-res://level_button.tscn
-res://level_description.tscn
-res://flow_container.gd
-res://list.tscn
-res://export_presets.cfg
-res://Scripts/List.gd
 res://player_description.tscn
-res://Levels/Hidden in the sand.json
-res://tag.tscn
+res://Scripts/List.gd
+res://list.tscn

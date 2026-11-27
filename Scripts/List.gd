@@ -62,6 +62,7 @@ func download(link):
       else:
         print("failed to load downloaded image")
     else:
+      print(link + " is not a valid http file")
       return "Not a valid http file"
       
 func downloadfiles():
@@ -73,17 +74,23 @@ func downloadfiles():
       result = await download("https://sgdlist.pages.dev/data/_list.json")
     else:
       result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Data/" + list.replace(" ", "%20") + ".json")
-    
     downloadedfiles["LoadedData/" + list.replace("%20", " ") + ".json"]  = result
+    for level in  downloadedfiles["LoadedData/" + list.replace("%20", " ") + ".json"]:
+      if not ResourceLoader.exists("res://Levels/" + level + ".json"):
+          print("couldnt find " + str(level))
+          result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json")
+          if result is String:
+            result = await download("https://sgdlist.pages.dev/data/" + level.replace(" ", "%20") + ".json")
+          downloadedfiles["Levels/" + level.replace("%20", " ")  +".json"] = result
   loadlist()  
   for listthumbnail in lists:
     var listdata = getdata("res://LoadedData/" + listthumbnail + ".json")
     for level in listdata:
-      if not ResourceLoader.exists("res://Levels/" + level + ".json"):
-        result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/refs/heads/main/Levels/" + level.replace(" ", "%20") + ".json")
-        downloadedfiles["Levels/" + level.replace("%20", " ")  +".json"] = result
+      print(level)
       if not ResourceLoader.exists("res://Thumbnails/" + level + ".png"):
         result = await download("https://raw.githubusercontent.com/Crafter8910/Arsgdll/main/Thumbnails/" + level.replace(" ", "%20") + ".png")
+        if result is String:
+          result = await download("https://sgdlist.pages.dev/assets/levels/" + level.replace(" ", "%20") + ".json")
         downloadedfiles["Thumbnails/" + level.replace("%20", " ")  +".png"] = result
 
 #Loading ui
@@ -108,7 +115,7 @@ func loadlist(filterstring: String = "", filter = false):
     if not leveldata:
       print("level data could not be found!" + str(data[i]))
     var creatorstring: String
-    
+    print(data[i])
     if filter and leveldata["name"].erase(len(filterstring), len(leveldata["name"])).to_lower() == filterstring or not filter:
       creatorstring = "" 
       for creator in leveldata["creators"]:
