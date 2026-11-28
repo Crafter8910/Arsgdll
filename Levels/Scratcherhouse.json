@@ -102,6 +102,14 @@
             "percent": 100,
             "hz": 60,
 			"enj": 70
+        },
+        {
+          "user": "DerpIsOk", 
+          "link": "https://youtu.be/6GHXU4DJvdI?si=_0u2BnKmQVNGB1Vu", 
+          "percent": 100, 
+          "hz": 120, 
+          "enj": 60,
+          "date": "2026-11-28T03:53:00.685Z"
         }
     ]
 }
